@@ -217,9 +217,9 @@
 
 ## Education
 
-### Õismäe Humanitaargümnaasium (Estonia, Secondary education)
+### Õismäe Humanitaargümnaasium
 
-*1990 - 1990*
+*1990*  
 
 ---
 
@@ -242,9 +242,9 @@ Common European Framework of Reference for Languages
 ### Programming Languages
 
 - Python, JavaScript (Expert)
-- Bash (Advanced)
-- .NET (Intermediate)
-- Cobol (Average user)
+- Bash, C (Advanced)
+- .NET, Java (Intermediate)
+- PHP, Wordpress (no)
 
 ### Office Software
 
@@ -298,7 +298,7 @@ Common European Framework of Reference for Languages
 ### MikroTik Certified Network Associate
 
 **BCS / Estonia**  
-*2025 (3 days)*  
+*2025*  
 [https://mikrotik.com/training/certificates/c435725c169688618b68](https://mikrotik.com/training/certificates/c435725c169688618b68)
 
 ### Using UML in Object-oriented Analysis and Design

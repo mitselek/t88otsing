@@ -34,6 +34,6 @@ Strateegia- ja kvaliteedijuhina kujundad RmIT strateegilist arengusuunda, arenda
 
 Kui pakkumine Sind kõnetab, siis ootame Sinu CV-d ja juhtimiskogemuse kirjeldust hiljemalt **05.05.2025** Talendipanga vahendusel.
 
-Küsi lisa: ave.arumae@rmit.ee või heida pilk meie kodulehele: www.rmit.ee
+Küsi lisa: [ave.arumae@rmit.ee](mailto:ave.arumae@rmit.ee) või heida pilk meie kodulehele: [www.rmit.ee](http://www.rmit.ee)
 
-![RmIT logo](logo.png)
+![RmIT logo](./logo.png)

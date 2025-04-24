@@ -209,8 +209,9 @@
 
 ## Haridus
 
-### Õismäe Humanitaargümnaasium (Eesti, Keskharidus)  
-*1990 - 1990*
+### Õismäe Humanitaargümnaasium  
+
+*1990*  
 
 ---
 
@@ -233,9 +234,9 @@ Euroopa Nõukogu keeleoskussüsteemi enesehindamisskaala
 ### Programmeerimiskeeled
 
 - Python, JavaScript (Spetsialist)
-- Bash (Edasijõudnu)
-- .NET (Kesktase)
-- Cobol (Tavakasutaja)
+- Bash, C (Edasijõudnu)
+- .NET, Java (Kesktase)
+- PHP, Wordpress (ei tee)
 
 ### Kontoritarkvara
 
@@ -290,7 +291,7 @@ Euroopa Nõukogu keeleoskussüsteemi enesehindamisskaala
 ### MikroTik Certified Network Associate
 
 **BCS / Eesti**  
-*2025 (3 päeva)*  
+*2025*  
 [https://mikrotik.com/training/certificates/c435725c169688618b68](https://mikrotik.com/training/certificates/c435725c169688618b68)
 
 ### Using UML in Object-oriented Analysis and Design
