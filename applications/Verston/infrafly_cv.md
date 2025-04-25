@@ -71,6 +71,7 @@ Kogenud tarkvaraarendaja, kellel on üle 25 aasta kogemust **Python**, **JavaScr
 ## Täiendkoolitused
 
 ### MikroTik Certified Network Associate  
+
 **BCS / Eesti**  
 *2025 (3 päeva)*  
 [https://mikrotik.com/training/certificates/c435725c169688618b68](https://mikrotik.com/training/certificates/c435725c169688618b68)

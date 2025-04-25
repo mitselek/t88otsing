@@ -35,19 +35,27 @@ Kogenud tarkvaraarendaja, kellel on üle 25 aasta kogemust **Python**, **JavaScr
 - Teostasin koostööd klientidega ärivajaduste analüüsimiseks ja lahendamiseks.
 
 #### Visionäär @ OÜ Wõrgu Wõlurid
+
 *03.2000 - Tänaseni*  
+
 - Infotehnoloogia valdkonnas visioonide loomine ja elluviimine.
 
 #### Andmesanitar @ Eesti Mälu Instituut
+
 *07.2017 - 10.2024*  
+
 - Andmebaaside loomine ja haldamine ajalooliste andmete jaoks.
 
 #### IT-osakonna juht @ Eesti Kunstiakadeemia
+
 *08.2009 - 08.2012*  
+
 - IT infrastruktuuri haldamine ja Google Maili juurutamine.
 
 #### Teadustarkvara arendaja @ Tartu Ülikool
+
 *09.2014 - 12.2015*  
+
 - Keeleressursside arhiveerimise tööriistade arendamine.
 
 ---
@@ -68,6 +76,7 @@ Kogenud tarkvaraarendaja, kellel on üle 25 aasta kogemust **Python**, **JavaScr
 ## Täiendkoolitused
 
 ### MikroTik Certified Network Associate  
+
 **BCS / Eesti**  
 *2025 (3 päeva)*  
 [https://mikrotik.com/training/certificates/c435725c169688618b68](https://mikrotik.com/training/certificates/c435725c169688618b68)
