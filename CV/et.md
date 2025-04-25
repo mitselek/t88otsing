@@ -209,9 +209,14 @@
 
 ## Haridus
 
-### Õismäe Humanitaargümnaasium  
-
-*1990*  
+- **1979 - 1990**
+  - Riia I keskkool  
+  - Tallinna Reaalgümnaasium  
+  - Õismäe Humanitaargümnaasium  
+- **1990 - 2002**
+  - Matemaatika @ Tartu Ülikool  
+  - Loodusteaduslikud ained @ Tallinna Ülikool  
+  - Informaatika @ Tartu Ülikool  
 
 ---
 

@@ -217,9 +217,14 @@
 
 ## Education
 
-### Õismäe Humanitaargümnaasium
-
-*1990*  
+- **1979 - 1990**
+  - Riga Secondary School No. 1  
+  - Tallinn Secondary School of Science  
+  - Õismäe Humanities Gymnasium  
+- **1990 - 2002**
+  - Mathematics @ University of Tartu  
+  - Natural Sciences @ Tallinn University  
+  - Computer Science @ University of Tartu  
 
 ---
 
