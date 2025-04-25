@@ -9,17 +9,18 @@
 
 ## Kokkuvõte
 
-Kogenud tarkvaraarendaja, kellel on üle 25 aasta kogemust **Python**, **JavaScript** ja **andmehalduse** valdkonnas. Oskuslik süsteemide disainis, töövoogude optimeerimises ja keeruliste probleemide lahendamises. Kirglik innovaatiliste lahenduste loomise ja meeskonnatöö vastu.
+Kogenud tarkvaraarendaja, kellel on üle 25 aasta kogemust **Python**i, **JavaScript**i ja **andmehalduse** valdkonnas. Oskuslik süsteemide disainis, töövoogude optimeerimises ja keeruliste probleemide lahendamises. Kirglik innovaatiliste lahenduste loomise ja meeskonnatöö vastu. Eriline huvi AI ja autonoomse tehnoloogia trendide vastu.
 
 ---
 
 ## Põhioskused
 
-- **Programmeerimiskeeled:** Python, JavaScript, Bash, .NET  
-- **API disain:** REST  
-- **Andmebaasid:** MySQL, Oracle, MongoDB  
-- **DevOps tööriistad:** Linux, Bash skriptimine  
+- **Programmeerimiskeeled:** Python, JavaScript, TypeScript, Bash, .NET  
+- **API disain:** RESTful ja GraphQL  
+- **Andmebaasid:** MySQL, Oracle, MongoDB, SQL ja NoSQL  
+- **DevOps tööriistad:** Linux, Docker, Bash skriptimine  
 - **Tarkvaradisain:** Analüütiline mõtlemine, silumine ja optimeerimine  
+- **Integreerimine:** ERP, CRM ja andmeanalüütika tööriistad  
 - **Keeled:** Eesti (emakeel), inglise, vene, läti  
 
 ---
@@ -33,12 +34,6 @@ Kogenud tarkvaraarendaja, kellel on üle 25 aasta kogemust **Python**, **JavaScr
 - Arendasin ja haldasin **Entu andmehaldusplatvormi**, mida kasutavad koolid, muuseumid ja ettevõtted.  
 - Disainisin andmebaase ja integreerisin süsteeme vastavalt klientide vajadustele.  
 - Teostasin koostööd klientidega ärivajaduste analüüsimiseks ja lahendamiseks.
-
-#### Visionäär @ OÜ Wõrgu Wõlurid
-
-*03.2000 - Tänaseni*  
-
-- Infotehnoloogia valdkonnas visioonide loomine ja elluviimine.
 
 #### Andmesanitar @ Eesti Mälu Instituut
 

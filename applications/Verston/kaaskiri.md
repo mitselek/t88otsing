@@ -1,19 +1,20 @@
 # Kaaskiri
 
-Lugupeetud Verston Eesti värbamisjuht,
+Lugupeetud Infrafly arendusmeeskond,
 
 Soovin kandideerida tarkvaraarendaja (SaaS lahendused) ametikohale teie ettevõttes. Mul on üle 25 aasta kogemust tarkvaraarenduse, andmehalduse ja IT-infrastruktuuri valdkonnas, mis teeb minust tugeva kandidaadi teie meeskonda.
 
-Minu peamised oskused ja kogemused hõlmavad:
+Peamised oskused ja kogemused:
 
-- **Tarkvaraarendus:** Kogenud **JavaScript** ja **React** arendaja, oskuslik uute funktsionaalsuste väljatöötamises ja juurutamises.
-- **Andmebaasid ja süsteemid:** Lai kogemus **SQL** andmebaaside haldamises ja süsteemide integreerimises.
+- **Tarkvaraarendus:** Kogenud **TypeScript**, **React** ja **Node.js** arendaja, oskuslik uute funktsionaalsuste väljatöötamises ja juurutamises.
+- **Andmebaasid ja süsteemid:** Lai kogemus **SQL** ja **NoSQL** andmebaaside haldamises ning süsteemide integreerimises.
 - **DevOps ja automatiseerimine:** Tugev taust **Docker** konteinerite haldamises ja CI/CD töövoogude loomises.
 - **Probleemilahendus:** Analüütiline mõtlemine ja oskus keerulisi tehnilisi väljakutseid lahendada.
+- **Integreerimine:** ERP, CRM ja andmeanalüütika tööriistadega töötamine.
 
-Verstoni missioon ja väärtused, eriti rõhk innovatsioonil ja jätkusuutlikkusel, resoneerivad minu isiklike ja professionaalsete eesmärkidega. Olen motiveeritud panustama teie meeskonda ja aitama kaasa ettevõtte edule.
+Infrafly missioon ja väärtused, eriti rõhk jätkusuutlikkusel ja innovatsioonil, resoneerivad minu isiklike ja professionaalsete eesmärkidega. Olen motiveeritud panustama teie meeskonda ja aitama kaasa ettevõtte edule, viies ehitussektori täiesti uuele tasemele.
 
-Loodan, et mul avaneb võimalus arutada, kuidas minu oskused ja kogemused võiksid Verstonile kasulikud olla. Olen valmis osalema intervjuul ja vastama kõigile küsimustele.
+Loodan, et mul avaneb võimalus arutada, kuidas minu oskused ja kogemused võiksid Infraflyle kasulikud olla. Olen valmis osalema intervjuul ja vastama kõigile küsimustele.
 
 Olen valmis ka proovitööd tegema, et näidata oma oskusi ja sobivust teie meeskonda.
 
