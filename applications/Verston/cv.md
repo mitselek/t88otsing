@@ -15,7 +15,7 @@ Kogenud tarkvaraarendaja, kellel on üle 25 aasta kogemust **Python**i, **JavaSc
 
 ## Põhioskused
 
-- **Programmeerimiskeeled:** Python, JavaScript, TypeScript, Bash, .NET  
+- **Programmeerimiskeeled:** Python, JavaScript, TypeScript, Bash, .NET, C, Java  
 - **API disain:** RESTful ja GraphQL  
 - **Andmebaasid:** MySQL, Oracle, MongoDB, SQL ja NoSQL  
 - **DevOps tööriistad:** Linux, Docker, Bash skriptimine  

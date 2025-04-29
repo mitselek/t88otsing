@@ -1,6 +1,7 @@
 # Kaaskiri
 
 Lugupeetud Infrafly arendusmeeskond,
+Henry Kehlmann
 
 Soovin kandideerida tarkvaraarendaja (SaaS lahendused) ametikohale teie ettevõttes. Mul on üle 25 aasta kogemust tarkvaraarenduse, andmehalduse ja IT-infrastruktuuri valdkonnas, mis teeb minust tugeva kandidaadi teie meeskonda.
 
@@ -8,7 +9,7 @@ Peamised oskused ja kogemused:
 
 - **Tarkvaraarendus:** Kogenud **TypeScript**, **React** ja **Node.js** arendaja, oskuslik uute funktsionaalsuste väljatöötamises ja juurutamises.
 - **Andmebaasid ja süsteemid:** Lai kogemus **SQL** ja **NoSQL** andmebaaside haldamises ning süsteemide integreerimises.
-- **DevOps ja automatiseerimine:** Tugev taust **Docker** konteinerite haldamises ja CI/CD töövoogude loomises.
+- **DevOps ja automatiseerimine:** Mõningane kogemus **Docker** konteinerite haldamises ja CI/CD töövoogude loomises.
 - **Probleemilahendus:** Analüütiline mõtlemine ja oskus keerulisi tehnilisi väljakutseid lahendada.
 - **Integreerimine:** ERP, CRM ja andmeanalüütika tööriistadega töötamine.
 
