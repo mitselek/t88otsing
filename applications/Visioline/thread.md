@@ -22,6 +22,7 @@ Raul Orav
 ---
 
 ## From: Mihkel Putrinš <mihkel.putrinsh@gmail.com>
+
 **Date:** Tue, Apr 29, 2025 at 5:15 PM  
 **To:** Raul Orav <raul.orav@visioline.ee>
 **Subject:** Re: Kandideerimine IT spetsialisti ametikohale
@@ -61,5 +62,4 @@ Olen huvitatud pikemaajalisest koostööst ning valmis panustama Visioline'i edu
 Lugupidamisega,
 Mihkel Putrinš
 Tel: +372 56560978
-E-post: mihkel.putrinsh@gmail.com
-
+E-post: [mihkel.putrinsh@gmail.com](mailto:mihkel.putrinsh@gmail.com)
