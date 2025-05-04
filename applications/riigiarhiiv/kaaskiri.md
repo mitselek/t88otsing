@@ -2,7 +2,7 @@
 
 Lugupeetud Sigrit Mahla,
 
-Soovin kandideerida Rahvusarhiivi digitaalarhiivi meeskonna masinõppe- ja andmespetsialisti ametikohale. Minu pikaajaline kogemus andmehalduse, programmeerimise ja masinõppe valdkonnas annab mulle tugeva aluse, et tõhusalt panustada Teie meeskonna ja digitaalarhiivi arengusse.
+Soovin kandideerida Rahvusarhiivi digitaalarhiivi meeskonna masinõppe- ja andmespetsialisti ametikohale. Minu pikaajaline kogemus andmehalduse ja programmeerimise valdkonnas annab mulle tugeva aluse, et tõhusalt panustada Teie meeskonna ja digitaalarhiivi arengusse.
 
 ## Miks kandideerin
 
@@ -14,7 +14,7 @@ Minu peamised tugevused selle positsiooni jaoks on:
 
 - **Praktiline kogemus OCR- ja andmeanalüüsiga:** Eesti Mälu Instituudis töötades olen loonud süsteeme digiteeritud ajalooliste dokumentide töötlemiseks, rakendades OCR-tehnoloogiat tekstide tuvastamiseks ning disaininud andmebaase ja kasutajaliideseid, mis võimaldavad efektiivset andmete haldamist ja otsimist.
 
-- **Tugev huvi ja motivatsioon masinõppe ja NLP valdkonnas:** Mind huvitab väga nimeobjektide tuvastuse (NER) ja loomuliku keele töötluse (NLP) tehnikate õppimine ja rakendamine. Kuigi mul puudub veel praktiline töökogemus nende tehnoloogiatega, olen läbinud masinõppe kursuse ja soovin innukalt arendada ja proovile panna oma oskusi selles valdkonnas.
+- **Tugev huvi ja motivatsioon masinõppe ja NLP valdkonnas:** Mind huvitab väga nimeobjektide tuvastuse (NER) ja loomuliku keele töötluse (NLP) tehnikate õppimine ja rakendamine. Kuigi mul puudub veel praktiline töökogemus nende tehnoloogiatega, soovin innukalt arendada ja proovile panna oma oskusi selles valdkonnas.
 
 - **Python ja andmetöötlus:** Kasutan igapäevaselt Pythonit andmeanalüüsiks ja -töötluseks, integreerides erinevaid andmeallikaid ning luues automaatseid töövoogusid keerukate andmestikega töötamiseks.
 

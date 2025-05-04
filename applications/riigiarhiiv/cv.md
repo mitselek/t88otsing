@@ -81,12 +81,6 @@ Kogenud IT-spetsialist rohkem kui 25-aastase kogemusega **Python**i ja **andmean
 *2025 (3 päeva)*  
 [https://mikrotik.com/training/certificates/c435725c169688618b68](https://mikrotik.com/training/certificates/c435725c169688618b68)
 
-### Python masinõppe kursus  
-
-**Udemy / veebikursus**  
-*2023 (40 tundi)*  
-Andmeanalüüs ja masinõppe rakendused Pythonis, sh NLP ja tekstitöötluse tehnikad
-
 ---
 
 ## Projektid
@@ -98,11 +92,3 @@ Andmeanalüüs ja masinõppe rakendused Pythonis, sh NLP ja tekstitöötluse teh
 - Lõin süsteemi, mis kombineerib OCR-tehnoloogiat, metaandmete haldust ja otsingufunktsionaalsust.  
 - Rakendasin tekstide automaatanalüüsi tehnikaid ajalooliste isikute ja asukohtade tuvastamiseks.  
 - Arendasin välja kasutajasõbraliku liidese, mis võimaldab ajaloolastel ja uurijatel dokumente efektiivselt otsida ja analüüsida.
-
-### Automaatne dokumentide kategoriseerimine  
-
-*Entusiastid OÜ, 2019-2021*  
-
-- Lõin algoritmipõhise klassifikaatori, mis kategoriseerib dokumente nende sisu põhjal.  
-- Kasutasin **Python**it ja tekstitöötluse tehnikaid kategoriseerimismudelite loomiseks.  
-- Süsteem suudab erinevaid dokumente liigitada nende sisu põhjal, mis oluliselt vähendas käsitsi sorteerimise vajadust.
