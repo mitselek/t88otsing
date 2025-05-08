@@ -1,4 +1,4 @@
-Dear Hiring Manager,
+# Dear Hiring Manager
 
 I am writing to express my sincere interest in the Software Engineering position with your billing systems team.
 
@@ -9,6 +9,7 @@ At the Estonian Academy of Arts, I led a comprehensive Google Apps migration pro
 Notably, I also worked directly in the billing department at Tele2 from October 2006 to June 2009, where I gained invaluable first-hand experience with telecommunications billing systems, customer data management, and revenue operations. This experience gives me unique insights into the critical nature of billing infrastructure and the business implications of system performance and reliability.
 
 My technical expertise includes:
+
 - Strong backend development experience (including Java-based systems)
 - Extensive work with relational and NoSQL databases, including optimization techniques
 - Implementation of microservices architecture
@@ -31,5 +32,5 @@ Mihkel Putrinš
 ---
 
 +372 5656 0978
-mitselek@gmail.com
-github.com/mitselek
+[mihkel.putrinsh@gmail.com](mailto:mihkel.putrinsh@gmail.com)  
+[github.com/mitselek](https://github.com/mitselek)

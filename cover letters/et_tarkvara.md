@@ -1,4 +1,4 @@
-Tere,
+# Tere
 
 Olen pikaajalise kogemusega tarkvarainsener, olles üle kolmekümne aasta tegelenud keerukate süsteemide loomise ja optimeerimisega. Oman põhjalikku kogemust erinevate programmeerimiskeelte, andmebaaside ja API-dega, mis on andnud mulle tugeva analüütilise ja probleemilahendusliku baasi.
 
@@ -16,5 +16,5 @@ Mihkel-Mikelis Putrinš
 ---
 
 +372 5656 0978
-mitselek@gmail.com
-github.com/mitselek
+[mihkel.putrinsh@gmail.com](mailto:mihkel.putrinsh@gmail.com)  
+[github.com/mitselek](https://github.com/mitselek)

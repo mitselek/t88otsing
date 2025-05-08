@@ -1,4 +1,4 @@
-Hey,
+# Hey
 
 I've been building software for over 25 years, specializing in backend systems and architecture. At the Estonian Academy of Arts, I led the Google Apps migration, streamlining communication and collaboration for the entire institution and slashing IT overhead by an estimated half.
 
@@ -12,5 +12,5 @@ Mihkel Putrinš
 ---
 
 +372 5656 0978
-mitselek@gmail.com
-github.com/mitselek
+[mihkel.putrinsh@gmail.com](mailto:mihkel.putrinsh@gmail.com)  
+[github.com/mitselek](https://github.com/mitselek)

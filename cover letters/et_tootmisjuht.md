@@ -1,4 +1,4 @@
-Austatud värbaja,
+# Austatud värbaja
 
 Kirjutan Teile, et avaldada oma siirast huvi tootmisjuhi ametikoha vastu.
 
@@ -18,5 +18,5 @@ Mihkel Putrinš
 ---
 
 +372 5656 0978
-mitselek@gmail.com
-github.com/mitselek
+[mihkel.putrinsh@gmail.com](mailto:mihkel.putrinsh@gmail.com)  
+[github.com/mitselek](https://github.com/mitselek)
