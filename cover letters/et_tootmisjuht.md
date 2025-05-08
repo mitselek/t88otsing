@@ -1,8 +1,3 @@
-Mihkel-Mikelis Putrinš
-5656 0978
-mitselek@gmail.com
-
-
 Austatud värbaja,
 
 Kirjutan Teile, et avaldada oma siirast huvi tootmisjuhi ametikoha vastu.
@@ -18,5 +13,10 @@ Olen lisanud oma CV, mis sisaldab täpsemat ülevaadet minu haridusest ja töök
 Tänan Teid aja eest ja ootan Teie vastust.
 
 Lugupidamisega,
-
 Mihkel Putrinš
+
+---
+
++372 5656 0978
+mitselek@gmail.com
+github.com/mitselek

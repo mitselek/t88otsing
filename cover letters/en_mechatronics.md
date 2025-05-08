@@ -1,9 +1,3 @@
-Mihkel Putrinš  
-mihkel.putrinsh@gmail.com  
-+372 5656 0978  
-
----
-
 Dear Hiring Team,
 
 I am writing to express my strong interest in Mechatronics Engineer positions, particularly those focused on precision instrumentation and the automation of biological systems. I am drawn to the challenges of developing and integrating complex electromechanical systems, and I am eager to apply my skills in areas such as 3D prototyping, microcontroller programming, and low-pressure pneumatics.
@@ -16,3 +10,9 @@ Thank you for your time and consideration. I have attached my resume for your re
 
 Sincerely,  
 Mihkel Putrinš
+
+---
+
++372 5656 0978
+mitselek@gmail.com
+github.com/mitselek
