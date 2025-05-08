@@ -44,6 +44,8 @@
 
 ## Olulisemad GitHub projektid
 
+- **[Entu Webapp](https://github.com/entu/webapp)** - Täisrakenduse veebiliides Entu andmeplatformile. Full-stack JavaScript rakendus andmehalduseks, API dokumentatsioon: [entu.dev](https://entu.dev/)
+
 - **[eMem](https://github.com/memoriaal/eMem)** - Andmebaasisüsteem Memento raamatute digiteerimiseks, veebiväljund: [memoriaal.ee](https://www.memoriaal.ee). Projekt on pühendatud Eesti ajaloolise mälu säilitamisele tehnoloogia kaudu.
 
 - **[touch-tone](https://github.com/mitselek/touch-tone)** - Toonvalimisega telefoni C++ rakendus, mis demonstreerib signaali töötlemise ja heli tuvastamise oskusi manuseadmetes.

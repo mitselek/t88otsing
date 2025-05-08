@@ -37,6 +37,8 @@
 
 ## Notable GitHub Projects
 
+- **[Entu Webapp](https://github.com/entu/webapp)** - Full-stack JavaScript web interface for the Entu data platform. Used by schools, museums, and businesses for data management. API documentation: [entu.dev](https://entu.dev/)
+
 - **[eMem](https://github.com/memoriaal/eMem)** - Database system for digitizing historical records from Memento books with web output at [memoriaal.ee](https://www.memoriaal.ee). This project preserves Estonia's historical memory through technology.
 
 - **[touch-tone](https://github.com/mitselek/touch-tone)** - C++ implementation of touch-tone telephone system, demonstrating skills in signal processing and audio recognition in embedded systems.
