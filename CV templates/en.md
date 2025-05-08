@@ -4,6 +4,7 @@
 *Born:* 01 Apr 1972  
 *Phone:* +372 56560978  
 *Email:* [mihkel.putrinsh@gmail.com](mailto:mihkel.putrinsh@gmail.com)  
+*GitHub:* [github.com/mitselek](https://github.com/mitselek)  
 
 ---
 
@@ -31,6 +32,20 @@
 - Database design and management (MySQL, Oracle, MongoDB)
 - Google Sheets
 - Ability to create data-driven solutions
+
+---
+
+## Notable GitHub Projects
+
+- **[eMem](https://github.com/memoriaal/eMem)** - Database system for digitizing historical records from Memento books with web output at [memoriaal.ee](https://www.memoriaal.ee). This project preserves Estonia's historical memory through technology.
+
+- **[touch-tone](https://github.com/mitselek/touch-tone)** - C++ implementation of touch-tone telephone system, demonstrating skills in signal processing and audio recognition in embedded systems.
+
+- **[hexawords](https://github.com/mitselek/hexawords)** - Word search algorithm on hexagonal grid (Python), applying novel computational approaches to language puzzles by adapting traditional search algorithms to non-standard geometry.
+
+- **[bigbook](https://github.com/mitselek/bigbook)** - Digital book publication framework built with HTML/CSS for structured content management. Features specialized sections for experience stories, appendices, and chapters with clean separation of content and presentation.
+
+- **[chexs](https://github.com/mitselek/chexs)** - Python implementation of Gliński's Hexagonal Chess with custom game logic and visualization. Uses cubic coordinate system to solve complex spatial relationship challenges on hexagonal grid.
 
 ---
 

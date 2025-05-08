@@ -4,6 +4,7 @@
 *Sündinud:* 3. apr 1972  
 *Telefon:* +372 56560978  
 *E-post:* [mihkel.putrinsh@gmail.com](mailto:mihkel.putrinsh@gmail.com)  
+*GitHub:* [github.com/mitselek](https://github.com/mitselek)  
 
 ---
 
@@ -38,6 +39,20 @@
 ### Meeskondlikkus
 
 - Minu ideed vajavad teiste tuge; teiste ideed vajavad minu tuge.
+
+---
+
+## Olulisemad GitHub projektid
+
+- **[eMem](https://github.com/memoriaal/eMem)** - Andmebaasisüsteem Memento raamatute digiteerimiseks, veebiväljund: [memoriaal.ee](https://www.memoriaal.ee). Projekt on pühendatud Eesti ajaloolise mälu säilitamisele tehnoloogia kaudu.
+
+- **[touch-tone](https://github.com/mitselek/touch-tone)** - Toonvalimisega telefoni C++ rakendus, mis demonstreerib signaali töötlemise ja heli tuvastamise oskusi manuseadmetes.
+
+- **[hexawords](https://github.com/mitselek/hexawords)** - Sõnaotsingu algoritm kuusnurksel võrgustikul (Python), rakendades uudseid arvutuslikke lähenemisi keelelistele mõistatustele mittestandardsel geomeetrial.
+
+- **[bigbook](https://github.com/mitselek/bigbook)** - Digitaalraamatu avaldamise raamistik, mis on loodud HTML/CSS-i abil struktureeritud sisuhalduseks. Sisaldab spetsiaalseid jaotisi kogemuslugude, lisade ja peatükkide jaoks, eraldades selgelt sisu ja esitluse.
+
+- **[chexs](https://github.com/mitselek/chexs)** - Gliński kuusnurkse male Pythoni rakendus koos kohandatud mängu loogika ja visualiseerimisega. Kasutab kuubilist koordinaatide süsteemi keerukate ruumiliste suhete lahendamiseks kuusnurksel võrgustikul.
 
 ---
 
