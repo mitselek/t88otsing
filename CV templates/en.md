@@ -10,6 +10,13 @@
 
 ## Summary
 
+### GitHub Profile
+
+- Active software developer with numerous public repositories
+- More than 30 projects showcasing skills in various programming languages
+- Long history of code contributions and open source development
+- Demonstrates practical experience in many technologies (JavaScript, Python, C, etc.)
+
 ### CAD Software
 
 - Onshape (including FeatureScript)

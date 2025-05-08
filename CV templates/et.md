@@ -10,6 +10,13 @@
 
 ## Kokkuvõte
 
+### GitHub Profiil
+
+- Aktiivne tarkvaraarendaja mitmete avalike projektidega
+- Enam kui 30 projekti, mis näitavad oskusi erinevates programmeerimiskeeltes
+- Pikk ajalugu kooditäienduste ja avatud lähtekoodiga arendusega
+- Näitab praktilist kogemust paljudes tehnoloogiates (JavaScript, Python, C jt)
+
 ### CAD
 
 - Onshape (ka Featurescript)
@@ -44,13 +51,13 @@
 
 ## Olulisemad GitHub projektid
 
-- **[Entu Webapp](https://github.com/entu/webapp)** - Täisrakenduse veebiliides Entu andmeplatformile. Full-stack JavaScript rakendus andmehalduseks, API dokumentatsioon: [entu.dev](https://entu.dev/)
+- **[Entu Webapp](https://github.com/entu/webapp)** - Täisrakenduse veebiliides Entu andmeplatformile. Full-stack Python/JavaScript rakendus andmehalduseks, API dokumentatsioon: [entu.dev](https://entu.dev/)
 
 - **[eMem](https://github.com/memoriaal/eMem)** - Andmebaasisüsteem Memento raamatute digiteerimiseks, veebiväljund: [memoriaal.ee](https://www.memoriaal.ee). Projekt on pühendatud Eesti ajaloolise mälu säilitamisele tehnoloogia kaudu.
 
-- **[touch-tone](https://github.com/mitselek/touch-tone)** - Toonvalimisega telefoni C++ rakendus, mis demonstreerib signaali töötlemise ja heli tuvastamise oskusi manuseadmetes.
+- **[touch-tone](https://github.com/mitselek/touch-tone)** - Pimedate telefoni C++ rakendus, mis demonstreerib uue riistvara omandamist ja signaali töötlemise oskusi.
 
-- **[hexawords](https://github.com/mitselek/hexawords)** - Sõnaotsingu algoritm kuusnurksel võrgustikul (Python), rakendades uudseid arvutuslikke lähenemisi keelelistele mõistatustele mittestandardsel geomeetrial.
+- **[hexawords](https://github.com/mitselek/hexawords)** - Sõnaotsingu mängu algoritm kuusnurksel võrgustikul (Python), rakendades uudseid arvutuslikke lähenemisi keelelistele mõistatustele mittestandardsel geomeetrial.
 
 - **[bigbook](https://github.com/mitselek/bigbook)** - Digitaalraamatu avaldamise raamistik, mis on loodud HTML/CSS-i abil struktureeritud sisuhalduseks. Sisaldab spetsiaalseid jaotisi kogemuslugude, lisade ja peatükkide jaoks, eraldades selgelt sisu ja esitluse.
 
