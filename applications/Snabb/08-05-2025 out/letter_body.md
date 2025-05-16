@@ -11,5 +11,5 @@ Manusena leiate minu detailse CV ja põhjalikuma motivatsioonikirja. Olen hea me
 Lugupidamisega,
 Mihkel Putrinš
 +372 56560978
-mihkel.putrinsh@gmail.com
+mitselek@gmail.com
 github.com/mitselek
