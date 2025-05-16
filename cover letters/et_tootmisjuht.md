@@ -18,5 +18,5 @@ Mihkel Putrinš
 ---
 
 +372 5656 0978
-[mihkel.putrinsh@gmail.com](mailto:mihkel.putrinsh@gmail.com)  
+[mitselek@gmail.com](mailto:mitselek@gmail.com)  
 [github.com/mitselek](https://github.com/mitselek)
