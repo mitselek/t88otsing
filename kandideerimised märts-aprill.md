@@ -49,5 +49,3 @@
 | Manussüsteemide arendaja | Tehnopol | 17.04.2025 | 24.04.2025 |
 | IT konsultant | KPMG Estonia | 18.04.2025 | - |
 | Frontend JavaScript arendaja | Thorgate | 22.04.2025 | - |
-| Angular arendaja | Opus Online | 25.04.2025 | - |
-| Node.js arendaja | Mobi Lab | 28.04.2025 | - |
