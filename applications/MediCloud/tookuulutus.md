@@ -1,74 +1,44 @@
-# Full Stack Developer - MediCloud OÜ
+# Full Stack arendaja (Tartu või Tallinna kontor)
 
-**Ettevõte:** MediCloud OÜ  
-**Asukoht:** Tallinn / Kaugtöö  
-**Palgatase:** €2,500-4,000/kuus bruto  
-**Tähtaeg:** 7. juuni 2025  
+**MediCloud OÜ**  
 
-## Ametikoha kirjeldus
+**Allikas:** https://www.cvkeskus.ee/full-stack-arendaja-tartu-voi-tallinna-kontor-tallinnas-medicloud-ou-967931  
+**Kuulutus sisestatud:** 08.05.2025  
+**Aegub:** 07.06.2025  
+**Asukoht:** Tallinn, Harjumaa  
+**Brutopalk:** 2500 - 4000 €/kuus  
+**Töö tüüp:** Täistööaeg  
+**Lisainfo:** Palgatöötaja  
 
-MediCloud on innovaatiline tervishoiutehnoloogia ettevõte, mis arendab kaasaegseid digitaalseid lahendusi meditsiinisektorile. Otsime meeskonda kogenud full stack arendajat, kes aitaks luua ja arendada meie tervishoiu platvorme.
+## Tule arenda kaasaegset meditsiinitarkvara – otsime tiimile täiendust
 
-## Põhiülesanded
+MediCloud on uus ja innovaatiline lahendus, mis on pälvinud hambakliinikute seas suurt tunnustust. Meie tarkvara kasutavad igapäevaselt sajad tervishoiutöötajad üle Eesti. **Otsime oma arendustiimi uut Full Stack arendajat**, kes oleks strateegiliseks täienduseks meeskonna seatud sihtide saavutamisel ja aitaks kaasa järgmisele Eesti eduloole!
 
-- **Frontend arendus:** React/Vue.js rakenduste loomine ja hooldamine
-- **Backend arendus:** Node.js/Express API-de arendamine
-- **Andmebaasidisain:** MongoDB/PostgreSQL andmebaaside optimeerimine
-- **Tervishoiu integratsioonid:** Meditsiiniseadmete ja -süsteemide API integratsioonid
-- **UI/UX koostöö:** Kasutajasõbralike meditsiinirakenduste disain
-- **Andmeturve:** GDPR ja tervishoiuandmete kaitse tagamine
-- **Testimine:** Automaattestide kirjutamine ja kvaliteedikontroll
+**Sinu peamised ülesanded**:
 
-## Nõudmised
+• Uute funktsionaalsuste arendamine ja olemasolevate täiustamine
+• Osalemine arhitektuuri- ja tehnoloogiliste otsuste tegemisel
+• Koodi kvaliteedi ja süsteemide töökindluse tagamine
+• Koostöö tootemeeskonna ja teiste arendajatega
+• Süsteemide integreerimine välistarkvarade ja riiklike teenustega
 
-- **JavaScript/TypeScript** - kõrgtasemel oskused
-- **React või Vue.js** - frontend raamistike kogemus (2+ aastat)
-- **Node.js/Express** - backend arendus kogemus
-- **Andmebaasid** - MongoDB, PostgreSQL või MySQL
-- **REST API-d** - API arendus ja integreerimine
-- **Git** - versioonihaldus ja meeskonnatöö
-- **Inglise keel** - professionaalsel tasemel
+## Meie ootused sinule
 
-## Kasuks tuleb
+• Vähemalt 3-aastane kogemus full stack arenduses
+• Heal tasemel oskused PHP, CSS, HTML ja JavaScript keeltega
+• Kogemus Reacti ja kaasaegsete front end raamistikega
+• Teadmised MySQL või teiste relatsioonandmebaasidega
+• Iseseisvus, tehniline uudishimu ja võime leida praktilisi lahendusi
+• Hea suhtlemisoskus ja meeskonnatöövalmidus
+• Eesti ja inglise keele oskus töökeelena
+• Väga tugevaks eeliseks on kogemus tervishoiu infosüsteemidega või keerukate süsteemide arendamisel
 
-- Kogemus tervishoiu- või meditsiinisektoris
-- TypeScript kogemused
-- Docker ja konteinerite kogemused
-- Cloud platvormide tundmine (AWS, Azure)
-- Agile/Scrum arendusmeetodite tundmine
-- Testimisraamistike kogemus (Jest, Cypress)
+## Mida meie pakume
 
-## Pakume
+• Võimalust arendada tähendusrikkaid teenuseid, millel on reaalne mõju
+• Paindlikku töökorraldust, kontorit Tartus või Tallinnas
+• Sõbralikku, väikest ja professionaalset tiimi, kus sinu arvamus loeb
+• Konkurentsivõimelist palka
+• Arenguvõimalusi koos kasvava tervisetehnoloogia ettevõttega
 
-- **Konkurentsivõimelist palka** (€2,500-4,000 kogemusest olenevalt)
-- **Paindlikku tööaega** ja kaugtöö võimalust
-- **Professionaalset arengut** uudses tervishoiutehnoloogia valdkonnas
-- **Huvitavaid väljakutseid** meditsiinisüsteemide arendamisel
-- **Sõbralikku meeskonda** ja startup atmosfääri
-- **Tänapäevaseid tööriistu** ja tehnoloogiaid
-- **Võimalust mõjutada** tervishoiu digitaliseerimist Eestis
-
-## Töökeskkond
-
-- Kaasaegne kontor Tallinnas
-- Võimalus töötada osaliselt kaugtööl
-- Agile arendusmeetodid
-- Code review ja kvaliteedikontrolli kultuur
-- Regulaarsed meeskonna üritused
-
-## Kandideerimisprotsess
-
-1. CV ja motivatsioonikirja saatmine
-2. Tehniline intervjuu ja koodülesanne
-3. Meeskonnaga tutvumine
-4. Lõplik otsus
-
-Saada oma CV ja motivatsioonikiri hiljemalt **7. juuni 2025**.
-
-**Kontakt:**  
-E-post: karjaar@medicloud.ee  
-Lisainfo: CTO Marko Tamm, tel +372 5234567
-
----
-
-*MediCloud on Eesti juhtiv tervishoiutehnoloogia ettevõte, mis ühendab meditsiinialaseid teadmisi kaasaegsete IT-lahendustega. Meie missioon on muuta tervishoiuteenused kättesaadavamaks ja efektiivsemaks.*
+Kui oled valmis panustama Eesti tervishoiu tulevikku ja tahad töötada lahenduse kallal, millel on sisu ja väärtus, siis ootame Sind liituma meie tiimiga!
