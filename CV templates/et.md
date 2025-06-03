@@ -41,7 +41,7 @@
 
 ### Veebiteenused
 
-- REST, X-Tee, esimesed pangalingid
+- REST, riigi süsteemide integratsioonid, pangalingid
 
 ### Meeskondlikkus
 

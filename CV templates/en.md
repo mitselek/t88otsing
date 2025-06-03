@@ -297,7 +297,7 @@ Common European Framework of Reference for Languages
 
 ### Operating Systems
 
-- Linux (Intermediate)
+- Linux (Intermediate 6/10)
 
 ---
 

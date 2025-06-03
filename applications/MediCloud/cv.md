@@ -73,7 +73,7 @@ Kogenud full stack arendaja 15+ aasta kogemusega: **JavaScript**, **Node.js** ja
 
 2010-praeguseni @ Entusiastid OÜ
 
-- **X-Tee liidestused** riigi infosüsteemidega
+- **Riigi infosüsteemide** liidestused ja integratsioonid
 - **Pangalinkide API** integreerimine
 - **Ärisüsteemide** integratsioonid ja API arendus
 - **Turvaliste andmevahetuste** tagamine

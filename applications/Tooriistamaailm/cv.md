@@ -28,7 +28,7 @@ Kogenud veebiarendaja 15+ aasta kogemusega **Python**, **JavaScript** ja **andme
 
 - **AI assistendid:** ChatGPT, GitHub Copilot arendusprotsessi integreerimises
 - **Versioonihaldus:** Git, süstemaatiline koodi dokumenteerimine
-- **Süsteemide integreerimine:** X-Tee, pangalingid, ERP süsteemid
+- **Süsteemide integreerimine:** Riigi süsteemid, pangalingid, ärisüsteemid
 
 ### Tööstiil
 
@@ -58,9 +58,9 @@ Kogenud veebiarendaja 15+ aasta kogemusega **Python**, **JavaScript** ja **andme
 
 ### Ärisüsteemide integratsioonid
 
-- X-Tee liidestused riigi infosüsteemidega
+- Riigi infosüsteemide liidestused ja integratsioonid
 - Pangalinkide integreerimine
-- ERP süsteemide kohandamised
+- Ärisüsteemide integratsioonid ja API arendus
 
 ---
 

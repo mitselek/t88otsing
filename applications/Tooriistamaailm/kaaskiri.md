@@ -14,7 +14,7 @@ Kirjutan seoses arendaja ametikoha kuulutusega. Mul on 15+ aastat kogemust veebi
 
 - **PHP + MySQL:** Kogenud suurte süsteemide arendamises ja optimeerimises
 - **JavaScript/AJAX:** Expert-tasemel front-end lahendused  
-- **REST API-d:** API loomine ja integreerimine (X-Tee, pangalingid)
+- **REST API-d:** API loomine ja integreerimine (riigi süsteemid, pangalingid)
 - **AI tööriistad:** Aktiivne ChatGPT ja GitHub Copilot kasutaja
 
 **Relevantsed projektid:**

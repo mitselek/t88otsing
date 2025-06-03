@@ -1,6 +1,6 @@
 # Mihkel Putrinš - Kaaskiri Full Stack Developer ametikohale - MediCloud
 
-**MediCloud OÜ**  
+**MediCloud OÜ** <info@medicloud.ee>  
 **Kuupäev:** 3. juuni 2025  
 **Teema:** Kandideerimine full stack developer ametikohale
 
@@ -56,7 +56,7 @@ Tervishoiu digitaliseerimine on ühiskonnas kriitilise tähtsusega valdkond, kus
 
 **Riigi integratsioonid:**
 
-- **X-Tee liidestused** - sarnased tervishoiu süsteemide integratsioonidele
+- **Riigi infosüsteemide liidestused** - sarnased tervishoiu süsteemide integratsioonidele
 - **ID-kaardi ja mobiil-ID integratsioonid** - turvaline kasutajate autentimine
 - **Turvalised andmevahetused** ja krüpteerimise kogemus
 - **API standardite** järgimine ja dokumenteerimine
