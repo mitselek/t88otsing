@@ -267,6 +267,12 @@ Euroopa Nõukogu keeleoskussüsteemi enesehindamisskaala
 - .NET, Java (Kesktase)
 - PHP, Wordpress (ei tee)
 
+### AI suhtlus ja käskluste kujundamine
+
+- AI assistentidega suhtlemine (Edasijõudnu)
+- Tehniliste probleemide lahendamine AI tööriistadega (Kesktase kuni Edasijõudnu)
+- Selge ja kontekstitundlik suhtlus keeruliste tehniliste ülesannete puhul
+
 ### Kontoritarkvara
 
 - MS Excel, Adobe Acrobat (Spetsialist)

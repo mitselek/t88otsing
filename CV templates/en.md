@@ -275,6 +275,12 @@ Common European Framework of Reference for Languages
 - .NET, Java (Intermediate)
 - PHP, Wordpress (no)
 
+### AI Communication & Prompt Engineering
+
+- AI Assistant Interaction (Advanced)
+- Technical Problem Solving with AI Tools (Intermediate to Advanced)
+- Clear and context-aware communication for complex technical tasks
+
 ### Office Software
 
 - MS Excel, Adobe Acrobat (Expert)
