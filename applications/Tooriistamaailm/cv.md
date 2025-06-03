@@ -163,7 +163,7 @@ B-kategooria (2007. aastast)
 
 ## Soovitud ametikoht
 
-**Veebiarendaja / PHP arendaja / Süsteemiintegraator**
+**Veebiarendaja / PHP arendaja / Süsteemiintegraator**  
 
 ### Töö tüüp
 

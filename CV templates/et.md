@@ -264,32 +264,32 @@ Euroopa Nõukogu keeleoskussüsteemi enesehindamisskaala
 
 ### Programmeerimiskeeled
 
-- Python, JavaScript (Spetsialist)
-- Bash, C (Edasijõudnu)
-- .NET, Java (Kesktase)
+- Python, JavaScript (Spetsialist 9/10)
+- Bash, C (Edasijõudnu 8/10)
+- .NET, Java (Kesktase 6/10)
 - PHP, Wordpress (ei tee)
 
 ### AI suhtlus ja käskluste kujundamine
 
-- AI assistentidega suhtlemine (Edasijõudnu)
-- Tehniliste probleemide lahendamine AI tööriistadega (Kesktase kuni Edasijõudnu)
+- AI assistentidega suhtlemine (Edasijõudnu 8/10)
+- Tehniliste probleemide lahendamine AI tööriistadega (Kesktase kuni Edasijõudnu 6-8/10)
 - Selge ja kontekstitundlik suhtlus keeruliste tehniliste ülesannete puhul
 
 ### Kontoritarkvara
 
-- MS Excel, Adobe Acrobat (Spetsialist)
+- MS Excel, Adobe Acrobat (Spetsialist 9/10)
 
 ### CAD-süsteemid
 
-- SolidWorks (Edasijõudnu)
+- SolidWorks (Edasijõudnu 8/10)
 
 ### Graafika, küljendus, multimeedia
 
-- Adobe Illustrator (Edasijõudnu)
+- Adobe Illustrator (Edasijõudnu 8/10)
 
 ### Operatsioonisüsteemid
 
-- Linux (Kesktase)
+- Linux (Kesktase 6/10)
 
 ---
 

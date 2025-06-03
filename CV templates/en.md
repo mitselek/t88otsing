@@ -272,28 +272,28 @@ Common European Framework of Reference for Languages
 
 ### Programming Languages
 
-- Python, JavaScript (Expert)
-- Bash, C (Advanced)
-- .NET, Java (Intermediate)
+- Python, JavaScript (Expert 9/10)
+- Bash, C (Advanced 8/10)
+- .NET, Java (Intermediate 6/10)
 - PHP, Wordpress (no)
 
 ### AI Communication & Prompt Engineering
 
-- AI Assistant Interaction (Advanced)
-- Technical Problem Solving with AI Tools (Intermediate to Advanced)
+- AI Assistant Interaction (Advanced 8/10)
+- Technical Problem Solving with AI Tools (Intermediate to Advanced 6-8/10)
 - Clear and context-aware communication for complex technical tasks
 
 ### Office Software
 
-- MS Excel, Adobe Acrobat (Expert)
+- MS Excel, Adobe Acrobat (Expert 9/10)
 
 ### CAD-Systems
 
-- SolidWorks (Advanced)
+- SolidWorks (Advanced 8/10)
 
 ### Graphics, Design, Multimedia
 
-- Adobe Illustrator (Advanced)
+- Adobe Illustrator (Advanced 8/10)
 
 ### Operating Systems
 
