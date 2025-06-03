@@ -53,6 +53,8 @@
 
 - **[Entu Webapp](https://github.com/entu/webapp)** - Täisrakenduse veebiliides Entu andmeplatformile. Full-stack Python/JavaScript rakendus andmehalduseks, API dokumentatsioon: [entu.dev](https://entu.dev/)
 
+- **[OAuth.ee](https://github.com/argoroots/est-o-auth)** - Eesti ID-kaardi ja mobiil-ID autentimise teenus, mis on integreeritud Entu platvormiga. Tagab turvalise kasutajate autentimise riiklike digitaalidentiteetide kaudu. Kasutusel PÖFF filmifestivali infosüsteemis ja teistes organisatsioonides üle Eesti.
+
 - **[eMem](https://github.com/memoriaal/eMem)** - Andmebaasisüsteem Memento raamatute digiteerimiseks, veebiväljund: [memoriaal.ee](https://www.memoriaal.ee). Projekt on pühendatud Eesti ajaloolise mälu säilitamisele tehnoloogia kaudu.
 
 - **[touch-tone](https://github.com/mitselek/touch-tone)** - Pimedate telefoni C++ rakendus, mis demonstreerib uue riistvara omandamist ja signaali töötlemise oskusi.
