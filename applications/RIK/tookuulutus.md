@@ -1,59 +1,48 @@
-# Pilveinsener - Riigi Infosüsteemi Amet (RIK)
+**Allikas:** https://www.cvkeskus.ee/pilveinsener-linux-tallinnas-registrite-ja-infosusteemide-keskus-969902  
+**Kuulutus sisestatud:** 16.05.2025  
+**Aegub:** 15.06.2025  
+**Asukoht:** Tallinn, Harjumaa  
+**Töö tüüp:** Täistööaeg  
+**Lisainfo:** Palgatöötaja  
 
-**Ettevõte:** Riigi Infosüsteemi Amet (RIK)  
-**Asukoht:** Tallinn  
-**Palgatase:** €2,800-4,200/kuus bruto  
-**Tähtaeg:** 15. juuni 2025  
+# Pilveinsener (Linux)
 
-## Ametikoha kirjeldus
+**Registrite ja Infosüsteemide Keskus**
 
-Riigi Infosüsteemi Amet otsib meeskonda kogenud pilveinsenerit, kes arendaks ja haldaks riigi pilveinfrastruktuuri ning toetaks avaliku sektori IT-süsteemide moderniseerimist.
+## Töö kirjeldus
 
-## Põhiülesanded
+Liitu meie IT-asutusega, et ehitada üheskoos inimkeskseid ja nutikaid e-riigi digilahendusi. Saad teha tähendusega tööd ja leida lahendusi Eesti esimeses IT-majas, mis arendab kodaniku ja riigi jaoks olulisi ning maailmakaardil silmapaistvaid digilahendusi, näiteks: e-äriregister, kohtute infosüsteem, e-toimik, vanglate e-keskkond, prokuratuuri infosüsteem jne.
 
-- **Linux süsteemide administreerimine** ja automatiseerimine
-- **Pilveteenuste** (AWS, Azure, Google Cloud) haldamine ja optimeerimine
-- **Infrastruktuuri kui koodi** (Infrastructure as Code) lahenduste arendamine
-- **CI/CD protsesside** disain ja juurutamine
-- **Turvalisuse** tagamine pilveinfrastruktuuris
-- **Monitoringu ja loggimise** süsteemide haldamine
-- Riigi IT-süsteemide integratsioon ja migratsioon pilve
+## Ootused kandidaadile
 
-## Nõudmised
+• Sa suhtled vabalt eesti keeles
+• Omad kogemust automatiseeritud infrastruktuuri ja konfiguratsioonihalduse lahenduste loomisel, kasutades Terraformi või Ansibled
+• Omad töökogemust kõrgkäideldavate infosüsteemide ja teenuste haldamise ning juurutamisega.
+• Omad töökogemust pilveplatvormiga (näiteks Azure, Riigipilv, AWS jne).
+• Oskad luua turvalisi ja kuluefektiivseid pilvelahendusi.
+• Omad kogemust Kubernetesega.
+• Logide töötlemine, vajaliku info leidmine on Sinu jaoks lihtne
+• Tunned ennast vabalt RedHat Linux operatsioonisüsteemiga
+• Omad kogemust erinevate Proxy lahendustega (Apache, Nginx, HAProxy)
 
-- **Kõrgharidus** IT või vastavas valdkonnas
-- **Linux süsteemide** administreerimise kogemus (3+ aastat)
-- **Pilveteenuste** (AWS/Azure/GCP) praktilised kogemused
-- **Automatiseerimisoskused** (Bash, Python, Ansible, Terraform)
-- **Võrguhalduse** põhiteadmised
-- **Eesti keele** oskus kõrgtasemel
-- **Turvateadlikkus** ja kogemused
+Ekstra küpsis:
 
-## Kasuks tuleb
+• Sul on kogemus sertifikaatide haldusega
+• Omad koguemust ruuterite ja tulemüüridega
 
-- Sertifikaadid pilveplatvormide valdkonnas
-- Kogemus Kubernetes ja konteineritega
-- DevOps praktikate tundmine
-- Kogemused riigi IT-süsteemidega
-- Inglise keele oskus
+## Ettevõte pakub
 
-## Pakume
+• Koostööle suunatud, toetav ja huumorist lugupidav meeskond
+• Motiveeriv väärtuspakkumine ja ühisüritused
+• Paindlik töökorraldus ja kodukontori võimalus
+• Õppimis- ja arenemisvõimalused
+• 35-päevane põhipuhkus, 3 tervisepäeva, vajadusel õppepuhkus
+• Võimalused sportimiseks, massöör kontoris ja spordihüvitis
+• Stabiilne töökoht
+• Stressitaset maandavad lemmikud kontoris
 
-- **Stabiilset riigi töösuhet** hea sotsiaalse garantiiga
-- **Võimalust panustada** Eesti digitaalse riigi arengusse
-- **Professionaalset arengukoolitust** ja sertifitseerimist
-- **Paindlikku tööaega** ja osalist kaugtöö võimalust
-- **35 päeva põhipuhkust** + lisapuhkused
-- **Sõbralikku kollektiivi** ja kaasaegset töökeskkonda
+### Registrite ja Infosüsteemide Keskus
 
-## Kandideerimisprotsess
+Registrite ja Infosüsteemide Keskus ei ole tavaline riigiasutus. Meid eristab meie töö unikaalsus ja mastaapsus - oleme suurim riiginfosüsteemidele orienteeritud riiigiasutus Eestis. Meie teenuseid kasutab igapäevaselt ca 4700 Eesti riigiametnikku ning meie infosüsteemidest on abi pea kõigile Eesti Vabariigis elavatele inimestele.
 
-Saada CV ja motivatsioonikiri koos palgasooviga hiljemalt **15. juuni 2025**.
-
-**Kontakt:**  
-E-post: personaliosakond@rik.ee  
-Lisainfo: IT-osakonna juht, tel 663 0280
-
----
-
-*RIK on Eesti riigi digitaalse infrastruktuuri arengut juhtiv asutus, mis tagab kriitiliste infosüsteemide toimimise ja arendab uuenduslikke digiteerimislahendusi.*
+**Aadress:** Lubja 4, Tallinn, Harjumaa
