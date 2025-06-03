@@ -2,7 +2,7 @@
 
 **Full Stack veebiarendaja**  
 
-*Sündinud:* 01.04.1972  
+*Sündinud:* 03.04.1972  
 *Telefon:* +372 56560978  
 *E-post:* <mihkel.putrinsh@gmail.com>  
 *GitHub:* [github.com/mitselek](https://github.com/mitselek)  
@@ -11,7 +11,7 @@
 
 ## Kokkuvõte
 
-Kogenud full stack arendaja 15+ aasta kogemusega **JavaScript**, **Node.js** ja **andmebaasidisainiga**. Spetsialiseerunud kasutajasõbralike veebirakenduste loomisele, API arendusele ja andmehalduslahendustele. Tugev kogemus tundlike andmetega töötamisel ja süsteemide integreerimisel.
+Kogenud full stack arendaja 15+ aasta kogemusega: **JavaScript**, **Node.js** ja **andmebaasidisain**. Spetsialiseerunud kasutajasõbralike veebirakenduste loomisele, API arendusele ja andmehalduslahendustele. Tugev kogemus tundlike andmetega töötamisel ja süsteemide integreerimisel.
 
 ---
 
@@ -55,8 +55,8 @@ Kogenud full stack arendaja 15+ aasta kogemusega **JavaScript**, **Node.js** ja 
 
 - **Full stack Node.js** rakendus andmehalduseks
 - **MongoDB** andmebaasi disain ja optimeerimine
-- **RESTful API** loomine ja dokumenteerimine
-- Kasutusel koolides, muuseumides ja ettevõtetes
+- **RESTful API** loomine ja dokumenteerimine  
+  Kasutusel koolides, muuseumides ja ettevõtetes
 - **Kasutajaliideste** disain ja arendus
 
 ### eMem ajalooandmete süsteem
@@ -75,7 +75,7 @@ Kogenud full stack arendaja 15+ aasta kogemusega **JavaScript**, **Node.js** ja 
 
 - **X-Tee liidestused** riigi infosüsteemidega
 - **Pangalinkide API** integreerimine
-- **ERP süsteemide** kohandamised ja ühendamised
+- **Ärisüsteemide** integratsioonid ja API arendus
 - **Turvaliste andmevahetuste** tagamine
 
 ---
@@ -131,11 +131,14 @@ Kogenud full stack arendaja 15+ aasta kogemusega **JavaScript**, **Node.js** ja 
 
 ## Haridus
 
-### Õismäe Humanitaargümnaasium
-
-1990
-
-Keskharidus
+- **1979 - 1990**
+  - Riia I keskkool  
+  - Tallinna Reaalgümnaasium  
+  - Õismäe Humanitaargümnaasium  
+- **1990 - 2002**
+  - Matemaatika @ Tartu Ülikool  
+  - Loodusteaduslikud ained @ Tallinna Ülikool  
+  - Informaatika @ Tartu Ülikool  
 
 ---
 
@@ -154,37 +157,37 @@ Keskharidus
 
 ### Frontend tehnoloogiad
 
-- **JavaScript** (ES6+, async/await) - Expert
-- **HTML5/CSS3** (Semantic markup, Flexbox, Grid) - Kõrgtase
-- **React põhimõtted** (komponendid, hooks) - Keskmine
-- **AJAX/Fetch API** - Expert
+- **JavaScript** (ES6+, async/await) - Ekspert (9/10)
+- **HTML5/CSS3** (Semantic markup, Flexbox, Grid) - Kõrgtase (8/10)
+- **React põhimõtted** (komponendid, hooks) - Keskmine (6/10)
+- **AJAX/Fetch API** - Ekspert (9/10)
 
 ### Backend tehnoloogiad
 
-- **Node.js/Express** - Kõrgtase
-- **RESTful API-d** - Expert
-- **JavaScript serveris** - Kõrgtase
-- **Middleware ja routing** - Kõrgtase
+- **Node.js/Express** - Kõrgtase (8/10)
+- **RESTful API-d** - Ekspert (9/10)
+- **JavaScript serveris** - Kõrgtase (8/10)
+- **Middleware ja routing** - Kõrgtase (8/10)
 
 ### Andmebaasid
 
-- **MongoDB** (NoSQL, aggregation) - Expert
-- **MySQL** (disain, optimeerimine) - Expert
-- **PostgreSQL** - Keskmine
-- **Andmeintegratsioon** - Expert
+- **MongoDB** (NoSQL, aggregation) - Ekspert (9/10)
+- **MySQL** (disain, optimeerimine) - Ekspert (9/10)
+- **PostgreSQL** - Keskmine (6/10)
+- **Andmeintegratsioon** - Ekspert (9/10)
 
 ### Arendusriistad
 
-- **Git/GitHub** - Expert
-- **NPM/Yarn** - Kõrgtase
-- **VS Code** - Expert
-- **Chrome DevTools** - Kõrgtase
+- **Git/GitHub** - Ekspert (9/10)
+- **NPM/Yarn** - Kõrgtase (8/10)
+- **VS Code** - Ekspert (9/10)
+- **Chrome DevTools** - Kõrgtase (8/10)
 
 ### AI ja automatiseerimine
 
-- **ChatGPT** ja **GitHub Copilot** - Expert
-- **Automaattestide** kirjutamine - Keskmine
-- **Code review** ja kvaliteedikontroll - Kõrgtase
+- **ChatGPT** ja **GitHub Copilot** - Ekspert (9/10)
+- **Automaattestide** kirjutamine - Keskmine (6/10)
+- **Code review** ja kvaliteedikontroll - Kõrgtase (8/10)
 
 ---
 
@@ -196,7 +199,7 @@ B-kategooria (2007. aastast)
 
 ## Soovitud ametikoht
 
-**Full Stack Developer / JavaScript arendaja / Node.js arendaja**
+**Full Stack Developer / JavaScript arendaja / Node.js arendaja**  
 
 ### Töö tüüp
 
