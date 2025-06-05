@@ -1,0 +1,6 @@
+{
+  "MD024": false,
+  "MD024-comment": {"comment": "No multiple headers with the same content"}, 
+  "MD013": false,
+  "MD013-comment": {"comment": "No line length limit"}
+}
