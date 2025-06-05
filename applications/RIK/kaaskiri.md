@@ -23,7 +23,7 @@ Riigi infosüsteemide moderniseerimine ja pilve viimine on Eesti digitaalse riig
 - Linux serverite haldamine ja turvalisuse tagamine
 
 **Riigi sektoriga kogemused:**
-- X-Tee integratsioonide arendamine ja haldamine
+- Riigi infosüsteemide integratsioonide arendamine ja haldamine
 - Riigi andmebaaside loomine (Eesti Mälu Instituut)
 - Avaliku sektori IT-süsteemide nõuete mõistmine
 - Andmeturbe ja privaatsuse tagamine

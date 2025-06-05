@@ -53,20 +53,20 @@ Kogenud IT-spetsialist 25+ aasta kogemusega **Linux süsteemiadministreerimises*
 
 ### Riigi andmehalduse süsteemid
 
-2017-2024 @ Eesti Mälu Instituut
+2017-2024 @ Eesti Mälu Instituut (Maarjamäe Memoriaal)
 
-- **eMem andmebaasi** loomine ja haldamine
+- **Represseeritute andmebaasi** loomine ja haldamine
 - Suurte andmehulkade töötlus ja integreerimine
 - **MySQL** optimeerimine ja turvalisuse tagamine
 - OCR-tehnoloogia integreerimine dokumentide töötlemiseks
 
-### X-Tee integratsioonid
+### Riigi süsteemide integratsioonid
 
 2010-praeguseni @ Entusiastid OÜ
 
 - Riigi infosüsteemide integratsioonid
 - Pangalinkide ja maksesüsteemide ühendamine
-- ERP süsteemide kohandamised
+- Ärisüsteemide integratsioonid ja API arendus
 - API arendus ja dokumenteerimine
 
 ---
