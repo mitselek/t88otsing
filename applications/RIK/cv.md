@@ -180,7 +180,7 @@ B-kategooria (2007. aastast)
 
 ## Soovitud ametikoht
 
-**Linux süsteemiadministraator / Pilveinsener / DevOps spetsialist**
+### Linux süsteemiadministraator / Pilveinsener / DevOps spetsialist
 
 ### Töö tüüp
 

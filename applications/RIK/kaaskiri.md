@@ -17,18 +17,21 @@ Riigi infosüsteemide moderniseerimine ja pilve viimine on Eesti digitaalse riig
 ## Relevantne kogemus
 
 **700-kasutajaga infrastruktuur (EKA):**
+
 - Kogu ülikooli IT-infrastruktuuri haldamine ja optimeerimine
 - Google Workspace migreerimine 90% kulude kokkuhoiuga
 - Süsteemide monitooring ja kasutajatoe korraldamine
 - Linux serverite haldamine ja turvalisuse tagamine
 
 **Riigi sektoriga kogemused:**
+
 - Riigi infosüsteemide integratsioonide arendamine ja haldamine
 - Riigi andmebaaside loomine (Eesti Mälu Instituut)
 - Avaliku sektori IT-süsteemide nõuete mõistmine
 - Andmeturbe ja privaatsuse tagamine
 
 **Tehnilised tugevused:**
+
 - **Linux (Ubuntu/CentOS/Debian)** - expert tasemel administreerimine
 - **Bash/Python** - automatiseerimine ja süsteemide optimeerimine
 - **MySQL/PostgreSQL** - andmebaaside haldamine ja optimeerimine
@@ -37,6 +40,7 @@ Riigi infosüsteemide moderniseerimine ja pilve viimine on Eesti digitaalse riig
 ## Pilvekogemused ja motivatsioon
 
 Kuigi mul puudub ametlik pilveplatvormide sertifikaat, oman praktilisi kogemusi:
+
 - Virtualiseeritud keskkonnade haldamine
 - Süsteemide migreerimine ja skaleeritavus
 - Automatiseeritud deploy protsessid
@@ -52,6 +56,7 @@ Olen valmis kiiresti omandama vajalikke pilveteenuste sertifikaate ja süvenema 
 - **Riigisektori tundmine:** Mõistan avaliku sektori IT-süsteemide eripärasid ja nõudeid
 
 **Seadusandlik vastutus ja töökultuur:**
+
 - Töötasin riigi asutustes ja mõistan avaliku sektori eetilisi nõudeid
 - Kogenud dokumenteerimises ja protseduuride järgimises
 - Usun avaliku sektori missiooni ja soovin panustada Eesti digitaalse riigi arengusse
