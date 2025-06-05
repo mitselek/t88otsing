@@ -20,11 +20,12 @@
 - Sujuv integratsioon [TEHIK](https://www.tehik.ee/) süsteemidega ([UpTIS](https://www.tehik.ee/et/uudised/uptis-uus-terviseinfosusteem), [Terviseportaal](https://www.terviseportaal.ee/))
 - Reaalajas andmevahetus riigi infosüsteemidega
 
-### 2. **Kasutajakeskne Disain**
+### 2. **Kasutajakeskne ja Ligipääsetav Disain**
 
 - Intuitiivsed liidesed meditsiinipersonalile
 - Lastesõbralik digitaalne keskkond peredele
 - [Mobile-first lähenemine](https://www.who.int/publications/i/item/9789241550369) kõigis lahendustes
+- [WCAG 2.1 AA](https://www.w3.org/WAI/WCAG21/quickref/) vastavus kõigis süsteemides
 
 ### 3. **Andmeturve ja Jätkusuutlikkus**
 
@@ -47,6 +48,7 @@
 
 - **Sisemised süsteemiühendused** (LIS¹↔HIS², RIS/PACS³)
 - **Kasutajakogemuse parandamine** (single sign-on, mobile lahendused)
+- **Ligipääsetavuse testimine** ja optimiseerimine
 - **Esimesed AI pilootprojektid** (diagnostika tugi, ressursside optimeerimine)
 
 ### **FAAS III (2027-2030): Innovatsioon** | *Eelarve: €350k*
@@ -72,7 +74,7 @@
 
 ## 💰 INVESTEERING JA RESSURSID
 
-### **Kogueelrve 5 aastaks: €800k** *(€160k/aastas)*
+### **Kogueelrve 5 aastaks: €800k** *(€160k/aastas, sh ligipääsetavus)*
 
 - **2025-2026:** €200k - Infrastruktuur ja integratsioonid
 - **2026-2027:** €250k - Süsteemide ühendamine ja UX
@@ -98,6 +100,7 @@
 
 - 🏥 **30% vähem administratiivset koormust** arstidele
 - 👨‍👩‍👧‍👦 **Paremat perekonnakogemust** digitaalsete teenuste kaudu
+- ♿ **100% ligipääsetavus** kõigile kasutajatele
 - 📈 **Andmepõhiseid otsuseid** ravikvaliteedi parandamiseks
 
 ---
@@ -123,14 +126,14 @@
 
 ---
 
-**Kontakt:** Mihkel Putrinš | 📧 <mihkel.putrinsh@gmail.com> | 📱 +372 56560978
-
----
-
 ## Tehnilised terminid
 
 1. **LIS** - Laboratory Information System (laborisüsteem)
 2. **HIS** - Hospital Information System (haiglasüsteem)
 3. **RIS/PACS** - Radiology Information System / Picture Archiving and Communication System (radioloogiasüsteemid)
 
+---
+
 *Dokument on koostatud Claude Sonnet'i abiga, kasutades avalikke allikaid. Visioon balansseerib ambitsioonika innovatsiooni ja praktilise elluviidavuse vahel.*
+
+**Kontakt:** Mihkel Putrinš | 📧 <mihkel.putrinsh@gmail.com> | 📱 +372 56560978
