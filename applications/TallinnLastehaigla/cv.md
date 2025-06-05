@@ -11,7 +11,7 @@
 
 ## Kokkuvõte
 
-Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja meeskonnajuhtimises. Olen edukalt juhtinud IT osakonda Eesti Kunstiakadeemias ning arendanud tundlike andmetega töötamise kogemust tervishoiu ja teaduse valdkonnas. Spetsialiseerunud süsteemiintegratsioonidele, andmeturbe lahendustele ja kasutajasõbralike IT-süsteemide loomisele.
+Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja meeskonnajuhtimises. Olen edukalt juhtinud IT osakonda Eesti Kunstiakadeemias ning arendanud tundlike andmetega töötamise kogemust teadus- ja kultuuriprojektides. Spetsialiseerunud süsteemiintegratsioonidele, andmeturbe lahendustele ja kasutajasõbralike IT-süsteemide loomisele.
 
 ---
 

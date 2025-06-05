@@ -1,4 +1,4 @@
-# Kaaskiri - IT osakonna juhataja positsioonile
+# Mihkel Putrinš - Kaaskiri - IT osakonna juhataja positsioonile
 
 ## Tallinna Lastehaigla SA
 
@@ -89,11 +89,11 @@ Lugupidamisega,
 
 ---
 
-*PS: Olen valmis alustama tööd 1-2 kuu jooksul ja olen paindlik töötingimuste osas, kuna hindan kõrgelt võimalust panustada nii olulisesse valdkonda nagu lastetervishoiu.*
+*PS: Olen valmis alustama tööd 1-2 kuu jooksul ja olen paindlik töötingimuste osas, kuna hindan kõrgelt võimalust panustada nii olulisesse valdkonda nagu nagu laste tervishoid.*
 
 ---
 
 **Lisatud dokumendid:**
 
 - CV
-- IT valdkonna arenguvisiooni dokument (lisatakse eraldi)
+- IT valdkonna arenguvisiooni kokkuvõte
