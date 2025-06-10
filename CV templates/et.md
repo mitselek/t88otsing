@@ -144,6 +144,7 @@
 - Intranet, emailid;
 - Majasisesed infosüsteemid;
 - Kasutajatugi.
+- **Kampusvõrgu ehitamine:** Kogu ülikooli LAN-võrgu planeerimine ja ehitamine, hõlmates kõiki hooneid ja ühendades 700+ kasutajat
 - Saavutused: Kogu ülikooli e-mailindus kolitud Google Mail'i, juurutatud Google Docs, arendatud ja juurutatud dokumendihalduse lahendus.
 
 ### Arvutigraafik-kujundaja @ BalticWindow OY

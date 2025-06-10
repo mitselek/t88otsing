@@ -137,6 +137,7 @@
 **Field:** Education / Science / Research
 
 - Managed the university's IT infrastructure, including intranet, email, and internal information systems
+- **Campus-wide LAN construction:** Planned and built the entire university's local area network infrastructure spanning multiple buildings and connecting 700+ users
 - Migrated the entire university's (approx. 700 users) email system to Google Mail, which improved collaboration and reduced IT costs on emails by 90%
 - Implemented and customized the Entu platform for multiple applications, including inventory management (tracking over 5000 assets) and archiving of degree papers (managing over 500 documents annually) for the library
 - Adapted the platform to meet diverse needs, from tracking physical assets to managing sensitive academic records and ensuring secure storage and efficient retrieval
