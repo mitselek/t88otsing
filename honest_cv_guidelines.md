@@ -123,10 +123,11 @@ Before finalizing any application document:
 ### Application Creation Workflow
 
 1. Start with master CV templates as foundation
-2. Adapt content honestly for target role
-3. Apply these honest approach guidelines
-4. Run markdown linter and fix all issues
-5. Final review against master templates for accuracy
+2. **Copy job advertisement verbatim** - capture the exact text to ensure accurate targeting
+3. Adapt content honestly for target role
+4. Apply these honest approach guidelines
+5. Run markdown linter and fix all issues
+6. Final review against master templates for accuracy
 
 ## Context
 
