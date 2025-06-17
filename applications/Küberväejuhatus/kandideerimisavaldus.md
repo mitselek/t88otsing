@@ -56,7 +56,6 @@ Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja
 
 ### Arhitekt/analüütik/arendaja @ Entusiastid OÜ
 
-**Eesti**  
 [entu.ee](https://entu.ee)  
 *09.2010 - Tänaseni*  
 **Valdkond:** Infotehnoloogia
@@ -79,13 +78,11 @@ Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja
 
 ### Visionäär @ OÜ Wõrgu Wõlurid
 
-**Eesti**  
 *03.2000 - Tänaseni*  
 **Valdkond:** Infotehnoloogia
 
 ### Andmesanitar @ Eesti Mälu Instituut
 
-**Eesti**  
 *07.2017 - 10.2024 (7 a. ja 4 k)*  
 **Valdkond:** Haridus / Teadus
 
@@ -95,7 +92,6 @@ Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja
 
 ### Nõustaja, tugiisik (IT) @ MTÜ 2.tants
 
-**Eesti**  
 *01.2000 - 01.2023 (23 a. ja 1 k)*  
 **Valdkond:** Kultuur / Meelelahutus
 
@@ -103,7 +99,6 @@ Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja
 
 ### Teadustarkvara arendaja @ Tartu Ülikool
 
-**Eesti**  
 *09.2014 - 12.2015 (1 a. ja 4 k)*  
 **Valdkond:** Haridus / Teadus
 
@@ -113,7 +108,6 @@ Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja
 
 ### It-architect @ Center of Food and Fermentation Technologies
 
-**Eesti**  
 *01.2013 - 01.2015 (2 a. ja 1 k)*  
 **Valdkond:** Haridus / Teadus
 
@@ -121,7 +115,6 @@ Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja
 
 ### IT-osakonna juht @ Eesti Kunstiakadeemia
 
-**Eesti**  
 *08.2009 - 08.2012 (3 a. ja 1 k)*  
 **Valdkond:** Haridus / Teadus
 
@@ -134,7 +127,6 @@ Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja
 
 ### IT-arendusspetsialist @ Tele2 Eesti AS
 
-**Eesti**  
 *10.2006 - 06.2009 (2 a. ja 9 k)*  
 **Valdkond:** Elektroonika / Telekommunikatsioon
 
@@ -143,7 +135,6 @@ Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja
 
 ### Tarkvara arendaja @ Justiitsministeerium
 
-**Eesti**  
 *10.2002 - 10.2005 (3 a. ja 1 k)*  
 **Valdkond:** Korrakaitse / Turva / Julgeolek
 
@@ -153,7 +144,6 @@ Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja
 
 ### Arvutigraafik-kujundaja @ BalticWindow OY
 
-**Eesti**  
 *01.1998 - 01.2010 (12 a. ja 1 k)*  
 **Valdkond:** Turism / Hotellindus / Iluteenused
 
@@ -161,7 +151,6 @@ Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja
 
 ### Arvutigraafik-kujundaja @ NB reklaam
 
-**Eesti**  
 *01.2000 - 12.2000 (1 a.)*  
 **Valdkond:** Meedia / Loomemajandus / Tõlkimine
 
@@ -169,7 +158,6 @@ Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja
 
 ### Reprokoja juht @ DEN ZA DNJOM KIRJASTUS OÜ
 
-**Eesti**  
 *01.1996 - 01.1999 (3 a. ja 1 k)*  
 **Valdkond:** Meedia / Loomemajandus / Tõlkimine
 
@@ -177,7 +165,6 @@ Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja
 
 ### Tegevjuht @ Oopus-Repro AS
 
-**Eesti**  
 *01.1994 - 01.1996 (2 a. ja 1 k)*  
 **Valdkond:** Meedia / Loomemajandus / Tõlkimine
 
@@ -186,7 +173,6 @@ Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja
 
 ### 3D graafika disainer @ Oopus-Disaini AS
 
-**Eesti**  
 *01.1993 - 01.1995 (2 a. ja 1 k)*  
 **Valdkond:** Turundus / Reklaam / PR
 
@@ -195,7 +181,6 @@ Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja
 
 ### Arendusjuht @ Oopus-Arvutite AS
 
-**Eesti**  
 *01.1993 - 01.1995 (2 a. ja 1 k)*  
 **Valdkond:** Infotehnoloogia
 
@@ -203,7 +188,6 @@ Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja
 
 ### projektijuht (IT) @ Soov Kirjastus OÜ
 
-**Eesti**  
 *01.1993 - 01.1993 (1 k)*  
 **Valdkond:** Meedia / Loomemajandus / Tõlkimine
 
@@ -211,7 +195,6 @@ Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja
 
 ### Müügikonsultant (ehitus) @ Auma Expo
 
-**Eesti**  
 *01.1992 - 01.1993 (1 a. ja 1 k)*  
 **Valdkond:** Ehitus / Kinnisvara
 
