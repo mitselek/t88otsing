@@ -1,6 +1,7 @@
 # EKI IT arendusjuht - Kandideerimisavaldus
 
 ## Ametikoht: IT arendusjuht
+
 **Organisatsioon:** Eesti Keele Instituut  
 **Asukoht:** Tallinn, Harjumaa  
 **Tööaeg:** Täistööaeg  
@@ -13,6 +14,7 @@
 ### Miks see positsioon sobib?
 
 **HEA SOBIVUS ✅** (nõuab positsioneerimist)
+
 - Entu platvorm = projektijuhtimise kogemus (30+ organisatsiooni)
 - Arhitekt/analüütik = koordineerimiskogemus
 - IT-osakonna juht EKA-s = otsene juhtimikogemus
@@ -20,14 +22,16 @@
 
 ### Positsioneerimise strateegia
 
-#### Ümberdefineerin oma kogemust:
+#### Ümberdefineerin oma kogemust
+
 1. **Projektijuhtimine** - Entu juurutamised = täielikud projektid
 2. **Meeskonna koordineerimine** - Arendajad + kliendid + partnerid
 3. **Kvaliteedi tagamine** - 30+ organisatsiooni stabiilne teenindamine
 4. **Ressursside planeerimine** - Aja ja eelarve juhtimine
 5. **Arenduskorra väljatöötamine** - Protsesside standardiseerimine
 
-#### Tugevused:
+#### Tugevused
+
 - ✅ 15+ aastat IT projekt koordineerimist
 - ✅ Tehnilised oskused (arhitektuur, andmebaasid, integratsioonid)
 - ✅ Otsene juhtimikogemus (EKA IT-osakond)

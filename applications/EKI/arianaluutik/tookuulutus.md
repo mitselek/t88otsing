@@ -8,7 +8,7 @@
 
 ---
 
-## Sinu tööks on:
+**Sinu tööks on:**
 
 - Arendusvajaduste kaardistamine koostöös ärikasutajate ja arendustiimiga
 - Ärianalüüside ja nõuete dokumentatsiooni koostamine infosüsteemide arenduse ja juurutuse toetamine
@@ -33,7 +33,7 @@ Eelise annab äriprotsesside modelleerimise (nt BPMN), nõuete analüüsi või a
 
 Hetkel töötab meie Tallinna ja Tartu kontoris kokku 96 inimest. Toetame tervislikke eluviise, soosime kaugtööd ja paindlikku tööaega. Väärtustame eesmärkidele pühendunud ennastjuhtivaid inimesi, reaalseid tulemusi ja südamega tehtud tööd.
 
-Mida me oma töötajatele pakume ja miks meiega liituda, vaata https://eki.ee/asutus/toole/
+Mida me oma töötajatele pakume ja miks meiega liituda, vaata <https://eki.ee/asutus/toole/>
 
 ## Eesti Keele Instituut
 

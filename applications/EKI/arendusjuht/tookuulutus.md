@@ -8,7 +8,7 @@
 
 ---
 
-## Sinu tööks on:
+**Sinu tööks on:**
 
 - Arendusprojektide juhtimine algusest lõpuni (sh ajakava, eelarve ja ressursside juhtimine)
 - IT arenduskorra väljatöötamine ja rakendamine
@@ -34,7 +34,7 @@ Eelise annab tarkvaraarenduse või projektijuhtimise (nt Agile, Scrum) täiendko
 
 Hetkel töötab meie Tallinna ja Tartu kontoris kokku 96 inimest. Toetame tervislikke eluviise, soosime kaugtööd ja paindlikku tööaega. Väärtustame eesmärkidele pühendunud ennastjuhtivaid inimesi, reaalseid tulemusi ja südamega tehtud tööd.
 
-Mida me oma töötajatele pakume ja miks meiega liituda, vaata https://eki.ee/asutus/toole/.
+Mida me oma töötajatele pakume ja miks meiega liituda, vaata <https://eki.ee/asutus/toole/>.
 
 ## Eesti Keele Instituut
 
