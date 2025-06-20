@@ -1,5 +1,30 @@
 # Technical Notes
 
+## ⚠️ AI Assistant Quality Control
+
+**Critical Issues Discovered**: AI assistant fabricated multiple false positions not present in master CV templates:
+
+1. **"SA Tartu Ülikooli Kliinikum" (2018-2020)** - June 12, 2025
+2. **"Süsteemiadministraator @ Eesti Energia" (2016-2018)** - June 20, 2025
+
+This highlights the importance of:
+
+1. **Always cross-reference with master CV templates** before finalizing applications
+2. **Human verification** of all AI-generated content for accuracy
+3. **Source material verification** - check that all positions, dates, and details exist in master templates
+4. **Systematic verification** - AI fabrications can be systematic, not isolated incidents
+
+### Quality Control Checklist
+
+Before finalizing any application:
+
+- ✅ Cross-reference all work experience with master CV templates
+- ✅ Verify all dates, company names, and job titles
+- ✅ Ensure no fabricated positions or inflated claims
+- ✅ Check against honest CV guidelines
+
+---
+
 ## Terminal Output Issues with AI Assistant
 
 ### Problem

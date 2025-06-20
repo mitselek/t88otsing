@@ -1,5 +1,31 @@
 # Honest CV Guidelines
 
+## ⚠️ CRITICAL CORRECTIONS MADE - AI FABRICATIONS DISCOVERED
+
+### ❌ FABRICATED POSITIONS REMOVED:
+
+1. **"SA Tartu Ülikooli Kliinikum" (2018-2020)** - Completely fabricated position with no basis in master CV templates
+   - **Impact**: Serious honesty violation that could damage credibility if discovered
+   - **Action**: Replaced with actual "Andmesanitar @ Eesti Mälu Instituut" position from master CV
+   - **Date discovered**: June 12, 2025
+
+2. **"Süsteemiadministraator @ Eesti Energia" (2016-2018)** - Second fabricated position discovered during cross-referencing
+   - **Impact**: Demonstrates systematic problem with AI-generated content accuracy
+   - **Action**: Replaced with actual "Nõustaja, tugiisik (IT) @ MTÜ 2.tants" position from master CV
+   - **Files corrected**: EKI Business Analyst and Development Manager CVs
+   - **Date discovered**: June 20, 2025
+
+**CRITICAL LESSON**: Always perform complete cross-reference verification against master CV templates. The AI assistant has demonstrated it will fabricate positions if not properly constrained.
+
+### ❌ FALSE EXPERTISE CLAIMS REMOVED:
+- **"Kogenud ärianalüütik"** → "IT spetsialist with transferable skills"
+- **"Kogenud IT projektijuht"** → "IT spetsialist seeking growth opportunities"
+- **"15+ aasta ärianalüüsi kogemus"** → Removed (false claim)
+- **Job titles corrected**: "Ärianalüütik" → "IT Spetsialist / Süsteemianalüütik"
+- **Section headers**: "Ärianalüüsi oskused" → "Ülekantavad oskused ärianalüüsiks"
+
+---
+
 ## Core Principles
 
 ### 1. Accurate Representation
