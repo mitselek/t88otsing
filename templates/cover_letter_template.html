@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{APPLICANT_NAME}} - Motivatsioonikiri - {{POSITION}}</title>
+    <link rel="stylesheet" href="styles/professional.css">
+</head>
+<body>
+    <div class="letter-header">
+        <div><strong>{{APPLICANT_NAME}}</strong></div>
+        <div>{{PHONE}} | <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></div>
+        <div>{{DATE}}</div>
+    </div>
+
+    <div class="letter-recipient">
+        <div><strong>{{RECIPIENT_TITLE}}</strong></div>
+        <div>{{ORGANIZATION}}</div>
+        {{#ADDRESS}}
+        <div>{{ADDRESS}}</div>
+        {{/ADDRESS}}
+        {{#EMAIL_RECIPIENT}}
+        <div>E-post: <a href="mailto:{{EMAIL_RECIPIENT}}">{{EMAIL_RECIPIENT}}</a></div>
+        {{/EMAIL_RECIPIENT}}
+    </div>
+
+    <div class="letter-greeting">
+        {{GREETING}}
+    </div>
+
+    {{#LETTER_PARAGRAPHS}}
+    <div class="letter-body">
+        {{PARAGRAPH}}
+    </div>
+    {{/LETTER_PARAGRAPHS}}
+
+    <div class="letter-closing">
+        {{CLOSING}}
+    </div>
+
+    <div class="signature">
+        <strong>{{APPLICANT_NAME}}</strong><br>
+        {{PHONE}}<br>
+        <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>
+    </div>
+
+    <script>
+        // Print helper
+        window.addEventListener('beforeprint', function() {
+            // Ensure single page for cover letter
+            document.body.style.fontSize = '11pt';
+        });
+    </script>
+</body>
+</html>

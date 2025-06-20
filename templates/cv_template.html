@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{FULL_NAME}} - {{POSITION}}</title>
+    <link rel="stylesheet" href="styles/professional.css">
+</head>
+<body>
+    <div class="header">
+        <h1>{{FULL_NAME}}</h1>
+        <div class="title">{{POSITION}}</div>
+        <div class="subtitle">{{SUBTITLE}}</div>
+        <div class="contact-info">
+            <strong>Sündinud:</strong> {{BIRTH_DATE}} | 
+            <strong>Telefon:</strong> {{PHONE}} | 
+            <strong>E-post:</strong> <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>
+            {{#GITHUB}}<br><strong>GitHub:</strong> <a href="{{GITHUB}}">{{GITHUB_DISPLAY}}</a>{{/GITHUB}}
+        </div>
+    </div>
+
+    {{#SUMMARY}}
+    <div class="section">
+        <h2>Kokkuvõte</h2>
+        <div class="summary">
+            {{SUMMARY}}
+        </div>
+    </div>
+    {{/SUMMARY}}
+
+    {{#EXPERIENCE}}
+    <div class="section no-break">
+        <h2>Töökogemus</h2>
+        {{#EXPERIENCE_ITEMS}}
+        <div class="experience-item no-break">
+            <div class="position-title">{{POSITION}}</div>
+            <div class="organization">{{ORGANIZATION}}</div>
+            <div class="dates">{{DATES}}</div>
+            <div class="description">
+                {{DESCRIPTION}}
+            </div>
+        </div>
+        {{/EXPERIENCE_ITEMS}}
+    </div>
+    {{/EXPERIENCE}}
+
+    {{#SKILLS}}
+    <div class="section">
+        <h2>Oskused</h2>
+        <div class="skills-grid">
+            {{#SKILL_CATEGORIES}}
+            <div class="skill-category">
+                <h4>{{CATEGORY_NAME}}</h4>
+                <ul>
+                    {{#SKILLS_LIST}}
+                    <li>{{SKILL}}</li>
+                    {{/SKILLS_LIST}}
+                </ul>
+            </div>
+            {{/SKILL_CATEGORIES}}
+        </div>
+    </div>
+    {{/SKILLS}}
+
+    {{#EDUCATION}}
+    <div class="section">
+        <h2>Haridus</h2>
+        {{#EDUCATION_ITEMS}}
+        <div class="education-item no-break">
+            <div class="position-title">{{DEGREE}}</div>
+            <div class="organization">{{INSTITUTION}}</div>
+            <div class="dates">{{DATES}}</div>
+            {{#DESCRIPTION}}
+            <div class="description">{{DESCRIPTION}}</div>
+            {{/DESCRIPTION}}
+        </div>
+        {{/EDUCATION_ITEMS}}
+    </div>
+    {{/EDUCATION}}
+
+    {{#TRAINING}}
+    <div class="section">
+        <h2>Täiendkoolitus</h2>
+        {{#TRAINING_CATEGORIES}}
+        <div class="skill-category">
+            <h4>{{CATEGORY_NAME}}</h4>
+            <ul>
+                {{#TRAINING_LIST}}
+                <li>{{TRAINING_ITEM}}</li>
+                {{/TRAINING_LIST}}
+            </ul>
+        </div>
+        {{/TRAINING_CATEGORIES}}
+    </div>
+    {{/TRAINING}}
+
+    {{#ADDITIONAL}}
+    <div class="section">
+        <h2>Lisainfo</h2>
+        <div class="description">
+            {{ADDITIONAL}}
+        </div>
+    </div>
+    {{/ADDITIONAL}}
+
+    <script>
+        // Print helper - auto-adjust for page breaks
+        window.addEventListener('beforeprint', function() {
+            // Add any print-specific adjustments here
+        });
+    </script>
+</body>
+</html>
