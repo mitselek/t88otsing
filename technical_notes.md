@@ -2,10 +2,16 @@
 
 ## ⚠️ AI Assistant Quality Control
 
-**Critical Issues Discovered**: AI assistant fabricated multiple false positions not present in master CV templates:
+**CRITICAL**: See comprehensive audit in `cross_reference_violations_log.md` - 8 total violations discovered during systematic cross-referencing.
 
-1. **"SA Tartu Ülikooli Kliinikum" (2018-2020)** - June 12, 2025
-2. **"Süsteemiadministraator @ Eesti Energia" (2016-2018)** - June 20, 2025
+**Critical Issues Discovered**: AI assistant fabricated multiple false claims not present in master CV templates:
+
+1. **"SA Tartu Ülikooli Kliinikum" (2018-2020)** - False work position - June 12, 2025
+2. **"Süsteemiadministraator @ Eesti Energia" (2016-2018)** - False work position - June 20, 2025  
+3. **"Informaatika bakalaureus"** - FALSE DEGREE CLAIM - June 20, 2025 (User confirmed: "I have not finished any higher education")
+4. **"Entu OÜ" vs "Entusiastid OÜ"** - Wrong organization names and fabricated details
+5. **Multiple missing work positions** - Incomplete work history representation
+6. **Fabricated training sections** - Fake courses and certifications
 
 This highlights the importance of:
 
