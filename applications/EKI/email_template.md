@@ -10,11 +10,13 @@
 
 Tere,
 
-Sooviksin kandideerida Eesti Keele Instituudis avatud infosüsteemide ärianalüütiku ametikohale.
+Soovin kandideerida Eesti Keele Instituudis avatud infosüsteemide ärianalüütiku ametikohale.
 
-Olen 15+ aasta kogemusega IT spetsialist, kes on viimased aastad töötanud ärianalüütiku rollis Entu andmehaldusplatvormiga, teenindades üle 30 organisatsiooni kogu Eestis. Minu igapäevane töö hõlmab täpselt neid ülesandeid, mida otsitakse: arendusvajaduste kaardistamist, äriprotsesside analüüsi, nõuete dokumenteerimist ja andmepõhist otsustamist.
+Olen 25+ aasta kogemusega IT spetsialist, kes on viimased aastad töötanud ärianalüütiku rollis Entu andmehaldusplatvormiga, teenindades üle 30 organisatsiooni kogu Eestis. Minu igapäevane töö hõlmab täpselt otsitud ülesandeid: arendusvajaduste kaardistamist, äriprotsesside analüüsi, nõuete dokumenteerimist ja andmepõhist otsustamist.
 
-Mind köidab EKI missioon eesti keele säilitamisel digitaalajastul ning võimalus panustada keeletehnoloogia arengusse.
+Mind köidab EKI missioon eesti keele säilitamisel digitaalajastul - soovin ka teie PUSA'sse.
+
+Märkus: Kandideerin samuti EKI IT arendusjuhi positsioonile, kuna minu taust sobib hästi mõlema rolliga. Olen huvitatud mõlemast ametikohast.
 
 Lisas on minu CV ja motivatsioonikiri. Olen valmis esimesel võimalusel tööle asuma ja ootan võimalust oma kandidatuuri lähemalt tutvustada.
 
@@ -35,13 +37,13 @@ Mihkel Putrinš
 
 Tere,
 
-Sooviksin kandideerida Eesti Keele Instituudis avatud IT arendusjuhi ametikohale.
+Soovin kandideerida Eesti Keele Instituudis avatud IT arendusjuhi ametikohale.
 
-Olen 15+ aasta kogemusega IT projektijuht ja süsteemiarhitekt, kes on koordineerinud Entu andmehaldusplatvorm arendust üle 30 organisatsioonis. Minu kogemus hõlmab projektide juhtimist algusest lõpuni, meeskondade koordineerimist ja kvaliteedi tagamist suuremahulistes IT süsteemides.
+Olen 15+ aasta kogemusega IT projektijuht ja süsteemiarhitekt, kes on koordineerinud Entu andmehaldusplatvormi arendust üle 30 organisatsioonis. Minu kogemus hõlmab projektide juhtimist algusest lõpuni, meeskondade koordineerimist ja kvaliteedi tagamist suuremahulistes IT süsteemides.
 
-Mind köidab võimalus juhtida keeletehnoloogia arendust - valdkond, kus tehniline täpsus ja teaduslik rangus käivad käsikäes.
+Mind köidab võimalus juhtida keeletehnoloogia arendust - soovin tulla teie PUSA'sse.
 
-Märkus: Kandideerin samuti EKI ärianalüütiku positsioonile, kuna minu taust sobib hästi mõlema rolliga. Oleksin huvitatud mõlemast ametikohast.
+Märkus: Kandideerin samuti EKI ärianalüütiku positsioonile, kuna minu taust sobib hästi mõlema rolliga. Olen huvitatud mõlemast ametikohast.
 
 Lisas on minu CV ja motivatsioonikiri. Olen valmis esimesel võimalusel tööle asuma.
 
