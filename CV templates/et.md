@@ -1,7 +1,7 @@
 # Mihkel Putrinš
 
 **Loov ja uudishimulik ideedegeneraator**  
-*Sündinud:* 3. apr 1972  
+*Sündinud:* 1972-04-03  
 *Telefon:* +372 56560978  
 *E-post:* [mihkel.putrinsh@gmail.com](mailto:mihkel.putrinsh@gmail.com)  
 *GitHub:* [github.com/mitselek](https://github.com/mitselek)  
@@ -72,7 +72,7 @@
 ### Arhitekt/analüütik/arendaja @ Entusiastid OÜ
 
 [entu.ee](https://entu.ee)  
-*09.2010 - Tänaseni*  
+*2010-09 - Tänaseni*  
 **Valdkond:** Infotehnoloogia
 
 - Peamiseks ülesandeks unistada ja fantaseerida.
@@ -93,12 +93,12 @@
 
 ### Visionäär @ OÜ Wõrgu Wõlurid
 
-*03.2000 - Tänaseni*  
+*2000-03 - Tänaseni*  
 **Valdkond:** Infotehnoloogia
 
 ### Andmesanitar @ Eesti Mälu Instituut
 
-*07.2017 - 10.2024 (7 a. ja 4 k)*  
+*2017-07 - 2024-10 (7 a. ja 4 k)*  
 **Valdkond:** Haridus / Teadus
 
 - Skännida raamatud [Memento raamatud](https://www.memento.ee/trukised/memento-raamatud) ja moodustada nende põhjal andmebaas [eMem](https://github.com/memoriaal/eMem) ning ehitada sellele veebiväljund [Memoriaal](https://www.memoriaal.ee)
@@ -107,30 +107,30 @@
 
 ### Nõustaja, tugiisik (IT) @ MTÜ 2.tants
 
-*01.2000 - 01.2023 (23 a. ja 1 k)*  
+*2000-01 - 2023-01 (23 a. ja 1 k)*  
 **Valdkond:** Kultuur / Meelelahutus
 
 - Olla käepärast ja julgustada inimesi küsima ükskõik kui rumalaid asju
 
 ### Teadustarkvara arendaja @ Tartu Ülikool
 
-*09.2014 - 12.2015 (1 a. ja 4 k)*  
+*2014-09 - 2015-12 (1 a. ja 4 k)*  
 **Valdkond:** Haridus / Teadus
 
 - [Centre of Estonian Language Resources](https://keeleressursid.ee/en/)
-- Developing language resource archiving tools for Centre of Estonian Language Resources.
-- Implementing Entu data framework.
+- Keeleressursside arhiveerimise tööriistate arendamine
+- Entu andmeraamistiku juurutamine
 
-### It-architect @ Center of Food and Fermentation Technologies
+### It-arhitekt @ Toidu Fermenteerimise Teadus Arendus Keskus
 
-*01.2013 - 01.2015 (2 a. ja 1 k)*  
+*2013-01 - 2015-01 (2 a. ja 1 k)*  
 **Valdkond:** Haridus / Teadus
 
-- Deploying Entu data management software and adjusting to science lab business needs.
+- Entu andmehalduse tarkvara juurutamine ja kohandamine teaduslabori ärivajadustele
 
 ### IT-osakonna juht @ Eesti Kunstiakadeemia
 
-*08.2009 - 08.2012 (3 a. ja 1 k)*  
+*2009-08 - 2012-08 (3 a. ja 1 k)*  
 **Valdkond:** Haridus / Teadus
 
 - IT infrastruktuurid;
@@ -142,14 +142,14 @@
 
 ### Arvutigraafik-kujundaja @ BalticWindow OY
 
-*01.1998 - 01.2010 (12 a. ja 1 k)*  
+*1998-01 - 2010-01 (12 a. ja 1 k)*  
 **Valdkond:** Turism / Hotellindus / Iluteenused
 
 - [balticeindow.fi](http://www.balticeindow.fi), paljud trükised
 
 ### IT-arendusspetsialist @ Tele2 Eesti AS
 
-*10.2006 - 06.2009 (2 a. ja 9 k)*  
+*2006-10 - 2009-06 (2 a. ja 9 k)*  
 **Valdkond:** Elektroonika / Telekommunikatsioon
 
 - Arvelduse ja kliendihaduse erilahendused
@@ -157,7 +157,7 @@
 
 ### Tarkvara arendaja @ Justiitsministeerium
 
-*10.2002 - 10.2005 (3 a. ja 1 k)*  
+*2002-10 - 2005-10 (3 a. ja 1 k)*  
 **Valdkond:** Korrakaitse / Turva / Julgeolek
 
 - Oracle JDev
@@ -166,21 +166,21 @@
 
 ### Arvutigraafik-kujundaja @ NB reklaam
 
-*01.2000 - 12.2000 (1 a.)*  
+*2000-01 - 2000-12 (1 a.)*  
 **Valdkond:** Meedia / Loomemajandus / Tõlkimine
 
 - Joonistasin klientidele ajalehekuulutusi
 
 ### Reprokoja juht @ DEN ZA DNJOM KIRJASTUS OÜ
 
-*01.1996 - 01.1999 (3 a. ja 1 k)*  
+*1996-01 - 1999-01 (3 a. ja 1 k)*  
 **Valdkond:** Meedia / Loomemajandus / Tõlkimine
 
 - Reprokoja käigushoidmine
 
 ### Tegevjuht @ Oopus-Repro AS
 
-*01.1994 - 01.1996 (2 a. ja 1 k)*  
+*1994-01 - 1996-01 (2 a. ja 1 k)*  
 **Valdkond:** Meedia / Loomemajandus / Tõlkimine
 
 - Reprokoja klientidega varustamine, tehnika korrashoid
@@ -188,7 +188,7 @@
 
 ### 3D graafika disainer @ Oopus-Disaini AS
 
-*01.1993 - 01.1995 (2 a. ja 1 k)*  
+*1993-01 - 1995-01 (2 a. ja 1 k)*  
 **Valdkond:** Turundus / Reklaam / PR
 
 - Väikefirmas täidab omanik kõiki ülesandeid
@@ -196,21 +196,21 @@
 
 ### Arendusjuht @ Oopus-Arvutite AS
 
-*01.1993 - 01.1995 (2 a. ja 1 k)*  
+*1993-01 - 1995-01 (2 a. ja 1 k)*  
 **Valdkond:** Infotehnoloogia
 
 - Väikefirmas täidab omanik kõiki ülesandeid
 
 ### projektijuht (IT) @ Soov Kirjastus OÜ
 
-*01.1993 - 01.1993 (1 k)*  
+*1993-01 - 1993-01 (1 k)*  
 **Valdkond:** Meedia / Loomemajandus / Tõlkimine
 
 - Soovilehe telefonineiudele liidesega andmebaas kuulutuste sisestamiseks ja kuulutuste töötlemine küljenduskõlblikuks
 
 ### Müügikonsultant (ehitus) @ Auma Expo
 
-*01.1992 - 01.1993 (1 a. ja 1 k)*  
+*1992-01 - 1993-01 (1 a. ja 1 k)*  
 **Valdkond:** Ehitus / Kinnisvara
 
 - Müügiagent

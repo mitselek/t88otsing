@@ -1,7 +1,7 @@
 # Mihkel Putrinš
 
 **Passion, Beauty and Joy**  
-*Born:* 01 Apr 1972  
+*Born:* 1972-04-03  
 *Phone:* +372 56560978  
 *Email:* [mihkel.putrinsh@gmail.com](mailto:mihkel.putrinsh@gmail.com)  
 *GitHub:* [github.com/mitselek](https://github.com/mitselek)  
@@ -74,7 +74,7 @@
 ### Architect/Analyst/Developer @ Entusiastid OÜ
 
 [entu.ee](https://entu.ee)  
-*Sep 2010 - Present*  
+*2010-09 - Present*  
 **Field:** Information Technology
 
 - Adapting the Entu data management platform to the specific needs of various clients (schools, museums, businesses)
@@ -84,13 +84,13 @@
 
 ### Visionary @ OÜ Wõrgu Wõlurid
 
-*Mar 2000 - Present*  
+*2000-03 - Present*  
 **Field:** Information Technology
 
 ### Data Janitor @ Eesti Mälu Instituut
 
 [mnemosyne.ee](https://mnemosyne.ee)  
-*Jul 2017 - Oct 2024 (7 y. and 4 m)*  
+*2017-07 - 2024-10 (7 y. and 4 m)*  
 **Field:** Education / Science / Research
 
 - Scanning books and creating a database
@@ -100,7 +100,7 @@
 
 ### Support Person (IT) @ MTÜ 2.tants
 
-*Jan 2000 - Jan 2023 (23 y. and 1 m)*  
+*2000-01 - 2023-01 (23 y. and 1 m)*  
 **Field:** Culture / Entertainment / Recreation
 
 - Answer the phone
@@ -109,16 +109,16 @@
 
 ### Software Developer @ Tartu Ülikool
 
-*Sep 2014 - Dec 2015 (1 y. and 4 m)*  
+*2014-09 - 2015-12 (1 y. and 4 m)*  
 **Field:** Education / Science / Research
 
 - [Centre of Estonian Language Resources](https://keeleressursid.ee/en/)
 - Developing language resource archiving tools
-- Implementing Entu data framework
+- Deploying Entu data framework
 
 ### IT-Architect @ Center of Food and Fermentation Technologies
 
-*Jan 2013 - Jan 2015 (2 y. and 1 m)*  
+*2013-01 - 2015-01 (2 y. and 1 m)*  
 **Field:** Education / Science / Research
 
 - Deploying Entu data management software
@@ -126,7 +126,7 @@
 
 ### Head of IT Department @ Eesti Kunstiakadeemia
 
-*Aug 2009 - Aug 2012 (3 y. and 1 m)*  
+*2009-08 - 2012-08 (3 y. and 1 m)*  
 **Field:** Education / Science / Research
 
 - Managed the university's IT infrastructure, including intranet, email, and internal information systems
@@ -137,7 +137,7 @@
 
 ### Computer Graphic Designer @ BalticWindow OY
 
-*Jan 1998 - Jan 2010 (12 y. and 1 m)*  
+*1998-01 - 2010-01 (12 y. and 1 m)*  
 **Field:** Tourism / Hotels
 
 - [balticwindow.fi](http://www.balticwindow.fi)
@@ -145,7 +145,7 @@
 
 ### Software Developer @ Tele2 Eesti AS
 
-*Oct 2006 - Jun 2009 (2 y. and 9 m)*  
+*2006-10 - 2009-06 (2 y. and 9 m)*  
 **Field:** Electronics / Telecommunication
 
 - Various solutions for invoicing and customer complaints
@@ -153,7 +153,7 @@
 
 ### Software Developer @ Justiitsministeerium
 
-*Oct 2002 - Oct 2005 (3 y. and 1 m)*  
+*2002-10 - 2005-10 (3 y. and 1 m)*  
 **Field:** Security
 
 - Oracle JDev
@@ -162,21 +162,21 @@
 
 ### Computer Graphic Designer @ NB reklaam
 
-*Jan 2000 - Dec 2000 (1 y.)*  
+*2000-01 - 2000-12 (1 y.)*  
 **Field:** Media / New media / Creative
 
 - Designed newspaper advertisements for clients
 
 ### Head of Repro Department @ DEN ZA DNJOM KIRJASTUS OÜ
 
-*Jan 1996 - Jan 1999 (3 y. and 1 m)*  
+*1996-01 - 1999-01 (3 y. and 1 m)*  
 **Field:** Media / New media / Creative
 
 - Repro room maintenance
 
 ### Manager @ Oopus-Repro AS
 
-*Jan 1994 - Jan 1996 (2 y. and 1 m)*  
+*1994-01 - 1996-01 (2 y. and 1 m)*  
 **Field:** Media / New media / Creative
 
 - Supplying clients for the repro room
@@ -185,28 +185,28 @@
 
 ### 3D Graphic Designer @ Oopus-Disaini AS
 
-*Jan 1993 - Jan 1995 (2 y. and 1 m)*  
+*1993-01 - 1995-01 (2 y. and 1 m)*  
 **Field:** Marketing / Advertising / PR
 
 - Logo of Liviko
 
 ### Development Manager @ Oopus-Arvutite AS
 
-*Jan 1993 - Jan 1995 (2 y. and 1 m)*  
+*1993-01 - 1995-01 (2 y. and 1 m)*  
 **Field:** Information Technology
 
 - In a small company, the owner performs all tasks
 
 ### Project Manager @ Soov Kirjastus OÜ
 
-*Jan 1993 - Jan 1993 (1 m)*  
+*1993-01 - 1993-01 (1 m)*  
 **Field:** Media / New media / Creative
 
 - Developed a database with an interface for Soov newspaper's telephone operators to input and process classified ads for layout
 
 ### Sales Agent @ Auma Expo
 
-*Jan 1992 - Jan 1993 (1 y. and 1 m)*  
+*1992-01 - 1993-01 (1 y. and 1 m)*  
 **Field:** Construction / Real Estate
 
 - Sales agent
@@ -214,7 +214,7 @@
 ### Lab Rat @ National Institute of Chemical Physics and Biophysics
 
 [kbfi.ee](https://kbfi.ee)  
-*Jan 1986 - Jan 1990 (4 y. and 1 m)*  
+*1986-01 - 1990-01 (4 y. and 1 m)*  
 **Field:** Education / Science / Research
 
 - Worked with e-coli on fed-batch fermenters for couple of years
