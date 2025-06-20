@@ -5,7 +5,7 @@
 **Organisatsioon:** Eesti Keele Instituut  
 **Asukoht:** Tallinn, Harjumaa  
 **Tööaeg:** Täistööaeg  
-**Kandideerimistähtaeg:** 7. juuli 2025  
+**Kandideerimistähtaeg:** 2025-07-07  
 
 ---
 
@@ -100,5 +100,5 @@ Cover letteris:
 
 ---
 
-*Dokument koostatud: 20. juuni 2025*  
-*Kandideerimistähtaeg: 7. juuli 2025 (17 päeva)*
+*Dokument koostatud: 2025-06-20*  
+*Kandideerimistähtaeg: 2025-07-07 (17 päeva)*

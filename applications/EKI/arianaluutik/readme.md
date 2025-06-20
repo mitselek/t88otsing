@@ -1,10 +1,11 @@
 # EKI Infosüsteemide ärianalüütik - Kandideerimisavaldus
 
 ## Ametikoht: Infosüsteemide ärianalüütik
+
 **Organisatsioon:** Eesti Keele Instituut  
 **Asukoht:** Tallinn, Harjumaa  
 **Tööaeg:** Täistööaeg  
-**Kandideerimistähtaeg:** 7. juuli 2025  
+**Kandideerimistähtaeg:** 2025-07-07  
 
 ---
 
@@ -12,7 +13,8 @@
 
 ### Miks see positsioon sobib?
 
-**SUUREPÄRANE SOBIVUS ✅**
+**SUUREPÄRANE SOBIVUS ✅**:
+
 - Entu platvorm = ärianalüüsi töö (nõuete kaardistamine, dokumenteerimine, optimeerimine)
 - 30+ organisatsiooni kogemus = stakeholder'ite juhtimine
 - Andmeanalüüsi kogemus = SQL, Excel, raportite koostamine
@@ -20,14 +22,16 @@
 
 ### Positsioneerimise strateegia
 
-#### Tugevused mis vastavad nõuetele:
+**Tugevused mis vastavad nõuetele**:
+
 1. **Arendusvajaduste kaardistamine** - Iga Entu klient algab vajaduste analüüsist
 2. **Ärianalüüside koostamine** - Töövoogude optimeerimine, tõhususe analüüs
 3. **Kasutajakogemuse parandamine** - 30+ organisatsiooni UX optimeerimine
 4. **Andmepõhine otsustamine** - SQL analüüsid, jõudluse monitooring
 5. **Dokumenteerimine** - Tehniliste spetsifikatsioonide koostamine
 
-#### Tehnilised oskused:
+**Tehnilised oskused**:
+
 - ✅ SQL, Excel, BI tööriistad
 - ✅ Andmete analüüs ja modelleerimine  
 - ✅ API integratsioonid (REST)
@@ -75,5 +79,5 @@ Cover letteris mainida:
 
 ---
 
-*Dokument koostatud: 20. juuni 2025*  
-*Kandideerimistähtaeg: 7. juuli 2025 (17 päeva)*
+*Dokument koostatud: 2025-06-20*  
+*Kandideerimistähtaeg: 2025-07-07 (17 päeva)*
