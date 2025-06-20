@@ -120,8 +120,7 @@ Before finalizing any application document:
 
 2. **Markdown Quality**
 
-   - **ALWAYS run VS Code markdown linter** after creating or modifying any markdown document
-   - Fix all linting issues (MD022, MD032, MD034, MD009, MD047, etc.)
+   - Run markdown linter and fix all formatting issues (see `technical_notes.md` for details)
    - Ensure consistent formatting and structure
 
 3. **Honesty Review**
@@ -138,6 +137,10 @@ Before finalizing any application document:
 4. Apply these honest approach guidelines
 5. Run markdown linter and fix all issues
 6. Final review against master templates for accuracy
+
+## Related Documentation
+
+- **Technical Notes** (`technical_notes.md`) - AI assistant workarounds and technical tips for workflow automation
 
 ## Context
 
