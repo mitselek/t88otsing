@@ -44,10 +44,12 @@
 ### Erialane täiendkoolitus
 
 #### [Actual Domain 1]
+
 - Course 1 actually related to this domain
 - Course 2 actually related to this domain
 
 #### [Actual Domain 2] 
+
 - Course 3 actually related to this different domain
 ```
 
@@ -55,6 +57,7 @@
 
 ```markdown
 ### Ülekantavad oskused
+
 - Frame as skills that can transfer to new domain
 - Be honest about depth of experience
 - Show learning ability and adaptability
@@ -65,6 +68,13 @@
 - Only highlight projects that genuinely relate to the target domain
 - If adapting a project description, be honest about the actual scope
 - Don't stretch technical details beyond reality
+
+### Chronological Ordering
+
+- **Always order all listings by most recent first** (reverse chronological)
+- Apply this to: work experience, education, training, projects, achievements
+- Use consistent date formatting (YYYY-MM or YYYY for clarity)
+- This helps employers quickly see your current capabilities and recent experience
 
 ## Why This Matters
 
