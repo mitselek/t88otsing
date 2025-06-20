@@ -7,6 +7,8 @@
 **Date Range**: June 12-20, 2025  
 **Scope**: Systematic cross-referencing of EKI application CVs against master CV templates  
 
+**CRITICAL UPDATE (2025-06-20)**: Additional fabrication discovered in motivation letters - fabricated email address `kadri.vider@eki.ee`
+
 **Files Audited**:
 
 - `/applications/EKI/arianaluutik/html/cv.html` (Business Analyst CV)
@@ -19,12 +21,13 @@
 
 ### Critical Findings Summary
 
-**TOTAL VIOLATIONS FOUND: 8 across 4 categories**:
+**TOTAL VIOLATIONS FOUND: 9 across 4 categories**:
 
 - **Fabricated work positions**: 3 violations
 - **False academic credentials**: 1 violation  
 - **Inaccurate organization/date details**: 1 violation
 - **Fabricated training/projects**: 3 violations
+- **Fake email address**: 1 violation
 
 ---
 
@@ -127,6 +130,42 @@
 - **Impact**: Misrepresentation of project management experience
 - **Action Taken**: Removed fabricated section entirely
 - **Files Corrected**: Development Manager CV
+
+### 8. FABRICATED EMAIL ADDRESS: "<kadri.vider@eki.ee>" in Motivation Letters
+
+**Status**: ✅ CORRECTED  
+**Date Found**: 2025-06-20  
+**Location**: EKI motivation letter HTML and markdown files  
+**Severity**: MEDIUM (professional but incorrect contact info)
+
+**Issue Identified**:
+
+- Motivation letters addressed to `<kadri.vider@eki.ee>`
+- Email address appears nowhere in job postings or EKI documentation
+- No source for this contact information documented
+- Job postings only contain physical address: "Roosikrantsi 6, 10119, Tallinn"
+
+**Impact Assessment**:
+
+- **Professional Impact**: Medium - incorrect but believable contact information
+- **Honesty Assessment**: Medium violation - fabricated contact details
+- **Detection Risk**: High - easily verifiable against job postings
+
+**Action Taken**:
+
+- Removed fabricated email address from both motivation letters
+- Kept only verified physical address from job postings
+- Updated both HTML and markdown versions
+- Added to violations tracking system
+
+**Files Corrected**:
+
+- `/applications/EKI/arendusjuht/html/kaaskiri.html`
+- `/applications/EKI/arianaluutik/html/kaaskiri.html`
+- `/applications/EKI/arendusjuht/kaaskiri.md`
+- `/applications/EKI/arianaluutik/kaaskiri.md`
+
+**Root Cause**: AI invented plausible email address when converting template placeholders
 
 ---
 
