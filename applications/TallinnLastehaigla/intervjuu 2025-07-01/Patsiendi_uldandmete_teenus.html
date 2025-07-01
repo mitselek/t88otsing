@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Patsiendi Üldandmete Teenus (PÜT)</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+</head>
+<body>
+<h1 id="patsiendi-%C3%BCldandmete-teenus-p%C3%BCt">Patsiendi Üldandmete Teenus (PÜT)</h1>
+<p><strong>Kuupäev:</strong> 1. juuli 2025<br>
+<strong>Kontekst:</strong> UpTIS komponendi dokumentatsioon</p>
+<hr>
+<h2 id="%C3%BClevaade">Ülevaade</h2>
+<p>Patsiendi Üldandmete Teenus (PÜT) on osa uue põlvkonna tervise infosüsteemist (UpTIS), mis lahendab patsiendi üldandmete (nimi, aadress, telefon, e-post jms) killustumise ja kvaliteediprobleemid tervisevaldkonnas.</p>
+<h2 id="praegune-probleem">Praegune probleem</h2>
+<h3 id="andmete-killustatus">Andmete killustatus</h3>
+<ul>
+<li><strong>Erinevad süsteemid:</strong> Haiglad, perearstid, eriarstikeskused, hambaravikliinikud koguvad andmeid eraldi</li>
+<li><strong>Vormingu puudumine:</strong> Ühtseid nõudeid kogutud andmete vormingu kohta ei ole</li>
+<li><strong>Uuendamise probleem:</strong> Puuduvad reeglid andmete ajakohastamiseks</li>
+<li><strong>Vananenud andmed:</strong> Infosüsteemides suur hulk aegunud üldandmeid</li>
+</ul>
+<h3 id="kvaliteediprobleemid">Kvaliteediprobleemid</h3>
+<ul>
+<li><strong>Erinevad andmed:</strong> Sama isiku kohta erinev info eri süsteemides</li>
+<li><strong>Korduv kogumine:</strong> Sama infot kogutakse korduvalt</li>
+<li><strong>Puudulikud andmed:</strong> Info eestkoste, hooldusõiguse, töövõimekao kohta puudub</li>
+</ul>
+<h2 id="p%C3%BCt-lahendus">PÜT lahendus</h2>
+<h3 id="eesm%C3%A4rgid">Eesmärgid</h3>
+<ul>
+<li><strong>Ühtsed üldandmed:</strong> Kõikides tervisevaldkonna lahendustes sama info</li>
+<li><strong>Ajakohasus:</strong> Regulaarne andmete uuendamine</li>
+<li><strong>Kvaliteet:</strong> Parem andmekvaliteet tervishoiuteenuse osutamiseks</li>
+<li><strong>Efektiivsus:</strong> Aja kokkuhoid sisestamise ja otsimise arvelt</li>
+</ul>
+<h3 id="uued-v%C3%B5imalused">Uued võimalused</h3>
+<ul>
+<li><strong>Eestkoste info:</strong> Automaatne eestkoste andmete saamine</li>
+<li><strong>Hooldusõigus:</strong> Hooldusõiguse info kättesaadavus</li>
+<li><strong>Töövõimekao andmed:</strong> Töövõime info automaatne edastamine</li>
+<li><strong>Puuete info:</strong> Puuete andmete kättesaadavus</li>
+</ul>
+<h2 id="tehnilised-lahendused">Tehnilised lahendused</h2>
+<h3 id="andmeallikad">Andmeallikad</h3>
+<p>PÜT suhtleb järgmiste riiklike andmekogudega:</p>
+<ul>
+<li><strong>Siseministeerium</strong> (rahvastikuregister)</li>
+<li><strong>Sotsiaalkindlustusamet</strong> (töövõimekadu, puuded)</li>
+<li><strong>Töötukassa</strong> (tööhõive andmed)</li>
+<li><strong>Maksu- ja Tolliamet</strong> (maksualased andmed)</li>
+<li><strong>Maa-amet</strong> (aadressi andmed)</li>
+</ul>
+<h3 id="andmete-alglaadimine">Andmete alglaadimine</h3>
+<ul>
+<li><strong>Rahvastikuregister:</strong> Eesti isikukoodi omavate isikute algandmed</li>
+<li><strong>Operatiivne lahendus:</strong> Kiire ja hästi skaleeruv süsteem</li>
+<li><strong>Regulaarne uuendamine:</strong> Muudatuspäringud andmete ajakohana hoidmiseks</li>
+</ul>
+<h3 id="andmete-rikastamine">Andmete rikastamine</h3>
+<ul>
+<li><strong>Tervishoiuasutustelt saadav info:</strong> Telefonid, e-post, lisaaadressid</li>
+<li><strong>Vastastikune täiendamine:</strong> PÜT saab täiendada ka rahvastikuregistri andmeid</li>
+<li><strong>Kahesuunaline andmevahetus:</strong> Mitte ainult tarbimine, vaid ka andmine</li>
+</ul>
+<h2 id="kasutegur-erinevate-osapoolte-jaoks">Kasutegur erinevate osapoolte jaoks</h2>
+<h3 id="patsiendile">Patsiendile</h3>
+<ul>
+<li><strong>Parem kontakt:</strong> Kvaliteetsem suhtlus tervishoiuteenuse osutajatega</li>
+<li><strong>Automaatsus:</strong> Ei pea korduvalt sama infot andma</li>
+<li><strong>Ajakohasus:</strong> Andmed on alati värskemad</li>
+</ul>
+<h3 id="tervishoiuteenuse-osutajale">Tervishoiuteenuse osutajale</h3>
+<ul>
+<li><strong>Kvaliteetsem andmetöötlus:</strong> Täpsemad ja ajakohasemad andmed</li>
+<li><strong>Aja kokkuhoid:</strong> Vähem käsitsi sisestamist ja otsimist</li>
+<li><strong>Lisainfo:</strong> Eestkoste, hooldusõiguse, puuete info automaatselt</li>
+<li><strong>Töövoo efektiivsus:</strong> Vähem bürokraatiat</li>
+</ul>
+<h3 id="tervises%C3%BCsteemile">Tervisesüsteemile</h3>
+<ul>
+<li><strong>Üleüldine andmekvaliteet:</strong> Ajakohasem info kõikides süsteemides</li>
+<li><strong>Standardiseerimine:</strong> Ühtsed andmevahetuspõhimõtted</li>
+<li><strong>Automatiseerimine:</strong> Vähem käsitsi töötlemist</li>
+</ul>
+<h2 id="tehnilised-materjalid">Tehnilised materjalid</h2>
+<h3 id="arendajatele">Arendajatele</h3>
+<ul>
+<li><strong>Juurutusjuhend:</strong> <a href="https://fhir.ee/ImplementationGuide/mpi/index.html">fhir.ee/ImplementationGuide/mpi/</a></li>
+<li><strong>Protsessi analüüs:</strong> <a href="https://pub.e-tervis.ee/manuals/Patsiendi%20%C3%BCldandmete%20teenuse%20anal%C3%BC%C3%BCs/1">Patsiendi üldandmete teenuse analüüs</a></li>
+</ul>
+<h3 id="hl7-fhir-integratsioon">HL7 FHIR integratsioon</h3>
+<ul>
+<li>PÜT kasutab HL7 FHIR standardit andmevahetuseks</li>
+<li>Vastab UpTIS üldistele arhitektuuripõhimõtetele</li>
+<li>Toetab mikroteenuste arhitektuuri</li>
+</ul>
+<h2 id="seos-uptis-iga">Seos UpTIS-iga</h2>
+<p>PÜT on üks UpTIS-i põhikomponente, mis:</p>
+<ul>
+<li>Realiseerib &quot;andmete ühekordse küsimise&quot; põhimõtet</li>
+<li>Toetab reaalajas andmevahetust</li>
+<li>Vähendab andmete dubleerimist</li>
+<li>Parandab kogu süsteemi andmekvaliteeti</li>
+</ul>
+<hr>
+<p><strong>Märkus:</strong> PÜT on konkreetne näide sellest, kuidas UpTIS lahendab praktilisi probleeme tervisevaldkonnas, ühendades erinevaid riiklikke andmekogu ja tagades patsiendi üldandmete kvaliteedi.</p>
+<p><em>Allikas: <a href="https://www.tehik.ee/patsiendi-uldandmete-teenus">TEHIK Patsiendi üldandmete teenus</a></em></p>
+
+</body>
+</html>

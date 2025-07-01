@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TEHIK E-tervise IT-lahenduste Arendamise Põhimõtted</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+</head>
+<body>
+<h1 id="tehik-e-tervise-it-lahenduste-arendamise-p%C3%B5him%C3%B5tted">TEHIK E-tervise IT-lahenduste Arendamise Põhimõtted</h1>
+<p><strong>Kuupäev:</strong> 1. juuli 2025<br>
+<strong>Allikas:</strong> TEHIK (viimati uuendatud veebruar 2024)</p>
+<p>TEHIKu e-tervise arhitektuuripaneel kasutab neid põhimõtteid lahenduste hindamisel. Need on soovituslikud kõikidele tervisesüsteemi tarkvara arendajatele.</p>
+<hr>
+<h2 id="%C3%A4rilised-p%C3%B5him%C3%B5tted">Ärilised põhimõtted</h2>
+<h3 id="kasutajakeskne-l%C3%A4henemine">Kasutajakeskne lähenemine</h3>
+<ul>
+<li><strong>Kasutajakeskne disain</strong> (User Centered Design Thinking)</li>
+<li><strong>Protsessianalüüs:</strong> Kohustuslik kooskõlastatud protsessianalüüsi dokument</li>
+<li><strong>Avalike süsteemide läbipaistvus:</strong> Avalike infosüsteemide protsessianalüüsi tuleb publitseerida</li>
+</ul>
+<h3 id="once-only-printsiibi-j%C3%A4rgimine">Once-Only printsiibi järgimine</h3>
+<ul>
+<li><strong>Andmete ühekordne küsimine:</strong> Vältida dubleerivat andmete kogumist</li>
+<li><strong>Andmete taaskasutamine:</strong> Juba kogutud andmete kasutamine teiste süsteemide poolt</li>
+<li><strong>Liidestuslepingud:</strong> Prognoosida kasutusmaht ja sõlmida lepingud</li>
+</ul>
+<h3 id="%C3%B5iguslik-alus-ja-andmekvaliteet">Õiguslik alus ja andmekvaliteet</h3>
+<ul>
+<li><strong>Õiguslik alus:</strong> Iga terviseandmete töötlemise jaoks vajalik</li>
+<li><strong>Andmekvaliteedi kontroll:</strong> Koheselt uute teenuste käivitamisel</li>
+<li><strong>Kontrolli asukoht:</strong> Võimalikult allika lähedal, ideaalis sisestamisel</li>
+</ul>
+<h3 id="mittefunktsionaalsed-n%C3%B5uded-mfn">Mittefunktsionaalsed nõuded (MFN)</h3>
+<ul>
+<li><strong>E-ITS nõuded:</strong> Vastavus e-riigi IT-süsteemide nõuetele</li>
+<li><strong>Riskianalüüs:</strong> Kohustuslik kõikide lahenduste jaoks</li>
+<li><strong>Käideldavus:</strong> Süsteemi töökindluse tagamine</li>
+<li><strong>Süsteemi autonoomsus:</strong> Sõltumatus teistest süsteemidest</li>
+</ul>
+<h3 id="integratsioon-ja-migratsioon">Integratsioon ja migratsioon</h3>
+<ul>
+<li><strong>Olemasolevate lahenduste hindamine:</strong> Integratsioon või migratsioon</li>
+<li><strong>Sujuv üleminek:</strong> Kasutajate jaoks häireteta siirdumine</li>
+<li><strong>Selged eesmärgid:</strong> Igal komponendil peab olema selge eesmärk</li>
+</ul>
+<h3 id="%C3%BChine-infov%C3%A4li">Ühine infoväli</h3>
+<ul>
+<li><strong>Sündmuspõhine andmevahetus:</strong> Andmed TIS-i kohe loomise hetkel</li>
+<li><strong>Automaatne jagamine:</strong> Kasutaja ei pea eraldi toiminguid tegema</li>
+<li><strong>Teisene kasutus:</strong> Dokumenteeritud protsessid ja ligipääsupoliitika</li>
+</ul>
+<hr>
+<h2 id="koosv%C3%B5ime-p%C3%B5him%C3%B5tted">Koosvõime põhimõtted</h2>
+<h3 id="rahvusvahelised-standardid">Rahvusvahelised standardid</h3>
+<ul>
+<li><strong>HL7 FHIR (Fast Healthcare Interoperability Resources):</strong> Primaarne terviseandmete andmevahetusstandard</li>
+<li><strong>FHIR ressursid:</strong> Dokumenteeritud kasutatavad ressursid/profiilid</li>
+<li><strong>HL7 Estonia:</strong> Soovitame kasutada kohalikke profiile</li>
+</ul>
+<h3 id="terminoloogiad-ja-klassifikaatorid">Terminoloogiad ja klassifikaatorid</h3>
+<ul>
+<li><strong>Rahvusvahelised koodisüsteemid:</strong> SNOMED CT, LOINC, ICD, ATC</li>
+<li><strong>Standarditud terminoloogiad:</strong> Ühtsed kodeerimistavad</li>
+</ul>
+<h3 id="andmevahetus">Andmevahetus</h3>
+<ul>
+<li><strong>X-tee:</strong> Riiklike andmekogudega suhtlemisel kohustuslik</li>
+<li><strong>REST API:</strong> Soovituslik uute teenuste jaoks</li>
+<li><strong>API-first lähenemine:</strong> Liidese dokumenteerimine enne arendust</li>
+<li><strong>Test-driven development:</strong> Testide kirjutamine enne arendust</li>
+</ul>
+<hr>
+<h2 id="tehnilised-p%C3%B5him%C3%B5tted">Tehnilised põhimõtted</h2>
+<h3 id="arhitektuur">Arhitektuur</h3>
+<ul>
+<li><strong>Mikroteenused:</strong> Monoliitlahenduste asemel
+<ul>
+<li>Üks teenus = üks äriprobleem</li>
+<li>Vähesed omavahelised sõltuvused</li>
+<li>Sõltumatu paigaldus ja uuendamine</li>
+<li>Kõrg-käideldavus ja testimine</li>
+</ul>
+</li>
+</ul>
+<h3 id="kasutajaliides">Kasutajaliides</h3>
+<ul>
+<li><strong>Mikroesitluskiht:</strong> Komponentide põhine lähenemine</li>
+<li><strong>WCAG nõuded:</strong> Ligipääsetavuse tagamine</li>
+<li><strong>VEERA disainisüsteem:</strong> Riigi ühine disainisüsteem</li>
+</ul>
+<h3 id="pilvek%C3%B5lbulikkus">Pilvekõlbulikkus</h3>
+<ul>
+<li><strong>Skaleeritavus:</strong> Koormuse kasvuga toimetulek</li>
+<li><strong>Vastupidavus:</strong> Vigade suhtes vastupidav</li>
+<li><strong>Jälgitavus:</strong> Monitooring ja logide haldus</li>
+<li><strong>Automatiseerimine:</strong> Automatiseeritud protsessid</li>
+<li><strong>Turvalisus:</strong> Pidev turvanõuete täitmine</li>
+</ul>
+<h3 id="tehnoloogiate-valik">Tehnoloogiate valik</h3>
+<ul>
+<li><strong>Töökindlad lahendused:</strong> Eelistatult vabavaralised</li>
+<li><strong>Eesti kompetents:</strong> Kohalik arendus- ja halduskompetents</li>
+<li><strong>Vendor lock-in vältimine:</strong> Sõltuvuse vähendamine ühest tarnijast</li>
+</ul>
+<h3 id="andmete-k%C3%A4itlemine">Andmete käitlemine</h3>
+<ul>
+<li><strong>Täielik eksport/import:</strong> Andmete liikuvus tagatud</li>
+<li><strong>Isikupõhine eksport:</strong> GDPR nõuete täitmine</li>
+<li><strong>Dokumenteeritud andmemudel:</strong> Migratsiooniks ja sekundaarseks kasutuseks</li>
+</ul>
+<h3 id="kvaliteedi-tagamine">Kvaliteedi tagamine</h3>
+<ul>
+<li><strong>Automaatsed koodikontrollid:</strong> CI/CD pipeline'is</li>
+<li><strong>Automatiseeritud testid:</strong> Osa arendustsüklist</li>
+<li><strong>Protsessimootor:</strong> Camunda või Flowable töövoogude jaoks</li>
+<li><strong>Korduvkasutatavad komponendid:</strong> Riigi koodivaramu kasutamine</li>
+</ul>
+<h3 id="monitooring-ja-auditeeritavus">Monitooring ja auditeeritavus</h3>
+<ul>
+<li><strong>OpenTelemetry standard:</strong> Monitooringu jaoks</li>
+<li><strong>Audit logi:</strong> Eraldatud muudest logidest</li>
+<li><strong>Andmejälgija liides:</strong> eesti.ee portaalile</li>
+<li><strong>Toimingute jälgimine:</strong> Kes, millal, kelle andmetega</li>
+</ul>
+<h3 id="turvalisus">Turvalisus</h3>
+<ul>
+<li><strong>Turvakaalutlused:</strong> Projekteerimisel kohe arvestatud</li>
+<li><strong>Turvatestid:</strong> Välise osapoole poolt enne toodangusse minekut</li>
+<li><strong>TARA integratsioon:</strong> Turvaline autentimine</li>
+<li><strong>Turbevead:</strong> Kõik vead parandatud enne käivitamist</li>
+</ul>
+<h3 id="dokumentatsioon">Dokumentatsioon</h3>
+<ul>
+<li><strong>Arhitektuuridokument:</strong> Süsteemi ülesehitus</li>
+<li><strong>Integratsioonide kirjeldus:</strong> Liidestuste dokumenteerimine</li>
+<li><strong>Andmemudel:</strong> Andmestruktuuride kirjeldus</li>
+<li><strong>Paigaldusjuhend:</strong> Tehnilise paigalduse instruktsioonid</li>
+<li><strong>Ajakohasus:</strong> Dokumentatsiooni pidev uuendamine</li>
+</ul>
+<h3 id="terviseportaali-integratsioon">Terviseportaali integratsioon</h3>
+<ul>
+<li><strong>Patsiendi vaade:</strong> Andmete kuvamine riiklikus terviseportaalis</li>
+<li><strong>Tervisejuhtimise töölaud:</strong> Tervishoiutöötajate andmevaatur</li>
+<li><strong>Planeerimise kohustus:</strong> Enne arenduse alustamist visandada</li>
+</ul>
+<hr>
+<p><strong>Märkus:</strong> Need põhimõtted on kohustuslikud TEHIK arhitektuuripaneeli hindamisel. Kõikidele teistele on need soovituslikud, kuid soovitatavad parimate praktikate järgimiseks.</p>
+<p><em>Allikas: <a href="https://www.tehik.ee/e-tervise-it-lahenduste-arendamise-pohimotted">TEHIK E-tervise IT-lahenduste arendamise põhimõtted</a></em></p>
+
+</body>
+</html>

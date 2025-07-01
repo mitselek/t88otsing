@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tallinna Lastehaigla - Taustainfo IT Juhi Intervjuuks</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+</head>
+<body>
+<h1 id="tallinna-lastehaigla---taustainfo-it-juhi-intervjuuks">Tallinna Lastehaigla - Taustainfo IT Juhi Intervjuuks</h1>
+<p><strong>Kuupäev:</strong> 1. juuli 2025<br>
+<strong>Intervjuu positsioon:</strong> IT osakonna juhataja</p>
+<hr>
+<h2 id="p%C3%B5hiinfo-organisatsioonist">Põhiinfo organisatsioonist</h2>
+<h3 id="ametlik-nimetus-ja-staatus">Ametlik nimetus ja staatus</h3>
+<ul>
+<li><strong>SA Tallinna Lastehaigla</strong> (sihtasutus)</li>
+<li><strong>Registrikood:</strong> 90006590</li>
+<li><strong>TP kood:</strong> 100309</li>
+<li><strong>Asukoht:</strong> Tervise 2, 13419 Tallinn</li>
+</ul>
+<h3 id="praegune-olukord">Praegune olukord</h3>
+<ul>
+<li><strong>153 voodikohta</strong></li>
+<li><strong>797 töötajat</strong> (130 arsti, 300 õde)</li>
+<li><strong>Aastas 165 000 ambulatoorset vastuvõttu</strong></li>
+<li><strong>Üle 6000 operatsiooni aastas</strong></li>
+<li><strong>Ligi 400 last intensiivraviosakonnas aastas</strong></li>
+</ul>
+<h2 id="organisatsiooni-struktuur">Organisatsiooni struktuur</h2>
+<h3 id="kliinikud-ja-osakonnad">Kliinikud ja osakonnad</h3>
+<ol>
+<li>
+<p><strong>Pediaatriakliinik</strong> (juhataja: Liis Tõnisberg)</p>
+<ul>
+<li>Erakorralise meditsiini ja ägedate infektsioonide osakond</li>
+<li>Pediaatriaosakond</li>
+<li>Neuroloogia ja taastusravi osakond</li>
+<li>Vastsündinute ja imikute osakond</li>
+<li>Hematoloogia ja onkoloogia osakond</li>
+</ul>
+</li>
+<li>
+<p><strong>Kirurgiakliinik</strong></p>
+</li>
+<li>
+<p><strong>Anestesioloogia ja intensiivravi kliinik</strong> (A1, 4. korrus)</p>
+</li>
+<li>
+<p><strong>Diagnostikakliinik</strong></p>
+</li>
+<li>
+<p><strong>Laste Vaimse Tervise Keskus</strong> (C1)</p>
+</li>
+<li>
+<p><strong>Kesklinna Lastepolikliinik</strong> (Ravi 27)</p>
+</li>
+</ol>
+<h3 id="teenistused-pediaatriakliinikus">Teenistused pediaatriakliinikus</h3>
+<ul>
+<li>Allergoloogiateenistus</li>
+<li>Endokrinoloogiateenistus</li>
+<li>Kardioloogiateenistus</li>
+<li>Reumatoloogiateenistus</li>
+</ul>
+<h2 id="teenused-ja-erialad">Teenused ja erialad</h2>
+<h3 id="ravierialad">Ravierialad</h3>
+<ul>
+<li><strong>27 eriala</strong> kokku</li>
+<li>Teeninduspiirkond: Põhja-Eesti, Kesk-Eesti, Lääne-Eesti</li>
+<li><strong>Patsiendigrupp:</strong> 0-16 eluaastat (vajadusel kuni 19. eluaastani)</li>
+<li><strong>Regionaalhaigla staatus</strong></li>
+</ul>
+<h3 id="praktika-ja-%C3%B5ppet%C3%B6%C3%B6">Praktika ja õppetöö</h3>
+<ul>
+<li>Praktikabaas Tartu Ülikoolile</li>
+<li>Praktikabaas Tallinna Tervishoiu kõrgkoolile</li>
+<li>Residentuuri baas ülikooli lõpetanud arstidele</li>
+</ul>
+<h2 id="praegused-muudatused-ja-projektid">Praegused muudatused ja projektid</h2>
+<h3 id="renoveerimisprojekt-2025">Renoveerimisprojekt (2025)</h3>
+<ul>
+<li><strong>Kestus:</strong> Kuni september 2025 (keskpaik)</li>
+<li><strong>Mõju:</strong> Peaukse A1 sissepääs suletud</li>
+<li><strong>Ajutine lahendus:</strong> Sisenemine polikliiniku sissepääsu A7 kaudu</li>
+<li><strong>Infopunkt:</strong> Polikliiniku registratuuris</li>
+<li><strong>Tööaeg muudatused:</strong> Polikliiniku sissepääs A7 avatud kella 20.00-ni</li>
+</ul>
+<h3 id="patsienditeenused">Patsienditeenused</h3>
+<h4 id="vastuv%C3%B5tuaja-broneerimine">Vastuvõtuaja broneerimine</h4>
+<ul>
+<li><strong>Telefon:</strong> 697 7200</li>
+<li><strong>Tööaeg:</strong> E-R kell 8-16</li>
+<li><strong>Digitaalne:</strong> Terviseportaali kaudu</li>
+<li><strong>E-post tühistamiseks:</strong> [email protected]</li>
+</ul>
+<h4 id="patsiendid-ja-k%C3%BClastajad">Patsiendid ja külastajad</h4>
+<ul>
+<li><strong>Infoliin:</strong> 697 7113 (E-R 8-16)</li>
+<li><strong>Üldkontakt:</strong> [email protected]</li>
+</ul>
+<h2 id="it-ga-seotud-m%C3%A4rkused">IT-ga seotud märkused</h2>
+<h3 id="digitaalsed-teenused">Digitaalsed teenused</h3>
+<ul>
+<li><strong>Terviseportaal:</strong> Aktiivselt kasutusel ajabroneerimisel</li>
+<li><strong>Robot:</strong> Tööle võetud teisel korrusel navigeerimiseks</li>
+<li><strong>Navigatsioonisüsteem:</strong> Põrandatähistused ja viidad</li>
+</ul>
+<h3 id="erakordsed-lahendused-renoveerimise-ajal">Erakordsed lahendused renoveerimise ajal</h3>
+<ul>
+<li>Patsientide liikumistee tähistamine</li>
+<li>EMO patsiendid kasutavad väikest lifti nr 2</li>
+<li>Väljumine pärast kella 20:00 EMO või traumapunkti uksest</li>
+</ul>
+<h2 id="koost%C3%B6%C3%B6partnerid-ja-v%C3%B5rgustik">Koostööpartnerid ja võrgustik</h2>
+<h3 id="riiklikud-s%C3%BCsteemid">Riiklikud süsteemid</h3>
+<ul>
+<li><strong>TEHIK</strong> - riiklike süsteemide haldaja</li>
+<li><strong>Terviseportaal</strong> - aktiivne kasutamine</li>
+</ul>
+<h3 id="regionaalne-koost%C3%B6%C3%B6">Regionaalne koostöö</h3>
+<ul>
+<li>Teised regionaalhaiglad</li>
+<li>Rahvusvahelised kontaktid ja konsultatsioonid</li>
+</ul>
+<h3 id="hiljutised-kohtumised">Hiljutised kohtumised</h3>
+<ul>
+<li><strong>11. juuni 2025:</strong> Sotsiaalminister Karmen Joller külastus</li>
+<li>Arutati laste ravi regionaalset järjepidevust</li>
+<li>Tallinna Lastehaigla roll regionaalse haiglana</li>
+</ul>
+<h2 id="t%C3%A4iendav-kontakt-info">Täiendav kontakt info</h2>
+<h3 id="personaliosakond">Personaliosakond</h3>
+<ul>
+<li><strong>Personalijuht:</strong> Katrin Ligi</li>
+<li><strong>Telefon:</strong> 587 51233</li>
+<li><strong>E-post:</strong> [email protected]</li>
+</ul>
+<h3 id="toetusfond">Toetusfond</h3>
+<ul>
+<li><strong>Tallinna Lastehaigla Toetusfond:</strong> &lt;www.toetusfond.ee&gt;</li>
+</ul>
+<hr>
+<p><strong>Märkus:</strong> Info kogutud avalikest allikatest 1. juulil 2025. Kõik andmed on kinnitatud ametlikult veebilehelt &lt;www.lastehaigla.ee&gt;</p>
+
+</body>
+</html>

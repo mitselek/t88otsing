@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>UpTIS – Uue põlvkonna tervise infosüsteem</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+</head>
+<body>
+<h1 id="uptis-%E2%80%93-uue-p%C3%B5lvkonna-tervise-infos%C3%BCsteem">UpTIS – Uue põlvkonna tervise infosüsteem</h1>
+<p><strong>UpTIS</strong> (Uue põlvkonna Tervise Infosüsteem) on Eesti riigi uus keskne terviseandmete platvorm, mida arendab TEHIK. UpTIS-i eesmärk on muuta terviseandmete haldus, vahetus ja kasutamine turvalisemaks, paindlikumaks ja kasutajasõbralikumaks nii patsientidele, tervishoiutöötajatele kui ka riigile.</p>
+<h2 id="projekti-praegune-staatus-2025">Projekti praegune staatus (2025)</h2>
+<ul>
+<li><strong>Etapp:</strong> Sisulise planeerimise ja tehnilise uuendamise faas</li>
+<li><strong>Eesmärk:</strong> Tervise infosüsteemi arenguhüpe ja kvalitatiivne tasemehüpe</li>
+<li><strong>Põhimõte:</strong> Dokumendipõhiselt süsteemilt reaalajas andmevahetusele üleminek</li>
+</ul>
+<h2 id="olulised-m%C3%A4rks%C3%B5nad">Olulised märksõnad</h2>
+<ul>
+<li><strong>Andmete ühtne vaade:</strong> Kõik patsiendi terviseandmed on koondatud ühtu kohta, võimaldades paremat ülevaadet ja kiiremat otsustamist.</li>
+<li><strong>Reaalajas andmevahetus:</strong> Süsteem toetab reaalajas andmevahetust erinevate tervishoiuasutuste ja riiklike infosüsteemide vahel.</li>
+<li><strong>Moodulipõhine arhitektuur:</strong> UpTIS on üles ehitatud moodulitena, mis võimaldab paindlikku arendust ja lihtsat liidestamist teiste süsteemidega.</li>
+<li><strong>HL7 FHIR standard:</strong> Uus andmevahetus baseerub HL7 FHIR standardil, mis võimaldab väiksemaid, paindlikumaid teenuseid</li>
+<li><strong>Turvalisus ja privaatsus:</strong> Rõhk on andmete turvalisel töötlemisel ja GDPR-i nõuete järgimisel.</li>
+<li><strong>Kasutajakesksus:</strong> Lihtsamad töövood arstidele ja patsiendisõbralikumad digiteenused.</li>
+<li><strong>Andmete ühekordne küsimine:</strong> Minimeeritakse dubleerivate ja tervisega mitteseonduvate andmete kogumist</li>
+</ul>
+<h2 id="tehnilised-p%C3%B5him%C3%B5tted">Tehnilised põhimõtted</h2>
+<h3 id="hl7-fhir-andmevahetusstandard">HL7 FHIR andmevahetusstandard</h3>
+<ul>
+<li><strong>Reaalajas andmevahetus:</strong> Dokumendipõhiselt süsteemilt reaalajas andmevahetusele</li>
+<li><strong>Väiksemad andmegrupid:</strong> Suurte andmevahetusstandardite asemel väiksemad, paindlikumad teenused</li>
+<li><strong>Euroopa ühilduvus:</strong> Toetab piiriülest andmevahetust EL-is</li>
+<li><strong>Lihtne juurutamine:</strong> Hea dokumentatsioon ja testimisvõimalused</li>
+</ul>
+<h3 id="klassifikaatorid-ja-terminoloogia">Klassifikaatorid ja terminoloogia</h3>
+<ul>
+<li>Klassifikaatorite ja terminoloogia haldamise süsteemi loomine</li>
+<li>Kaasaegne teabekeskus senise publitseerimiskeskuse asemele</li>
+<li>Põhjalikum TIS andmekoosseisu avaldamine</li>
+</ul>
+<h2 id="p%C3%B5hieesm%C3%A4rgid">Põhieesmärgid</h2>
+<h3 id="tervishoiut%C3%B6%C3%B6tajatele">Tervishoiutöötajatele</h3>
+<ul>
+<li>Rollipõhine andmete ligipääs</li>
+<li>Dokumenteerimispõhimõtete uuendamine tööprotsesside toetamiseks</li>
+<li>Rohkem aega ravitööle ja inimlikule kontaktile</li>
+<li>Mugav, turvaline ja efektiivne andmete kasutamine</li>
+</ul>
+<h3 id="patsientidele">Patsientidele</h3>
+<ul>
+<li>Lihtne, kiire ja arusaadav ülevaade terviseloost</li>
+<li>Otsuste tegemist toetav informatsioon</li>
+<li>Personaalsed teenused</li>
+</ul>
+<h3 id="s%C3%BCsteemiarendajatele">Süsteemiarendajatele</h3>
+<ul>
+<li>Lihtsam tervishoiu tarkvarasüsteemide arendamine</li>
+<li>Selged ja arusaadavad standardite juurutusjuhendid</li>
+<li>Paindlikum õigusruum uute tehnoloogiate kiiremaks kasutuselevõtuks</li>
+</ul>
+<h2 id="visuaalne-skeem-uptis-roll-tervise-infos%C3%BCsteemide-%C3%B6kos%C3%BCsteemis">Visuaalne skeem: UpTIS roll tervise infosüsteemide ökosüsteemis</h2>
+<div style="border: 1px solid #ccc; padding: 20px; margin: 20px 0; background-color: #f9f9f9;">
+<table style="width: 100%; border-collapse: collapse; margin: 0 auto;">
+<tr>
+<td style="text-align: center; padding: 10px; border: 1px solid #ddd; background-color: #e3f2fd;" colspan="2">
+<strong>Kasutajad</strong><br>
+• Patsient / Perekond<br>
+• Arst / Med. personal
+</td>
+</tr>
+<tr>
+<td style="text-align: center; padding: 10px; border: 1px solid #ddd; background-color: #fff3e0;" colspan="2">
+↓ Andmed, ligipääs, sisestus ↓
+</td>
+</tr>
+<tr>
+<td colspan="2" style="text-align: center; padding: 15px; border: 2px solid #2196f3; background-color: #bbdefb; font-weight: bold; font-size: 18px;">
+UpTIS<br>
+<small>(Uue põlvkonna tervise infosüsteem)</small>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; padding: 10px; border: 1px solid #ddd; background-color: #fff3e0;" colspan="2">
+↓ Andmevahetus (HL7 FHIR) ↓
+</td>
+</tr>
+<tr>
+<td style="text-align: center; padding: 10px; border: 1px solid #ddd; background-color: #e8f5e8;">
+<strong>Tervishoiusüsteemid</strong><br>
+• Haigla infosüsteem<br>
+• Laborisüsteem<br>
+• Radioloogiasüsteem
+</td>
+<td style="text-align: center; padding: 10px; border: 1px solid #ddd; background-color: #f3e5f5;">
+<strong>Riiklikud süsteemid</strong><br>
+• TEHIK riiklikud süsteemid<br>
+• Terviseportaal<br>
+• AI/Analüütika platvormid<br>
+• Terminoloogia keskus
+</td>
+</tr>
+</table>
+</div>
+<h2 id="koost%C3%B6%C3%B6partnerid">Koostööpartnerid</h2>
+<ul>
+<li><strong>Sotsiaalministeerium</strong></li>
+<li><strong>Tervisekassa</strong></li>
+<li><strong>Kõik tervisesüsteemi huvipoolte esindajad</strong> (kliiniline, poliitikakujunduse ja tehniline vaade)</li>
+</ul>
+<p><em>Allikas: <a href="https://www.tehik.ee/uue-polvkonna-tervise-infosusteem-uptis">TEHIK – UpTIS</a></em></p>
+
+</body>
+</html>

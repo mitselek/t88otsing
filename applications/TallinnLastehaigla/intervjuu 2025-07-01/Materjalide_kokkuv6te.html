@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Intervjuu ettevalmistuse materjalide kokkuvõte</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+</head>
+<body>
+<h1 id="intervjuu-ettevalmistuse-materjalide-kokkuv%C3%B5te">Intervjuu ettevalmistuse materjalide kokkuvõte</h1>
+<p><strong>Positsioon:</strong> IT-osakonna juht<br>
+<strong>Organisatsioon:</strong> Tallinna Lastehaigla<br>
+<strong>Intervjuu kuupäev:</strong> 1. juuli 2025<br>
+<strong>Koostatud:</strong> Jaan 2025</p>
+<h2 id="ettevalmistatud-materjalid">Ettevalmistatud materjalid</h2>
+<h3 id="1-uptis-uue-p%C3%B5lvkonna-tervise-infos%C3%BCsteem">1. UpTIS (Uue põlvkonna Tervise Infosüsteem)</h3>
+<p><strong>Fail:</strong> <code>UpTIS_kokkuvõte.md</code><br>
+<strong>Sisu:</strong></p>
+<ul>
+<li>UpTIS projekti üldine kirjeldus ja eesmärgid</li>
+<li>Hetke staatus (planeerimine/tehnilise uuendamise faas)</li>
+<li>HL7 FHIR standardid ja tehniline arhitektuur</li>
+<li>Visuaalne skeem süsteemi arhitektuurist</li>
+<li>Seosed teiste riiklike süsteemidega</li>
+<li>Konkreetsed eesmärgid erinevate kasutajagruppide jaoks</li>
+</ul>
+<h3 id="2-terviseportaal">2. Terviseportaal</h3>
+<p><strong>Fail:</strong> <code>Terviseportaal_kokkuvõte.md</code><br>
+<strong>Sisu:</strong></p>
+<ul>
+<li>Põhifunktsioonid ja kasutajagrupid</li>
+<li>Tehnilised integratsioonid (ainult kinnitatud allikad)</li>
+<li>Visuaalne skeem süsteemi ökosüsteemist</li>
+<li>Turvalisus ja andmekaitse</li>
+<li>Praktilised kasutusjuhud</li>
+<li>Kõik lingid kontrollitud ja töökorras</li>
+</ul>
+<h3 id="3-tallinna-lastehaigla-taustainfo">3. Tallinna Lastehaigla taustainfo</h3>
+<p><strong>Fail:</strong> <code>Lastehaigla_taustainfo.md</code><br>
+<strong>Sisu:</strong></p>
+<ul>
+<li>Organisatsiooni struktuur ja juhtkond</li>
+<li>Kliinilised osakonnad ja teenused</li>
+<li>Hetke renoveerimisprojekt</li>
+<li>Kontaktandmed ja asukoht</li>
+<li>Statistilised näitajad</li>
+<li>Strateegilised eesmärgid</li>
+</ul>
+<h3 id="4-tehik-arendusp%C3%B5him%C3%B5tted">4. TEHIK arenduspõhimõtted</h3>
+<p><strong>Fail:</strong> <code>TEHIK_arenduspohimotted.md</code><br>
+<strong>Sisu:</strong></p>
+<ul>
+<li>Ärilised põhimõtted (kasutajakeskne disain, Once-Only printsiip)</li>
+<li>Koosvõime põhimõtted (HL7 FHIR, standardid)</li>
+<li>Tehnilised põhimõtted (mikroteenused, pilvekõlblikkus)</li>
+<li>Praktiline rakendamine IT-juhtimisel</li>
+<li>Viited ametlikele dokumentidele</li>
+</ul>
+<h3 id="5-patsiendi-%C3%BCldandmete-teenus-p%C3%BCt">5. Patsiendi üldandmete teenus (PÜT)</h3>
+<p><strong>Fail:</strong> <code>Patsiendi_uldandmete_teenus.md</code><br>
+<strong>Sisu:</strong></p>
+<ul>
+<li>PÜT kui UpTIS-i konkreetne komponent</li>
+<li>Probleemide lahendamine andmekvaliteedis</li>
+<li>Tehnilised lahendused ja integratsioonid</li>
+<li>Praktilised eelised tervishoiuasutustele</li>
+<li>Visuaalne skeem PÜT arhitektuurist</li>
+</ul>
+<h2 id="peamised-teemad-intervjuuks">Peamised teemad intervjuuks</h2>
+<h3 id="strateegilised-aspektid">Strateegilised aspektid</h3>
+<ul>
+<li>UpTIS ja selle mõju Tallinna Lastehaiglale</li>
+<li>Terviseportaali integratsioon haigla süsteemidega</li>
+<li>IT-arenduste planeerimine vastavalt TEHIK põhimõtetele</li>
+</ul>
+<h3 id="tehnilised-aspektid">Tehnilised aspektid</h3>
+<ul>
+<li>HL7 FHIR standardite rakendamine</li>
+<li>Mikroteenuste arhitektuur</li>
+<li>X-tee integratsioonid</li>
+<li>Andmeturva ja privaatsus</li>
+</ul>
+<h3 id="praktilised-aspektid">Praktilised aspektid</h3>
+<ul>
+<li>Töötajate koolituse vajadused</li>
+<li>Süsteemide migratsioon ja integratsioon</li>
+<li>Projektijuhtimine IT-uuendustes</li>
+<li>Budjetiplaneerimine ja ressursside haldus</li>
+</ul>
+<h2 id="kinnitatud-allikad">Kinnitatud allikad</h2>
+<p>Kõik materjalid põhinevad ametlikel allikatel:</p>
+<ul>
+<li><strong>TEHIK:</strong> <a href="https://www.tehik.ee/">https://www.tehik.ee/</a></li>
+<li><strong>Terviseportaal:</strong> <a href="https://www.terviseportaal.ee/">https://www.terviseportaal.ee/</a></li>
+<li><strong>Tallinna Lastehaigla:</strong> <a href="https://lastehaigla.ee/">https://lastehaigla.ee/</a></li>
+<li><strong>HL7 Estonia:</strong> <a href="https://fhir.ee/">https://fhir.ee/</a></li>
+<li><strong>E-tervis:</strong> <a href="https://pub.e-tervis.ee/">https://pub.e-tervis.ee/</a></li>
+</ul>
+<h2 id="soovitused-intervjuuks">Soovitused intervjuuks</h2>
+<h3 id="enne-intervjuud">Enne intervjuud</h3>
+<ol>
+<li>Vaata üle kõik viis dokumenti</li>
+<li>Keskendu eriti UpTIS-le ja TEHIK põhimõtetele</li>
+<li>Mõtle läbi konkreetsed näited, kuidas rakendada neid põhimõtteid Tallinna Lastehaiglas</li>
+</ol>
+<h3 id="intervjuu-ajal">Intervjuu ajal</h3>
+<ul>
+<li>Kasuta konkreetseid näiteid dokumentidest</li>
+<li>Maini TEHIK-i arenduspõhimõtteid</li>
+<li>Rõhuta HL7 FHIR standardite tähtsust</li>
+<li>Näita üles teadlikkust UpTIS projektist</li>
+</ul>
+<h3 id="v%C3%B5imalikud-k%C3%BCsimused">Võimalikud küsimused</h3>
+<ul>
+<li>&quot;Kuidas näete UpTIS-i mõju meie haiglale?&quot;</li>
+<li>&quot;Millised on peamised väljakutsed tervise-IT integratsioonides?&quot;</li>
+<li>&quot;Kuidas planeeriksite TEHIK põhimõtete rakendamist?&quot;</li>
+<li>&quot;Mis on teie kogemus HL7 FHIR standarditega?&quot;</li>
+</ul>
+<hr>
+<p><strong>Märkus:</strong> Kõik materjalid on kontrollitud ja põhinevad ainult kinnitatud, viidatavatel allikatel. Ebaselged või tuleviku integratsioonid on eemaldatud või selgelt märgitud.</p>
+
+</body>
+</html>

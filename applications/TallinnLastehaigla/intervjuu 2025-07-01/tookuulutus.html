@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+<meta charset="UTF-8">
+<title>IT osakonna juhataja - Tallinna Lastehaigla SA</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 0 26px;
+	line-height: 22px;
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: #333;
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+</head>
+<body>
+<h1 id="it-osakonna-juhataja">IT osakonna juhataja</h1>
+<h2 id="tallinna-lastehaigla-sa">Tallinna Lastehaigla SA</h2>
+<p><strong>Allikas:</strong> <a href="https://www.cvkeskus.ee/it-osakonna-juhataja-tallinnas-tallinna-lastehaigla-sa-974532">https://www.cvkeskus.ee/it-osakonna-juhataja-tallinnas-tallinna-lastehaigla-sa-974532</a><br>
+<strong>Kuulutus sisestatud:</strong> 04.06.2025<br>
+<strong>Aegub:</strong> 22.06.2025<br>
+<strong>Asukoht:</strong> Tallinn, Harjumaa<br>
+<strong>Töö tüüp:</strong> Täistööaeg<br>
+<strong>Lisainfo:</strong> Palgatöötaja</p>
+<h2 id="t%C3%B6%C3%B6-kirjeldus">Töö kirjeldus</h2>
+<p>IT osakonna juhataja juhib lähtudes lastehaigla eesmärkidest IT valdkonna arengut, sh planeerib ja korraldab igapäevast IT osakonna tööd, arendab ja juhendab tiimi, juhib valdkondliku strateegia, tegevuskavade koostamist ja elluviimist, vastutab valdkondliku eelarve planeerimise ja täitmise eest, juhib valdkondlikke hankeid ja teeb koostööd asjaomaste partneritega nii majasiseselt kui ka väljapoole. IT osakonna juhataja on juhtimises usaldusväärne partner, et tagada koostöös kaasaegsed IT-lahendused ja valdkonna areng üle organisatsiooni.</p>
+<p>Kandidaadil palun esitada CV ja motivatsioonikiri ning nägemus kaasaegsest ettevaatavast IT valdkonna arenguvõimalustest tervishoiusüsteemis (A4).</p>
+<h2 id="ootused-kandidaadile">Ootused kandidaadile</h2>
+<ul>
+<li>Erialane kõrgharidus;</li>
+<li>vähemalt viieaastane valdkondlik töökogemus ja kolmeaastane juhtimiskogemus;</li>
+<li>edasiviiv ja uuendusmeelne mõtlemine, muudatuste juhtimise oskus;</li>
+<li>eesmärgile ja tulemustele orienteeritus;</li>
+<li>meeskonna kaasamise ja motiveerimise oskus;</li>
+<li>suurepärane suhtlemise ja läbirääkimise võime, sh oskus selgitada tehnilisi teemasid erinevatele sihtrühmadele;</li>
+<li>riigihangete alased teadmised.</li>
+</ul>
+<h2 id="ettev%C3%B5te-pakub">Ettevõte pakub</h2>
+<ul>
+<li>Missiooniga tööd;</li>
+<li>võimalust tõsta haigla IT valdkonna võimekust;</li>
+<li>asjatundlikku ja toetavat meeskonda;</li>
+<li>väljakutseid ja eneseteostust juhtimises ning enesearengus;</li>
+<li>lisapuhkust seitse kalendripäeva;</li>
+<li>väärilist töötasu ja mitmekesist motivatsioonipaketti, sh spordi-tervisekulude hüvitamist (Stebby).</li>
+</ul>
+<h2 id="ettev%C3%B5tte-info">Ettevõtte info</h2>
+<p><strong>Tallinna Lastehaigla SA</strong> on juhtiv tervishoiuasutus Eestis, kes koondab valdkondlikud kompetentsikeskused ja osutab lastele ravi ligi 30 erialal. Lastehaigla pakub laiapõhjalist ja perekeskset eriarstiabi ning teeb aktiivset koostööd rahvusvaheliste õppe- ja teaduskeskustega. Aastas saab lastehaiglast abi 150 000 kuni 18-aastast last ja noort.</p>
+<h2 id="lisateave">Lisateave</h2>
+<p><strong>Kontaktisik:</strong> Katrin Ligi, personalijuht<br>
+<strong>Telefon:</strong> 587 51233<br>
+<strong>E-post:</strong> <a href="mailto:personal@lastehaigla.ee">personal@lastehaigla.ee</a></p>
+<h2 id="kandideerida-saab-l%C3%A4bi-cv-keskuse">Kandideerida saab läbi CV Keskuse</h2>
+
+</body>
+</html>
