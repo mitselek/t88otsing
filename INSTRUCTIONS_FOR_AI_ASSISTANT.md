@@ -22,6 +22,7 @@
 - Use phrases like "estimated," "approximately," "based on research"
 - Mark unverified information clearly
 - Provide source links for all external information
+- **Check `.ai_docs` folder** before creating any content
 - Ask for clarification when information is missing
 
 ---
@@ -62,6 +63,24 @@
     ├── cover_letter_template.html  # HTML template for cover letters
     └── styles/                     # CSS styling
 ```
+
+### The `.ai_docs` Folder - Quality Control System
+
+**Purpose:** Track and prevent fabrications in AI-generated application materials
+
+```text
+.ai_docs/
+├── cross_reference_violations_log.md    # Detailed audit of 9 AI fabrications found
+├── honest_cv_guidelines.md              # Comprehensive truthfulness guidelines  
+├── motivation_letters_audit_log.md      # Specific letter audit findings
+└── technical_notes.md                   # Technical documentation & workarounds
+```
+
+**Usage:**
+
+- **MANDATORY:** Check these files before creating ANY application materials
+- Contains detailed examples of past AI fabrications to avoid
+- Provides specific guidelines for honest content creation
 
 ---
 
@@ -109,10 +128,10 @@
 
 ### Personal Information
 
-- **Only use verified skills** and experience
-- **Realistic timeframes** for project estimates
-- **Honest capability assessments**
-- **No inflated achievements**
+- **Cross-reference with `.ai_docs/honest_cv_guidelines.md`** for detailed guidance
+- Only use verified skills and experience
+- Realistic timeframes for project estimates
+- No inflated achievements
 
 ---
 
@@ -167,49 +186,47 @@ _Source: [Official source name](URL)_
 
 ## 📊 QUALITY CONTROL CHECKLIST
 
+**⚠️ CRITICAL:** Always check `.ai_docs/` folder first - contains detailed audit of 9 AI fabrications discovered.
+
 ### Before Creating Any Document
 
+- [ ] **Cross-reference with `.ai_docs/honest_cv_guidelines.md`**
 - [ ] All facts verified against official sources
 - [ ] No unsubstantiated claims
-- [ ] All links tested and working
 - [ ] Proper source attribution
 - [ ] Realistic estimates and timelines
-- [ ] No conflicting information
 
 ### Before PDF Export
 
 - [ ] HTML validates without errors
 - [ ] No JavaScript or external dependencies
-- [ ] CSS variables replaced with static values
 - [ ] UTF-8 encoding properly set
 - [ ] Test PDF export successful
 
 ### Before Submission
 
-- [ ] Final fact-check of all claims
+- [ ] **Final cross-check against `.ai_docs/cross_reference_violations_log.md`**
 - [ ] Spelling and grammar review
-- [ ] Consistent formatting throughout
 - [ ] All required files present
-- [ ] Professional presentation
 
 ---
 
 ## 🚨 RED FLAGS TO AVOID
+
+**See `.ai_docs/cross_reference_violations_log.md` for specific examples of past fabrications.**
 
 ### Content Red Flags
 
 - Unverified statistics or market data
 - Claims about company internal information not publicly available
 - Technical capabilities not actually possessed
-- Timeline commitments without proper assessment
-- Budget figures without basis in reality
+- **Any content not cross-referenced with `.ai_docs/` files**
 
 ### Technical Red Flags
 
 - Broken links in final documents
 - 0-byte PDF exports (usually JavaScript/CSS issues)
 - Missing or corrupted characters in Estonian text
-- Inconsistent formatting between documents
 - External dependencies that may fail
 
 ---
@@ -219,15 +236,13 @@ _Source: [Official source name](URL)_
 ### When to Ask for Clarification
 
 - Missing personal information needed for applications
-- Conflicting information from different sources
-- Technical requirements beyond current knowledge
-- Budget or timeline estimates requested
 - Any uncertainty about factual accuracy
+- Technical requirements beyond current knowledge
 
 ### How to Handle Uncertainty
 
+- **Check `.ai_docs/` files first** for similar situations
 - **Be explicit about limitations:** "This requires verification"
-- **Suggest research sources:** "You may want to check with..."
 - **Use qualifying language:** "Based on available information..."
 - **Never guess or fabricate** missing information
 
