@@ -1,0 +1,275 @@
+# Job Application Assistant - Instructions & Guidelines
+
+**Created:** July 4, 2025  
+**Purpose:** Documentation for AI assistant working with Mihkel Putrinš's job applications  
+**Critical Requirement:** TRUTH AND ACCURACY - No lies, half-truths, or unverified claims
+
+---
+
+## 🎯 CORE PRINCIPLE: TRUTH AND FACTS ONLY
+
+### ❌ NEVER DO
+
+- Make up statistics, dates, or technical details
+- Claim experience or skills not actually possessed
+- Invent company information or project details
+- Create fake references or achievements
+- Exaggerate capabilities or timeline estimates
+
+### ✅ ALWAYS DO
+
+- Verify all facts against official sources
+- Use phrases like "estimated," "approximately," "based on research"
+- Mark unverified information clearly
+- Provide source links for all external information
+- Ask for clarification when information is missing
+
+---
+
+## 📁 FOLDER STRUCTURE
+
+```text
+/home/michelek/Documents/tööotsing/
+├── applications/                    # Individual job applications
+│   ├── CompanyName/
+│   │   ├── cv.md                   # Tailored CV for this position
+│   │   ├── kaaskiri.md             # Cover letter in Estonian
+│   │   ├── cover_letter.md         # Cover letter in English
+│   │   ├── readme.md               # Application summary & notes
+│   │   ├── tookuulutus.md          # Original job posting
+│   │   └── [additional files]      # Company research, etc.
+│   └── TallinnLastehaigla/
+│       ├── intervjuu 2025-07-01/   # Interview preparation materials
+│       │   ├── UpTIS_kokkuvõte.md
+│       │   ├── Terviseportaal_kokkuvõte.md
+│       │   ├── TEHIK_arenduspohimotted.md
+│       │   ├── Patsiendi_uldandmete_teenus.md
+│       │   ├── Lastehaigla_taustainfo.md
+│       │   ├── Materjalide_kokkuvõte.md
+│       │   ├── IT_Visioon_Kokkuvõte_A4.md
+│       │   └── [HTML versions for PDF export]
+│       └── [standard application files]
+├── CV templates/                    # Base CV templates
+│   ├── en.md                       # English template
+│   └── et.md                       # Estonian template
+├── cover letters/                   # Cover letter templates
+│   ├── en_software.md              # English software role template
+│   ├── en_billing.md               # English billing role template
+│   ├── et_tarkvara.md              # Estonian software role template
+│   └── et_tootmisjuht.md           # Estonian production manager template
+└── templates/                       # Conversion utilities
+    ├── cv_template.html            # HTML template for CV
+    ├── cover_letter_template.html  # HTML template for cover letters
+    ├── convert.sh                  # Conversion script
+    └── styles/                     # CSS styling
+```
+
+---
+
+## 📝 TEMPLATE SYSTEM
+
+### Base Templates
+
+- **CV Templates:** Located in `CV templates/` - base versions that get customized per application
+- **Cover Letter Templates:** Located in `cover letters/` - role-specific templates
+- **HTML Templates:** Located in `templates/` - for PDF conversion
+
+### Template Customization Process
+
+1. **Copy base template** to specific company folder
+2. **Customize content** for the specific role and company
+3. **Verify all claims** - ensure everything is truthful
+4. **Create HTML version** for PDF export if needed
+5. **Test PDF conversion** to ensure formatting works
+
+### HTML File Standards
+
+- **No JavaScript dependencies** (causes PDF export issues)
+- **No external resources** (CSS, fonts, images from CDNs)
+- **Static CSS only** with standard web fonts
+- **Proper UTF-8 encoding** for Estonian characters
+- **A4 print optimization** when needed
+
+---
+
+## 🔍 RESEARCH AND VERIFICATION REQUIREMENTS
+
+### Company Research
+
+- **Official websites only** for company information
+- **Verify all links** before including them
+- **Mark research date** to indicate freshness
+- **Cross-reference** information from multiple sources when possible
+
+### Technical Information
+
+- **Government websites** for Estonian IT systems (TEHIK, e-Estonia)
+- **Official documentation** for technical standards (HL7 FHIR, etc.)
+- **No speculation** about future developments unless clearly marked
+- **Version dates** for all technical references
+
+### Personal Information
+
+- **Only use verified skills** and experience
+- **Realistic timeframes** for project estimates
+- **Honest capability assessments**
+- **No inflated achievements**
+
+---
+
+## 🎨 DOCUMENT FORMATTING STANDARDS
+
+### Markdown Files
+
+```markdown
+# Title
+
+**Meta information:** Date, purpose, etc.
+**Source:** Official link when applicable
+
+## Sections with clear hierarchy
+
+- Bullet points for lists
+- **Bold** for emphasis
+- `Code formatting` for technical terms
+- [Links with descriptive text](URL)
+
+_Source: [Official source name](URL)_
+```
+
+### HTML Files
+
+- Clean, semantic HTML5
+- Inline CSS only (no external dependencies)
+- Proper `<title>` tags
+- UTF-8 charset declaration
+- Print-friendly styling
+- Accessible design (WCAG guidelines)
+
+---
+
+## 🏥 TALLINNA LASTEHAIGLA SPECIFIC GUIDELINES
+
+### Interview Preparation Materials
+
+- **All technical information** must be from official TEHIK sources
+- **Current status only** - no speculation about future developments
+- **Realistic timelines** and budget estimates
+- **Honest capability assessments**
+
+### Vision Document Guidelines
+
+- **Conservative estimates** for all metrics and timelines
+- **Phrase uncertainties clearly:** "estimated," "approximately," "pending audit"
+- **Reference industry standards** rather than making up benchmarks
+- **Realistic budget figures** based on market research
+
+---
+
+## 📊 QUALITY CONTROL CHECKLIST
+
+### Before Creating Any Document
+
+- [ ] All facts verified against official sources
+- [ ] No unsubstantiated claims
+- [ ] All links tested and working
+- [ ] Proper source attribution
+- [ ] Realistic estimates and timelines
+- [ ] No conflicting information
+
+### Before PDF Export
+
+- [ ] HTML validates without errors
+- [ ] No JavaScript or external dependencies
+- [ ] CSS variables replaced with static values
+- [ ] UTF-8 encoding properly set
+- [ ] Test PDF export successful
+
+### Before Submission
+
+- [ ] Final fact-check of all claims
+- [ ] Spelling and grammar review
+- [ ] Consistent formatting throughout
+- [ ] All required files present
+- [ ] Professional presentation
+
+---
+
+## 🚨 RED FLAGS TO AVOID
+
+### Content Red Flags
+
+- Unverified statistics or market data
+- Claims about company internal information not publicly available
+- Technical capabilities not actually possessed
+- Timeline commitments without proper assessment
+- Budget figures without basis in reality
+
+### Technical Red Flags
+
+- Broken links in final documents
+- 0-byte PDF exports (usually JavaScript/CSS issues)
+- Missing or corrupted characters in Estonian text
+- Inconsistent formatting between documents
+- External dependencies that may fail
+
+---
+
+## 📞 ESCALATION GUIDELINES
+
+### When to Ask for Clarification
+
+- Missing personal information needed for applications
+- Conflicting information from different sources
+- Technical requirements beyond current knowledge
+- Budget or timeline estimates requested
+- Any uncertainty about factual accuracy
+
+### How to Handle Uncertainty
+
+- **Be explicit about limitations:** "This requires verification"
+- **Suggest research sources:** "You may want to check with..."
+- **Use qualifying language:** "Based on available information..."
+- **Never guess or fabricate** missing information
+
+---
+
+## 🔄 MAINTENANCE AND UPDATES
+
+### Regular Updates Required
+
+- Government website links (TEHIK, etc.)
+- Technical documentation versions
+- Company information freshness
+- Template effectiveness review
+
+### Version Control
+
+- Mark creation/modification dates on all files
+- Keep source information for all external content
+- Document any significant changes or updates
+- Maintain backup of working versions
+
+---
+
+## 📋 SUCCESS METRICS
+
+### Quality Indicators
+
+- Zero factual errors in submitted applications
+- Successful PDF conversions for all documents
+- Positive feedback on document quality
+- Efficient application preparation process
+
+### Process Efficiency
+
+- Reduced time for document creation
+- Consistent formatting across applications
+- Reusable research and templates
+- Streamlined verification process
+
+---
+
+**Remember:** Better to have a simpler, truthful document than an impressive one built on false claims. Integrity is more valuable than perceived expertise.
+
+**Contact for Questions:** Mihkel Putrinš | <mihkel.putrinsh@gmail.com> | +372 56560978
