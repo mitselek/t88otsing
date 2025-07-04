@@ -60,7 +60,6 @@
 └── templates/                       # Conversion utilities
     ├── cv_template.html            # HTML template for CV
     ├── cover_letter_template.html  # HTML template for cover letters
-    ├── convert.sh                  # Conversion script
     └── styles/                     # CSS styling
 ```
 
