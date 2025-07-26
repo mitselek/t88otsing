@@ -145,7 +145,7 @@
 *1998-01 - 2010-01 (12 a. ja 1 k)*  
 **Valdkond:** Turism / Hotellindus / Iluteenused
 
-- [balticeindow.fi](http://www.balticeindow.fi), paljud trükised
+- [balticwindow.fi](http://www.balticwindow.fi), paljud trükised
 
 ### IT-arendusspetsialist @ Tele2 Eesti AS
 
@@ -206,7 +206,7 @@
 *1993-01 - 1993-01 (1 k)*  
 **Valdkond:** Meedia / Loomemajandus / Tõlkimine
 
-- Soovilehe telefonineiudele liidesega andmebaas kuulutuste sisestamiseks ja kuulutuste töötlemine küljenduskõlblikuks
+- Soovilehe telefonineiudele liidesega andmebaas kuulutuste sisestamiseks ja kuulutuste automaatne töötlemine küljenduskõlblikuks
 
 ### Müügikonsultant (ehitus) @ Auma Expo
 
@@ -285,35 +285,13 @@ Euroopa Nõukogu keeleoskussüsteemi enesehindamisskaala
 
 ---
 
-## Soovitud ametikoht
-
-### Energeetika / Loodusvarad
-
-- Projektijuht, Tootedisainer, Analüütik, Arendaja, prototüüpija, leidur
-
-## Töö liik
-
-- Palgatöötaja, Lepinguline, Ajutine, Praktika
-
-## Töö aeg
-
-- Täistööaeg, Osaline tööaeg, Vabakutseline
-
-## Asukohad
-
-- Tallinn
-- Harjumaa
-- Kaugtöö
-
----
-
 ## Täiendkoolitused
 
 ### MikroTik Certified Network Associate
 
 **BCS / Eesti**  
 *2025*  
-[https://mikrotik.com/training/certificates/c435725c169688618b68](https://mikrotik.com/training/certificates/c435725c169688618b68)
+[Mikrotik MTCNA No. c435725c169688618b68](https://mikrotik.com/training/certificates/c435725c169688618b68)
 
 ### Using UML in Object-oriented Analysis and Design
 

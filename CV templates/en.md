@@ -292,34 +292,13 @@ Common European Framework of Reference for Languages
 
 ---
 
-## Desired Position
-
-### Electronics / Telecommunication
-
-- Product designer, Analyst, Developer, IT-architect, Software engineer, System analyst, Mechatronics Engineer, Hardware Engineer
-
-## Work Type
-
-- Employee, Contract worker, Temporary, Placement student
-
-## Working Time
-
-- Full-time, Part-time, Freelance
-
-## Locations
-
-- Estonia
-- Remote work
-
----
-
 ## Advanced Training
 
 ### MikroTik Certified Network Associate
 
 **BCS / Estonia**  
 *2025*  
-[https://mikrotik.com/training/certificates/c435725c169688618b68](https://mikrotik.com/training/certificates/c435725c169688618b68)
+[Mikrotik MTCNA No. c435725c169688618b68](https://mikrotik.com/training/certificates/c435725c169688618b68)
 
 ### Using UML in Object-oriented Analysis and Design
 
