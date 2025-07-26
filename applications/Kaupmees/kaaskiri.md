@@ -17,11 +17,11 @@ Sepise 7, 11415 Tallinn
 
 Lugupeetud värbamismeeskond,
 
-Kandideerun teie e-äri spetsialisti ametikohale, sest näen selles suurepärast võimalust panustate oma 15-aastase IT-kogemusega Eesti juhtiva toitlustussektori ettevõtte e-äri arengusse.
+Kandideerin teie e-äri spetsialisti ametikohale, sest näen suurepärast võimalust panustada oma 15-aastase IT-kogemusega Eesti juhtiva toitlustussektori ettevõtte e-äri arengusse.
 
 ## Miks sobiks teie meeskonda
 
-**B2B süsteemide kogemus**: Olen töötanud Entu andmehaldusplatvormiga, mis teenindab üle 30 organisatsiooni - raamatukogusid, muuseume ja äriettevõtteid. See on andnud mulle sügava arusaama B2B keskkondade vajadustest ja väljakutsetest.
+**B2B süsteemide kogemus**: Olen töötanud Entu andmehaldusplatvormiga, mis teenindab üle 30 organisatsiooni - raamatukogusid, muuseume, äri- ja teadusettevõtteid. See on andnud mulle sügava arusaama B2B keskkondade vajadustest ja väljakutsetest.
 
 **Süsteemide migratsioon**: Eesti Kunstiakadeemias juhtisin kogu ülikooli e-mailisüsteemi üleminekut Google Mail'ile ja ehitasin üles 700+ kasutajaga kampusvõrgu. Saan aru, kuivõrd oluline on hoolikas planeerimine ja kasutajate toetamine suurte tehniliste muudatuste käigus.
 
@@ -31,7 +31,7 @@ Kandideerun teie e-äri spetsialisti ametikohale, sest näen selles suurepärast
 
 ## Motivatsioon ja õppimisvalmisolek
 
-E-kaubandus on valdkond, mis mind tõeliselt huvitab. Kuigi mul on tugev IT-taust, mõistan, et igal valdkonnal on oma spetsiifilised nõuded ja parimad tavad. Olen valmis kiiresti omandama uusi ärisüsteeme, olgu selleks Dynamics 365, SAP või mõni muu kaasaegne e-kaubanduse platvorm, millele MS Dynamics AX-ist üle minnakse. Samuti süvendama oma teadmisi SEO ning digiturunduse valdkonnas.
+E-kaubandus on valdkond, mis mind tõeliselt huvitab. Mul on tugev IT-taust; mõistan, et igal valdkonnal on oma spetsiifilised nõuded ja parimad tavad. Olen valmis kiiresti omandama uusi ärisüsteeme, olgu selleks Dynamics 365, SAP või mõni muu kaasaegne e-kaubanduse platvorm, millele MS Dynamics AX-ist üle minnakse. Samuti süvendama oma teadmisi SEO ning digiturunduse valdkonnas.
 
 Teie kuulutuses mainitud B2B tellimiskeskkonna kolimine uuele platvormile on täpselt selline väljakutus, mis mind köidab - see nõuab nii tehnilist analüüsi, hoolikat planeerimist kui ka kasutajate toetamist muutuste käigus.
 

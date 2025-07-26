@@ -6,10 +6,11 @@
 ## Company Contact Details
 
 **Main Office:**
+
 - **Address**: Sepise 7, Tallinn 11415 (Tominga maja, Ülemiste City)
 - **Phone**: +372 681 11 11
 - **Hours**: E-R 7-17:30, L-P 8-14 (Mon-Fri 7-17:30, Sat-Sun 8-14)
-- **General Email**: klienditugi@kaupmees.ee
+- **General Email**: <klienditugi@kaupmees.ee>
 
 ## Departments
 
@@ -21,7 +22,7 @@
 **Other departments** (specific contacts not publicly listed):
 
 - Müügiosakond (Sales)
-- Ostuosakond (Purchasing)  
+- Ostuosakond (Purchasing)
 - Turundusosakond (Marketing)
 - Raamatupidamine (Accounting)
 - Juhtkond (Management)
@@ -42,11 +43,10 @@
 
 ## Notes
 
-- ✅ **HR contact found**: personal@kaupmees.ee, +372 681 1150
+- ✅ **HR contact found**: <personal@kaupmees.ee>, +372 681 1150
 - CVKeskus application remains the recommended primary route
 - Direct HR contact available for follow-up or alternative submission
 - Phone contact during business hours (E-R 7-17:30, L-P 8-14)
 
 ---
-
-*Contact information collected: July 26, 2025*
+> *Contact information collected: July 26, 2025*
