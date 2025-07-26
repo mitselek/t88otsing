@@ -24,6 +24,7 @@
 - Provide source links for all external information
 - **Check `.ai_docs` folder** before creating any content
 - Ask for clarification when information is missing
+- **Use icons extremely conservatively** - prefer plain text over decorative symbols
 
 ---
 
