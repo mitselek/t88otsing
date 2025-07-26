@@ -3,7 +3,7 @@
 **Loov ja uudishimulik ideedegeneraator**  
 *Sündinud:* 1972-04-03  
 *Telefon:* +372 56560978  
-*E-post:* [mihkel.putrinsh@gmail.com](mailto:mihkel.putrinsh@gmail.com)  
+*E-post:* [mitselek@gmail.com](mailto:mitselek@gmail.com)  
 *GitHub:* [github.com/mitselek](https://github.com/mitselek)  
 
 ---

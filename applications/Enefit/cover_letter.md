@@ -17,4 +17,4 @@ Thank you for considering my application.
 Sincerely,  
 **Mihkel Putrinš**  
 +372 56560978  
-[mihkel.putrinsh@gmail.com](mailto:mihkel.putrinsh@gmail.com)
+[mitselek@gmail.com](mailto:mitselek@gmail.com)

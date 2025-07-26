@@ -1,6 +1,6 @@
 # Speechify - My Reply
 
-**From:** Mihkel Putrinš <mihkel.putrinsh@gmail.com>  
+**From:** Mihkel Putrinš <mitselek@gmail.com>  
 **Date:** 12 Apr 2024, 09:17  
 **To:** Cliff, Sahlie  
 **Subject:** Re: Partnership Opportunity at Speechify  

@@ -3,7 +3,7 @@
 **IT Spetsialist / Süsteemiadministraator**  
 *Sündinud:* 3. apr 1972  
 *Telefon:* +372 56560978  
-*E-post:* [mihkel.putrinsh@gmail.com](mailto:mihkel.putrinsh@gmail.com)  
+*E-post:* [mitselek@gmail.com](mailto:mitselek@gmail.com)  
 
 ---
 

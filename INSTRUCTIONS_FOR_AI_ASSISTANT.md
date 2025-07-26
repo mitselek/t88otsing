@@ -100,6 +100,54 @@
 4. **Create HTML version** for PDF export if needed
 5. **Test PDF conversion** to ensure formatting works
 
+---
+
+## 🚀 NEW JOB APPLICATION WORKFLOW
+
+### When User Reports New Job Opportunities
+
+**Standard workflow for "I found a new job offer: [URLs]"**
+
+1. **Fetch and analyze** job posting content from provided URLs
+2. **Create application folder structure** following established pattern:
+
+   ```text
+   applications/CompanyName/
+   ├── readme.md           # Job analysis and application strategy
+   ├── tookuulutus.md      # Original job posting (Estonian)
+   ├── cv.md               # (create when requested)
+   ├── kaaskiri.md         # (create when requested)
+   └── communication/      # Directory for correspondence
+   ```
+
+3. **Immediate deliverables** (without asking):
+   - **Company folder** under `applications/`
+   - **readme.md** with comprehensive job analysis including:
+     - Company background and requirements
+     - Assessment of user's strengths vs. job needs
+     - Research areas and application strategy
+     - Quality control reminders
+   - **tookuulutus.md** with original job posting content
+   - **communication/** subdirectory
+
+4. **Follow-up options** (ask user preference):
+   - Create customized CV
+   - Write targeted cover letter
+   - Research specific technologies mentioned
+   - Prepare interview materials
+
+### Quality Standards for New Applications
+
+- ✅ **All content** must reference master CV templates only
+- ✅ **No fabricated experience** or skills
+- ✅ **Realistic assessments** of fit and preparation needed
+- ✅ **Include quality control reminders** in readme.md
+- ✅ **Follow established folder naming** conventions
+
+---
+
+## 📝 TEMPLATE SYSTEM
+
 ### HTML File Standards
 
 - **No JavaScript dependencies** (causes PDF export issues)
@@ -286,4 +334,4 @@ _Source: [Official source name](URL)_
 
 **Remember:** Better to have a simpler, truthful document than an impressive one built on false claims. Integrity is more valuable than perceived expertise.
 
-**Contact for Questions:** Mihkel Putrinš | <mihkel.putrinsh@gmail.com> | +372 56560978
+**Contact for Questions:** Mihkel Putrinš | <mitselek@gmail.com> | +372 56560978

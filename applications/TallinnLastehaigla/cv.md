@@ -4,7 +4,7 @@
 
 *Sündinud:* 03.04.1972  
 *Telefon:* +372 56560978  
-*E-post:* <mihkel.putrinsh@gmail.com>  
+*E-post:* <mitselek@gmail.com>  
 *GitHub:* [github.com/mitselek](https://github.com/mitselek)  
 
 ---
@@ -168,7 +168,7 @@ Minu kogemus tundlike andmete töötlemisel Eesti Mälu Instituudis ja süsteemi
 
 **Mihkel Putrinš**  
 +372 56560978  
-<mihkel.putrinsh@gmail.com>  
+<mitselek@gmail.com>  
 GitHub: [github.com/mitselek](https://github.com/mitselek)  
 
 *Olen valmis alustama tööd 1-2 kuu jooksul ja paindlik töötingimuste osas.*  

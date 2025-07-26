@@ -1,6 +1,6 @@
 # Speechify - Concise Follow-up Email
 
-**From:** Mihkel Putrinš <mihkel.putrinsh@gmail.com>  
+**From:** Mihkel Putrinš <mitselek@gmail.com>  
 **Date:** [Draft - June 19, 2025]  
 **To:** Cliff, Sahlie  
 **Subject:** Re: Partnership Opportunity at Speechify  

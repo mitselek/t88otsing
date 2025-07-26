@@ -136,4 +136,4 @@
 
 *Dokument on koostatud Claude Sonnet'i abiga, kasutades avalikke allikaid. Visioon balansseerib ambitsioonika innovatsiooni ja praktilise elluviidavuse vahel.*
 
-**Kontakt:** Mihkel Putrinš | 📧 <mihkel.putrinsh@gmail.com> | 📱 +372 56560978
+**Kontakt:** Mihkel Putrinš | 📧 <mitselek@gmail.com> | 📱 +372 56560978

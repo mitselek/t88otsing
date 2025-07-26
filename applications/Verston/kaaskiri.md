@@ -22,4 +22,4 @@ Olen valmis ka proovitööd tegema, et näidata oma oskusi ja sobivust teie mees
 Lugupidamisega,  
 **Mihkel Putrinš**  
 +372 56560978  
-[mihkel.putrinsh@gmail.com](mailto:mihkel.putrinsh@gmail.com)
+[mitselek@gmail.com](mailto:mitselek@gmail.com)

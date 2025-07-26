@@ -23,7 +23,7 @@ Thank you for considering my application. I look forward to the opportunity to d
 Sincerely,  
 **Mihkel Putrinš**  
 +372 56560978  
-[mihkel.putrinsh@gmail.com](mailto:mihkel.putrinsh@gmail.com)
+[mitselek@gmail.com](mailto:mitselek@gmail.com)
 
 ---
 
@@ -34,7 +34,7 @@ Sincerely,
 **Passion, Beauty, and Joy**  
 *Born:* 01 Apr 1972  
 *Phone:* +372 56560978  
-*Email:* [mihkel.putrinsh@gmail.com](mailto:mihkel.putrinsh@gmail.com)  
+*Email:* [mitselek@gmail.com](mailto:mitselek@gmail.com)  
 
 ---
 

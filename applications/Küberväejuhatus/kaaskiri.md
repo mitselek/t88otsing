@@ -39,5 +39,5 @@ Mihkel Putrinš
 
 **Kontakt:**  
 +372 56560978  
-<mihkel.putrinsh@gmail.com>  
+<mitselek@gmail.com>  
 GitHub: [github.com/mitselek](https://github.com/mitselek)

@@ -35,4 +35,4 @@ Minu palgasoov on 4000 eurot netosummana, kuid kuna positsioon on minu jaoks vä
 Lugupidamisega,  
 **Mihkel Putrinš**  
 +372 56560978  
-[mihkel.putrinsh@gmail.com](mailto:mihkel.putrinsh@gmail.com)
+[mitselek@gmail.com](mailto:mitselek@gmail.com)

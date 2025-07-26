@@ -68,5 +68,5 @@ Ootan võimalust arutada, kuidas saan aidata kaasa Eesti riigi IT-infrastruktuur
 Lugupidamisega,  
 **Mihkel Putrinš**  
 +372 56560978  
-<mihkel.putrinsh@gmail.com>  
+<mitselek@gmail.com>  
 GitHub: [github.com/mitselek](https://github.com/mitselek)

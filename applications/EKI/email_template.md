@@ -23,7 +23,7 @@ Lisas on minu CV ja motivatsioonikiri. Olen valmis esimesel võimalusel tööle 
 Lugupidamisega,  
 Mihkel Putrinš  
 +372 56560978  
-<mihkel.putrinsh@gmail.com>
+<mitselek@gmail.com>
 
 ---
 
@@ -50,7 +50,7 @@ Lisas on minu CV ja motivatsioonikiri. Olen valmis esimesel võimalusel tööle 
 Lugupidamisega,  
 Mihkel Putrinš  
 +372 56560978  
-<mihkel.putrinsh@gmail.com>
+<mitselek@gmail.com>
 
 ---
 

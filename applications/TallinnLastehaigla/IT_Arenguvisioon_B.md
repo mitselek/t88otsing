@@ -350,4 +350,4 @@ Selle visiooni elluviimiseks soovitan:
 
 *Käesolev dokument on kandidaadi poolt koostatud visioon, mis vajab organisatsiooni sisemist valideerimist ja kohandamist vastavalt haigla strateegilistele eesmärkidele ja ressurssidele.*
 
-**Kontakt:** Mihkel Putrinš, <mihkel.putrinsh@gmail.com>, +372 56560978
+**Kontakt:** Mihkel Putrinš, <mitselek@gmail.com>, +372 56560978

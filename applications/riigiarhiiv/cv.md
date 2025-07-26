@@ -3,7 +3,7 @@
 **Andmeanalüütik ja IT-spetsialist**  
 *Sündinud:* 01.04.1972  
 *Telefon:* +372 56560978  
-*E-post:* [mihkel.putrinsh@gmail.com](mailto:mihkel.putrinsh@gmail.com)  
+*E-post:* [mitselek@gmail.com](mailto:mitselek@gmail.com)  
 
 ---
 

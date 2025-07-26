@@ -84,7 +84,7 @@ Oleksin rõõmus võimalusest arutada, kuidas saan aidata kaasa haigla IT osakon
 Lugupidamisega,
 
 **Mihkel Putrinš**  
-<mihkel.putrinsh@gmail.com>  
+<mitselek@gmail.com>  
 +372 56560978
 
 ---

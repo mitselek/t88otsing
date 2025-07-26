@@ -1,6 +1,6 @@
 Mihkel Putrinš
 Telefon: +372 56560978
-E-post: mihkel.putrinsh@gmail.com
+E-post: mitselek@gmail.com
 
 Raul Orav
 Visioline
@@ -23,4 +23,4 @@ Lugupidamisega,
 
 Mihkel Putrinš
 +372 56560978
-mihkel.putrinsh@gmail.com
+mitselek@gmail.com
