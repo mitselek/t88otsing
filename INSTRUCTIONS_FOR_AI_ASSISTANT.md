@@ -203,6 +203,13 @@
 _Source: [Official source name](URL)_
 ```
 
+### Icon Usage Guidelines
+
+- **Use icons extremely conservatively** - only when absolutely necessary for clarity
+- **Prefer plain text** over emoji/unicode icons in professional documents
+- **Avoid decorative icons** that don't add functional value
+- **Exception:** Status indicators (✅/❌) only when showing clear pass/fail states
+
 ### HTML Files
 
 - Clean, semantic HTML5
