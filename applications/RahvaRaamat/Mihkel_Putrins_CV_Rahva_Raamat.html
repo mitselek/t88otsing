@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mihkel_Putrins_CV_Rahva_Raamat.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="mihkel-putrin%C5%A1">Mihkel Putrinš</h1>
+<p><strong>Loov ja uudishimulik ideedegeneraator</strong><br>
+<em>Sündinud:</em> 1972-04-03<br>
+<em>Telefon:</em> +372 56560978<br>
+<em>E-post:</em> <a href="mailto:mitselek@gmail.com">mitselek@gmail.com</a><br>
+<em>GitHub:</em> <a href="https://github.com/mitselek">github.com/mitselek</a></p>
+<hr>
+<h2 id="kokkuv%C3%B5te">Kokkuvõte</h2>
+<h3 id="github-profiil">GitHub Profiil</h3>
+<ul>
+<li>Aktiivne tarkvaraarendaja mitmete avalike projektidega</li>
+<li>Enam kui 30 projekti, mis näitavad oskusi erinevates programmeerimiskeeltes</li>
+<li>Pikk ajalugu kooditäienduste ja avatud lähtekoodiga arendusega</li>
+<li>Näitab praktilist kogemust paljudes tehnoloogiates (JavaScript, Python, C jt)</li>
+</ul>
+<h3 id="cad">CAD</h3>
+<ul>
+<li>Onshape (ka Featurescript)</li>
+<li>Solid Edge (õpin kiirelt)</li>
+</ul>
+<h3 id="3d-modelleerimine-ja-protot%C3%BC%C3%BCpimine">3D modelleerimine ja prototüüpimine</h3>
+<ul>
+<li>Oman hobi tasemel kogemust</li>
+<li>Mehaaniliste printsiipide baasmõistmine</li>
+<li>Tolerantsid, materjalide omadused</li>
+</ul>
+<h3 id="probleemilahendus">Probleemilahendus</h3>
+<ul>
+<li>Head analüütilised võimed</li>
+<li>Hulganisti tehniliste probleemide lahendamise kogemust</li>
+<li>Oskan tuvastada loogikavigu ja ebakõlasid süsteemides</li>
+</ul>
+<h3 id="andmebaasid-ja-andmed">Andmebaasid ja andmed</h3>
+<ul>
+<li>MySQL, Oracle, MongoDB</li>
+<li>Excel, Google Sheets (koos skriptidega perifeersete süsteemidega suhtlemiseks)</li>
+</ul>
+<h3 id="veebiteenused">Veebiteenused</h3>
+<ul>
+<li>REST, riigi süsteemide integratsioonid, pangalingid</li>
+</ul>
+<h3 id="meeskondlikkus">Meeskondlikkus</h3>
+<ul>
+<li>Minu ideed vajavad teiste tuge; teiste ideed vajavad minu tuge.</li>
+</ul>
+<hr>
+<h2 id="olulisemad-github-projektid">Olulisemad GitHub projektid</h2>
+<ul>
+<li>
+<p><strong><a href="https://github.com/memoriaal/eMem">eMem</a></strong> - Andmebaasisüsteem Memento raamatute digiteerimiseks, veebiväljund: <a href="https://www.memoriaal.ee">memoriaal.ee</a>. Projekt on pühendatud Eesti ajaloolise mälu säilitamisele tehnoloogia kaudu.</p>
+</li>
+<li>
+<p><strong><a href="https://github.com/mitselek/bigbook">bigbook</a></strong> - Digitaalraamatu avaldamise raamistik, mis on loodud HTML/CSS-i abil struktureeritud sisuhalduseks. Sisaldab spetsiaalseid jaotisi kogemuslugude, lisade ja peatükkide jaoks, eraldades selgelt sisu ja esitluse.</p>
+</li>
+<li>
+<p><strong><a href="https://github.com/entu/webapp">Entu Webapp</a></strong> - Täisrakenduse veebiliides Entu andmeplatformile. Full-stack Python/JavaScript rakendus andmehalduseks, API dokumentatsioon: <a href="https://entu.dev/">entu.dev</a></p>
+</li>
+<li>
+<p><strong><a href="https://github.com/argoroots/est-o-auth">OAuth.ee</a></strong> - Eesti ID-kaardi ja mobiil-ID autentimise teenus, mis on integreeritud Entu platvormiga. Tagab turvalise kasutajate autentimise riiklike digitaalidentiteetide kaudu. Kasutusel PÖFF filmifestivali infosüsteemis ja teistes organisatsioonides üle Eesti.</p>
+</li>
+<li>
+<p><strong><a href="https://github.com/mitselek/hexawords">hexawords</a></strong> - Sõnaotsingu mängu algoritm kuusnurksel võrgustikul (Python), rakendades uudseid arvutuslikke lähenemisi keelelistele mõistatustele mittestandardsel geomeetrial.</p>
+</li>
+</ul>
+<hr>
+<h2 id="t%C3%B6%C3%B6kogemus">Töökogemus</h2>
+<h3 id="arhitektanal%C3%BC%C3%BCtikarendaja--entusiastid-o%C3%BC">Arhitekt/analüütik/arendaja @ Entusiastid OÜ</h3>
+<p><a href="https://entu.ee">entu.ee</a><br>
+<em>2010-09 - Tänaseni</em><br>
+<strong>Valdkond:</strong> Infotehnoloogia</p>
+<blockquote>
+<ul>
+<li>Peamiseks ülesandeks unistada ja fantaseerida.</li>
+<li>Vastavalt hetkevajadustele/-võimalustele ka:
+<ul>
+<li>
+<p>programmeerimine;</p>
+</li>
+<li>
+<p>andmebaasi disain;</p>
+</li>
+<li>
+<p>suhtlemine klientide/partneritega;</p>
+</li>
+<li>
+<p>ärianalüüs;</p>
+</li>
+<li>
+<p>andmete eksport/import</p>
+</li>
+<li>
+<p>jpm.</p>
+</li>
+<li>
+<p>Entu andmehaldusplatvorm on paljulubav keskkond, mis võimaldab ettevõtte olemasolevate infosüsteemide konsolideerimist üheks ja seni katmata ärivajadused samas keskkonnas rahuldada.</p>
+</li>
+<li>
+<p>Entut kasutavad oma igapäevatöös:</p>
+<ul>
+<li>u. 30 kooliraamatukogu üle Eesti;</li>
+<li>Eesti Kunstiakadeemia dokumendiregistri, projektiregistri, ruumiplaani, inventari, osaliselt ka personali jne ...</li>
+<li>3 muuseumi</li>
+<li>paar äriühingut</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<hr>
+<blockquote>
+<h3 id="andmesanitar--eesti-m%C3%A4lu-instituut">Andmesanitar @ Eesti Mälu Instituut</h3>
+<p><em>2017-07 - 2024-10 (7 a. ja 4 k)</em><br>
+<strong>Valdkond:</strong> Haridus / Teadus</p>
+</blockquote>
+<ul>
+<li>Skännida raamatud <a href="https://www.memento.ee/trukised/memento-raamatud">Memento raamatud</a> ja moodustada nende põhjal andmebaas <a href="https://github.com/memoriaal/eMem">eMem</a> ning ehitada sellele veebiväljund <a href="https://www.memoriaal.ee">Memoriaal</a></li>
+<li>Memento raamatutele on aja jooksul lisandunud veel kümneid allikaid, mille nimekirjad on tulnud olemasolevatega kokku viia; suuresti toimub töö Google tabelites, kus loon igaks ülesandeks ajaloolastele spetsiaalse töökeskkonna andmete otsimiseks ja võrdlemiseks.</li>
+<li>Ka on mul õnnestunud panna ajaloolased toimetama andmetega otse MySql andmebaasis - nad teevad päringuid ja isegi loovad seal kontrollitud keskkonnas sisu; selle üle olen ma eriti uhke.</li>
+</ul>
+<h3 id="n%C3%B5ustaja-tugiisik-it--mt%C3%BC-2tants">Nõustaja, tugiisik (IT) @ MTÜ 2.tants</h3>
+<p><em>2000-01 - 2023-01 (23 a. ja 1 k)</em><br>
+<strong>Valdkond:</strong> Kultuur / Meelelahutus</p>
+<ul>
+<li>Olla käepärast ja julgustada inimesi küsima ükskõik kui rumalaid asju</li>
+</ul>
+<h3 id="teadustarkvara-arendaja--tartu-%C3%BClikool">Teadustarkvara arendaja @ Tartu Ülikool</h3>
+<p><em>2014-09 - 2015-12 (1 a. ja 4 k)</em><br>
+<strong>Valdkond:</strong> Haridus / Teadus</p>
+<ul>
+<li><a href="https://keeleressursid.ee/en/">Centre of Estonian Language Resources</a></li>
+<li>Keeleressursside arhiveerimise tööriistate arendamine</li>
+<li>Entu andmeraamistiku juurutamine</li>
+</ul>
+<h3 id="it-arhitekt--toidu-fermenteerimise-teadus-arendus-keskus">It-arhitekt @ Toidu Fermenteerimise Teadus Arendus Keskus</h3>
+<p><em>2013-01 - 2015-01 (2 a. ja 1 k)</em><br>
+<strong>Valdkond:</strong> Haridus / Teadus</p>
+<ul>
+<li>Entu andmehalduse tarkvara juurutamine ja kohandamine teaduslabori ärivajadustele</li>
+</ul>
+<h3 id="it-osakonna-juht--eesti-kunstiakadeemia">IT-osakonna juht @ Eesti Kunstiakadeemia</h3>
+<p><em>2009-08 - 2012-08 (3 a. ja 1 k)</em><br>
+<strong>Valdkond:</strong> Haridus / Teadus</p>
+<ul>
+<li>IT infrastruktuurid;</li>
+<li>Intranet, emailid;</li>
+<li>Majasisesed infosüsteemid;</li>
+<li>Kasutajatugi.</li>
+<li><strong>Kampusvõrgu ehitamine:</strong> Kogu ülikooli LAN-võrgu planeerimine ja ehitamine, hõlmates kõiki hooneid ja ühendades 700+ kasutajat</li>
+<li>Saavutused: Kogu ülikooli e-mailindus kolitud Google Mail'i, juurutatud Google Docs, arendatud ja juurutatud dokumendihalduse lahendus.</li>
+</ul>
+<hr>
+<h3 id="it-arendusspetsialist--tele2-eesti-as">IT-arendusspetsialist @ Tele2 Eesti AS</h3>
+<p><em>2006-10 - 2009-06 (2 a. ja 9 k)</em><br>
+<strong>Valdkond:</strong> Elektroonika / Telekommunikatsioon</p>
+<ul>
+<li>Arvelduse ja kliendihaduse erilahendused</li>
+<li>Saavutused: Dokumenteerimise võimalikkuse tutvustamine korporatsioonis</li>
+</ul>
+<h3 id="tarkvara-arendaja--justiitsministeerium">Tarkvara arendaja @ Justiitsministeerium</h3>
+<p><em>2002-10 - 2005-10 (3 a. ja 1 k)</em><br>
+<strong>Valdkond:</strong> Korrakaitse / Turva / Julgeolek</p>
+<ul>
+<li>Oracle JDev</li>
+<li>Microsoft .NET</li>
+<li>Saavutused: Kriminaalhoolduse infosüsteem, Kriminaalmenetluse register</li>
+</ul>
+<h3 id="projektijuht-it--soov-kirjastus-o%C3%BC">projektijuht (IT) @ Soov Kirjastus OÜ</h3>
+<p><em>1993-01 - 1993-01 (1 k)</em><br>
+<strong>Valdkond:</strong> Meedia / Loomemajandus / Tõlkimine</p>
+<ul>
+<li>Soovilehe telefonineiudele liidesega andmebaas kuulutuste sisestamiseks ja kuulutuste automaatne töötlemine küljenduskõlblikuks</li>
+</ul>
+<hr>
+<h2 id="haridus">Haridus</h2>
+<ul>
+<li><strong>1979 - 1990</strong>
+<ul>
+<li>Riia I keskkool</li>
+<li>Tallinna Reaalgümnaasium</li>
+<li>Õismäe Humanitaargümnaasium</li>
+</ul>
+</li>
+<li><strong>1990 - 2002</strong>
+<ul>
+<li>Matemaatika @ Tartu Ülikool</li>
+<li>Loodusteaduslikud ained @ Tallinna Ülikool</li>
+<li>Informaatika @ Tartu Ülikool</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="keeled">Keeled</h2>
+<table>
+<thead>
+<tr>
+<th>Keel</th>
+<th>Kuulamine</th>
+<th>Lugemine</th>
+<th>Suhtlus</th>
+<th>Esitlus</th>
+<th>Kirjutamine</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>eesti</td>
+<td>Suhtluskeel</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Läti</td>
+<td>C2</td>
+<td>C2</td>
+<td>C2</td>
+<td>C2</td>
+<td>C2</td>
+</tr>
+<tr>
+<td>Inglise</td>
+<td>C2</td>
+<td>C2</td>
+<td>C1</td>
+<td>C1</td>
+<td>C2</td>
+</tr>
+<tr>
+<td>Vene</td>
+<td>B2</td>
+<td>B2</td>
+<td>B2</td>
+<td>B2</td>
+<td>B2</td>
+</tr>
+</tbody>
+</table>
+<p>Tasemed: A1/A2 - algtasemel keelekasutaja; B1/B2 - iseseisev keelekasutaja; C1/C2 - vilunud keelekasutaja<br>
+Euroopa Nõukogu keeleoskussüsteemi enesehindamisskaala</p>
+<hr>
+<h2 id="arvutioskused">Arvutioskused</h2>
+<h3 id="programmeerimiskeeled">Programmeerimiskeeled</h3>
+<ul>
+<li>Python, JavaScript (Spetsialist 9/10)</li>
+<li>Bash, C (Edasijõudnu 8/10)</li>
+<li>.NET, Java (Kesktase 6/10)</li>
+<li>PHP, Wordpress (ei tee)</li>
+</ul>
+<h3 id="ai-suhtlus-ja-k%C3%A4skluste-kujundamine">AI suhtlus ja käskluste kujundamine</h3>
+<ul>
+<li>AI assistentidega suhtlemine</li>
+<li>Tehniliste probleemide lahendamine AI tööriistadega</li>
+<li>Selge ja kontekstitundlik suhtlus keeruliste tehniliste ülesannete puhul</li>
+</ul>
+<h3 id="muu-tarkvara">Muu tarkvara</h3>
+<ul>
+<li>Tabelid, tekstid, presentatsioonid, Acrobat (Spetsialist 9/10)</li>
+<li>Photoshop, Illustrator (Edasijõudnu 8/10)</li>
+</ul>
+<hr>
+<h2 id="t%C3%A4iendkoolitused">Täiendkoolitused</h2>
+<h3 id="mikrotik-certified-network-associate">MikroTik Certified Network Associate</h3>
+<p><strong>BCS / Eesti</strong><br>
+<em>2025</em><br>
+<a href="https://mikrotik.com/training/certificates/c435725c169688618b68">Mikrotik MTCNA No. c435725c169688618b68</a></p>
+<h3 id="using-uml-in-object-oriented-analysis-and-design">Using UML in Object-oriented Analysis and Design</h3>
+<p><strong>IT-Koolitus</strong><br>
+<em>2005</em></p>
+<h3 id="programming-with-microsoft-ado-net">Programming with Microsoft ADO .NET</h3>
+<p><strong>IT-Koolitus</strong><br>
+<em>2003</em></p>
+<h3 id="oracle9i-access-the-database-with-java-and-jdbc">Oracle9i: Access the Database with Java and JDBC</h3>
+<p><strong>Oracle Eesti</strong><br>
+<em>2003</em></p>
+
+</body>
+</html>

@@ -5,7 +5,7 @@
 
 ---
 
-## 🏢 Ettevõtte Digitaalne Profiil
+## Ettevõtte Digitaalne Profiil
 
 ### Rahva Raamatu Äpi Analüüs
 
@@ -42,7 +42,7 @@
 
 ---
 
-## 📚 Kirjastustegevus
+## Kirjastustegevus
 
 ### Rahva Raamatu Kirjastus
 
@@ -62,7 +62,7 @@
 
 ---
 
-## 🎯 Digitaalse Transformatsiooni Kontekst
+## Digitaalse Transformatsiooni Kontekst
 
 ### Mis Näitab Äpi Projektijuhi Vajadust
 
@@ -98,7 +98,7 @@
 
 ---
 
-## 🔍 Äpi Projektijuhi Rolli Tõlgendus
+## Äpi Projektijuhi Rolli Tõlgendus
 
 ### Tõenäolised Vastutussfäärid
 
@@ -125,7 +125,7 @@
 
 ---
 
-## 💼 Organisatsiooniline Kontekst
+## Organisatsiooniline Kontekst
 
 ### Meeskonna Struktuur (hinnanguline)
 
@@ -158,7 +158,7 @@
 
 ---
 
-## 📊 Peamised Mõõdikud (oletatavad)
+## Peamised Mõõdikud (oletatavad)
 
 ### Äri Mõõdikud
 
@@ -182,7 +182,7 @@
 
 ---
 
-## 🎨 Tehnoloogiline Raamistik
+## Tehnoloogiline Raamistik
 
 ### Tehnoloogiad (oletatavad)
 
@@ -207,7 +207,7 @@
 
 ---
 
-## 🚀 Projektijuhi Edukriteeriumid
+## Projektijuhi Edukriteeriumid
 
 ### Lühiajaline (3-6 kuud)
 
@@ -229,7 +229,7 @@
 
 ---
 
-## 🎯 Strateegilised Võimalused
+## Strateegilised Võimalused
 
 ### Turupositsiooni Tugevdamine
 
@@ -249,7 +249,7 @@
 
 ---
 
-## ⚠️ Võimalikud Väljakutsed
+## Võimalikud Väljakutsed
 
 ### Tehnoloogilised
 
@@ -271,7 +271,7 @@
 
 ---
 
-## 📝 Kokkuvõte Kandideerimiseks
+## Kokkuvõte Kandideerimiseks
 
 ### Rahva Raamat on Atraktiivne Tööandja, sest
 

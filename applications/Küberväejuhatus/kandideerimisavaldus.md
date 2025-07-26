@@ -147,7 +147,7 @@ Kogenud IT spetsialist 20+ aasta kogemusega süsteemiarenduses, andmehalduses ja
 *01.1998 - 01.2010 (12 a. ja 1 k)*  
 **Valdkond:** Turism / Hotellindus / Iluteenused
 
-- [balticeindow.fi](http://www.balticeindow.fi), paljud trükised
+- [balticwindow.fi](http://www.balticwindow.fi), paljud trükised
 
 ### Arvutigraafik-kujundaja @ NB reklaam
 

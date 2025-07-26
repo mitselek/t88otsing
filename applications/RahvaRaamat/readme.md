@@ -2,11 +2,37 @@
 
 **Kuupäev:** 26.07.2025  
 **Kandideerimise tähtaeg:** 06.08.2025 (11 päeva)  
-**Staatus:** Analüüsitud, ootan kasutaja otsust CV ja kaaskirja loomiseks
+**Staatus:** VALMIS KANDIDEERIMISEKS - CV ja kaaskiri loodud
 
 ---
 
-## 🎯 Positsioon Lühidalt
+## Loodud Dokumendid
+
+### Kandideerimise Materjalid Valmis
+
+1. **`cv.md`** - Kohandatud CV äpi projektijuhi positsioonile
+   - Rõhutab 15+ aasta projektijuhtimise kogemust
+   - Tõstab esile tehnoloogilist tausta ja sisu koordineerimise oskusi
+   - Aus lähenemisviis - märgib ülekantavad oskused ja õppimisvalmiduse
+
+2. **`kaaskiri.md`** - Motivatsioonikiri eesti keeles
+   - Näitab tõelist huvi kirjanduse ja tehnoloogia ristumise vastu
+   - Konkreetsed näited asjakohasest kogemusest
+   - Selge visioon rollist ja esimestest sammudest
+
+3. **`tookuulutus.md`** - Originaal tööpakkumine
+4. **`uurimine_taustainfo.md`** - Põhjalik analüüs ettevõttest ja rollist
+5. **`readme.md`** - See dokument (kandideerimise strateegia)
+
+### Järgmised Sammud
+
+1. **Kontrolli dokumente** - veendu, et kõik on täpne ja sobiv
+2. **CV Keskusesse kandideerimine** - kasuta valmis materjale
+3. **Intervjuu ettevalmistus** - kasuta uurimistööd põhjalikuks ettevalmistuseks
+
+---
+
+## Positsioon Lühidalt
 
 **Amet:** Äpi projektijuht (App Project Manager)  
 **Ettevõte:** Rahva Raamat AS - Eesti suurim raamatute jae- ja hulgimüüja  
@@ -15,7 +41,7 @@
 
 ---
 
-## 🏢 Ettevõtte Taust
+## Ettevõtte Taust
 
 ### Rahva Raamat AS Profiil
 
@@ -33,44 +59,44 @@
 
 ---
 
-## 🎯 Nõuded vs Mihkel Putrinši Profiil
+## Nõuded vs Mihkel Putrinši Profiil
 
-### ✅ Tugevused (vastavad otseselt nõuetele)
+### Tugevused (vastavad otseselt nõuetele)
 
 #### Kohustuslikud oskused
 
-- **Suurepärane suhtlemis-, koostöö- ja läbirääkimisoskus** ✅
+- **Suurepärane suhtlemis-, koostöö- ja läbirääkimisoskus**
   - *Alus: 15+ aastat projektijuhtimist ja tiimijuhtimist*
-- **Eesti keel kõrgtasemel** ✅ *emakeel*
-- **Inglise keel heal tasemel** ✅ *töökeelena kasutatud*
-- **Iseseisev ja lahendustele orienteeritud** ✅
+- **Eesti keel kõrgtasemel** - *emakeel*
+- **Inglise keel heal tasemel** - *töökeelena kasutatud*
+- **Iseseisev ja lahendustele orienteeritud**
   - *Alus: IT projektide juhtimine sõltumatult*
-- **Suur pilt + detailid** ✅
+- **Suur pilt + detailid**
   - *Alus: Arhitektuurilised otsused + tehnilise teostuse juhtimine*
 
 #### Eeliseid andvad oskused
 
-- **Projektijuhtimine tehnoloogia valdkonnas** ✅
+- **Projektijuhtimine tehnoloogia valdkonnas**
   - *Alus: 15+ aastat IT projektide juhtimist*
-- **Digiturunduse kogemus** ⚠️ *osaliselt, peamiselt B2B*
-- **UX/UI disaini alused** ⚠️ *osaliselt, tehniline perspektiiv*
+- **Digiturunduse kogemus** - *osaliselt, peamiselt B2B*
+- **UX/UI disaini alused** - *osaliselt, tehniline perspektiiv*
 
-### ⚠️ Arendamist Vajavad Valdkonnad
+### Arendamist Vajavad Valdkonnad
 
 #### Sisu ja kirjastusvaldkond
 
-- **Audio/e-raamatute kogemus** ❌ *puudub otsene kogemus*
-- **Kirjastamise valdkond** ❌ *puudub otsene kogemus*
-- **Meedia valdkond** ❌ *puudub otsene kogemus*
+- **Audio/e-raamatute kogemus** - *puudub otsene kogemus*
+- **Kirjastamise valdkond** - *puudub otsene kogemus*
+- **Meedia valdkond** - *puudub otsene kogemus*
 
 #### Mobiilirakendused
 
-- **Mobiilirakenduste maailm** ⚠️ *tehniline tausta olemas, kuid vajab süvendamist*
-- **Toote turule toomisel** ⚠️ *B2B kogemus, B2C vajab täiendamist*
+- **Mobiilirakenduste maailm** - *tehniline taust olemas, kuid vajab süvendamist*
+- **Toote turule toomisel** - *B2B kogemus, B2C vajab täiendamist*
 
 ---
 
-## 🚀 Kandideerimise Strateegia
+## Kandideerimise Strateegia
 
 ### Tugevuste Esiletõstmine
 
@@ -100,9 +126,97 @@
 
 ---
 
+## Ettevalmistus ja Uurimine
+
+### Lõpetatud Lisauurimine
+
+1. **Rahva Raamatu Digitaalsed Teenused**
+   - **Mobiilirakendus:** app.rahvaraamat.ee - "Audioraamatute äpp"
+   - **Portfell:** 1000+ audioraamatut, 5200+ e-raamatut
+   - **Tellimusmudelid:** Raamatusõber (€13,99/kuu), Perepakett (€27,99/kuu)
+   - **Fookus:** Eestikeelsed raamatud, offline-funktsioonid
+
+2. **Kirjastustegevus**
+   - **Asutatud:** 2017, üle 100 teose aastas
+   - **Portfell:** Ilu-, aime- ja lastekirjandus
+   - **Digitaliseerimie:** Aktiivne audio-versioonide tootmine
+
+3. **Konkurentsipositsioon**
+   - **Tugevused:** Eesti suurim raamatumüüja, oma kirjastus, eestikeelse sisu domineerimine
+   - **Konkurendid:** Storytel, Audible (rahvusvahelised)
+   - **Eelised:** Lokaalne sisu, tugev bränd, integreeritud ökosüsteem
+
+**Põhjalik analüüs:** `uurimine_taustainfo.md`
+
+### Võimalikud Küsimused Intervjuus
+
+1. **Praegune digitaalne tooteportfell**
+2. **Rakenduse eesmärgid ja sihtgrupp**
+3. **Tehnoloogiline arhitektuur ja meeskond**
+4. **Turundusstrateegia ja positsioonimine**
+5. **Mõõdikud ja edukriteeriumid**
+
+---
+
+## Kvaliteedikontroll Meeldetuletused
+
+### Enne Dokumentide Loomist
+
+- **Kontrolli `.ai_docs/honest_cv_guidelines.md`** - ei tohi välja mõelda kogemusi
+- **Ära liialdada** mobiilirakenduste või kirjastusvaldkonna kogemusega
+- **Kasuta kvalifitseerivat keelt** ebakindluste korral
+- **Rõhuta õppimisvalmidust** puuduvate valdkondade osas
+
+### Realistlikud Väited
+
+- "Tehnoloogiline taust võimaldab kiiresti omandada..."
+- "Huvi ja valmisolek süveneda kirjastusvaldkonda..."
+- ÄRA väida otsest kogemust audio-raamatute või mobiilirakenduste alal
+
+---
+
+## Järgmised Sammud
+
+### Soovituslik Tegevusplaan
+
+1. **Täiendav uurimine** (1-2 päeva)
+   - Rahva Raamatu praegused digitaalsed tooted
+   - Konkurentanalüüs Eesti turul
+   - Mobiilirakenduste UX trendid
+
+2. **CV kohandamine** (vajadusel)
+   - Rõhutada projektijuhtimise kogemust
+   - Tehnoloogiline taust ja adapteerumisoskus
+   - Kommunikatsiooniskillid
+
+3. **Motivatsioonikirja koostamine**
+   - Tõeline huvi kirjanduse ja tehnoloogia ristumise vastu
+   - Visioon digitaalse lugemiskogemuse parandamisest
+   - Konkreetsed sammud õppimiseks
+
+4. **Intervjuu ettevalmistus**
+   - Tehnilised küsimused mobiilirakenduste kohta
+   - Äriküsimused kirjastusvaldkonna kohta
+   - Omad küsimused nende plaanide kohta
+
+---
+
+## Kokkuvõte
+
+**Sobivus:** 4/5  
+**Peamised plussid:** Tugev projektijuhtimise ja tehnoloogiline taust  
+**Peamised väljakutsed:** Kirjastus- ja mobiilirakenduste valdkonna kogemus  
+**Soovitus:** Kandideerida, rõhutades adapteerumisoskust ja õppimisvalmidust
+
+---
+
+*Dokument koostatud: 26.07.2025*  
+*Kandideerimise tähtaeg: 06.08.2025*  
+*Staatus: Valmis kandideerimiseks*
+
 ## 📚 Ettevalmistus ja Uurimine
 
-### ✅ Lõpetatud Lisauurimine
+### Lõpetatud Lisauurimine
 
 1. **Rahva Raamatu Digitaalsed Teenused** ✅
    - **Mobiilirakendus:** app.rahvaraamat.ee - "Audioraamatute äpp"
@@ -110,12 +224,12 @@
    - **Tellimusmudelid:** Raamatusõber (€13,99/kuu), Perepakett (€27,99/kuu)
    - **Fookus:** Eestikeelsed raamatud, offline-funktsioonid
 
-2. **Kirjastustegevus** ✅
+2. **Kirjastustegevus**
    - **Asutatud:** 2017, üle 100 teose aastas
    - **Portfell:** Ilu-, aime- ja lastekirjandus
    - **Digitaliseerimie:** Aktiivne audio-versioonide tootmine
 
-3. **Konkurentsipositsioon** ✅
+3. **Konkurentsipositsioon**
    - **Tugevused:** Eesti suurim raamatumüüja, oma kirjastus, eestikeelse sisu domineerimine
    - **Konkurendid:** Storytel, Audible (rahvusvahelised)
    - **Eelised:** Lokaalne sisu, tugev bränd, integreeritud ökosüsteem
@@ -132,7 +246,7 @@
 
 ---
 
-## ⚠️ Kvaliteedikontroll Meeldetuletused
+## Kvaliteedikontroll Meeldetuletused
 
 ### Enne Dokumentide Loomist
 
@@ -143,9 +257,9 @@
 
 ### Realistlikud Väited
 
-- ✅ "Tehnoloogiline taust võimaldab kiiresti omandada..."
-- ✅ "Huvi ja valmisolek süveneda kirjastusvaldkonda..."
-- ❌ ÄRA väida otsest kogemust audio-raamatute või mobiilirakenduste alal
+- "Tehnoloogiline taust võimaldab kiiresti omandada..."
+- "Huvi ja valmisolek süveneda kirjastusvaldkonda..."
+- ÄRA väida otsest kogemust audio-raamatute või mobiilirakenduste alal
 
 ---
 
@@ -175,7 +289,7 @@
 
 ---
 
-## 💡 Kokkuvõte
+## Kokkuvõte
 
 **Sobivus:** ⭐⭐⭐⭐☆ (4/5)  
 **Peamised plussid:** Tugev projektijuhtimise ja tehnoloogiline taust  
