@@ -6,9 +6,9 @@
 
 ---
 
-## 🎯 CORE PRINCIPLE: TRUTH AND FACTS ONLY
+## CORE PRINCIPLE: TRUTH AND FACTS ONLY
 
-### ❌ NEVER DO
+### NEVER DO
 
 - Make up statistics, dates, or technical details
 - Claim experience or skills not actually possessed
@@ -16,7 +16,7 @@
 - Create fake references or achievements
 - Exaggerate capabilities or timeline estimates
 
-### ✅ ALWAYS DO
+### ALWAYS DO
 
 - Verify all facts against official sources
 - Use phrases like "estimated," "approximately," "based on research"
@@ -28,7 +28,7 @@
 
 ---
 
-## 📁 FOLDER STRUCTURE
+## FOLDER STRUCTURE
 
 ```text
 /home/michelek/Documents/tööotsing/
@@ -85,7 +85,7 @@
 
 ---
 
-## 📝 TEMPLATE SYSTEM
+## TEMPLATE SYSTEM
 
 ### Base Templates
 
@@ -103,7 +103,7 @@
 
 ---
 
-## 🚀 NEW JOB APPLICATION WORKFLOW
+## NEW JOB APPLICATION WORKFLOW
 
 ### When User Reports New Job Opportunities
 
@@ -139,15 +139,15 @@
 
 ### Quality Standards for New Applications
 
-- ✅ **All content** must reference master CV templates only
-- ✅ **No fabricated experience** or skills
-- ✅ **Realistic assessments** of fit and preparation needed
-- ✅ **Include quality control reminders** in readme.md
-- ✅ **Follow established folder naming** conventions
+- All content must reference master CV templates only
+- No fabricated experience or skills
+- Realistic assessments of fit and preparation needed
+- Include quality control reminders in readme.md
+- Follow established folder naming conventions
 
 ---
 
-## 📝 TEMPLATE SYSTEM
+## TEMPLATE SYSTEM
 
 ### HTML File Standards
 
@@ -159,7 +159,7 @@
 
 ---
 
-## 🔍 RESEARCH AND VERIFICATION REQUIREMENTS
+## RESEARCH AND VERIFICATION REQUIREMENTS
 
 ### Company Research
 
@@ -184,7 +184,7 @@
 
 ---
 
-## 🎨 DOCUMENT FORMATTING STANDARDS
+## DOCUMENT FORMATTING STANDARDS
 
 ### Markdown Files
 
@@ -222,7 +222,7 @@ _Source: [Official source name](URL)_
 
 ---
 
-## 🏥 TALLINNA LASTEHAIGLA SPECIFIC GUIDELINES
+## TALLINNA LASTEHAIGLA SPECIFIC GUIDELINES
 
 ### Interview Preparation Materials
 
@@ -240,9 +240,9 @@ _Source: [Official source name](URL)_
 
 ---
 
-## 📊 QUALITY CONTROL CHECKLIST
+## QUALITY CONTROL CHECKLIST
 
-**⚠️ CRITICAL:** Always check `.ai_docs/` folder first - contains detailed audit of 9 AI fabrications discovered.
+**CRITICAL:** Always check `.ai_docs/` folder first - contains detailed audit of 9 AI fabrications discovered.
 
 ### Before Creating Any Document
 
@@ -267,7 +267,7 @@ _Source: [Official source name](URL)_
 
 ---
 
-## 🚨 RED FLAGS TO AVOID
+## RED FLAGS TO AVOID
 
 **See `.ai_docs/cross_reference_violations_log.md` for specific examples of past fabrications.**
 
@@ -287,7 +287,7 @@ _Source: [Official source name](URL)_
 
 ---
 
-## 📞 ESCALATION GUIDELINES
+## ESCALATION GUIDELINES
 
 ### When to Ask for Clarification
 
@@ -304,7 +304,7 @@ _Source: [Official source name](URL)_
 
 ---
 
-## 🔄 MAINTENANCE AND UPDATES
+## MAINTENANCE AND UPDATES
 
 ### Regular Updates Required
 
@@ -322,7 +322,7 @@ _Source: [Official source name](URL)_
 
 ---
 
-## 📋 SUCCESS METRICS
+## SUCCESS METRICS
 
 ### Quality Indicators
 
