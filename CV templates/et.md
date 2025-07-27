@@ -239,9 +239,6 @@
 | Inglise  | C2        | C2       | C1      | C1      | C2          |
 | Vene     | B2        | B2       | B2      | B2      | B2          |
 
-Tasemed: A1/A2 - algtasemel keelekasutaja; B1/B2 - iseseisev keelekasutaja; C1/C2 - vilunud keelekasutaja  
-Euroopa Nõukogu keeleoskussüsteemi enesehindamisskaala
-
 ---
 
 ## Arvutioskused

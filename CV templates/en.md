@@ -246,9 +246,6 @@
 | English  | C2        | C2      | C1            | C1          | C2      |
 | Russian  | B2        | B2      | B2            | B2          | B2      |
 
-Levels: A1/A2 - Basic user; B1/B2 - Independent user; C1/C2 - Proficient user  
-Common European Framework of Reference for Languages
-
 ---
 
 ## Computer Skills
