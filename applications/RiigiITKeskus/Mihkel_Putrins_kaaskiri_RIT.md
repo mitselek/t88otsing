@@ -20,8 +20,6 @@ Ma otsin tööd, kus saaksin kasutada oma IT-kogemust teenuste juhtimises, ja te
 
 Olen alati olnud keegi, kes ei suuda vaikida, kui näen, et IT-süsteemid ei teeni kasutajaid optimaalselt. Teie kuulutuses mainitud soov muuta RIT teenuspõhiseks ja kliendikeskse mõtteviisiga organisatsiooniks on suund, millele võin alla kirjutada.
 
-&nbsp;
-
 ## Minuga saate kaasa
 
 ### Juhtimiskogemuse
@@ -36,11 +34,9 @@ Eesti Kunstiakadeemias IT-osakonna juhina koordineerisin 700+ kasutaja teenindam
 
 Justiitsministeeriumis töötamise kogemus andis mulle väärtuslikku taustateadmist avaliku sektori IT-süsteemide spetsiifikast. Mõistan mingil määral riigi infosüsteemide nõudeid ja väljakutseid ning tean, kuivõrd oluline on nende usaldusväärsus ja kasutajasõbralikkus.
 
-&nbsp;
+### Suurte muudatuste juhtimise kogemust
 
-&nbsp;
-
-&nbsp;
+EKA-s 700+ kasutaja teenindamine tähendas regulaarselt suurte IT-muudatuste läbiviimist - alates võrguinfrastruktuuri ehitamisest kuni uute teenuste juurutamiseni. Olen õppinud, et **suured muudatused vajavad head planeerimist, aga edu pant on kasutajate kaasamises ja lakkamatus kommunikatsioonis**.
 
 ## Arenguruumi on...
 

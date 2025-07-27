@@ -38,6 +38,7 @@
 - Loogikavigude ja ebakõlasite tuvastamise oskus
 - Suure pildi ja seoste nägemise võime
 - Protsesside efektiivsuse hindamise ja parandamise kogemus
+- Suuremahuliste migratsiooniprotsesside planeerimine ja läbiviimine
 
 ### Meeskondlikkus ja koostöö
 
@@ -59,8 +60,6 @@
 
 ---
 
-&nbsp;
-
 ## Töökogemus
 
 ### IT-osakonna juht @ Eesti Kunstiakadeemia
@@ -74,6 +73,7 @@
 - **Dokumendihalduse süsteemi arendamine:** Majasisese infosüsteemi loomine ja juurutamine
 - **Kasutajatugi ja koolitused:** Igapäevane IT-tugi 700+ kasutajale
 - **Projektijuhtimine:** Suurte IT-projektide planeerimine ja läbiviimine
+- **Muudatuste juhtimine:** Edukas suurte IT-muudatuste juhtimine ja kasutajate kaasamine üleminekuprotsessides
 
 ---
 
@@ -97,8 +97,6 @@ Entut kasutavad oma igapäevatöös:
 - 3 muuseumi ja mitmed äriühingud
 
 ---
-
-&nbsp;
 
 ### Andmesanitar @ Eesti Mälu Instituut
 
