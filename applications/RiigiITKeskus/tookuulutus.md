@@ -4,28 +4,24 @@
 
 ---
 
-**Riigi IT Keskus (RIT)** osutab arvutitöökoha- ja serveri baastaristul teenuseid riigis peatselt ligi 25 000 avaliku sektori töötajale.  
-**Vaata lähemalt!**  
-[www.rit.ee](http://www.rit.ee)
+**Riigi IT Keskus (RIT)** osutab arvutitöökoha- ja serveri baastaristu teenuseid riigis peatselt ligi 25 000 avaliku sektori töötajale.  
+
+**Vaata lähemalt!** [www.rit.ee](http://www.rit.ee)
 
 RIT osutatav arvutitöökohtateenus on kaasaegne, kasutajakeskne, turvaline ja jätkusuutlik.  
-Meie lahendused baseeruvad tänapäevastel lahendustel ja on keskelt hallatud.  
-Arvutitöökoha arendamisel on arvestatud kasutajate vajadusi, teenus on kasutajale sujuv, nähtamatu ja asukohast sõltumatu.  
-RIT osutatavad teenused on turvalised ja usaldusväärsed.
+Meie lahendused baseeruvad tänapäevastel lahendustel ja on keskselt hallatud.  
+Arvutitöökoha arendamisel on arvestatud kasutajate vajadusi, teenus on kasutajale sujuv, nähtamatu ja asukohast sõltumatu. RIT osutatavad teenused on turvalised ja usaldusväärsed.
 
 ---
 
 ## Sinu peamised tööülesanded
 
 - IT-teenuste (multimeedia, printimine, eriseadmed jt arvutitöökoha erilahendused) kujundamine
-- Omad vastutust teenuse ja sisu kogu juhtimise – teenuse strateegia, visiooni, tulevikuplaanide loomise ja hindamise ning kvaliteedijuhtimise
-- Teenuse tegevuste juhtimine ja teenuse toetus: teenuse planeerimine, arendustegevus, sihtarvude määramine (output’id) ning seire tulemitele
-- Kasutajate vajaduste analüüs, teenuste toetamine, info edastamine
-- Teenuse kasutajamugavuse kujundamine ja kasutajakogemust jälgimine ning arvestamine
-- Koolituste ja kasutusjuhendite koostamine
-- Pilootprojektide läbiviimine ja uute lahenduste katsetamine
-- Teenusekasutuse analüüs ja tagasiside kogumine ning kasutamine teenuse arendamisel
-- Koostöö osutamise ja väliste partneritega, sh vajaduspõhised hangete ja lepingute koordineerimine
+- Oma vastutusala teenuste ja sisu kokku juhtimine – teenuse strateegia, visiooni, tulevikuplaanide loomine ja hoidmine ning täide viimise juhtimine
+- Teenuse terviklik elutsükli juhtimine planeerimisest otsuste ja teiostuse koordineerimiseni, sh mida väljast tellida (outsource), arenduste tellimine, teenuse sulgemine.
+- Teenuse eelarve planeerimine ja jälgimine, sh teenuste kirjelduste ja tasemelepete väljatöötamine, teenuste hinnastamine.
+- Teenuste tulemuslikkuse (sh kvaliteedi ja kasutajakogemuse) jälgimine ning parendamine
+- Koostöö sisemiste ja väliste partneritega, sh vajaduspõhiselt hangete ja lepingute koordineerimine
 
 ---
 
@@ -45,16 +41,15 @@ RIT osutatavad teenused on turvalised ja usaldusväärsed.
 ## Meiega töötades ootab Sind
 
 - 35-päevane põhipuhkus, tasustatud päevad isikliku ja pereelu toetamiseks
-- Töönädala tervisekindlustus või spordikompensatsioon
+- Tööandja tervisekindlustus või spordikompensatsioon
 - Sportlik-meeleolukad ühisüritused
-- Koolitused ja arenguvõimalused inimese ja spetsialistina
-- Paindlikkus töötada väljaspool töökohta, laste- ja loomasõbralik kontor ning
-- Meeskond, kes aitab ideedega maailma mõnusamaks muuta
-- **Töötasu 3500 bruto kuus**
+- Koolitused ja arenemisvõimalused inimese ja spetsialistina
+- Sind kui inimest väärtustav töökeskkond, laste- ja loomasõbralik kontor ning võimalus om käte ja ideedega seda mõnusamaks muuta
+- Töötasu 3500 bruto kuus
 
 ---
 
-> "Tule ja kujunda koos meiega avaliku sektori digiteenuseid, muutes RIT-i teenuspõhiseks ja kliendikeskse mõtteviisiga organisatsiooniks!"  
+> "Tule ja kujunda koos meiega avaliku sektori digiteenuste tulevikku, muutes RIT-i teenuspõhiseks ja kliendikeskse mõtteviisiga organisatsiooniks!"  
 > — **Kairi Rais**, Riigi IT Keskuse ase­direktor
 
 ---
