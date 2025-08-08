@@ -1,7 +1,7 @@
 # CVKeskuse kinnituskiri - CV saadetud
 
 **Kuupäev:** 26. juuli 2025, 12:20  
-**Saatja:** info@cvkeskus.ee  
+**Saatja:** <info@cvkeskus.ee>  
 **E-post:** cvkeskus.ee  
 **Teema:** Sinu CV on saadetud!
 
