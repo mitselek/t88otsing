@@ -38,7 +38,7 @@ Justiitsministeeriumis töötamise kogemus andis mulle väärtuslikku taustatead
 
 EKA-s 700+ kasutaja teenindamine tähendas regulaarselt suurte IT-muudatuste läbiviimist - alates võrguinfrastruktuuri ehitamisest kuni uute teenuste juurutamiseni. Olen õppinud, et **suured muudatused vajavad head planeerimist, aga edu pant on kasutajate kaasamises ja lakkamatus kommunikatsioonis**.
 
-## Arenguruumi on...
+## Arenguruumi on …
 
 Ma ei ole klassikaline teenuste juht ärilise taustaga. Minu tugevus on tehnilises mõistmises kombineerituna kasutajakeskse lähenemisega. Tunnen vastutust selle eest, et IT-teenused toimiksid inimeste jaoks sujuvalt, ja märkan kiiresti, kui protsessid ei teeni kasutajaid optimaalselt.
 
@@ -65,9 +65,8 @@ Olen põnevil võimalusest aidata kujundada riigi IT-teenuseid selliselt, et nee
 
 &nbsp;
 
-
 ---
 
 **Mihkel Putrinš**  
-*mitselek@gmail.com*  
+*<mitselek@gmail.com>*  
 *+372 56560978*
