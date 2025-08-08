@@ -2,7 +2,7 @@
 
 **Kuupäev:** 27. juuli 2025, 17:01  
 **Saatja:** Marion Peever, värbamispartner, Riigi IT Keskus  
-**E-post:** riigi-it-keskus@talendipank.ee  
+**E-post:** <riigi-it-keskus@talendipank.ee>  
 **Teema:** Riigi IT Keskus - Teenusejuht
 
 ---
@@ -18,7 +18,7 @@ Soovime edu konkursil!
 Marion Peever  
 värbamispartner  
 Riigi IT Keskus  
-https://rit.ee/
+<https://rit.ee/>
 
 ---
 
