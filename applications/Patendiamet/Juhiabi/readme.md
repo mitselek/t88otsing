@@ -119,7 +119,7 @@ Lisa võimalusel sektsioon: "Juhtimistoetuse ja töövoo optimeerimise kogemus" 
 **Järgmised sammud:**  
 
 1. Koostada sihitud CV (`cv.md`) – vähendada süvatehnilisi detaile (DONE ettevalmistus)  
-2. Kaaskiri rõhuga protsesside täpsus, sidusrühmade teenindamine, usaldusväärsus (KOOSTADA)  
+2. Kaaskiri rõhuga protsesside täpsus, sidusrühmade teenindamine, usaldusväärsus (DONE `kaaskiri.md`)  
 3. REGISTRY värskendus Applied kuupäevaga pärast saatmist  
 4. Jälgida tähtaega 24.08.2025 – meeldetuletus ~19.08 sisemise kontrolli jaoks
 
@@ -134,21 +134,6 @@ Lisa võimalusel sektsioon: "Juhtimistoetuse ja töövoo optimeerimise kogemus" 
 ---
 
 **Allika täpsus:** Kõik kirjeldused põhinevad sõnasõnaliselt kopeeritud töökuulutusel ja analüütilisel tõlgendusel ilma oletuslike lisadeta.
-
-## Standardiseeritud sobivushinnang (2025-08-12)
-
-| Dimensioon | Hinnang | Lühiselgitus |
-|-----------|---------|--------------|
-| Strateegiline tugi IT/analüüsi rajale | Mõõdukas | Koordineerimine + protsessid võivad toetada juhtimismõõdet |
-| Finants (≤2300 €) | Mõõdukas | Alla tehniliste rollide potentsiaali, kuid parem kui teised mitte-IT variandid siin loetelus (v.a metall kõrgepalgalisem spekter) |
-| Õppeenergia säilimine | Kõrge | Vahelduv administratiivtöö jätab vaimset mahtu õhtuseks IT arenguks |
-| Ülekantavad oskused | Mõõdukad–Kõrged | Dokumentatsioon, protsesside koordinatsioon, sidusrühmade suhtlus |
-| Fookuse hajumise risk | Madal–Keskmine | Saab raamida juhtimistoetuse kompetentsina IT projektidele |
-| Kandideerimise pingutus | Mõõdukas | CV ümberraamimine vajalik ülekvalifitseerituse vältimiseks |
-| Isiklik motivatsioon | Tundmatu | Huvi ei ole veel sõnastatud (vajadusel lisada) |
-| Soovitus | MONITOR / POSSIBLE APPLY | Kui soovid tugevdada organisatsioonilist koordineerimisprofiili |
-
----
 
 ## Standardiseeritud sobivushinnang (2025-08-12)
 
