@@ -1,470 +1,144 @@
-# Job Application Assistant - Instructions & Guidelines
+# Job Application Assistant – Condensed Guide
 
-**Created:** July 4, 2025  
-**Purpose:** Documentation for AI assistant working with Mihkel Putrinš's job applications  
-**Critical Requirement:** TRUTH AND ACCURACY - No lies, half-truths, or unverified claims
-
----
-
-## CORE PRINCIPLE: TRUTH AND FACTS ONLY
-
-### NEVER DO
-
-- Make up statistics, dates, or technical details
-- Claim experience or skills not actually possessed
-- Invent company information or project details
-- Create fake references or achievements
-- Exaggerate capabilities or timeline estimates
-
-### ALWAYS DO
-
-- Verify all facts against official sources
-- Use phrases like "estimated," "approximately," "based on research"
-- Mark unverified information clearly
-- Provide source links for all external information
-- **Check `.ai_docs` folder** before creating any content
-- Ask for clarification when information is missing
-- **Use icons extremely conservatively** - prefer plain text over decorative symbols
+Created: 2025-07-04 • Last Refactor: 2025-08-12 (condensed)  
+Mission: Produce truthful, well‑structured application materials. Zero fabrication tolerance.
 
 ---
 
-## FOLDER STRUCTURE
+## 1. Core Principles
+
+NEVER: invent facts, inflate skills, guess dates, cite internal company info, fabricate metrics, imply experience not held.  
+ALWAYS: verify sources, cite links, mark uncertainty ("approx.", "needs verification"), keep scope honest, ask when data missing, minimize decorative symbols.
+
+Primary safeguard: consult `.ai_docs/` (violations log, honest_cv_guidelines, motivation_letters_audit_log, technical_notes) BEFORE drafting or altering CV, cover letters, or vision docs.
+
+---
+
+## 2. Repository Structure (Target Pattern)
 
 ```text
-/home/michelek/Documents/tööotsing/
-├── applications/                    # Individual job applications
-│   ├── CompanyName/                 # Company-based organization (PREFERRED)
-│   │   ├── RoleName/               # Role subfolder when multiple roles per company
-│   │   │   ├── cv.md               # Tailored CV for this position
-│   │   │   ├── kaaskiri.md         # Cover letter in Estonian
-│   │   │   ├── cover_letter.md     # Cover letter in English
-│   │   │   ├── readme.md           # Application summary & notes
-│   │   │   ├── tookuulutus.md      # Original job posting
-│   │   │   └── communication/      # Email logs, feedback
-│   │   └── [additional roles]      # Other roles at same company
-│   ├── OZCompany/                  # Example: Multiple roles at O.Z. Company
-│   │   ├── Armeerija/
-│   │   └── Betoonvormija/
-│   ├── Sisekaitse/
-│   │   └── Laospetsialist/
-│   └── Scandinor/
-│       └── Puidutisler/
-│   │   └── [additional files]      # Company research, etc.
-│   └── TallinnLastehaigla/
-│       ├── intervjuu 2025-07-01/   # Interview preparation materials
-│       │   ├── UpTIS_kokkuvõte.md
-│       │   ├── Terviseportaal_kokkuvõte.md
-│       │   ├── TEHIK_arenduspohimotted.md
-│       │   ├── Patsiendi_uldandmete_teenus.md
-│       │   ├── Lastehaigla_taustainfo.md
-│       │   ├── Materjalide_kokkuvõte.md
-│       │   ├── IT_Visioon_Kokkuvõte_A4.md
-│       │   └── [HTML versions for PDF export]
-│       └── [standard application files]
-├── CV templates/                    # Base CV templates
-│   ├── en.md                       # English template
-│   └── et.md                       # Estonian template
-├── cover letters/                   # Cover letter templates
-│   ├── en_software.md              # English software role template
-│   ├── en_billing.md               # English billing role template
-│   ├── et_tarkvara.md              # Estonian software role template
-│   └── et_tootmisjuht.md           # Estonian production manager template
-└── templates/                       # Conversion utilities
-    ├── cv_template.html            # HTML template for CV
-    ├── cover_letter_template.html  # HTML template for cover letters
-    └── styles/                     # CSS styling
+applications/
+   Company/
+      Role/
+         tookuulutus.md      # Verbatim posting (or placeholder + TODO)
+         readme.md           # Analysis, fit, strategy
+         cv.md               # Tailored CV (on demand)
+         kaaskiri.md         # Estonian cover letter (on demand)
+         cover_letter.md     # English cover letter (if needed)
+         communication/      # YYYY-MM-DD_slug.md logs
+CV templates/
+cover letters/
+templates/               # HTML + styles (no JS)
+.ai_docs/                 # Truth & compliance artifacts
 ```
 
-### The `.ai_docs` Folder - Quality Control System
+ALWAYS use Company/Role even for single role; migrate legacy flat folders when touched.
 
-**Purpose:** Track and prevent fabrications in AI-generated application materials
-
-```text
-.ai_docs/
-├── cross_reference_violations_log.md    # Detailed audit of 9 AI fabrications found
-├── honest_cv_guidelines.md              # Comprehensive truthfulness guidelines
-├── motivation_letters_audit_log.md      # Specific letter audit findings
-└── technical_notes.md                   # Technical documentation & workarounds
-```
-
-**Usage:**
-
-- **MANDATORY:** Check these files before creating ANY application materials
-- Contains detailed examples of past AI fabrications to avoid
-- Provides specific guidelines for honest content creation
+Naming: Simplify special chars; use `_` for spaces if needed. Role names short (<25 chars): e.g. `Laospetsialist`, `Puidutisler`, `Juhiabi`.
 
 ---
 
-## TEMPLATE SYSTEM
+## 3. Standard Creation Workflow (New Posting)
 
-### Base Templates
+| Step      | Action                                                              | Output           |
+| --------- | ------------------------------------------------------------------- | ---------------- |
+| Capture   | Create `Company/Role/`, `communication/`                            | Folders          |
+| Post      | Save verbatim text → `tookuulutus.md` (wrap raw emails/URLs)        | Posting file     |
+| Analyze   | Draft `readme.md` (fit, gaps, risk/benefit, strategy, QC reminders) | Analysis         |
+| Register  | Append row in `applications/REGISTRY.md` (Status=PLANNING)          | Registry updated |
+| Follow-up | On request: `cv.md`, `kaaskiri.md`, cover letter                    | Tailored docs    |
 
-- **CV Templates:** Located in `CV templates/` - base versions that get customized per application
-- **Cover Letter Templates:** Located in `cover letters/` - role-specific templates
-- **HTML Templates:** Located in `templates/` - for PDF conversion
-
-### Template Customization Process
-
-1. **Copy base template** to specific company folder
-2. **Customize content** for the specific role and company
-3. **Verify all claims** - ensure everything is truthful
-4. **Create HTML version** for PDF export if needed
-5. **Test PDF conversion** to ensure formatting works
+Do NOT wait for permission—perform all Capture→Register steps automatically upon user providing a posting.
 
 ---
 
-## NEW JOB APPLICATION WORKFLOW
+## 4. Document Standards
 
-### When User Reports New Job Opportunities
+Markdown: clear heading hierarchy, blank lines around lists & tables, no bare URLs, minimal emphasis.  
+HTML (export sources): pure semantic HTML5, inline CSS only, UTF‑8, print (A4) friendly, no JS, no external fonts/CDNs.
 
-**Standard workflow for "I found a new job offer: [URLs]"**
-
-1. **Fetch and analyze** job posting content from provided URLs
-2. **Create application folder structure** following established pattern:
-
-   ```text
-   applications/CompanyName/
-   ├── readme.md           # Job analysis and application strategy
-   ├── tookuulutus.md      # Original job posting (Estonian)
-   ├── cv.md               # (create when requested)
-   ├── kaaskiri.md         # (create when requested)
-   └── communication/      # Directory for correspondence
-   ```
-
-3. **Immediate deliverables** (without asking):
-
-   - **Company folder** under `applications/`
-   - **readme.md** with comprehensive job analysis including:
-     - Company background and requirements
-     - Assessment of user's strengths vs. job needs
-     - Research areas and application strategy
-     - Quality control reminders
-   - **tookuulutus.md** with original job posting content
-   - **communication/** subdirectory
-
-4. **Follow-up options** (ask user preference):
-   - Create customized CV
-   - Write targeted cover letter
-   - Research specific technologies mentioned
-   - Prepare interview materials
-
-### Quality Standards for New Applications
-
-- All content must reference master CV templates only
-- No fabricated experience or skills
-- Realistic assessments of fit and preparation needed
-- Include quality control reminders in readme.md
-- Follow established folder naming conventions
+Include attribution lines for verbatim sources. Use checklists for final verification (dates, contacts, completeness, links).
 
 ---
 
-## TEMPLATE SYSTEM
+## 5. Research & Verification
 
-### HTML File Standards
+| Area                | Rule                                                                   |
+| ------------------- | ---------------------------------------------------------------------- |
+| Company facts       | Only official site / authoritative public sources                      |
+| Technical standards | Official specs (e.g. HL7, TEHIK docs) + version/date                   |
+| Metrics & claims    | Provide baseline or label as estimate; never invent                    |
+| Personal experience | Cross‑check with `honest_cv_guidelines.md`; exclude unverifiable items |
+| Links               | Test before inclusion                                                  |
 
-- **No JavaScript dependencies** (causes PDF export issues)
-- **No external resources** (CSS, fonts, images from CDNs)
-- **Static CSS only** with standard web fonts
-- **Proper UTF-8 encoding** for Estonian characters
-- **A4 print optimization** when needed
-
----
-
-## RESEARCH AND VERIFICATION REQUIREMENTS
-
-### Company Research
-
-- **Official websites only** for company information
-- **Verify all links** before including them
-- **Mark research date** to indicate freshness
-- **Cross-reference** information from multiple sources when possible
-
-### Technical Information
-
-- **Government websites** for Estonian IT systems (TEHIK, e-Estonia)
-- **Official documentation** for technical standards (HL7 FHIR, etc.)
-- **No speculation** about future developments unless clearly marked
-- **Version dates** for all technical references
-
-### Personal Information
-
-- **Cross-reference with `.ai_docs/honest_cv_guidelines.md`** for detailed guidance
-- Only use verified skills and experience
-- Realistic timeframes for project estimates
-- No inflated achievements
+Uncertain? Mark with `(verify)` and log TODO in analysis until confirmed.
 
 ---
 
-## DOCUMENT FORMATTING STANDARDS
+## 6. Application Lifecycle & Registry
 
-### Markdown Files
+Registry file: `applications/REGISTRY.md` (Columns: Role | Company | Posting No | Published | Deadline | Registered | Applied | Interviews | Final Response | Status | Notes)
 
-```markdown
-# Title
+Status Flow:
+PLANNING → APPLIED → INTERVIEW → (OFFER | REJECTED | WITHDRAWN)  
+ON-HOLD allowed anytime (note reason). OFFER implies acceptance; if offer declined, note in Comments.
 
-**Meta information:** Date, purpose, etc.
-**Source:** Official link when applicable
+| Trigger                    | Required Action                           | Registry Update                   |
+| -------------------------- | ----------------------------------------- | --------------------------------- |
+| Posting registered         | Row added                                 | Status=PLANNING, Registered=today |
+| Application sent           | Set Applied date                          | Status=APPLIED                    |
+| Interview scheduled/held   | Append date to Interviews (chronological) | If first: Status=INTERVIEW        |
+| Final decision (offer)     | Set Final Response date                   | Status=OFFER                      |
+| Final decision (rejection) | Set Final Response date                   | Status=REJECTED                   |
+| Candidate withdraws        | Set Final Response date + reason in Notes | Status=WITHDRAWN                  |
+| Pause search for role      | Add reason in Notes                       | Status=ON-HOLD                    |
 
-## Sections with clear hierarchy
+Timestamps: ISO YYYY-MM-DD (local EE). Leave blank if unknown. Corrections: note "corrected from X→Y" in Notes.
 
-- Bullet points for lists
-- **Bold** for emphasis
-- `Code formatting` for technical terms
-- [Links with descriptive text](URL)
-
-_Source: [Official source name](URL)_
-```
-
-### Icon Usage Guidelines
-
-- **Use icons extremely conservatively** - only when absolutely necessary for clarity
-- **Prefer plain text** over emoji/unicode icons in professional documents
-- **Avoid decorative icons** that don't add functional value
-- **Exception:** Status indicators (✅/❌) only when showing clear pass/fail states
-
-### HTML Files
-
-- Clean, semantic HTML5
-- Inline CSS only (no external dependencies)
-- Proper `<title>` tags
-- UTF-8 charset declaration
-- Print-friendly styling
-- Accessible design (WCAG guidelines)
+Communication: each significant email/call summary → `communication/YYYY-MM-DD_slug.md` (never embed long threads in registry Notes).
 
 ---
 
-## TALLINNA LASTEHAIGLA SPECIFIC GUIDELINES
+## 7. Quality & Integrity Checklist
 
-### Interview Preparation Materials
+| Phase             | Checks                                                            |
+| ----------------- | ----------------------------------------------------------------- |
+| Before drafting   | Open `.ai_docs/`; confirm no prior fabrication pattern repeats    |
+| Posting saved     | Verify all sections present; mark missing fields with TODO        |
+| Analysis ready    | Fit matrix, risk list, action next steps present                  |
+| Before applying   | Tailored CV + cover letter free of unverified claims; links valid |
+| Before submission | Spellcheck; roles/dates consistent; registry updated              |
+| After response    | Log outcome; set Status + Final Response; add feedback file       |
 
-- **All technical information** must be from official TEHIK sources
-- **Current status only** - no speculation about future developments
-- **Realistic timelines** and budget estimates
-- **Honest capability assessments**
-
-### Vision Document Guidelines
-
-- **Conservative estimates** for all metrics and timelines
-- **Phrase uncertainties clearly:** "estimated," "approximately," "pending audit"
-- **Reference industry standards** rather than making up benchmarks
-- **Realistic budget figures** based on market research
+Red Flags (STOP & clarify): unverifiable metrics, internal strategy claims, future product roadmap speculation, inflated scope of past roles, ambiguous date ranges.
 
 ---
 
-## QUALITY CONTROL CHECKLIST
+## 8. Escalation & Uncertainty Handling
 
-**CRITICAL:** Always check `.ai_docs/` folder first - contains detailed audit of 9 AI fabrications discovered.
-
-### Before Creating Any Document
-
-- [ ] **Cross-reference with `.ai_docs/honest_cv_guidelines.md`**
-- [ ] All facts verified against official sources
-- [ ] No unsubstantiated claims
-- [ ] Proper source attribution
-- [ ] Realistic estimates and timelines
-
-### Before PDF Export
-
-- [ ] HTML validates without errors
-- [ ] No JavaScript or external dependencies
-- [ ] UTF-8 encoding properly set
-- [ ] Test PDF export successful
-
-### Before Submission
-
-- [ ] **Final cross-check against `.ai_docs/cross_reference_violations_log.md`**
-- [ ] Spelling and grammar review
-- [ ] All required files present
+If required data missing → ask succinct clarifying question OR add explicit TODO with reason.  
+Use phrasing: "Based on available public info", "Estimate pending confirmation".  
+Never silently omit risk; list and label low-confidence items.
 
 ---
 
-## RED FLAGS TO AVOID
+## 9. Maintenance
 
-**See `.ai_docs/cross_reference_violations_log.md` for specific examples of past fabrications.**
+Weekly: skim registry for stale PLANNING entries (older than deadline).  
+Monthly: verify template + HTML export still valid, update tech version references.  
+On change: update Last Refactor date at top.
 
-### Content Red Flags
-
-- Unverified statistics or market data
-- Claims about company internal information not publicly available
-- Technical capabilities not actually possessed
-- **Any content not cross-referenced with `.ai_docs/` files**
-
-### Technical Red Flags
-
-- Broken links in final documents
-- 0-byte PDF exports (usually JavaScript/CSS issues)
-- Missing or corrupted characters in Estonian text
-- External dependencies that may fail
+Success Metrics: zero factual errors, consistent registry states, reproducible PDFs (no styling regressions), minimized duplication across files.
 
 ---
 
-## ESCALATION GUIDELINES
+## 10. Quick Reference (TL;DR)
 
-### When to Ask for Clarification
-
-- Missing personal information needed for applications
-- Any uncertainty about factual accuracy
-- Technical requirements beyond current knowledge
-
-### How to Handle Uncertainty
-
-- **Check `.ai_docs/` files first** for similar situations
-- **Be explicit about limitations:** "This requires verification"
-- **Use qualifying language:** "Based on available information..."
-- **Never guess or fabricate** missing information
+Input: Posting → Output (folder + posting + analysis + registry row).  
+Never invent; always cite; keep lifecycle current; isolate communication logs; prefer concision.
 
 ---
 
-## MAINTENANCE AND UPDATES
+Remember: Honest clarity > embellished narrative. Integrity compounds.
 
-### Regular Updates Required
-
-- Government website links (TEHIK, etc.)
-- Technical documentation versions
-- Company information freshness
-- Template effectiveness review
-
-### Version Control
-
-- Mark creation/modification dates on all files
-- Keep source information for all external content
-- Document any significant changes or updates
-- Maintain backup of working versions
-
----
-
-## SUCCESS METRICS
-
-### Quality Indicators
-
-- Zero factual errors in submitted applications
-- Successful PDF conversions for all documents
-- Positive feedback on document quality
-- Efficient application preparation process
-
-### Process Efficiency
-
-- Reduced time for document creation
-- Consistent formatting across applications
-- Reusable research and templates
-- Streamlined verification process
-
----
-
-## APPLICATION REGISTRY SYSTEM (ADDED 2025-08-12)
-
-Central file: `applications/REGISTRY.md`
-
-### Purpose
-
-Track lifecycle of each job posting with standardized timestamps to enable quick status overview and historical analysis.
-
-### Required Columns (See table header in `REGISTRY.md`)
-
-- Role
-- Company / Folder (exact folder name under `applications/`)
-- Posting No (official identifier or (n/a))
-- Published (YYYY-MM-DD)
-- Deadline (YYYY-MM-DD or blank)
-- Registered (date added to repo)
-- Applied (date application submitted)
-- Interviews (comma-separated dates; optionally add short label e.g. `2025-09-01(Screen)`)
-- Final Response (date rejection / offer / withdrawal concluded)
-- Status (one of: PLANNING | APPLIED | INTERVIEW | REJECTED | OFFER | WITHDRAWN | ON-HOLD)
-- Notes (<= 60 chars; deeper detail goes to `/communication/`)
-
-### Status Transition Rules
-
-1. New row → Status=PLANNING
-2. After application submission → set Applied + Status=APPLIED
-3. First interview scheduled/held → append date → Status=INTERVIEW
-4. Offer received (accepted) → set Final Response + Status=OFFER
-5. Rejection received → set Final Response + Status=REJECTED
-6. Candidate withdraws → set Final Response + Status=WITHDRAWN (reason in Notes)
-7. Temporarily paused → Status=ON-HOLD (reason in Notes)
-
-### Timestamp Guidance
-
-- Always use local date (EE timezone) in ISO format.
-- Do not backfill unknown dates—leave blank until confirmed.
-- If correcting a previously entered date, document correction in Notes ("corrected from … → …").
-
-### Interview Tracking
-
-- Use chronological order: earliest → latest.
-- Format: `YYYY-MM-DD` optionally followed by short tag in parentheses.
-- For multi-round same-day events: `2025-09-03(TechAM, HRPM)` (keep concise).
-
-### Communication Logging
-
-- Each significant inbound/outbound email or call summary → create file in `applications/<Folder>/communication/` named: `YYYY-MM-DD_<short_slug>.md`
-- Reference communication file in REGISTRY Notes only if crucial (e.g., `see comm/2025-08-12_feedback.md`).
-
-### Automation Checklist (Assistant MUST do automatically when new posting provided)
-
-- [ ] Create company folder (e.g., `CompanyName/`) & role subfolder if needed (e.g., `CompanyName/RoleName/`)
-- [ ] Create `communication/` subdirectory
-- [ ] Create `tookuulutus.md` (verbatim or placeholder with TODO if JS-render blocked)
-- [ ] Create / update `readme.md` with analysis
-- [ ] Append new row to `REGISTRY.md` with Company/Role folder path (e.g., `CompanyName/RoleName`)
-- [ ] Set Registered date = current date
-- [ ] Leave Status=PLANNING unless user confirms application sent
-
-### Folder Naming Guidelines
-
-**Company Names:**
-
-- Use official company name, simplified for filesystem (no special chars)
-- Examples: `Sisekaitse`, `Patendiamet`, `OZCompany`, `Tallinna_Tehnikagymnasium`
-- For multiple companies with similar names, add distinguishing suffix
-
-**Role Names:**
-
-- Use clear, concise role descriptor
-- Examples: `Laospetsialist`, `Juhiabi`, `Armeerija`, `Administraator`
-- Avoid overly long folder names (< 25 chars preferred)
-
-**When to Use Company/Role Structure:**
-
-- Always prefer Company/Role over flat structure
-- Single role per company: still use Company/Role for consistency
-- Multiple roles per company: Company/Role1, Company/Role2, etc.
-- Legacy flat folders should be migrated when encountered
-
-### After Application Sent (User says or provides proof)
-
-- [ ] Fill Applied date
-- [ ] Change Status → APPLIED
-- [ ] Optionally create `cv.md` and `kaaskiri.md` if not existing
-
-### After Interview Scheduling
-
-- [ ] Append interview date
-- [ ] Status=INTERVIEW (if not already OFFER / REJECTED)
-- [ ] Create interview prep subfolder if substantial prep required
-
-### On Final Outcome
-
-- [ ] Fill Final Response date
-- [ ] Update Status accordingly
-- [ ] Log feedback in communication file
-
-### Data Integrity Rules (REINFORCEMENT)
-
-- Never infer or guess missing timestamps.
-- All modifications are additive; preserve historical corrections in Notes.
-- Keep registry tidy: remove trailing spaces, assure table pipe alignment optional (content over alignment).
-
-### Quality Control Addendum
-
-Before modifying registry:
-
-- [ ] Validate folder exists for new row
-- [ ] Check duplicate Posting No not already listed
-- [ ] Ensure dates follow YYYY-MM-DD
-
-_End of registry instructions (added 2025-08-12)._
-
-**Remember:** Better to have a simpler, truthful document than an impressive one built on false claims. Integrity is more valuable than perceived expertise.
-
-**Contact for Questions:** Mihkel Putrinš | <mitselek@gmail.com> | +372 56560978
+Contact: Mihkel Putrinš · <mitselek@gmail.com> · +372 56560978
