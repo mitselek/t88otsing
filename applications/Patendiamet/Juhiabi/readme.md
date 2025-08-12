@@ -114,9 +114,14 @@ Lisa võimalusel sektsioon: "Juhtimistoetuse ja töövoo optimeerimise kogemus" 
 
 ## Otsuseseis
 
-**STAATUS:** KAALUMISEL  
-**Soovituslik liikumine:** Kinnita prioriteet (Kas see roll konkureerib aktiivselt analüütiku / arendusjuhi võimalustega?)  
-**Järgmine samm:** Kui jätkad – loon `cv.md` kohanduse aluse ja kavandi kaaskirjale
+**OTSUS:** KANDIDEERIN (ettevalmistus käimas)  
+**Põhjendus:** Roll toetab koordinatsiooni ja dokumenteerimise kompetentsi, mida saab raamida IT/protsesside juhtimise tugena.  
+**Järgmised sammud:**  
+
+1. Koostada sihitud CV (`cv.md`) – vähendada süvatehnilisi detaile (DONE ettevalmistus)  
+2. Kaaskiri rõhuga protsesside täpsus, sidusrühmade teenindamine, usaldusväärsus (KOOSTADA)  
+3. REGISTRY värskendus Applied kuupäevaga pärast saatmist  
+4. Jälgida tähtaega 24.08.2025 – meeldetuletus ~19.08 sisemise kontrolli jaoks
 
 ## Kvaliteedikontrolli Kontrollnimekiri
 
