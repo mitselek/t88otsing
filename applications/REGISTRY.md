@@ -28,7 +28,6 @@ Chronological list of job postings (ascending by published date). Tracks lifecyc
 - BLRT – Ajalooline "Balti Laevaremonditehas"; nüüd BLRT Grupp AS (tööstuskontsern: laevaehitus, metallitööd, tehnika).
 - FTE – Full-Time Equivalent (täistööaja ekvivalent). 1.0 FTE = täiskoormus; 0.5 FTE = poole kohaga.
 
-
 ## Future Updates
 
 Add older historical applications below (or in a new section) once their metadata is normalized. Consider a separate ARCHIVE section when volume grows > 30 active rows.
