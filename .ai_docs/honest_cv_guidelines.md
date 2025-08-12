@@ -1,10 +1,8 @@
 # Honest CV Guidelines
 
-## ⚠️ CRITICAL QUALITY CONTROL
+Last Refactor: 2025-08-12 (streamlined, references centralized logs)
 
-**See detailed violation log**: `cross_reference_violations_log.md` for comprehensive audit results.
-
-**CRITICAL REQUIREMENT**: Always perform systematic cross-referencing against master CV templates before ANY application submission. AI assistants systematically fabricate content when not properly constrained.
+For concrete past violations see: `cross_reference_violations_log.md` (single source). This file = forward-looking rules only.
 
 ---
 
@@ -116,42 +114,26 @@ These templates contain:
 - Honest skill assessments and training history
 - Proper categorization of competencies
 
-### Quality Control Checklist
+### Minimal Final Checklist (CV / Letter)
 
-Before finalizing any application document:
+1. Content: Dates, orgs, roles match master templates
+2. Claims: No unverifiable metrics; unclear items marked `(verify)`
+3. Sections: Headings accurately describe content; transferable skills clearly labeled
+4. Format: Markdown lint clean; length within target
+5. Integrity: Quick scan vs violation log patterns (no repeats)
 
-1. **Content Verification**
+### Application Creation Workflow (Condensed)
 
-   - Cross-reference all dates, companies, and achievements with master CV templates
-   - Ensure project descriptions match the actual scope from templates
-   - Verify that skill claims are consistent with established competency levels
+1. Duplicate master template → role draft
+2. Insert verbatim posting text (separate file)
+3. Adapt content honestly (no scope inflation)
+4. Lint + integrity checklist
+5. Update registry & prepare export assets
 
-2. **Markdown Quality**
+## Related Docs & Context
 
-   - Run markdown linter and fix all formatting issues (see `technical_notes.md` for details)
-   - Ensure consistent formatting and structure
+`cross_reference_violations_log.md` – violations archive & methodology  
+`technical_notes.md` – tooling & conversion workflow  
+`motivation_letters_audit_log.md` – letter claim verification patterns  
 
-3. **Honesty Review**
-
-   - Check against these guidelines for any exaggerations
-   - Verify section headings accurately reflect content
-   - Confirm transferable skills are properly positioned
-
-### Application Creation Workflow
-
-1. Start with master CV templates as foundation
-2. **Copy job advertisement verbatim** - capture the exact text to ensure accurate targeting
-3. Adapt content honestly for target role
-4. Apply these honest approach guidelines
-5. Run markdown linter and fix all issues
-6. Final review against master templates for accuracy
-
-## Related Documentation
-
-- **Technical Notes** (`technical_notes.md`) - AI assistant workarounds and technical tips for workflow automation
-
-## Context
-
-These guidelines were developed while refining CV for Küberväejuhatus Sagedushaldusspetsialist position, after identifying and correcting several instances of unnecessary exaggeration.
-
-Created: June 10, 2025
+Created: 2025-06-10  •  Streamlined: 2025-08-12

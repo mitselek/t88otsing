@@ -1,33 +1,19 @@
 # Technical Notes
 
-## ⚠️ AI Assistant Quality Control
+Last Refactor: 2025-08-12 (deduplicated)
 
-**CRITICAL**: See comprehensive audit in `cross_reference_violations_log.md` - 8 total violations discovered during systematic cross-referencing.
+## Quality Control Pointer
 
-**Critical Issues Discovered**: AI assistant fabricated multiple false claims not present in master CV templates:
+Single source for historical fabrications: `cross_reference_violations_log.md` (9 violations + fabricated email). Do NOT repeat or extend that list here. For honesty principles see `honest_cv_guidelines.md`.
 
-1. **"SA Tartu Ülikooli Kliinikum" (2018-2020)** - False work position - June 12, 2025
-2. **"Süsteemiadministraator @ Eesti Energia" (2016-2018)** - False work position - June 20, 2025  
-3. **"Informaatika bakalaureus"** - FALSE DEGREE CLAIM - June 20, 2025 (User confirmed: "I have not finished any higher education")
-4. **"Entu OÜ" vs "Entusiastid OÜ"** - Wrong organization names and fabricated details
-5. **Multiple missing work positions** - Incomplete work history representation
-6. **Fabricated training sections** - Fake courses and certifications
+Minimal operational checklist (applications):
 
-This highlights the importance of:
+- Cross‑reference work history vs master CV templates
+- Verify dates, titles, organizations
+- Exclude unverifiable claims (mark TODO if pending)
+- Final pass vs `honest_cv_guidelines.md`
 
-1. **Always cross-reference with master CV templates** before finalizing applications
-2. **Human verification** of all AI-generated content for accuracy
-3. **Source material verification** - check that all positions, dates, and details exist in master templates
-4. **Systematic verification** - AI fabrications can be systematic, not isolated incidents
-
-### Quality Control Checklist
-
-Before finalizing any application:
-
-- ✅ Cross-reference all work experience with master CV templates
-- ✅ Verify all dates, company names, and job titles
-- ✅ Ensure no fabricated positions or inflated claims
-- ✅ Check against honest CV guidelines
+---
 
 ---
 
@@ -46,7 +32,7 @@ The AI assistant's `run_in_terminal` tool sometimes doesn't capture output from 
    to retrieve the output from the previous command execution.
    ```
 
-2. **Pipe to cat** - **PROVEN EFFECTIVE** ✅
+2. **Pipe to cat** - Proven effective
 
    ```bash
    git status | cat
@@ -148,9 +134,10 @@ templates/
 
 ## Related Documentation
 
-- **Honest CV Guidelines** (`honest_cv_guidelines.md`) - Content standards and quality control processes for job applications
+- `cross_reference_violations_log.md` – canonical violations & methodology
+- `honest_cv_guidelines.md` – content integrity rules
+- `motivation_letters_audit_log.md` – letter-specific audit
 
 ---
 
-*Created: June 20, 2025*
-*Issue discovered during EKI application git commits*
+Created: 2025-06-20  •  Consolidated: 2025-08-12
