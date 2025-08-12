@@ -33,12 +33,22 @@
 ```text
 /home/michelek/Documents/tööotsing/
 ├── applications/                    # Individual job applications
-│   ├── CompanyName/
-│   │   ├── cv.md                   # Tailored CV for this position
-│   │   ├── kaaskiri.md             # Cover letter in Estonian
-│   │   ├── cover_letter.md         # Cover letter in English
-│   │   ├── readme.md               # Application summary & notes
-│   │   ├── tookuulutus.md          # Original job posting
+│   ├── CompanyName/                 # Company-based organization (PREFERRED)
+│   │   ├── RoleName/               # Role subfolder when multiple roles per company
+│   │   │   ├── cv.md               # Tailored CV for this position
+│   │   │   ├── kaaskiri.md         # Cover letter in Estonian
+│   │   │   ├── cover_letter.md     # Cover letter in English
+│   │   │   ├── readme.md           # Application summary & notes
+│   │   │   ├── tookuulutus.md      # Original job posting
+│   │   │   └── communication/      # Email logs, feedback
+│   │   └── [additional roles]      # Other roles at same company
+│   ├── OZCompany/                  # Example: Multiple roles at O.Z. Company
+│   │   ├── Armeerija/
+│   │   └── Betoonvormija/
+│   ├── Sisekaitse/
+│   │   └── Laospetsialist/
+│   └── Scandinor/
+│       └── Puidutisler/
 │   │   └── [additional files]      # Company research, etc.
 │   └── TallinnLastehaigla/
 │       ├── intervjuu 2025-07-01/   # Interview preparation materials
@@ -72,7 +82,7 @@
 ```text
 .ai_docs/
 ├── cross_reference_violations_log.md    # Detailed audit of 9 AI fabrications found
-├── honest_cv_guidelines.md              # Comprehensive truthfulness guidelines  
+├── honest_cv_guidelines.md              # Comprehensive truthfulness guidelines
 ├── motivation_letters_audit_log.md      # Specific letter audit findings
 └── technical_notes.md                   # Technical documentation & workarounds
 ```
@@ -122,6 +132,7 @@
    ```
 
 3. **Immediate deliverables** (without asking):
+
    - **Company folder** under `applications/`
    - **readme.md** with comprehensive job analysis including:
      - Company background and requirements
@@ -339,6 +350,120 @@ _Source: [Official source name](URL)_
 - Streamlined verification process
 
 ---
+
+## APPLICATION REGISTRY SYSTEM (ADDED 2025-08-12)
+
+Central file: `applications/REGISTRY.md`
+
+### Purpose
+
+Track lifecycle of each job posting with standardized timestamps to enable quick status overview and historical analysis.
+
+### Required Columns (See table header in `REGISTRY.md`)
+
+- Role
+- Company / Folder (exact folder name under `applications/`)
+- Posting No (official identifier or (n/a))
+- Published (YYYY-MM-DD)
+- Deadline (YYYY-MM-DD or blank)
+- Registered (date added to repo)
+- Applied (date application submitted)
+- Interviews (comma-separated dates; optionally add short label e.g. `2025-09-01(Screen)`)
+- Final Response (date rejection / offer / withdrawal concluded)
+- Status (one of: PLANNING | APPLIED | INTERVIEW | REJECTED | OFFER | WITHDRAWN | ON-HOLD)
+- Notes (<= 60 chars; deeper detail goes to `/communication/`)
+
+### Status Transition Rules
+
+1. New row → Status=PLANNING
+2. After application submission → set Applied + Status=APPLIED
+3. First interview scheduled/held → append date → Status=INTERVIEW
+4. Offer received (accepted) → set Final Response + Status=OFFER
+5. Rejection received → set Final Response + Status=REJECTED
+6. Candidate withdraws → set Final Response + Status=WITHDRAWN (reason in Notes)
+7. Temporarily paused → Status=ON-HOLD (reason in Notes)
+
+### Timestamp Guidance
+
+- Always use local date (EE timezone) in ISO format.
+- Do not backfill unknown dates—leave blank until confirmed.
+- If correcting a previously entered date, document correction in Notes ("corrected from … → …").
+
+### Interview Tracking
+
+- Use chronological order: earliest → latest.
+- Format: `YYYY-MM-DD` optionally followed by short tag in parentheses.
+- For multi-round same-day events: `2025-09-03(TechAM, HRPM)` (keep concise).
+
+### Communication Logging
+
+- Each significant inbound/outbound email or call summary → create file in `applications/<Folder>/communication/` named: `YYYY-MM-DD_<short_slug>.md`
+- Reference communication file in REGISTRY Notes only if crucial (e.g., `see comm/2025-08-12_feedback.md`).
+
+### Automation Checklist (Assistant MUST do automatically when new posting provided)
+
+- [ ] Create company folder (e.g., `CompanyName/`) & role subfolder if needed (e.g., `CompanyName/RoleName/`)
+- [ ] Create `communication/` subdirectory
+- [ ] Create `tookuulutus.md` (verbatim or placeholder with TODO if JS-render blocked)
+- [ ] Create / update `readme.md` with analysis
+- [ ] Append new row to `REGISTRY.md` with Company/Role folder path (e.g., `CompanyName/RoleName`)
+- [ ] Set Registered date = current date
+- [ ] Leave Status=PLANNING unless user confirms application sent
+
+### Folder Naming Guidelines
+
+**Company Names:**
+
+- Use official company name, simplified for filesystem (no special chars)
+- Examples: `Sisekaitse`, `Patendiamet`, `OZCompany`, `Tallinna_Tehnikagymnasium`
+- For multiple companies with similar names, add distinguishing suffix
+
+**Role Names:**
+
+- Use clear, concise role descriptor
+- Examples: `Laospetsialist`, `Juhiabi`, `Armeerija`, `Administraator`
+- Avoid overly long folder names (< 25 chars preferred)
+
+**When to Use Company/Role Structure:**
+
+- Always prefer Company/Role over flat structure
+- Single role per company: still use Company/Role for consistency
+- Multiple roles per company: Company/Role1, Company/Role2, etc.
+- Legacy flat folders should be migrated when encountered
+
+### After Application Sent (User says or provides proof)
+
+- [ ] Fill Applied date
+- [ ] Change Status → APPLIED
+- [ ] Optionally create `cv.md` and `kaaskiri.md` if not existing
+
+### After Interview Scheduling
+
+- [ ] Append interview date
+- [ ] Status=INTERVIEW (if not already OFFER / REJECTED)
+- [ ] Create interview prep subfolder if substantial prep required
+
+### On Final Outcome
+
+- [ ] Fill Final Response date
+- [ ] Update Status accordingly
+- [ ] Log feedback in communication file
+
+### Data Integrity Rules (REINFORCEMENT)
+
+- Never infer or guess missing timestamps.
+- All modifications are additive; preserve historical corrections in Notes.
+- Keep registry tidy: remove trailing spaces, assure table pipe alignment optional (content over alignment).
+
+### Quality Control Addendum
+
+Before modifying registry:
+
+- [ ] Validate folder exists for new row
+- [ ] Check duplicate Posting No not already listed
+- [ ] Ensure dates follow YYYY-MM-DD
+
+_End of registry instructions (added 2025-08-12)._
 
 **Remember:** Better to have a simpler, truthful document than an impressive one built on false claims. Integrity is more valuable than perceived expertise.
 
