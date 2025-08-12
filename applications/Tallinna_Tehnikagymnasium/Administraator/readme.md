@@ -116,3 +116,39 @@ Vähenda / eemalda:
 ---
 
 **Allika täpsus:** Kõik kirjeldused põhinevad sõnasõnaliselt kopeeritud töökuulutusel. Ei sisalda oletusi tööandja varjatud ootuste kohta.
+
+## Standardiseeritud sobivushinnang (2025-08-12)
+
+| Dimensioon | Hinnang | Lühiselgitus |
+|-----------|---------|--------------|
+| Strateegiline tugi IT/analüüsi rajale | Väga madal | Administratiivne / valvesuunitlus, tehniline panus minimaalne |
+| Finants (443 € 0.5 FTE) | Väga madal | Ei kata tõenäoliselt sihte ilma lisasissetulekuta |
+| Ajakasutus (päev vaba) | Potentsiaalne eelis | Päeval võimalik õppida / kandideerida – sõltub õhtuse väsimuse tasemest |
+| Õppeenergia pärast vahetust | Ebakindel | Õhtune töö võib vähendada hilisõhtust süvaõpet; päeval aeg vaba |
+| Ülekantavad oskused | Madalad | Usaldus, rutiin, protseduuride järgimine |
+| Fookuse hajumise risk | Keskmine | CV-s tuleb raamida ülemineku / ajutise rollina |
+| Kandideerimise pingutus | Väga madal | Vaid lühike CV, kaaskiri mitte nõutud |
+| Isiklik motivatsioon | Olemas (huvipõhine) | Kasutaja: "eriti romantiline" – subjektiivne motivatsioonitase kõrge |
+| Soovitus | CONDITIONAL APPLY | Võimalik kui taotled struktureeritud ajaraami päevastele IT projektidele + vajad väikest täiendavat stabiilsust |
+
+Märkus: "Romantiline" motivatsioon ei tohiks üksi ületada strateegilisi finants- ja karjääriargumente; kinnita, et roll ei aeglusta põhi-eesmärgi progressi.
+
+---
+
+## Standardiseeritud sobivushinnang (2025-08-12)
+
+| Dimensioon | Hinnang | Lühiselgitus |
+|-----------|---------|--------------|
+| Strateegiline tugi IT/analüüsi rajale | Väga madal | Administratiivne / valvesuunitlus, tehniline panus minimaalne |
+| Finants (443 € 0.5 FTE) | Väga madal | Ei kata tõenäoliselt sihte ilma lisasissetulekuta |
+| Ajakasutus (päev vaba) | Potentsiaalne eelis | Päeval võimalik õppida / kandideerida – sõltub õhtuse väsimuse tasemest |
+| Õppeenergia pärast vahetust | Ebakindel | Õhtune töö võib vähendada hilisõhtust süvaõpet; päeval aeg vaba |
+| Ülekantavad oskused | Madalad | Usaldus, rutiin, protseduuride järgimine |
+| Fookuse hajumise risk | Keskmine | CV-s tuleb raamida ülemineku / ajutise rollina |
+| Kandideerimise pingutus | Väga madal | Vaid lühike CV, kaaskiri mitte nõutud |
+| Isiklik motivatsioon | Olemas (huvipõhine) | Kasutaja: "eriti romantiline" – subjektiivne motivatsioonitase kõrge |
+| Soovitus | CONDITIONAL APPLY | Võimalik kui taotled struktureeritud ajaraami päevastele IT projektidele + vajad väikest täiendavat stabiilsust |
+
+Märkus: "Romantiline" motivatsioon ei tohiks üksi ületada strateegilisi finants- ja karjääriargumente; kinnita, et roll ei aeglusta põhi-eesmärgi progressi.
+
+---

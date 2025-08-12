@@ -88,3 +88,33 @@ Roll ei lisa IT/analüüsi karjäärile sisulist kapitali, kuid võib pakkuda aj
 ---
 
 _Märkus: Kui otsustad mitte kandideerida, täida status kast ja lisa lühike põhjendus ("strateegiline fookus IT rollidele")._
+
+## 10. Standardiseeritud sobivushinnang (2025-08-12)
+
+| Dimensioon | Hinnang | Lühiselgitus |
+|-----------|---------|--------------|
+| Strateegiline tugi IT/analüüsi rajale | Madal | Otsene seos puudub |
+| Finants (1800–2200 €) | Keskmine | Ajutine stabiliseerimine võimalik |
+| Õppeenergia õhtuks | Mõõdukas risk | Füüsiline väsimus võib piirata õhtust süvaõpet |
+| Ülekantavad oskused | Madalad–Mõõdukad | Protsessid, kvaliteet, ohutus |
+| Fookuse hajumise risk | Keskmine | Rutiin võib vähendada motivatsiooni IT suunal |
+| Kandideerimise pingutus | Madal | Minimaalne CV kohandus piisab |
+| Isiklik motivatsioon | Tundmatu | Eraldi motivatsiooni pole märgitud |
+| Soovitus | DEFER (tingimuslik) | Kaaluda vaid tugeva finantssurve korral |
+
+---
+
+## 10. Standardiseeritud sobivushinnang (2025-08-12)
+
+| Dimensioon | Hinnang | Lühiselgitus |
+|-----------|---------|--------------|
+| Strateegiline tugi IT/analüüsi rajale | Madal | Otsene seos puudub |
+| Finants (1800–2200 €) | Keskmine | Ajutine stabiliseerimine võimalik |
+| Õppeenergia õhtuks | Mõõdukas risk | Füüsiline väsimus võib piirata õhtust süvaõpet |
+| Ülekantavad oskused | Madalad–Mõõdukad | Protsessid, kvaliteet, ohutus |
+| Fookuse hajumise risk | Keskmine | Rutiin võib vähendada motivatsiooni IT suunal |
+| Kandideerimise pingutus | Madal | Minimaalne CV kohandus piisab |
+| Isiklik motivatsioon | Tundmatu | Eraldi motivatsiooni pole märgitud |
+| Soovitus | DEFER (tingimuslik) | Kaaluda vaid tugeva finantssurve korral |
+
+---

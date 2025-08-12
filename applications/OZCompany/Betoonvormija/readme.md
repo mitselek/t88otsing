@@ -91,3 +91,37 @@ Roll ei tugevda otseselt sinu sihtkarjääri, kuid võib täita ajutise finantsi
 ---
 
 _Märkus: Kui otsustad mitte kandideerida, märgi põhjendus ("fookus IT analüütika / arendusjuhtimise rollidel")._
+
+## 10. Standardiseeritud sobivushinnang (2025-08-12)
+
+| Dimensioon | Hinnang | Lühiselgitus |
+|-----------|---------|--------------|
+| Strateegiline tugi IT/analüüsi rajale | Madal | Ei lisa otseseid tehnilisi / analüütilisi kompententse |
+| Finants (bruto 1800–2400 €) | Keskmine | Ajutine sissetulek, lagi piiratud võrreldes IT potentsiaaliga |
+| Õppeenergia säilimine õhtuks | Ebakindel | Füüsiline koormus võib vähendada kognitiivset võimekust õhtustel tundidel |
+| Ülekantavad oskused | Madalad–Mõõdukad | Protsessi- ja kvaliteedidistsipliin kaudselt ülekantav |
+| Fookuse hajumise risk | Keskmine | Pikaajalisel püsimisel nõuab pidevat strateegia meenutust |
+| Kandideerimise pingutus | Madal | Lühike kohandatud CV + minimaalsed kohandused piisavad |
+| Isiklik motivatsioon (hetkeseis) | Tundmatu | Pole eraldi väljendatud |
+| Soovitus (hetkeseis) | DEFER / MONITOR | Hinnata uuesti, kui rahaline surve kasvab |
+
+Skaleerimine: Madal < Mõõdukas < Kõrge. "Ebakindel" = sõltub individuaalsest taastumisest / töö intensiivsusest.
+
+---
+
+## 10. Standardiseeritud sobivushinnang (2025-08-12)
+
+| Dimensioon | Hinnang | Lühiselgitus |
+|-----------|---------|--------------|
+| Strateegiline tugi IT/analüüsi rajale | Madal | Ei lisa otseseid tehnilisi / analüütilisi kompententse |
+| Finants (bruto 1800–2400 €) | Keskmine | Ajutine sissetulek, lagi piiratud võrreldes IT potentsiaaliga |
+| Õppeenergia säilimine õhtuks | Ebakindel | Füüsiline koormus võib vähendada kognitiivset võimekust õhtustel tundidel |
+| Ülekantavad oskused | Madalad–Mõõdukad | Protsessi- ja kvaliteedidistsipliin kaudselt ülekantav |
+| Fookuse hajumise risk | Keskmine | Pikaajalisel püsimisel nõuab pidevat strateegia meenutust |
+| Kandideerimise pingutus | Madal | Lühike kohandatud CV + minimaalsed kohandused piisavad |
+| Isiklik motivatsioon (hetkeseis) | Tundmatu | Pole eraldi väljendatud |
+| Soovitus (hetkeseis) | DEFER / MONITOR | Hinnata uuesti, kui rahaline surve kasvab |
+
+Skaleerimine: Madal < Mõõdukas < Kõrge. "Ebakindel" = sõltub individuaalsest taastumisest / töö intensiivsusest.
+
+---

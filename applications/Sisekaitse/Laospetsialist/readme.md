@@ -159,3 +159,33 @@ Laospetsialisti roll keskendub:
 
 **Viimane uuendus:** 12.08.2025  
 **Allikas:** Originaal töökuulutus Töötukassa portaalist
+
+## Standardiseeritud sobivushinnang (2025-08-12)
+
+| Dimensioon | Hinnang | Lühiselgitus |
+|-----------|---------|--------------|
+| Strateegiline tugi IT/analüüsi rajale | Madal | Logistika / laooperatsioon – kaudne protsessimõtlemine |
+| Finants (1550 €) | Madal | Alla soovitava, piirab finants eesmärke |
+| Õppeenergia (päev vs õhtu) | Mõõdukas | Päevatöö → õhtune õppimine võimalik, sõltub väsimusest |
+| Ülekantavad oskused | Mõõdukad | Protsessid, inventuuri täpsus, dokumentatsioon |
+| Fookuse hajumise risk | Keskmine | Pikalt püsides vajab selgitust CV-s |
+| Kandideerimise pingutus | Madal | Lihtne kohandatud CV (rõhutada süsteemsust) |
+| Isiklik motivatsioon | Tundmatu | Pole väljendatud eraldi huvi lao/logistika vastu |
+| Soovitus | DEFER (tingimuslik) | Ainult kui kiire sissetuleku vajadus |
+
+---
+
+## Standardiseeritud sobivushinnang (2025-08-12)
+
+| Dimensioon | Hinnang | Lühiselgitus |
+|-----------|---------|--------------|
+| Strateegiline tugi IT/analüüsi rajale | Madal | Logistika / laooperatsioon – kaudne protsessimõtlemine |
+| Finants (1550 €) | Madal | Alla soovitava, piirab finants eesmärke |
+| Õppeenergia (päev vs õhtu) | Mõõdukas | Päevatöö → õhtune õppimine võimalik, sõltub väsimusest |
+| Ülekantavad oskused | Mõõdukad | Protsessid, inventuuri täpsus, dokumentatsioon |
+| Fookuse hajumise risk | Keskmine | Pikalt püsides vajab selgitust CV-s |
+| Kandideerimise pingutus | Madal | Lihtne kohandatud CV (rõhutada süsteemsust) |
+| Isiklik motivatsioon | Tundmatu | Pole väljendatud eraldi huvi lao/logistika vastu |
+| Soovitus | DEFER (tingimuslik) | Ainult kui kiire sissetuleku vajadus |
+
+---

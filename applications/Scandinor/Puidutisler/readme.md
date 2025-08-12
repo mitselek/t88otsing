@@ -103,3 +103,33 @@ Roll ei toeta otseselt sinu strateegilist IT / analüüsi suunda, kuid võib oll
 ---
 
 _Märkus: Kui hiljem otsustad mitte kandideerida, märgi status ja lisa lühike põhjendus ("strateegiline fookus IT analüüsi rollidele")._
+
+## 11. Standardiseeritud sobivushinnang (2025-08-12)
+
+| Dimensioon | Hinnang | Lühiselgitus |
+|-----------|---------|--------------|
+| Strateegiline tugi IT/analüüsi rajale | Väga madal | Spetsiifiline käsitööline tootmisroll |
+| Finants (1800–2200 €) | Keskmine | Piisav ajutiseks, mitte pikaajaliseks IT alternatiiviks |
+| Õppeenergia säilimine | Ebakindel | Korduv füüsiline töö võib olla vähem kurnav kui raskemetall, siiski väsitav |
+| Ülekantavad oskused | Madalad | Täpsus ja protsessid; puiduspetsiifiline osa ei kandu IT-sse |
+| Fookuse hajumise risk | Keskmine–Kõrge | Pika ajaga võib tekitada CV kõrvalepõike küsimusi |
+| Kandideerimise pingutus | Madal–Mõõdukas | Vajab head selgitust CV-s kogemuselünkade tõttu |
+| Isiklik motivatsioon | Tundmatu | Pole väljendatud eraldi huvi puitmaterjali vastu praegu |
+| Soovitus | DEFER | Keskendu IT-suunalistele rollidele |
+
+---
+
+## 11. Standardiseeritud sobivushinnang (2025-08-12)
+
+| Dimensioon | Hinnang | Lühiselgitus |
+|-----------|---------|--------------|
+| Strateegiline tugi IT/analüüsi rajale | Väga madal | Spetsiifiline käsitööline tootmisroll |
+| Finants (1800–2200 €) | Keskmine | Piisav ajutiseks, mitte pikaajaliseks IT alternatiiviks |
+| Õppeenergia säilimine | Ebakindel | Korduv füüsiline töö võib olla vähem kurnav kui raskemetall, siiski väsitav |
+| Ülekantavad oskused | Madalad | Täpsus ja protsessid; puiduspetsiifiline osa ei kandu IT-sse |
+| Fookuse hajumise risk | Keskmine–Kõrge | Pika ajaga võib tekitada CV kõrvalepõike küsimusi |
+| Kandideerimise pingutus | Madal–Mõõdukas | Vajab head selgitust CV-s kogemuselünkade tõttu |
+| Isiklik motivatsioon | Tundmatu | Pole väljendatud eraldi huvi puitmaterjali vastu praegu |
+| Soovitus | DEFER | Keskendu IT-suunalistele rollidele |
+
+---

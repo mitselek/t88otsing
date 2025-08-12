@@ -90,3 +90,33 @@ BLRT Grupi tehase renditöö: raske / suurte konstruktsioonide koostamine. Nõua
 REGISTRY märkus jääb lühikeseks; üksikasjalik põhjendus siin.
 
 Last updated: 2025-08-12 (uuendatud: lisatud kvant Onshape kasutus ~15 h/nädal; logistika OK)
+
+## Standardiseeritud sobivushinnang (2025-08-12)
+
+| Dimensioon | Hinnang | Lühiselgitus |
+|-----------|---------|--------------|
+| Strateegiline tugi IT/analüüsi rajale | Madal | Otsene metallitöö ei arenda sihtkompetentse |
+| Finants (tasemete vahemik – kuulutuses puudub täpsus) | Tundmatu | Täpne palgavahemik vaja kinnitada (TODO) |
+| Õppeenergia säilimine | Ebakindel | Füüsiline töö võib vähendada õhtust õppimismahtu |
+| Ülekantavad oskused | Mõõdukad | Täpsus, jooniste lugemise distsipliin |
+| Fookuse hajumise risk | Keskmine | Pikaajalisel püsimisel aeglustab IT suunda |
+| Kandideerimise pingutus | Mõõdukas | Vajab ausat selgitust kogemuslünkadest ja ülekantavatest oskustest |
+| Isiklik motivatsioon | Tundmatu | Pole väljendatud eraldi entusiasmi peale üldise hindamise |
+| Soovitus | DEFER | Hoia fookust analüüsi / IT rollidel |
+
+---
+
+## Standardiseeritud sobivushinnang (2025-08-12)
+
+| Dimensioon | Hinnang | Lühiselgitus |
+|-----------|---------|--------------|
+| Strateegiline tugi IT/analüüsi rajale | Madal | Otsene metallitöö ei arenda sihtkompetentse |
+| Finants (tasemete vahemik – kuulutuses puudub täpsus) | Tundmatu | Täpne palgavahemik vaja kinnitada (TODO) |
+| Õppeenergia säilimine | Ebakindel | Füüsiline töö võib vähendada õhtust õppimismahtu |
+| Ülekantavad oskused | Mõõdukad | Täpsus, jooniste lugemise distsipliin |
+| Fookuse hajumise risk | Keskmine | Pikaajalisel püsimisel aeglustab IT suunda |
+| Kandideerimise pingutus | Mõõdukas | Vajab ausat selgitust kogemuslünkadest ja ülekantavatest oskustest |
+| Isiklik motivatsioon | Tundmatu | Pole väljendatud eraldi entusiasmi peale üldise hindamise |
+| Soovitus | DEFER | Hoia fookust analüüsi / IT rollidel |
+
+---
