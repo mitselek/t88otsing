@@ -1,10 +1,13 @@
 # Mihkel Putrinš
 
+Last updated: 2025-08-14T15:59:45+03:00
+
 **Passion, Beauty and Joy**  
 *Born:* 1972-04-03  
 *Phone:* +372 56560978  
 *Email:* [mitselek@gmail.com](mailto:mitselek@gmail.com)  
 *GitHub:* [github.com/mitselek](https://github.com/mitselek)  
+*LinkedIn:* [linkedin.com/in/mitselek](https://linkedin.com/in/mitselek)  
 
 ---
 
