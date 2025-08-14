@@ -31,7 +31,6 @@ stamp_file() {
         print $0
         print ""
         print "Last updated: " ts
-        print ""
         next
       }
       { print $0 }
