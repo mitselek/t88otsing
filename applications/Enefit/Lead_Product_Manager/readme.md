@@ -1,7 +1,6 @@
 # Enefit · Lead Product Manager · Analysis & Strategy
 
-Last updated: 2025-08-14T13:44:59+03:00
-
+Last updated: 2025-08-14T14:42:09+03:00
 
 Registered: 2025-08-14  
 Posting: CVKeskus 986823 (Published 2025-08-11, Expires 2025-08-17)  
@@ -21,10 +20,10 @@ Status: PLANNING
 
 ## Actions (Next 24–48h)
 
-- [ ] Save full posting text (PDF)  
-- [ ] Draft tailored CV (product/process emphasis)  
-- [ ] Write concise motivation (<= 200 words)  
-- [ ] Confirm application method (CVKeskus portal vs direct)  
+- [x] Save full posting text (PDF/Markdown)
+- [ ] Draft tailored CV (product/process emphasis)
+- [ ] Write concise motivation (<= 200 words)
+- [ ] Confirm application method (CVKeskus portal vs direct)
 - [ ] Update registry on submission
 
 ## Tailoring Angles (from CV)
@@ -36,6 +35,6 @@ Status: PLANNING
 
 ## QC & Integrity Reminders
 
-- Do not add unverified metrics; cite only public facts  
-- Keep product impact statements grounded in shipped outcomes  
+- Do not add unverified metrics; cite only public facts
+- Keep product impact statements grounded in shipped outcomes
 - If unsure about requirements, mark (verify) and proceed conservatively
