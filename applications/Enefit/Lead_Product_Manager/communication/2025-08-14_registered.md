@@ -2,7 +2,6 @@
 
 Last updated: 2025-08-14T13:44:59+03:00
 
-
 Date: 2025-08-14  
 Action: Registered posting into repository (Status=PLANNING).  
 Source: [cvkeskus.ee job page](https://www.cvkeskus.ee/lead-product-manager-tallinnas-enefit-986823)

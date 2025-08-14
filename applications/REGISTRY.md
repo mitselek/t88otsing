@@ -2,7 +2,6 @@
 
 Last updated: 2025-08-14T13:44:59+03:00
 
-
 Chronological list of job postings (ascending by published date). Tracks lifecycle timestamps. Use ISO date format (YYYY-MM-DD). Leave unknown fields blank until an event occurs.
 
 ## Legend
@@ -16,16 +15,16 @@ Chronological list of job postings (ascending by published date). Tracks lifecyc
 
 ## Active / Recent Postings
 
-| Role | Company | Posting No | Published | Deadline | Registered | Applied | Interviews | Final Response | Status | Notes |
-|------|---------|------------|-----------|----------|-----------|---------|------------|----------------|--------|-------|
-| Betoonvormija | O.Z. Company OÜ | 1619685 | 2025-08-06 | 2025-09-04 | 2025-08-12 |  |  |  | PLANNING | Renditöö BETONEKS |
-| Metallkonstruktsioonide koostaja | Hire Hand Services OÜ | 1619564 | 2025-08-06 | 2025-09-05 | 2025-08-12 |  |  |  | PLANNING | DEFER (fookus IT); BLRT; 5 kohta |
-| Armeerija | O.Z. Company OÜ | 1619921 | 2025-08-08 | 2025-09-05 | 2025-08-12 |  |  |  | PLANNING | Renditöö BETONEKS |
-| Puusepp / Puidutisler | Scandinor OÜ | 1620007 | 2025-08-08 | 2025-09-07 | 2025-08-12 |  |  |  | PLANNING | 4 openings |
-| Laospetsialist | Sisekaitse | 1620165 | 2025-08-11 | 2025-08-21 | 2025-08-12 |  |  |  | PLANNING | Archive captured 2025-08-12 |
-| Juhiabi | Patendiamet | 1620083 | 2025-08-11 | 2025-08-24 | 2025-08-12 |  |  |  | PLANNING | Verbatim text provided by user |
-| Õhtune administraator / valvur | Tallinna Tehnikagümnaasium | 798678 | 2025-08-11 | 2025-08-14 | 2025-08-12 | 2025-08-14 |  |  | APPLIED | Evening shift, 0.5 FTE (half-time), €443 |
-| Lead Product Manager | Enefit | 986823 | 2025-08-11 | 2025-08-17 | 2025-08-14 |  |  |  | PLANNING | CVKeskus posting |
+| Role                             | Company                    | Posting No | Published  | Deadline   | Registered | Applied    | Interviews | Final Response | Status   | Notes                                    |
+| -------------------------------- | -------------------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | -------------- | -------- | ---------------------------------------- |
+| Betoonvormija                    | O.Z. Company OÜ            | 1619685    | 2025-08-06 | 2025-09-04 | 2025-08-12 |            |            |                | PLANNING | Renditöö BETONEKS                        |
+| Metallkonstruktsioonide koostaja | Hire Hand Services OÜ      | 1619564    | 2025-08-06 | 2025-09-05 | 2025-08-12 |            |            |                | PLANNING | DEFER (fookus IT); BLRT; 5 kohta         |
+| Armeerija                        | O.Z. Company OÜ            | 1619921    | 2025-08-08 | 2025-09-05 | 2025-08-12 |            |            |                | PLANNING | Renditöö BETONEKS                        |
+| Puusepp / Puidutisler            | Scandinor OÜ               | 1620007    | 2025-08-08 | 2025-09-07 | 2025-08-12 |            |            |                | PLANNING | 4 openings                               |
+| Laospetsialist                   | Sisekaitse                 | 1620165    | 2025-08-11 | 2025-08-21 | 2025-08-12 |            |            |                | PLANNING | Archive captured 2025-08-12              |
+| Juhiabi                          | Patendiamet                | 1620083    | 2025-08-11 | 2025-08-24 | 2025-08-12 |            |            |                | PLANNING | Verbatim text provided by user           |
+| Õhtune administraator / valvur   | Tallinna Tehnikagümnaasium | 798678     | 2025-08-11 | 2025-08-14 | 2025-08-12 | 2025-08-14 |            |                | APPLIED  | Evening shift, 0.5 FTE (half-time), €443 |
+| Lead Product Manager             | Enefit                     | 986823     | 2025-08-11 | 2025-08-17 | 2025-08-14 |            |            |                | PLANNING | CVKeskus posting                         |
 
 ### Abbreviation Glossary (add when new appears)
 
