@@ -1,6 +1,6 @@
 # Job Application Registry
 
-Last updated: 2025-08-14T13:44:59+03:00
+Last updated: 2025-08-14T15:33:23+03:00
 
 Chronological list of job postings (ascending by published date). Tracks lifecycle timestamps. Use ISO date format (YYYY-MM-DD). Leave unknown fields blank until an event occurs.
 
@@ -25,6 +25,7 @@ Chronological list of job postings (ascending by published date). Tracks lifecyc
 | Juhiabi                          | Patendiamet                | 1620083    | 2025-08-11 | 2025-08-24 | 2025-08-12 |            |            |                | PLANNING | Verbatim text provided by user           |
 | Õhtune administraator / valvur   | Tallinna Tehnikagümnaasium | 798678     | 2025-08-11 | 2025-08-14 | 2025-08-12 | 2025-08-14 |            |                | APPLIED  | Evening shift, 0.5 FTE (half-time), €443 |
 | Lead Product Manager             | Enefit                     | 986823     | 2025-08-11 | 2025-08-17 | 2025-08-14 |            |            |                | PLANNING | CVKeskus posting                         |
+| Senior Product Manager (Internal Platforms) | Enefit           | teamdash-cht4AXTt |            | 2025-08-31 | 2025-08-14 |            |            |                | PLANNING | Teamdash posting                         |
 
 ### Abbreviation Glossary (add when new appears)
 

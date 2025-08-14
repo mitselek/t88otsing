@@ -1,6 +1,6 @@
 # Mihkel Putrinš — Lead Product Manager (Tailored CV)
 
-Last updated: 2025-08-14T15:10:11+03:00
+Last updated: 2025-08-14T15:33:23+03:00
 
 ## Contact
 
@@ -64,7 +64,7 @@ Product-minded technologist with a long track record of shipping data platforms 
 ## Skills
 
 - Product: discovery, prioritization, OKRs/KPIs, roadmap hygiene, stakeholder mgmt
-- Tech: Python, JavaScript; REST APIs; SQL; Linux; CI basics
+- Tech: Python, Node.js; REST APIs; SQL; Linux; CI basics
 - Data/Identity: modeling, security/identity integration (ID‑card/Mobile‑ID)
 - Communication: English C2, Latvian C2, Estonian fluent, Russian B2
 
@@ -75,7 +75,6 @@ Product-minded technologist with a long track record of shipping data platforms 
 - 1990–2002 — University studies
   - University of Tartu — Mathematics; Computer Science
   - Tallinn University — Natural Sciences
-- Secondary education — Õismäe Humanitaargümnaasium
 
 ## Training
 
@@ -86,4 +85,4 @@ Product-minded technologist with a long track record of shipping data platforms 
 ## References & work samples
 
 - GitHub portfolio: [github.com/mitselek](https://github.com/mitselek)
-- Public systems: [memoriaal.ee](https://www.memoriaal.ee), [entu.dev](https://entu.dev), oauth.ee (Estonian ID auth)
+- Public systems: [memoriaal.ee](https://www.memoriaal.ee), [entu.dev](https://entu.dev), [oauth.ee](https://oauth.ee) (Estonian ID auth)
