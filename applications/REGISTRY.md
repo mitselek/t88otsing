@@ -21,7 +21,7 @@ Chronological list of job postings (ascending by published date). Tracks lifecyc
 | Puusepp / Puidutisler | Scandinor OÜ | 1620007 | 2025-08-08 | 2025-09-07 | 2025-08-12 |  |  |  | PLANNING | 4 openings |
 | Laospetsialist | Sisekaitse | 1620165 | 2025-08-11 | 2025-08-21 | 2025-08-12 |  |  |  | PLANNING | Archive captured 2025-08-12 |
 | Juhiabi | Patendiamet | 1620083 | 2025-08-11 | 2025-08-24 | 2025-08-12 |  |  |  | PLANNING | Verbatim text provided by user |
-| Õhtune administraator / valvur | Tallinna Tehnikagümnaasium | 798678 | 2025-08-11 | 2025-08-14 | 2025-08-12 |  |  |  | PLANNING | Evening shift, 0.5 FTE (half-time), €443 |
+| Õhtune administraator / valvur | Tallinna Tehnikagümnaasium | 798678 | 2025-08-11 | 2025-08-14 | 2025-08-12 | 2025-08-14 |  |  | APPLIED | Evening shift, 0.5 FTE (half-time), €443 |
 
 ### Abbreviation Glossary (add when new appears)
 
@@ -54,4 +54,4 @@ Add older historical applications below (or in a new section) once their metadat
 
 ---
 
-Last maintained: 2025-08-12
+Last maintained: 2025-08-14
