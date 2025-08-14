@@ -1,6 +1,6 @@
 # Mihkel Putrinš — Lead Product Manager (Tailored CV)
 
-Last updated: 2025-08-14T15:02:00+03:00
+Last updated: 2025-08-14T15:10:11+03:00
 
 ## Contact
 
@@ -13,7 +13,7 @@ Last updated: 2025-08-14T15:02:00+03:00
 
 ## Summary
 
-Product-minded technologist with a long track record of shipping data platforms and mission‑critical systems. I lead with clarity, documentation, and outcome‑driven roadmaps. Strong at aligning engineering, operations, and stakeholders; comfortable in regulated contexts and multi‑system integrations.
+Product-minded technologist with a long track record of shipping data platforms and mission‑critical systems. I lead with clarity, documentation, and outcome‑driven roadmaps. Strong at aligning engineering, operations, and stakeholders; comfortable in regulated contexts and multi‑system integrations. Spent significant years in university studies across mathematics, natural sciences, and computer science (1990–2002).
 
 ---
 
@@ -70,10 +70,16 @@ Product-minded technologist with a long track record of shipping data platforms 
 
 ---
 
-## Education & Training
+## Education
 
-- Secondary education (Õismäe Humanitaargümnaasium)
-- MikroTik MTCNA, 2025 — Certificate: mikrotik.com/training/certificates/c435725c169688618b68
+- 1990–2002 — University studies
+  - University of Tartu — Mathematics; Computer Science
+  - Tallinn University — Natural Sciences
+- Secondary education — Õismäe Humanitaargümnaasium
+
+## Training
+
+- MikroTik MTCNA, 2025 — Certificate: [mikrotik.com/training/certificates/c435725c169688618b68](https://mikrotik.com/training/certificates/c435725c169688618b68)
 
 ---
 
