@@ -1,6 +1,6 @@
 # Job Application Registry
 
-Last updated: 2025-08-27T23:19:07+03:00
+Last updated: 2025-08-28T00:12:39+03:00
 
 Chronological list of job postings (ascending by published date). Tracks lifecycle timestamps. Use ISO date format (YYYY-MM-DD). Leave unknown fields blank until an event occurs.
 
@@ -26,6 +26,8 @@ Chronological list of job postings (ascending by published date). Tracks lifecyc
 | Õhtune administraator / valvur   | Tallinna Tehnikagümnaasium | 798678     | 2025-08-11 | 2025-08-14 | 2025-08-12 | 2025-08-14 |            |                | APPLIED  | Evening shift, 0.5 FTE (half-time), €443 |
 | Lead Product Manager             | Enefit                     | teamdash-Uua93Ex8 |            | 2025-08-17 | 2025-08-14 |            |            | 2025-08-27     | REJECTED | Teamdash posting                         |
 | Senior Product Manager (Internal Platforms) | Enefit           | teamdash-cht4AXTt |            | 2025-08-31 | 2025-08-14 |            |            |                | PLANNING | Teamdash posting                         |
+| Tarkvaraarendaja                 | Spindl OÜ                  |            |            |            | 2025-08-28 | 2025-08-28 |            |                | APPLIED  |                                          |
+| Tarkvaraarendaja                 | Solutional OÜ              | 984706     | 2025-07-30 | 2025-08-29 | 2025-08-28 |            |            |                | PLANNING |                                          |
 
 ### Abbreviation Glossary (add when new appears)
 
