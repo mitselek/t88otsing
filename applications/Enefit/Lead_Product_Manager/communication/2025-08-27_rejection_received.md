@@ -1,6 +1,6 @@
 # Response received — Lead Product Manager (Enefit, Teamdash)
 
-Last updated: 2025-08-27T23:19:07+03:00
+Last updated: 2025-08-28T00:14:45+03:00
 
 **Date:** 2025-08-27
 **From:** Kaisa Kalnin <Kaisa.Kalnin@enefit.ee>
@@ -19,7 +19,6 @@ Although we did not have a chance to talk to you this time, we would like to kee
 We invite you to follow the vacancies for Enefit on our website. We look forward to hearing from you again if you find the right challenge!
 
 In order to be able to contact you in the future about possible job opportunities, we kindly ask you to allow us to keep your CV and contact details in the Enefit Talent Pool database for three years. Your data is protected, and confidential and will be used for the intended purpose only by the HR staff.
-
 
 To give your consent, please click on the following link:  
 [Consent form](https://teamdash.enefit.com/public/consents/ktuUP9CdCjqZLjdmwsgGzEqv)
