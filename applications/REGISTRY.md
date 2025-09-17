@@ -1,6 +1,6 @@
 # Job Application Registry
 
-Last updated: 2025-09-15T14:14:29+03:00
+Last updated: 2025-09-17T16:07:01+03:00
 
 Chronological list of job postings (ascending by published date). Tracks lifecycle timestamps. Use ISO date format (YYYY-MM-DD). Leave unknown fields blank until an event occurs.
 
@@ -31,7 +31,7 @@ Chronological list of job postings (ascending by published date). Tracks lifecyc
 | Automaatik programmeerija        | 1UP Technology OÜ          | 1615955    | 2025-06-27 | 2025-09-17 | 2025-09-10 |            |            |                | PLANNING | Background research complete; €1900; üle Eesti; automatiseerimine       |
 | IT spetsialist                   | 1UP Technology OÜ          | 1622825    | 2025-09-05 | 2025-09-19 | 2025-09-10 |            |            |                | PLANNING | Background research complete; €800-1800; osakoormus; Tallinn; Python    |
 | Mehhatroonik                     | 1UP Technology OÜ          | 1622832    | 2025-09-05 | 2025-09-19 | 2025-09-10 |            |            |                | PLANNING | Background research complete; €1200-2000; Tallinn; AutoCAD/SolidWorks   |
-| CTO (Chief Technology Officer)   | Soundfree                  |            |            |            | 2025-09-15 |            | 2025-09-18 |                | INTERVIEW| Introduced by Otto Mättas; informal meeting at office Haabersti 5       |
+| CTO (Chief Technology Officer)   | Soundfree                  |            |            |            | 2025-09-15 |            | 2025-09-17 |                | INTERVIEW| Introduced by Otto Mättas; informal meeting at office Haabersti 5       |
 
 ### Abbreviation Glossary (add when new appears)
 

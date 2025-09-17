@@ -1,6 +1,6 @@
 # Mihkel Putrinš
 
-Last updated: 2025-08-14T15:59:45+03:00
+Last updated: 2025-09-17T16:07:01+03:00
 
 **Loov ja uudishimulik ideedegeneraator**  
 *Sündinud:* 1972-04-03  
@@ -24,6 +24,7 @@ Last updated: 2025-08-14T15:59:45+03:00
 
 - Onshape (ka Featurescript)
 - Solid Edge (õpin kiirelt)
+- EasyEDA (algaja tase)
 
 ### 3D modelleerimine ja prototüüpimine
 
@@ -39,7 +40,7 @@ Last updated: 2025-08-14T15:59:45+03:00
 
 ### Andmebaasid ja andmed
 
-- MySQL, Oracle, MongoDB
+- MySQL, Oracle, PostgreSQL, MongoDB
 - Excel, Google Sheets (koos skriptidega perifeersete süsteemidega suhtlemiseks)
 
 ### Veebiteenused
@@ -98,6 +99,17 @@ Last updated: 2025-08-14T15:59:45+03:00
 
 *2000-03 - Tänaseni*  
 **Valdkond:** Infotehnoloogia
+
+### Arendusjuht @ Ilusa Koodi Instituut
+
+*2021-08 - 2024-10 (3 a. ja 3 k)*  
+**Valdkond:** Kultuur / Meelelahutus
+
+- Juhtisin 4-liikmelist arendusmeeskonda PÖFF (Pimedate Ööde Filmifestival) platvormi arendamisel
+- Kogu festivali kodulehe ja logistikasüsteemi tehniline juhtimine ja arhitektuur
+- Praktikantide mentorlus ja professionaalse arengu juhendamine
+- Tulemus: Kõik 4 praktikanti said peale praktika lõppemist ametlikult tööle
+- Vastutus rahvusvahelise kultuurisündmuse digitaalse infrastruktuuri eest
 
 ### Andmesanitar @ Eesti Mälu Instituut
 

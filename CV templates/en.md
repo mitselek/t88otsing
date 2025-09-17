@@ -1,6 +1,6 @@
 # Mihkel Putrinš
 
-Last updated: 2025-08-14T15:59:45+03:00
+Last updated: 2025-09-17T16:07:01+03:00
 
 **Passion, Beauty and Joy**  
 *Born:* 1972-04-03  
@@ -39,7 +39,7 @@ Last updated: 2025-08-14T15:59:45+03:00
 
 ### Database Management and Data Processing
 
-- Database design and management (MySQL, Oracle, MongoDB)
+- Database design and management (MySQL, Oracle, PostgreSQL, MongoDB)
 - Google Sheets
 - Ability to create data-driven solutions
 
@@ -90,7 +90,18 @@ Last updated: 2025-08-14T15:59:45+03:00
 *2000-03 - Present*  
 **Field:** Information Technology
 
-### Data Janitor @ Eesti Mälu Instituut
+### Development Lead @ Ilusa Koodi Instituut
+
+*2021-08 - 2024-10 (3 years and 3 months)*  
+**Sector:** Culture / Entertainment
+
+- Led a 4-member development team for PÖFF (Black Nights Film Festival) platform development
+- Technical leadership and architecture for the entire festival website and logistics system
+- Mentoring interns and guiding their professional development
+- Achievement: All 4 interns were hired full-time after completing their internships
+- Responsible for the digital infrastructure of an international cultural event
+
+### Data Curator @ Estonian Institute of Memory
 
 [mnemosyne.ee](https://mnemosyne.ee)  
 *2017-07 - 2024-10 (7 y. and 4 m)*  
@@ -273,6 +284,7 @@ Last updated: 2025-08-14T15:59:45+03:00
 ### CAD-Systems
 
 - SolidWorks (Advanced 8/10)
+- EasyEDA (Novice level)
 
 ### Graphics, Design, Multimedia
 
