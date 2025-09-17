@@ -1,6 +1,6 @@
 # Communication Log - Soundfree CTO Position
 
-Last updated: 2025-09-15T14:14:29+03:00
+Last updated: 2025-09-17T15:03:03+03:00
 
 ## Initial Contact
 
@@ -140,6 +140,37 @@ Olen oma aja peremees, tulen kolmapäeval kell 12.
 Mihkel
 5656 0978
 ```
+
+### Email 7 - September 16, 2025 (3:32 PM)
+
+**From**: Mihkel Putrinš <mihkel.putrinsh@gmail.com>
+**To**: Karl Ruubel <karl.ruubel@soundfr.ee>
+**Subject**: CV CTO positsiooni kohta - Mihkel Putrinš
+**Content**:
+
+```text
+Tere Karl,
+
+Siin Sulle mu CV CTO positsiooni kohta.
+
+Olen CV-s rõhutanud kogemusi, mis on Soundfree missiooniga kõige rohkem seotud:
+
+- AI tööriistade rakendamine tehniliste probleemide lahendamisel
+- Assisteeriva tehnoloogia arendus (st. minu isiklik projekt vaegnägijatele)
+- Meeskonnajuhtimine ja tehnoloogiline arhitektuur
+- Riistvara-tarkvara integratsioon
+
+Olen huvitatud Soundfree käekäigust, kuna olen ise olnud paljude alguste juures ja mulle lähevad korda niššid, mis on teenimatult katmata jäänud.
+
+Ootan huviga meie kohtumist, kui on vaja mingit täiendavat infot, anna mulle teada.
+
+Parimate soovidega,  
+Mihkel Putrinš  
++372 5656 0978  
+<mitselek@gmail.com>
+```
+
+**Attachments**: CV_Soundfree_CTO.pdf (scanned by Gmail)
 
 ## Phone/Video Call Notes
 
