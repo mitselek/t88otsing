@@ -1,30 +1,42 @@
 # 1UP Technology OÜ - Kolme positsiooni avaldused
 
-Last updated: 2025-09-17T16:07:42+03:00
+Last updated: 2025-09-25T21:49:48+03:00
 
 **Ettevõte**: 1UP Technology OÜ  
 **Kandidaat**: Mihkel Putrinš  
-**Kuupäev**: 17. september 2025
+**Kuupäev**: 17. september 2025  
+**Status**: INTERVJUU KINNITATUD
 
 ---
 
 ## Ülevaade
 
-Esitan kandidatuuri kolmele 1UP Technology positsioonile, kasutades ühte universaalset CV-d ja igale positsioonile kohandatud motivatsioonikirja.
+✅ **KÕIK AVALDUSED ESITATUD** - 17. september 2025  
+🎯 **INTERVJUU KINNITATUD** - 26. september 2025, kell 12:00 (Google Meet)
+
+Esitasin kandidatuuri kolmele 1UP Technology positsioonile, kasutades ühte universaalset CV-d ja igale positsioonile kohandatud motivatsioonikirja. Reeni Vähi kutsus mind intervjuule 23. septembril.
 
 ### Positsioonid
 
-| Positsioon                    | Pakkumise nr | Tähtaeg                | Töötasu    | Aeg        | Asukoht           |
-| ----------------------------- | ------------ | ---------------------- | ---------- | ---------- | ----------------- |
-| **Automaatik programmeerija** | 1615955      | **2025-09-17** (TÄNA!) | €1900      | Täistööaeg | Üle Eesti         |
-| **IT spetsialist**            | 1622825      | 2025-09-19             | €800-1800  | Osaline    | Tallinn + kaugtöö |
-| **Mehhatroonik**              | 1622832      | 2025-09-19             | €1200-2000 | Täistööaeg | Tallinn + kaugtöö |
+| Positsioon                    | Pakkumise nr | Tähtaeg                | Töötasu    | Aeg        | Asukoht           | Status        |
+| ----------------------------- | ------------ | ---------------------- | ---------- | ---------- | ----------------- | ------------- |
+| **Automaatik programmeerija** | 1615955      | 2025-09-17             | €1900      | Täistööaeg | Üle Eesti         | ✅ ESITATUD   |
+| **IT spetsialist**            | 1622825      | 2025-09-19             | €800-1800  | Osaline    | Tallinn + kaugtöö | ✅ ESITATUD   |
+| **Mehhatroonik**              | 1622832      | 2025-09-19             | €1200-2000 | Täistööaeg | Tallinn + kaugtöö | ✅ ESITATUD   |
+
+### Intervjuu
+
+**Kuupäev**: Neljapäev, 26. september 2025  
+**Kellaaeg**: 12:00  
+**Platvorm**: Google Meet  
+**Intervjueerija**: Reeni Vähi <reeni@1uptech.eu>  
+**Link**: <https://meet.google.com/nsk-yfbn-pin>
 
 ### Kontakt
 
 **Reeni Vähi** (Assistent)  
-📧 <reeni@1uptech.eu>  
-📞 +372 517 6039
+<reeni@1uptech.eu>  
++372 517 6039
 
 ---
 
@@ -86,14 +98,23 @@ Esitan kandidatuuri kolmele 1UP Technology positsioonile, kasutades ühte univer
 
 ## Järgmised sammud
 
-### Täna (17.09.2025)
+### ✅ Lõpetatud (17.09.2025)
 
-1. **Automaatik programmeerija** avalduse saatmine (tähtaeg täna!)
+1. **Automaatik programmeerija** avalduse saatmine ✅
+1. **IT spetsialist** avalduse saatmine ✅  
+1. **Mehhatroonik** avalduse saatmine ✅
 
-### Homme (18.09.2025)
+### 🎯 Praegune fookus (25.09.2025)
 
-2. **IT spetsialist** avalduse saatmine
-3. **Mehhatroonik** avalduse saatmine
+**INTERVJUU ETTEVALMISTUS** - 26. september kell 12:00
+
+#### Intervjuu ettevalmistus
+
+- Tehniliste oskuste ülevaatamine (Python, CAD, süsteemiintegratsioon)
+- 1UP Technology projektide uurimine
+- PÖFF juhtimikogemuse näidete ettevalmistamine
+- Touch-tone projekti demonstratsiooni ettevalmistamine
+- Küsimuste ettevalmistamine ettevõtte kohta
 
 ### Emaili template
 
@@ -124,4 +145,5 @@ mitselek@gmail.com
 ---
 
 **Koostaja**: Mihkel Putrinš  
-**Viimati uuendatud**: 17. september 2025
+**Viimati uuendatud**: 25. september 2025  
+**Status**: Intervjuu ettevalmistus (26.09.2025 kell 12:00)
