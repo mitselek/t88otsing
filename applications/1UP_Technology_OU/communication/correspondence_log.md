@@ -1,9 +1,8 @@
 # Communication Log - 1UP Technology OÜ
 
-Last updated: 2025-09-25T21:49:48+03:00
+Last updated: 2025-09-26T13:40:24+03:00
 
 **Company**: 1UP Technology OÜ  
-**Last updated**: 2025-09-25
 
 ## Initial Contact
 
@@ -84,14 +83,24 @@ www.1uptech.eu
 - **Platform**: Google Meet
 - **Link**: <https://meet.google.com/nsk-yfbn-pin>
 
+## Interview Completed
+
+- **Date**: September 26, 2025 at 12:00 PM
+- **Duration**: Approximately 1 hour
+- **Platform**: Google Meet
+- **Interviewer**: Reeni Vähi
+- **Focus**: Primary interest in Mehhatroonik position
+- **Outcome**: Positive discussion - company will provide decision within one week
+- **Next contact**: Expected by October 3, 2025
+
 ## Next Steps
 
-- Prepare for Google Meet interview on September 26, 2025 at 12:00 PM
-- Research company further before interview
-- Prepare questions about specific roles and position preferences
-- Have examples ready of relevant experience for all three positions
+- Await decision from 1UP Technology within one week (by October 3, 2025)
+- Prepare potential follow-up materials if requested
+- Consider sending thank-you email within 24 hours
 
 ---
 
-**Status**: Interview scheduled  
-**Last contact**: 2025-09-23 15:04
+**Status**: Interview completed - awaiting decision  
+**Last contact**: 2025-09-26 12:00 (Interview)  
+**Expected follow-up**: By October 3, 2025

@@ -1,20 +1,21 @@
 # 1UP Technology OÜ - Kolme positsiooni avaldused
 
-Last updated: 2025-09-25T21:49:48+03:00
+Last updated: 2025-09-26T13:40:24+03:00
 
 **Ettevõte**: 1UP Technology OÜ  
 **Kandidaat**: Mihkel Putrinš  
 **Kuupäev**: 17. september 2025  
-**Status**: INTERVJUU KINNITATUD
+**Status**: INTERVJUU TOIMUNUD - OOTAME VASTUST
 
 ---
 
 ## Ülevaade
 
 ✅ **KÕIK AVALDUSED ESITATUD** - 17. september 2025  
-🎯 **INTERVJUU KINNITATUD** - 26. september 2025, kell 12:00 (Google Meet)
+✅ **INTERVJUU TOIMUNUD** - 26. september 2025, kell 12:00 (Google Meet)  
+⏳ **OOTAME VASTUST** - Reeni lubas nädala jooksul teada anda (oodatav 3. oktoobriks)
 
-Esitasin kandidatuuri kolmele 1UP Technology positsioonile, kasutades ühte universaalset CV-d ja igale positsioonile kohandatud motivatsioonikirja. Reeni Vähi kutsus mind intervjuule 23. septembril.
+Esitasin kandidatuuri kolmele 1UP Technology positsioonile, kasutades ühte universaalset CV-d ja igale positsioonile kohandatud motivatsioonikirja. Intervjuus keskenduti peamiselt mehhatrooniku positsioonile.
 
 ### Positsioonid
 
@@ -31,6 +32,14 @@ Esitasin kandidatuuri kolmele 1UP Technology positsioonile, kasutades ühte univ
 **Platvorm**: Google Meet  
 **Intervjueerija**: Reeni Vähi <reeni@1uptech.eu>  
 **Link**: <https://meet.google.com/nsk-yfbn-pin>
+
+### Intervjuu tulemused
+
+**INTERVJUU TOIMUNUD** - 26. september 2025  
+**FOOKUS**: Peamine huvi mehhatrooniku positsiooni vastu  
+**Kestus**: Umbes 1 tund  
+**JÄRELKONTAKT**: Reeni lubas nädala jooksul teada anda  
+**OODATAV VASTUS**: 3. oktoobriks 2025
 
 ### Kontakt
 
@@ -104,17 +113,23 @@ Esitasin kandidatuuri kolmele 1UP Technology positsioonile, kasutades ühte univ
 1. **IT spetsialist** avalduse saatmine ✅  
 1. **Mehhatroonik** avalduse saatmine ✅
 
-### 🎯 Praegune fookus (25.09.2025)
+### ✅ Lõpetatud (26.09.2025)
 
-**INTERVJUU ETTEVALMISTUS** - 26. september kell 12:00
+**INTERVJUU TOIMUNUD** - Google Meet intervjuu Reeni Vähiga
 
-#### Intervjuu ettevalmistus
+- ✅ Tehniliste oskuste tutvustamine (SolidWorks, CAD, touch-tone projekt)
+- ✅ PÖFF juhtimikogemuse näidete esitamine
+- ✅ Mehhatrooniku positsiooni fookus
+- ✅ GitHub portfolio demonstreerimine
+- ✅ Küsimused ettevõtte kohta
 
-- Tehniliste oskuste ülevaatamine (Python, CAD, süsteemiintegratsioon)
-- 1UP Technology projektide uurimine
-- PÖFF juhtimikogemuse näidete ettevalmistamine
-- Touch-tone projekti demonstratsiooni ettevalmistamine
-- Küsimuste ettevalmistamine ettevõtte kohta
+### ⏳ Praegune olukord (26.09.2025)
+
+**OOTAME OTSUST** - Reeni lubas nädala jooksul teada anda
+
+- 📅 **Oodatav vastus**: 3. oktoobriks 2025
+- 🎯 **Peamine huvi**: Mehhatrooniku positsioon
+- 📧 **Võimalik järelkontakt**: Tänukiri 24h jooksul (valikuline)
 
 ### Emaili template
 
@@ -137,13 +152,20 @@ mitselek@gmail.com
 
 ## Manused
 
-- `CV_1UP_Universal.md` - Ühtne CV kõigi positsioonide jaoks
+- `Mihkel_CV_1UP_Universal.md` - Ühtne CV kõigi positsioonide jaoks
 - `Automaatik_programmeerija/motivatsioonikiri.md`
 - `IT_spetsialist/motivatsioonikiri.md`
 - `Mehhatroonik/motivatsioonikiri.md`
 
+### Intervjuu ettevalmistusmaterjalid
+
+- `Mehhatroonik/interview_technical_preparation.md` - Tehniliste oskuste analüüs
+- `Mehhatroonik/interview_project_examples.md` - Projektinäidete ettevalmistus  
+- `Mehhatroonik/interview_questions_preparation.md` - Küsimused ja vastused
+- `Mehhatroonik/interview_practical_demo.md` - Google Meet demonstratsioon
+
 ---
 
 **Koostaja**: Mihkel Putrinš  
-**Viimati uuendatud**: 25. september 2025  
-**Status**: Intervjuu ettevalmistus (26.09.2025 kell 12:00)
+**Viimati uuendatud**: 26. september 2025  
+**Status**: Intervjuu toimunud - ootame vastust (3. oktoobriks 2025)
