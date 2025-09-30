@@ -1,6 +1,6 @@
 # KAPO IT projektijuht-analüütik - Kandideerimise kokkuvõte
 
-Last updated: 2025-09-29T17:26:15+03:00
+Last updated: 2025-09-30T11:34:55+03:00
 
 **Kuupäev:** 29. september 2025  
 **Tähtaeg:** 30. september 2025  
@@ -90,9 +90,10 @@ mitselek@gmail.com
 
 ### ✅ ESITATUD - 29. september 2025 kell 17:23
 
-**E-post:** kandideeri@kapo.ee  
+**E-post:** <kandideeri@kapo.ee>  
 **Teema:** "Kandideermine IT projektijuht-analüütiku ametikohale - Mihkel Putrinš"  
-**Manused:** 
+**Manused:**
+
 - Motiveeritud avaldus (PDF)
 - CV (PDF)
 - Palgasoov: €3800-4200 bruto/kuus (kirjas)
