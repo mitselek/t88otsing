@@ -1,6 +1,6 @@
 # Technical Notes
 
-Last updated: 2025-10-09T10:01:51+03:00
+Last updated: 2025-10-09T10:03:31+03:00
 
 Last Refactor: 2025-08-12 (deduplicated)
 
@@ -14,6 +14,8 @@ Minimal operational checklist (applications):
 - Cross‑reference work history vs master CV templates
 - Verify dates, titles, organizations
 - Exclude unverifiable claims (mark TODO if pending)
+- Document all communication in `/communication/` folder (see EKI, 1UP examples)
+- Update `applications/REGISTRY.md` with application status and dates
 - Final pass vs `honest_cv_guidelines.md`
 
 ---
