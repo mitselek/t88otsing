@@ -1,12 +1,14 @@
 # SMIT Tooteomanik (Häirekeskuse tiim) - Kandideerimise strateegia
 
-Last updated: 2025-09-30T11:34:55+03:00
+Last updated: 2025-10-09T10:01:04+03:00
 
 **Ametikoht:** Tooteomanik (Häirekeskuse tiim)  
 **Organisatsioon:** Siseministeeriumi infotehnoloogia- ja arenduskeskus (SMIT)  
 **Kandideerimise tähtaeg:** 8. oktoober 2025  
 **Registreeritud:** 29. september 2025  
-**Staatus:** Materjalid koostatud, valmis esitamiseks
+**Kandideeritud:** 30. september 2025  
+**Tagasiside:** 8. oktoober 2025  
+**Staatus:** TAGASI LÜKATUD - Kõrge konkurents, vajalik eelnev Product Owner kogemus
 
 ---
 
