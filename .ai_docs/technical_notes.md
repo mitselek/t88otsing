@@ -1,5 +1,7 @@
 # Technical Notes
 
+Last updated: 2025-10-09T10:01:51+03:00
+
 Last Refactor: 2025-08-12 (deduplicated)
 
 ## Quality Control Pointer
@@ -8,6 +10,7 @@ Single source for historical fabrications: `cross_reference_violations_log.md` (
 
 Minimal operational checklist (applications):
 
+- always check linting (VS Code markdown linter)
 - Cross‑reference work history vs master CV templates
 - Verify dates, titles, organizations
 - Exclude unverifiable claims (mark TODO if pending)
