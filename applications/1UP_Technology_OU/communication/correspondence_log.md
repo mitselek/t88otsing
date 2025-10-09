@@ -1,6 +1,6 @@
 # Communication Log - 1UP Technology OÜ
 
-Last updated: 2025-09-26T13:40:24+03:00
+Last updated: 2025-10-09T11:13:06+03:00
 
 **Company**: 1UP Technology OÜ  
 
@@ -99,8 +99,81 @@ www.1uptech.eu
 - Prepare potential follow-up materials if requested
 - Consider sending thank-you email within 24 hours
 
+## Rejection Notification
+
+- **Date**: October 3, 2025 at 3:00 PM
+- **From**: Reeni Vähi <reeni@1uptech.eu>
+- **To**: Mihkel Putrinš
+- **Subject**: (No subject specified)
+- **Content**:
+
+```text
+Tere, Mihkel!
+
+Kõigepealt tänan meeldiva vestluse eest ja annan teada, et hetkel liigume edasi teiste kandidaatidega.
+
+Edu tööotsingutel!
+
+
+Heade soovidega
+
+Reeni Vähi
+1UP Technology
++372 5176039
+www.1uptech.eu
+```
+
+**Analysis**:
+
+- **Type**: Polite rejection after interview
+- **Timing**: Exactly on expected decision date (as promised in interview)
+- **Tone**: Professional and courteous
+- **Reason**: Chose other candidates (no specific feedback provided)
+- **Future possibility**: No mention of keeping profile for future opportunities
+
+## Follow-up: Feedback Request
+
+- **Date**: October 9, 2025 at 10:36 AM
+- **From**: Mihkel Putrinš <mitselek@gmail.com>
+- **To**: Reeni Vähi <reeni@1uptech.eu>
+- **Subject**: Tagasiside palve
+- **Content**:
+
+```text
+Tere Reeni,
+
+Tänan veel kord meeldivate vestluste eest!
+
+Olen ausalt öeldes natuke hämmingus - ma ise arvan, et võtan uusi väljakutseid hästi vastu ja minu interdistsiplinaarsed võimed oleks väga väärtuslikud igasuguse uue asja juures, mis nõuab intellekti ja kriitilist mõtlemist.
+
+Praegu jääb mulle tunne, et ma ilmselt ei suutnud vestluses piisavalt hästi demonstreerida oma haruldast kriitilist ja mitmemõõtmelist mõistust.
+
+Olen praegu teelahkmel ja potentsiaalsete uute töökohtade kaalumisel väga valiv. Teen üsna põhjaliku eeltöö enne igat kandideerimist ja vaid üksikud jäävad sõelale - ehk et 1UP ei olnud juhuslik "klõps-klõps".
+
+Seetõttu oleksin väga tänulik, kui saaksite jagada, mis oli otsustav tegur? Oleks tõesti huvitav teada, mis mu kandidatuuris puudu jäi või mida Te ootasite rohkem.
+
+Võibolla pean ma oma enesehinnangus korrektuure sisse viima, mis ei ole iseenesest midagi hirmsat, aga nõuab veidi enamat, kui tagasilükatud kandidatuur.
+
+Aitäh, ja edu valitud kandidaatidega!
+
+PS.
+See kiri on täies ulatuses inimaru toodang.
+
+Mihkel
++372 5656 0978
+```
+
+**Purpose**:
+
+- Request for specific feedback on interview performance
+- Honest expression of confusion about rejection
+- Demonstrates self-awareness and openness to learning
+- Casual but professional tone with humor (AI disclaimer)
+
+**Status**: Awaiting response
+
 ---
 
-**Status**: Interview completed - awaiting decision  
-**Last contact**: 2025-09-26 12:00 (Interview)  
-**Expected follow-up**: By October 3, 2025
+**Status**: REJECTED - Feedback requested  
+**Last contact**: 2025-10-09 10:36 (Follow-up feedback request)  
+**Final outcome**: Other candidates selected after interview round

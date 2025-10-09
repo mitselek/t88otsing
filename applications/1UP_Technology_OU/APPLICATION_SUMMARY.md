@@ -1,11 +1,11 @@
 # 1UP Technology OÜ - Kolme positsiooni avaldused
 
-Last updated: 2025-09-26T13:40:24+03:00
+Last updated: 2025-10-09T11:13:06+03:00
 
 **Ettevõte**: 1UP Technology OÜ  
 **Kandidaat**: Mihkel Putrinš  
 **Kuupäev**: 17. september 2025  
-**Status**: INTERVJUU TOIMUNUD - OOTAME VASTUST
+**Status**: TAGASI LÜKATUD - 3. oktoober 2025
 
 ---
 
@@ -13,17 +13,17 @@ Last updated: 2025-09-26T13:40:24+03:00
 
 ✅ **KÕIK AVALDUSED ESITATUD** - 17. september 2025  
 ✅ **INTERVJUU TOIMUNUD** - 26. september 2025, kell 12:00 (Google Meet)  
-⏳ **OOTAME VASTUST** - Reeni lubas nädala jooksul teada anda (oodatav 3. oktoobriks)
+❌ **TAGASI LÜKATUD** - 3. oktoober 2025, kell 15:00 (Valitud teised kandidaadid)
 
-Esitasin kandidatuuri kolmele 1UP Technology positsioonile, kasutades ühte universaalset CV-d ja igale positsioonile kohandatud motivatsioonikirja. Intervjuus keskenduti peamiselt mehhatrooniku positsioonile.
+Esitasin kandidatuuri kolmele 1UP Technology positsioonile, kasutades ühte universaalset CV-d ja igale positsioonile kohandatud motivatsioonikirja. Intervjuus keskenduti peamiselt mehhatrooniku positsioonile. Ettevõte andis tagasisidet täpselt lubatud ajal (nädal peale intervjuud), kuid otsustati liikuda edasi teiste kandidaatidega.
 
 ### Positsioonid
 
-| Positsioon                    | Pakkumise nr | Tähtaeg                | Töötasu    | Aeg        | Asukoht           | Status        |
-| ----------------------------- | ------------ | ---------------------- | ---------- | ---------- | ----------------- | ------------- |
-| **Automaatik programmeerija** | 1615955      | 2025-09-17             | €1900      | Täistööaeg | Üle Eesti         | ✅ ESITATUD   |
-| **IT spetsialist**            | 1622825      | 2025-09-19             | €800-1800  | Osaline    | Tallinn + kaugtöö | ✅ ESITATUD   |
-| **Mehhatroonik**              | 1622832      | 2025-09-19             | €1200-2000 | Täistööaeg | Tallinn + kaugtöö | ✅ ESITATUD   |
+| Positsioon                    | Pakkumise nr | Tähtaeg                | Töötasu    | Aeg        | Asukoht           | Status          |
+| ----------------------------- | ------------ | ---------------------- | ---------- | ---------- | ----------------- | --------------- |
+| **Automaatik programmeerija** | 1615955      | 2025-09-17             | €1900      | Täistööaeg | Üle Eesti         | ❌ TAGASI LÜKATUD |
+| **IT spetsialist**            | 1622825      | 2025-09-19             | €800-1800  | Osaline    | Tallinn + kaugtöö | ❌ TAGASI LÜKATUD |
+| **Mehhatroonik**              | 1622832      | 2025-09-19             | €1200-2000 | Täistööaeg | Tallinn + kaugtöö | ❌ TAGASI LÜKATUD |
 
 ### Intervjuu
 
