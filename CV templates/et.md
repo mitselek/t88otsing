@@ -1,6 +1,6 @@
 # Mihkel Putrinš
 
-Last updated: 2025-09-17T16:07:01+03:00
+Last updated: 2025-10-13T11:00:33+03:00
 
 **Loov ja uudishimulik ideedegeneraator**  
 *Sündinud:* 1972-04-03  
@@ -34,7 +34,7 @@ Last updated: 2025-09-17T16:07:01+03:00
 
 ### Probleemilahendus
 
-- Head analüütilised võimed
+- Kriitilise mõtlemise oskus ja info muutmine tegevusplaanideks
 - Hulganisti tehniliste probleemide lahendamise kogemust
 - Oskan tuvastada loogikavigu ja ebakõlasid süsteemides
 

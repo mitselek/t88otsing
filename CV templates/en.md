@@ -1,6 +1,6 @@
 # Mihkel Putrinš
 
-Last updated: 2025-09-17T16:07:01+03:00
+Last updated: 2025-10-13T11:00:33+03:00
 
 **Passion, Beauty and Joy**  
 *Born:* 1972-04-03  
@@ -33,7 +33,7 @@ Last updated: 2025-09-17T16:07:01+03:00
 
 ### Problem-Solving
 
-- Strong analytical skills
+- Known for critical thinking and turning information into actionable insights
 - Experience solving complex technical problems
 - Ability to identify logical errors and inconsistencies in systems
 
