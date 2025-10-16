@@ -1,6 +1,6 @@
 # Elektrum Eesti OÜ - IT projektijuht
 
-Last updated: 2025-10-17T01:45:13+03:00
+Last updated: 2025-10-17T02:01:23+03:00
 
 ## Ülevaade
 
@@ -11,19 +11,38 @@ Last updated: 2025-10-17T01:45:13+03:00
 **Kandideerimise tähtaeg:** 05.11.2025  
 **Dokumendid:** CV, motivatsioonikiri  
 **Kontakt:** Diana Jantson (<diana.jantson@elektrum.ee>)  
+**Kandideerimise viis:** E-mail otse kontaktisikule  
 
 ## Ettevõtte taust
 
 Elektrum Eesti kuulub Baltikumi suurima elektritootja ja juhtiva energia jaemüügiettevõtte Latvenergo gruppi. Elektrumi eesmärk on muuta klientide elu mugavamaks, toetades neid energiaturul, muutes keerulised asjad lihtsaks ja kliendisõbralikuks ning pakkudes soodsaid energialahendusi.
 
-Tootevalik hõlmab:
+### Ettevõtte näitajad (allikas: elektrum.ee)
 
-- Elektri- ja maagaasi pakette
-- Päikeseenergia lahendused
+- **Klientide arv:** Üle 911 000 klienti Eestis, Lätis ja Leedus
+- **Kogemus:** 85-aastane kogemus Baltimaade energiasektoris
+- **Eestis:** Üle 10 aasta tegevust
+- **Keskkonnahoidlikkus:** Ligi 66% Latvenergo grupi toodetavast elektrienergiast on pärit taastuvatest energiaallikatest (peamiselt hüdroenergia)
+
+### Tootevalik
+
+- Elektripaketid (taastuvenergia, stabiilne hind, börsihind, mikrotootja)
+- Kindlustus ja koduabi teenused
+- Elektrum Drive (elektriautod ja laadijad)
+- Maagaasi paketid
 - Targa kodu süsteemid
-- Teenused kodumajapidamistele, korteriühistutele ja äriklientidele
+- Päikeseenergia lahendused
+- Teenused eraklientidele, korteriühistutele ja äriklientidele
 
-Elektrum teenindab Balti riikides kokku ligi miljon klienti.
+### Ettevõtte väärtused
+
+**Südamega** - Avatud ja motiveeritud  
+**Mõistusega** - Teeme õigeid asju ja õpime pidevalt  
+**Energiaga** - Julged ja järjekindlad
+
+### Missioon
+
+Elektrum loodi eesmärgiga muuta inimeste elu mugavaks, tehes keerulised asjad lihtsaks ja kliendisõbralikuks ning pakkudes soodsaid energialahendusi. Ettevõte on dünaamiline ja kliendile orienteeritud energiatarnija, kes jälgib edusamme ja kohandub vastavalt klientide vajadustele.
 
 ## Positsiooni analüüs
 
