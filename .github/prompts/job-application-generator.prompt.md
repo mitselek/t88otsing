@@ -4,7 +4,7 @@ description: Generate comprehensive job applications with integrity controls, ho
 
 # Job Application Generator
 
-Last updated: 2025-10-17T00:59:42+03:00
+Last updated: 2025-10-17T01:45:13+03:00
 
 The user input to you can be provided directly by the agent or as a command argument - you **MUST** consider it before proceeding with the application (if not empty).
 
@@ -133,6 +133,28 @@ Before creating any file, ensure:
 - Create communication folder for future correspondence
 - Prepare for potential follow-up documentation
 
+#### Estonian Language Quality Control (MANDATORY)
+For Estonian language applications, this is a REQUIRED step, not optional:
+
+1. **Generate all files first** with proper formatting
+2. **Run Estonian spellcheck** on all Estonian files:
+   ```
+   ./scripts/estonian-spellcheck.sh applications/[Company]/[Position]/*.md
+   ```
+3. **Review ALL suggestions** from the spellcheck output
+4. **Apply corrections** to fix:
+   - Grammar errors (case endings, verb forms)
+   - Spelling mistakes
+   - Professional language improvements
+   - Style enhancements
+5. **Re-run spellcheck** to verify all issues resolved
+
+**Why this is mandatory:**
+- Catches subtle Estonian grammar that automated tools miss
+- Ensures professional business language
+- Fixes case endings and word forms
+- Improves overall document quality significantly
+
 ## Output Format
 
 Provide complete file contents for:
@@ -145,6 +167,71 @@ Provide complete file contents for:
 
 Each file should be properly formatted, linted, and ready for immediate use.
 
+## Post-Generation Workflow (REQUIRED)
+
+After generating all files, follow this MANDATORY quality control workflow:
+
+### Step 1: Run Estonian Spellcheck
+
+**For Estonian applications, you MUST:**
+
+```bash
+./scripts/estonian-spellcheck.sh applications/[Company_Name]/[Position_Title]/*.md
+```
+
+This tool will:
+- Identify spelling and grammar errors with line numbers
+- Suggest professional language improvements
+- Catch case ending mistakes (common in Estonian)
+- Improve overall document professionalism
+
+### Step 2: Review and Apply ALL Corrections
+
+**Do not skip corrections!** Review the spellcheck output and:
+
+1. **Read each suggestion carefully** - understand the reasoning
+2. **Apply corrections** to the appropriate files
+3. **Pay special attention to**:
+   - Case endings (e.g., "visiiooni" → "visiooniga")
+   - Adverb forms (e.g., "kiirelt" → "kiiresti")
+   - Professional vocabulary improvements
+   - Punctuation consistency
+4. **Make the edits** using proper tools
+
+### Step 3: Verify Corrections
+
+After applying corrections, **re-run the spellcheck**:
+
+```bash
+./scripts/estonian-spellcheck.sh applications/[Company_Name]/[Position_Title]/[corrected_file].md
+```
+
+Continue until you get: "No spelling or grammar errors found. Text quality is excellent."
+
+### Step 4: Final Validation
+
+Run final checks to ensure everything is perfect:
+
+```bash
+# Check markdown linting
+# (Built into VS Code - should show no errors)
+
+# Verify all files exist
+ls -la applications/[Company_Name]/[Position_Title]/
+
+# Check REGISTRY.md was updated
+tail applications/REGISTRY.md
+```
+
+**Final Checklist:**
+- [ ] Estonian spellcheck run and all corrections applied
+- [ ] No markdown linting errors
+- [ ] All required files present (README, CV, motivation letter, job posting)
+- [ ] REGISTRY.md updated with new entry
+- [ ] Communication folder created
+- [ ] Files ready for PDF conversion
+```
+
 ## Success Criteria
 
 - **Honesty**: All information verifiable against master CV templates
@@ -153,12 +240,15 @@ Each file should be properly formatted, linted, and ready for immediate use.
 - **Documentation**: Proper tracking and organization for future reference
 - **Efficiency**: Ready-to-submit application package with minimal manual editing required
 - **Quality**: All markdown files lint-clean from initial creation (proper newlines, spacing, formatting)
+- **Estonian Language** (for ET applications): MANDATORY Estonian spellcheck run, all corrections applied, verified clean
 
 ## Notes
 
-- This prompt incorporates lessons learned from successful applications (Loo Keskkool, EKI)
+- This prompt incorporates lessons learned from successful applications (Loo Keskkool, EKI, Elektrum)
 - Follows integrity guidelines established in .ai_docs/ folder
 - Maintains consistency with existing application folder patterns
 - Designed to prevent fabrication while maximizing genuine strengths
 - Supports both Estonian and English applications based on master templates
 - **CRITICAL**: No emojis in professional documents, proper markdown formatting from creation, lint-clean files
+- **MANDATORY**: Estonian spellcheck for ET applications - run, apply corrections, verify clean before submission
+- **ALWAYS**: Recommend Estonian spellcheck for Estonian applications - it catches critical grammar and style issues
