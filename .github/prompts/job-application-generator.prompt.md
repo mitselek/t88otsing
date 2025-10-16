@@ -4,7 +4,7 @@ description: Generate comprehensive job applications with integrity controls, ho
 
 # Job Application Generator
 
-Last updated: 2025-10-17T02:04:01+03:00
+Last updated: 2025-10-17T02:10:55+03:00
 
 The user input to you can be provided directly by the agent or as a command argument - you **MUST** consider it before proceeding with the application (if not empty).
 
@@ -96,6 +96,16 @@ Include comprehensive overview:
 - Include specific examples from verified CV
 - Maintain professional but authentic tone
 - Follow standard business letter format
+
+#### Email Template (when direct email application)
+- Professional subject line with position and candidate name
+- Brief introduction with key qualifications
+- Highlight 3-4 most relevant experiences
+- Mention language skills if relevant
+- Note about application method (if not via job portal)
+- **Request confirmation of receipt** - polite request to confirm application received
+- Professional closing with full contact information
+- Keep concise (1 page maximum)
 
 ### 3. Quality Controls
 

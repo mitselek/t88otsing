@@ -1,6 +1,6 @@
 # Email Template - Elektrum Eesti IT projektijuht
 
-Last updated: 2025-10-17T02:04:01+03:00
+Last updated: 2025-10-17T02:10:55+03:00
 
 **To:** <diana.jantson@elektrum.ee>  
 **Subject:** Kandideerimine IT projektijuhi ametikohale - Mihkel Putrinš
@@ -22,12 +22,16 @@ Mind motiveerib võimalus panustada Elektrumi eesmärki muuta energiaturg kliend
 
 Keeleoskus: eesti keel (emakeel), inglise keel C1/C2, läti keel C2, vene keel B2.
 
+Märkus: Kandideerin otse e-posti teel, mitte CV-Online'i kaudu, kuna minu isiklik dokumendihaldus on selleks sobivam.
+
 Lisatud dokumendid:
 
 - CV
 - Motivatsioonikiri
 
-Ootan võimalust arutada, kuidas saaksin oma kogemustega panustada Elektrum Eesti IT meeskonna eesmärkide saavutamisse.
+Palun kinnitada avalduse kättesaamist.
+
+Ootan võimalust arutada, kuidas saaksin oma kogemustega panustada Elektrum Eesti IT-meeskonna eesmärkide saavutamisse.
 
 Lugupidamisega,
 
