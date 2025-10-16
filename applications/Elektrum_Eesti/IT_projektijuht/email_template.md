@@ -1,8 +1,8 @@
 # Email Template - Elektrum Eesti IT projektijuht
 
-Last updated: 2025-10-17T02:01:23+03:00
+Last updated: 2025-10-17T02:04:01+03:00
 
-**To:** diana.jantson@elektrum.ee  
+**To:** <diana.jantson@elektrum.ee>  
 **Subject:** Kandideerimine IT projektijuhi ametikohale - Mihkel Putrinš
 
 ---

@@ -4,7 +4,7 @@ description: Generate comprehensive job applications with integrity controls, ho
 
 # Job Application Generator
 
-Last updated: 2025-10-17T01:45:13+03:00
+Last updated: 2025-10-17T02:04:01+03:00
 
 The user input to you can be provided directly by the agent or as a command argument - you **MUST** consider it before proceeding with the application (if not empty).
 
@@ -208,7 +208,37 @@ After applying corrections, **re-run the spellcheck**:
 
 Continue until you get: "No spelling or grammar errors found. Text quality is excellent."
 
-### Step 4: Final Validation
+### Step 4: Generate PDF Documents
+
+**Generate professional PDF versions for submission:**
+
+```bash
+cd applications/[Company_Name]/[Position_Title]
+
+# Generate CV PDF (A4 paper size, 2cm margins)
+pandoc [CV_filename].md -o [CV_filename].pdf \
+  --pdf-engine=pdflatex \
+  -V geometry:a4paper \
+  -V geometry:margin=2cm
+
+# Generate motivation letter PDF (A4 paper size, 2cm margins)
+pandoc [motivation_letter_filename].md -o [motivation_letter_filename].pdf \
+  --pdf-engine=pdflatex \
+  -V geometry:a4paper \
+  -V geometry:margin=2cm
+
+# Verify PDF files were created
+ls -lh *.pdf
+```
+
+**PDF Generation Notes:**
+- Uses A4 paper size (standard for European job applications)
+- 2cm margins for professional appearance
+- Requires pdflatex (usually available via texlive-latex-base package)
+- Alternative engines: xelatex (better Unicode), wkhtmltopdf (HTML-based)
+- PDF size should be reasonable (typically 100-150KB for CV)
+
+### Step 5: Final Validation
 
 Run final checks to ensure everything is perfect:
 
@@ -216,7 +246,7 @@ Run final checks to ensure everything is perfect:
 # Check markdown linting
 # (Built into VS Code - should show no errors)
 
-# Verify all files exist
+# Verify all files exist (including PDFs)
 ls -la applications/[Company_Name]/[Position_Title]/
 
 # Check REGISTRY.md was updated
@@ -227,9 +257,10 @@ tail applications/REGISTRY.md
 - [ ] Estonian spellcheck run and all corrections applied
 - [ ] No markdown linting errors
 - [ ] All required files present (README, CV, motivation letter, job posting)
+- [ ] PDF files generated successfully (CV and motivation letter)
 - [ ] REGISTRY.md updated with new entry
 - [ ] Communication folder created
-- [ ] Files ready for PDF conversion
+- [ ] Application ready for submission
 ```
 
 ## Success Criteria
