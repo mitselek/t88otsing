@@ -4,7 +4,7 @@ description: Generate comprehensive job applications with integrity controls, ho
 
 # Job Application Generator
 
-Last updated: 2025-10-17T00:45:22+03:00
+Last updated: 2025-10-17T00:59:42+03:00
 
 The user input to you can be provided directly by the agent or as a command argument - you **MUST** consider it before proceeding with the application (if not empty).
 
@@ -106,10 +106,26 @@ Include comprehensive overview:
 - Maintain honest representation of capabilities
 
 #### Technical Requirements
-- All Markdown files must pass VS Code linting
+- **NO EMOJIS**: Never use emojis in any document (✅ ❌ ⚠️ etc.)
+- **Markdown Linting Prevention**: Write files with proper formatting from the start
+  - All files MUST end with single newline character
+  - Surround all headings with blank lines (before and after)
+  - Surround all lists with blank lines (before and after)
+  - Use angle brackets for email addresses: `<email@example.com>`
+  - No trailing spaces on lines
+  - Ensure proper table formatting if used
 - Consistent formatting and structure
 - Proper headings, lists, and emphasis
 - Clean, professional presentation
+
+#### Markdown Quality Checklist
+Before creating any file, ensure:
+1. **MD047**: File ends with exactly one newline
+2. **MD022**: Blank lines before and after all headings
+3. **MD032**: Blank lines before and after all lists
+4. **MD034**: Email addresses in angle brackets
+5. **MD009**: No trailing spaces
+6. **Professional tone**: No emojis, consistent formatting
 
 #### Documentation Standards
 - Update `applications/REGISTRY.md` with new entry
@@ -133,9 +149,10 @@ Each file should be properly formatted, linted, and ready for immediate use.
 
 - **Honesty**: All information verifiable against master CV templates
 - **Completeness**: All required documents generated and properly organized
-- **Professionalism**: High-quality presentation suitable for submission
+- **Professionalism**: High-quality presentation suitable for submission, NO EMOJIS
 - **Documentation**: Proper tracking and organization for future reference
 - **Efficiency**: Ready-to-submit application package with minimal manual editing required
+- **Quality**: All markdown files lint-clean from initial creation (proper newlines, spacing, formatting)
 
 ## Notes
 
@@ -144,3 +161,4 @@ Each file should be properly formatted, linted, and ready for immediate use.
 - Maintains consistency with existing application folder patterns
 - Designed to prevent fabrication while maximizing genuine strengths
 - Supports both Estonian and English applications based on master templates
+- **CRITICAL**: No emojis in professional documents, proper markdown formatting from creation, lint-clean files
