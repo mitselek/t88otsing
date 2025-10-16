@@ -1,8 +1,8 @@
 # Mihkel Putrinš
 
-Last updated: 2025-10-17T01:45:13+03:00
+Last updated: 2025-10-17T01:50:22+03:00
 
-**Loov ja uudishimulik ideedegeneraator**  
+**Loov ja uudishimulik ideede genereerija**  
 *Sündinud:* 1972-04-03  
 *Telefon:* +372 56560978  
 *E-post:* <mitselek@gmail.com>  
@@ -15,27 +15,27 @@ Last updated: 2025-10-17T01:45:13+03:00
 
 ### IT projektijuhtimine ja kasutajatugi
 
-15+ aastat kogemust IT valdkonnas, sealhulgas projektijuhtimine, süsteemihaldus ja kasutajatugi. Olen juhtinud arendusmeeskondi, implementeerinud tehnilisi lahendusi ning pakkund IT konsultatsioone erinevates valdkondades.
+15+ aastat kogemust IT valdkonnas, sealhulgas projektijuhtimine, süsteemihaldus ja kasutajatugi. Olen juhtinud arendusmeeskondi, rakendanud tehnilisi lahendusi ja pakkunud IT-konsultatsioone erinevates valdkondades.
 
 ### Dokumenteerimine ja teadmusbaasid
 
-Laialdane kogemus tehnilise dokumentatsiooni loomise ja teadmusbaasidega. Olen loonud API dokumentatsiooni (entu.dev), haldanud projektide dokumentatsiooni ning juhendanud meeskondi parimate praktikate omandamisel.
+Laialdane kogemus tehnilise dokumentatsiooni loomise ja teadmusbaasidega. Olen loonud API dokumentatsiooni (nt entu.dev), haldanud projektide dokumentatsiooni ja juhendanud meeskondi parimate praktikate omandamisel.
 
 ### Süsteemiintegratsioonid ja tugi
 
-Pikaajaline kogemus süsteemide integreerimise, kasutajatoe pakkumise ja tehniliste probleemide lahendamisega. Olen töötanud erinevate andmebaasidega, REST teenustega ning riigi- ja pangasüsteemide integratsioonidega.
+Pikaajaline kogemus süsteemide integreerimise, kasutajatoe pakkumise ja tehniliste probleemide lahendamisega. Olen töötanud erinevate andmebaasidega, REST-teenustega ning riigi- ja pangasüsteemide integratsioonidega.
 
 ### Probleemilahendus
 
-Kriitilise mõtlemise oskus ja info muutmine tegevusplaanideks. Suudan tuvastada süsteemide loogikavigu ja ebakõlasid ning leida efektiivseid lahendusi keerukatele tehnilistele väljakutsetele.
+Kriitilise mõtlemise oskus ja info muutmine tegevusplaanideks. Suudan tuvastada süsteemide loogikavigu ja ebakõlasid ning leida efektiivseid lahendusi keerukatele tehnilistele probleemidele.
 
 ---
 
 ## Olulisemad GitHub projektid
 
-- **[Entu Webapp](https://github.com/entu/webapp)** - Täisrakenduse veebiliides Entu andmeplatvormile. Full-stack Python/JavaScript rakendus andmehalduseks, API dokumentatsioon: [entu.dev](https://entu.dev/)
+- **[Entu Webapp](https://github.com/entu/webapp)** - Täisrakenduse veebiliides Entu andmeplatvormile. Full-stack Python/JavaScript rakendus andmehalduseks. API dokumentatsioon: [entu.dev](https://entu.dev/)
 
-- **[OAuth.ee](https://github.com/argoroots/est-o-auth)** - Eesti ID-kaardi ja mobiil-ID autentimise teenus, mis on integreeritud Entu platvormiga. Tagab turvalise kasutajate autentimise riiklike digitaalidentiteetide kaudu.
+- **[OAuth.ee](https://github.com/argoroots/est-o-auth)** - Eesti ID-kaardi ja mobiil-ID autentimise teenus, mis on integreeritud Entu platvormiga. See tagab turvalise kasutajate autentimise riiklike digitaalsete identiteetide kaudu.
 
 - **[eMem](https://github.com/memoriaal/eMem)** - Andmebaasisüsteem Memento raamatute digiteerimiseks, veebiväljund: [memoriaal.ee](https://www.memoriaal.ee). Projekt hõlmab komplekset andmehaldust ja kasutajaliidese arendust.
 
@@ -49,8 +49,8 @@ Kriitilise mõtlemise oskus ja info muutmine tegevusplaanideks. Suudan tuvastada
 *2010-09 - Tänaseni*  
 **Valdkond:** Infotehnoloogia
 
-- **IT projektijuhtimine:** Juhin Entu andmehaldusplatvormi projektide planeerimist ja rakendamist.
-- **Kasutajatugi:** Pakun IT konsultatsioone ja nõustamist klientidele erinevate süsteemide kasutamisel.
+- **IT projektijuhtimine:** Juhin Entu andmehaldusplatvormi projektide planeerimist ja elluviimist.
+- **Kasutajatugi:** Pakun IT-konsultatsioone ja nõustamist klientidele erinevate süsteemide kasutamisel.
 - **Süsteemihaldus:** Vastutan andmebaasi disaini, süsteemi arhitektuuri ja integratsioonide eest.
 - **Dokumenteerimine:** Loon ja haldan API dokumentatsiooni ning teadmusbaase.
 - **Arendusprojektid:** Osalen aktiivselt tarkvaraarendusprojektides ja nende tehnilises juhtimises.
@@ -66,10 +66,10 @@ Entu andmehaldusplatvorm teenindab:
 *2021-08 - 2024-10 (3 a ja 3 k)*  
 **Valdkond:** Kultuur / Meelelahutus
 
-- **Meeskonna juhtimine:** Juhtisin 4-liikmelist arendusmeeskonda PÖFF (Pimedate Ööde Filmifestival) platvormi arendamisel.
-- **Projektijuhtimine:** Kogu festivali kodulehe ja logistikasüsteemi tehniline juhtimine ning arhitektuur.
+- **Meeskonna juhtimine:** Juhtisin 4-liikmelist arendusmeeskonda PÖFF-i (Pimedate Ööde Filmifestival) platvormi arendamisel.
+- **Projektijuhtimine:** Kogu festivali kodulehe ja logistikasüsteemi tehniline juhtimine ja arhitektuur.
 - **Kasutajatugi ja koolitus:** Praktikantide mentorlus ja professionaalse arengu juhendamine.
-- **Tulemus:** Kõik 4 praktikanti said peale praktika lõppedes ametlikult tööle.
+- **Tulemus:** Kõik 4 praktikanti said pärast praktika lõppu ametlikult tööle.
 - **Süsteemihaldus:** Vastutus rahvusvahelise kultuurisündmuse digitaalse infrastruktuuri eest.
 
 ### Andmesanitar @ Eesti Mälu Instituut
@@ -78,7 +78,7 @@ Entu andmehaldusplatvorm teenindab:
 **Valdkond:** Haridus / Teadus
 
 - **Süsteemiarendus:** Andmebaasi [eMem](https://github.com/memoriaal/eMem) loomine ja veebiväljundi [Memoriaal](https://www.memoriaal.ee) ehitamine.
-- **Kasutajatugi:** Google tabelite põhjal spetsiaalsete töökeskkondade loomine ajaloolastele andmete otsimiseks ja võrdlemiseks.
+- **Kasutajatugi:** Google'i tabelite põhjal spetsiaalsete töökeskkondade loomine ajaloolastele andmete otsimiseks ja võrdlemiseks.
 - **Dokumenteerimine:** Andmete kvaliteedi tagamine ja dokumentatsiooni haldamine.
 - **Süsteemiintegratsioon:** MySQL andmebaasi otsene kasutamine ja kasutajate koolitus andmebaasi päringute tegemiseks.
 
@@ -87,7 +87,7 @@ Entu andmehaldusplatvorm teenindab:
 *2000-01 - 2023-01 (23 a ja 1 k)*  
 **Valdkond:** Kultuur / Meelelahutus
 
-- **IT kasutajatugi:** Pikaajaline IT nõustamine ja kasutajate julgustamine küsimuste esitamisel.
+- **IT kasutajatugi:** Pikaajaline IT-nõustamine ja kasutajate julgustamine küsimuste esitamisel.
 - **Probleemilahendus:** Tehniliste probleemide lahendamine ja lahenduste leidmine.
 
 ### IT-osakonna juht @ Eesti Kunstiakadeemia
@@ -95,7 +95,7 @@ Entu andmehaldusplatvorm teenindab:
 *2009-08 - 2012-08 (3 a ja 1 k)*  
 **Valdkond:** Haridus / Teadus
 
-- **IT infrastruktuur:** IT infrastruktuuride juhtimine ja arendamine.
+- **IT infrastruktuur:** IT-infrastruktuuride juhtimine ja arendamine.
 - **Süsteemihaldus:** Intranet, e-kirjad ja majasiseste infosüsteemide haldamine.
 - **Kasutajatugi:** Ülikooli kasutajatoe organiseerimine ja juhtimine.
 - **Projektijuhtimine:** Kampusvõrgu ehitamine - kogu ülikooli LAN-võrgu planeerimine ja ehitamine (700+ kasutajat).
@@ -106,7 +106,7 @@ Entu andmehaldusplatvorm teenindab:
 *2006-10 - 2009-06 (2 a ja 9 k)*  
 **Valdkond:** Elektroonika / Telekommunikatsioon
 
-- **Süsteemiarendus:** Arvelduse ja kliendihalduse erilahendusi arendamine.
+- **Süsteemiarendus:** Arvelduse ja kliendihalduse erilahenduste arendamine.
 - **Dokumenteerimine:** Dokumenteerimise võimalikkuse tutvustamine korporatsioonis.
 
 ### Tarkvara arendaja @ Justiitsministeerium
@@ -115,16 +115,16 @@ Entu andmehaldusplatvorm teenindab:
 **Valdkond:** Korrakaitse / Turva / Julgeolek
 
 - **Süsteemiarendus:** Oracle JDev ja Microsoft .NET keskkonnas arendamine.
-- **Projektid:** Kriminaalhoolduse infosüsteem, Kriminaalmenetluse register.
+- **Projektid:** Kriminaalhoolduse infosüsteem ja Kriminaalmenetluse register.
 
 ---
 
 ## Haridus
 
 - **1990 - 2002**
-  - Matemaatika @ Tartu Ülikool  
-  - Loodusteaduslikud ained @ Tallinna Ülikool  
-  - Informaatika @ Tartu Ülikool  
+  - Matemaatika (Tartu Ülikool)
+  - Loodusteaduslikud ained (Tallinna Ülikool)
+  - Informaatika (Tartu Ülikool)  
 
 ---
 
@@ -143,7 +143,7 @@ Entu andmehaldusplatvorm teenindab:
 
 ### Programmeerimiskeeled ja arendus
 
-- Python, JavaScript (Spetsialist 9/10)
+- Python, JavaScript (spetsialist 9/10)
 - Andmebaasid: MySQL, Oracle, PostgreSQL, MongoDB
 - REST teenused, süsteemiintegratsioonid
 
@@ -162,7 +162,7 @@ Entu andmehaldusplatvorm teenindab:
 
 ### Kontoritarkvara
 
-- MS Excel, Adobe Acrobat (Spetsialist 9/10)
+- MS Excel, Adobe Acrobat (spetsialist 9/10)
 - Google Workspace lahendused
 
 ---
