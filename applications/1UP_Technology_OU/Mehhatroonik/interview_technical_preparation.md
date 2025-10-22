@@ -1,6 +1,6 @@
 # Mehhatrooniku intervjuu - Tehnilised oskused ja ettevalmistus
 
-Last updated: 2025-09-26T13:40:24+03:00
+Last updated: 2025-10-22T10:58:37+03:00
 
 **Intervjuu**: 26. september 2025, kell 12:00 (Google Meet)  
 **Positsioon**: Mehhatroonik  
@@ -195,15 +195,15 @@ Last updated: 2025-09-26T13:40:24+03:00
 
 ### Projektipõhised küsimused
 
-5. **"Milliseid puidutööstuse automatiseerimise projekte praegu arendatakse?"**
-6. **"Kuidas käib prügisorteerimisliinide mehhaaniliste osade disain?"**
-7. **"Millised on kõige keerukamad tehnilised väljakutsed, millega mehhatroonik kokku puutub?"**
+1. **"Milliseid puidutööstuse automatiseerimise projekte praegu arendatakse?"**
+2. **"Kuidas käib prügisorteerimisliinide mehhaaniliste osade disain?"**
+3. **"Millised on kõige keerukamad tehnilised väljakutsed, millega mehhatroonik kokku puutub?"**
 
 ### Arenguvõimalused
 
-8. **"Kas on võimalust osaleda ka elektriprojekteerimises?"**
-9. **"Milline on karjääri arengutee mehhatroonikul ettevõttes?"**
-10. **"Kas toe lähitulevik on planeeritud uusi tehnoloogiaid juurutada?"**
+1. **"Kas on võimalust osaleda ka elektriprojekteerimises?"**
+2. **"Milline on karjääri arengutee mehhatroonikul ettevõttes?"**
+3. **"Kas toe lähitulevik on planeeritud uusi tehnoloogiaid juurutada?"**
 
 ---
 
