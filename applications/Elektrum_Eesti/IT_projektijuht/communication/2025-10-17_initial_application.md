@@ -1,6 +1,6 @@
 # Initial Application - Elektrum Eesti IT projektijuht
 
-Last updated: 2025-10-17T02:12:37+03:00
+Last updated: 2025-10-22T10:57:52+03:00
 
 **Date:** 2025-10-17  
 **Time:** 02:09 (EET)  
@@ -9,6 +9,7 @@ Last updated: 2025-10-17T02:12:37+03:00
 **To:** Diana Jantson <diana.jantson@elektrum.ee>  
 **Subject:** Kandideerimine IT projektijuhi ametikohale - Mihkel Putrinš  
 **Attachments:**
+
 - Mihkel_Putrins_CV_Elektrum_IT_projektijuht.pdf (126KB)
 - Mihkel_Putrins_motivatsioonikiri_Elektrum_IT_projektijuht.pdf (94KB)
 
