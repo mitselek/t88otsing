@@ -1,6 +1,6 @@
 # Tööpakkumine - IT projektijuht
 
-Last updated: 2025-10-17T01:45:13+03:00
+Last updated: 2025-10-22T10:58:12+03:00
 
 **Allikas:** <https://www.tootukassa.ee/et/toopakkumised/803977?src=stn>  
 **Kuupäev:** 2025-10-17  
@@ -72,4 +72,4 @@ Elektrum Eesti kuulub Baltikumi suurima elektritootja ja juhtiva energia jaemü�
 ---
 
 *Tööpakkumise poster:*  
-![Tööpakkumise poster](https://www.tootukassa.ee/selfservice-backend/v1/assets/joboffers/803977/poster)
+![Tööpakkumise poster](poster.jpg)
