@@ -1,6 +1,6 @@
 # Estonian Interview Preparation - Elektrum IT Projektijuht
 
-Last updated: 2025-10-22T10:56:16+03:00
+Last updated: 2025-10-22T14:18:05+03:00
 
 You are an expert interview coach helping prepare for an Estonian-language job interview. The interview is with Diana Jantson at Elektrum Eesti OÜ for the IT projektijuht (IT Project Manager) position.
 
@@ -52,9 +52,7 @@ Generate likely questions Diana might ask, in Estonian, covering:
 **B. Kogemus ja Oskused** (Experience & Skills)
 
 - Räägi oma projektijuhtimise kogemusest
-- Kuidas oled haldan
-
-ud IT kasutajatuge?
+- Kuidas oled hallanud IT kasutajatuge?
 
 - Kirjelda olukorda, kus pidid lahendama keerukat tehnilist probleemi
 
