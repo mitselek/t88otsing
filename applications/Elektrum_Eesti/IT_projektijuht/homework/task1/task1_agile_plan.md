@@ -1,6 +1,6 @@
 # Task 1: Agile Development Plan & IT Specialist Responsibilities
 
-Last updated: 2025-10-23T07:31:43+03:00
+Last updated: 2025-10-23T15:47:57+03:00
 
 **Prepared for**: Elektrum Eesti OÜ - IT Projektijuht Position
 
@@ -218,7 +218,7 @@ This document outlines a structured Agile implementation approach spanning 4 spr
      - Validate promo code is still active at activation
      - Apply discount to new customer account (discount group: new customer self-service, see [business_problem_summary.md - Section 3.2](business_problem_summary.md#32-discount-amounts-three-groups))
      - Apply discount to existing customer account (discount group: existing customer)
-     - Use "Continuous bill discount" type (as specified in LEO-25125, see [business_problem_summary.md - Domain Acronyms](business_problem_summary.md#domain-acronyms--terms))
+     - Use "Continuous bill discount" type (as specified in LEO-25125, see [Domain_Glossary.md](Companion%20Documents/Domain_Glossary.md))
      - Log both discount applications for audit
 
 4. **US-010**: As a Sales Portal employee, I want to manually enter promo codes for customers signing up via phone/office, so offline channels can also benefit.

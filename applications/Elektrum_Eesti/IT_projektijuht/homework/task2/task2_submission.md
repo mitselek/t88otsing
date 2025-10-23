@@ -1,6 +1,6 @@
 # Task 2: File Processing Diagram with Conditional Logic
 
-Last updated: 2025-10-23T11:21:20+03:00
+Last updated: 2025-10-23T15:47:57+03:00
 
 **Prepared for**: Elektrum Eesti OÜ - IT Projektijuht Position
 
@@ -27,12 +27,12 @@ The file contains 4 columns per row:
 
 1. **Priority 1 - Column 3 Check**:
 
-   - IF Column 3 is empty → Use Column 2 value only
-   - IF Column 3 has data → Continue to next check
+   - IF Column 3 is empty -> Use Column 2 value only
+   - IF Column 3 has data -> Continue to next check
 
 2. **Priority 2 - Column 1 Length Check** (only if Column 3 has data):
-   - IF Column 1 length = 10 characters → Use Column 1 value
-   - IF Column 1 length = 11 characters → Use Column 4 value
+   - IF Column 1 length = 10 characters -> Use Column 1 value
+   - IF Column 1 length = 11 characters -> Use Column 4 value
 
 ---
 
@@ -42,7 +42,7 @@ The file contains 4 columns per row:
 
 **Process Flow**:
 
-1. Read partner file → Exit if file doesn't exist
+1. Read partner file -> Exit if file doesn't exist
 2. Initialize row counter
 3. Loop through rows: Read 4 columns per row
 4. Apply conditional logic to select value
@@ -68,7 +68,7 @@ The file contains 4 columns per row:
   "1234567890" (10), "VALUE_B", "" (empty), "VALUE_D"
   ```
 
-- Logic: Column 3 empty? → YES → Use Column 2
+- Logic: Column 3 empty? -> YES -> Use Column 2
 - Result: "VALUE_B"
 
 **Scenario 2: Column 3 Has Data, Length 10**  
@@ -79,7 +79,7 @@ The file contains 4 columns per row:
   "ABCDEFGHIJ" (10), "VALUE_B", "VALUE_C", "VALUE_D"
   ```
 
-- Logic: Column 3 empty? → NO → Length = 10? → YES → Use Column 1
+- Logic: Column 3 empty? -> NO -> Length = 10? -> YES -> Use Column 1
 - Result: "ABCDEFGHIJ"
 
 **Scenario 3: Column 3 Has Data, Length 11**  
@@ -90,7 +90,7 @@ The file contains 4 columns per row:
   "ABCDEFGHIJK" (11), "VALUE_B", "VALUE_C", "VALUE_D"
   ```
 
-- Logic: Column 3 empty? → NO → Length = 10? → NO (it's 11) → Use Column 4
+- Logic: Column 3 empty? -> NO -> Length = 10? -> NO (it's 11) -> Use Column 4
 - Result: "VALUE_D"
 
 **Scenario 4: Multiple Rows Processing**  
@@ -106,10 +106,10 @@ Row 4: "1234567890", "VAL_B4", "VAL_C4",  "VAL_D4"
 
 Processing:
 
-- Row 1: Column 3 empty → Use "VAL_B1"
-- Row 2: Column 3 has data, Length 10 → Use "ABCDEFGHIJ"
-- Row 3: Column 3 has data, Length 11 → Use "VAL_D3"
-- Row 4: Column 3 has data, Length 10 → Use "1234567890"
+- Row 1: Column 3 empty -> Use "VAL_B1"
+- Row 2: Column 3 has data, Length 10 -> Use "ABCDEFGHIJ"
+- Row 3: Column 3 has data, Length 11 -> Use "VAL_D3"
+- Row 4: Column 3 has data, Length 10 -> Use "1234567890"
 
 Portal Entries: "VAL_B1", "ABCDEFGHIJ", "VAL_D3", "1234567890" (in order)
 
@@ -117,11 +117,11 @@ Portal Entries: "VAL_B1", "ABCDEFGHIJ", "VAL_D3", "1234567890" (in order)
 
 ## 4. Error Handling
 
-1. **File Not Found** → Log error, notify administrator, exit gracefully
-2. **Empty File** → Log warning, exit (no data to process)
-3. **Missing Columns** → Log error with row number, skip row, continue processing
-4. **Invalid Column 1 Length** (!=10 or !=11) → Skip row, log issue
-5. **Portal Entry Failure** → Retry 3 times, then log error and continue (or halt per business requirements)
+1. **File Not Found** -> Log error, notify administrator, exit gracefully
+2. **Empty File** -> Log warning, exit (no data to process)
+3. **Missing Columns** -> Log error with row number, skip row, continue processing
+4. **Invalid Column 1 Length** (!=10 or !=11) -> Skip row, log issue
+5. **Portal Entry Failure** -> Retry 3 times, then log error and continue (or halt per business requirements)
 
 ---
 
