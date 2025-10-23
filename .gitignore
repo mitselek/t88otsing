@@ -1,0 +1,17 @@
+# Java
+*.jar
+*.class
+
+# Temporary files
+*_temp.md
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~

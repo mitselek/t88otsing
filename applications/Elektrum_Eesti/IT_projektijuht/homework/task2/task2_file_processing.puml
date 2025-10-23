@@ -4,7 +4,7 @@ skinparam defaultFontName Arial
 skinparam defaultFontSize 11
 skinparam shadowing false
 
-title File Processing Workflow with Conditional Logic\nElektrum Partner Data Integration
+title File Processing Workflow
 
 start
 
