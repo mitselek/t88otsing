@@ -1,6 +1,6 @@
 # Task 2: File Processing Diagram with Conditional Logic
 
-Last updated: 2025-10-23T07:31:43+03:00
+Last updated: 2025-10-23T08:50:49+03:00
 
 **Prepared for**: Elektrum Eesti OÜ - IT Projektijuht Position
 
@@ -43,84 +43,60 @@ The file contains 4 columns per row:
 
 The process follows standard flowchart notation with these symbol types:
 
-- **Oval**: Start/End points
-- **Rectangle**: Process/Action steps
-- **Diamond**: Decision points (conditional branches)
-- **Parallelogram**: Input/Output operations
-- **Arrow**: Flow direction
+- **Oval** `( START )`: Start/End points (entry/exit of process)
+- **Rectangle** `[ Process ]`: Process/Action steps (activities, operations)
+- **Diamond** `< Decision? >`: Decision points (conditional branches, yes/no questions)
+- **Parallelogram** `/ Input/Output /`: Input/Output operations (reading/writing data)
+- **Arrow** `─→`: Flow direction (sequence of steps)
+- **Loop** `↑`: Return to earlier step in process
 
 ### 2.2 Detailed Flow
 
 ```text
-┌─────────────────┐
-│      START      │
-└────────┬────────┘
-         │
-         ▼
-    ┌─────────────────────┐
-    │  Read Partner File  │
-    └──────────┬──────────┘
-               │
-               ▼
-        ┌──────────────┐
-        │ File Exists? │◄───────┐
-        └──┬────────┬──┘         │
-           │ No     │ Yes        │
-           │        │            │
-           ▼        ▼            │
-    ┌──────────┐  ┌────────────────────┐
-    │   Error  │  │ Initialize Row = 1 │
-    │   Exit   │  └─────────┬──────────┘
-    └──────────┘            │
-                            ▼
-                    ┌──────────────────┐
-                    │   More Rows in   │
-                    │      File?       │◄──────────────┐
-                    └───┬──────────┬───┘               │
-                        │ No       │ Yes               │
-                        │          │                   │
-                        ▼          ▼                   │
-                 ┌──────────┐  ┌──────────────────┐   │
-                 │ Close    │  │ Read Columns:    │   │
-                 │ File     │  │ 1, 2, 3, 4       │   │
-                 └────┬─────┘  └────────┬─────────┘   │
-                      │                 │              │
-                      ▼                 ▼              │
-               ┌──────────┐      ┌─────────────────┐  │
-               │   END    │      │  Column 3       │  │
-               └──────────┘      │    Empty?       │  │
-                                 └──┬───────────┬──┘  │
-                                    │ Yes       │ No  │
-                                    │           │     │
-                                    ▼           ▼     │
-                            ┌──────────────┐  ┌──────────────────┐
-                            │ Use Column 2 │  │  Column 1        │
-                            │    Value     │  │  Length = 10?    │
-                            └──────┬───────┘  └──┬───────────┬───┘
-                                   │             │ Yes       │ No (=11)
-                                   │             │           │
-                                   │             ▼           ▼
-                                   │      ┌──────────────┐  ┌──────────────┐
-                                   │      │ Use Column 1 │  │ Use Column 4 │
-                                   │      │    Value     │  │    Value     │
-                                   │      └──────┬───────┘  └──────┬───────┘
-                                   │             │                 │
-                                   └─────────────┼─────────────────┘
-                                                 │
-                                                 ▼
-                                        ┌─────────────────┐
-                                        │ Enter Selected  │
-                                        │ Value to Portal │
-                                        └────────┬────────┘
-                                                 │
-                                                 ▼
-                                        ┌─────────────────┐
-                                        │ Increment Row   │
-                                        │   Counter       │
-                                        └────────┬────────┘
-                                                 │
-                                                 └────────────────┘
-                                                 (Loop back to "More Rows?")
+            ( START )
+                │
+                ▼
+        / Read Partner File /
+                │
+                ▼
+          < File Exists? >
+           /            \
+       No /              \ Yes
+         ▼                ▼
+  ( ERROR EXIT )    [ Initialize Row = 1 ]
+                          │
+                          ▼
+┌────────────> < More Rows in File? >
+│                 /                \
+│             No /                  \ Yes
+│               ▼                    ▼
+│        [ Close File ]      / Read Columns: /
+│              │            /  1, 2, 3, 4   /
+│              ▼                    │
+│           ( END )                 ▼
+│                          < Column 3 Empty? >
+│                            /             \
+│                        No /               \ Yes
+│                          ▼                 ▼
+│                < Column 1 Length? >   [ Use Column 2 ]
+│                   /           \       [     Value    ]
+│              =10 /             \ =11          │
+│                 ▼               ▼             │
+│           [ Use Column 1 ]  [ Use Column 4 ]  │
+│           [     Value    ]  [     Value    ]  │
+│                   │                 │         │
+│                   └──────────┬──────┴─────────┘
+│                              │
+│                              ▼
+│                     / Enter Selected  /
+│                     / Value to Portal /
+│                              │
+│                              ▼
+│                     [ Increment Row ]
+│                     [    Counter    ]
+│                              │
+└──────────────────────────────┘
+                  (Loop back ↑)
 ```
 
 ---
@@ -317,6 +293,8 @@ To make the process more robust, consider adding error handling branches:
   - Rows using Column 4 (Column 3 data, length 11)
   - Errors encountered (by type)
   - Processing time per file
+  - Processing time per row (average, min, max)
+  - Portal API response time
 
 - **Logging**:
   - Log start/end of each file processing
@@ -355,20 +333,6 @@ To make the process more robust, consider adding error handling branches:
 - Branch left/right for decision paths
 - Rejoin main path after branches
 - End at bottom
-
-**Symbols to Use**:
-
-- Oval: START, END, Error Exit
-- Rectangle: Read File, Read Columns, Enter to Portal, Increment Counter
-- Diamond: File Exists?, More Rows?, Column 3 Empty?, Column 1 Length = 10?
-- Parallelogram: Output error messages
-
-**Color Coding** (Optional):
-
-- Green: Happy path (successful processing)
-- Red: Error paths
-- Yellow: Decision points
-- Blue: Input/Output operations
 
 ### 7.3 Diagram Size & Export
 

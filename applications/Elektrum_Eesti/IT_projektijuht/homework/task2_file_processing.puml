@@ -1,0 +1,48 @@
+@startuml task2_file_processing_diagram
+!theme plain
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+skinparam shadowing false
+
+title File Processing Workflow with Conditional Logic\nElektrum Partner Data Integration
+
+start
+
+:Read Partner File;
+
+if (File Exists?) then (no)
+  :ERROR EXIT;
+  stop
+else (yes)
+  :Initialize Row = 1;
+  
+  while (More Rows in File?) is (yes)
+    :Read Columns:
+    1, 2, 3, 4;
+    
+    if (Column 3 Empty?) then (no)
+      if (Column 1 Length?) then (=10)
+        :Use Column 1
+        Value;
+      else (=11)
+        :Use Column 4
+        Value;
+      endif
+    else (yes)
+      :Use Column 2
+      Value;
+    endif
+    
+    :Enter Selected Value
+    to Portal;
+    
+    :Increment Row
+    Counter;
+    
+  endwhile (no)
+  
+  :Close File;
+  stop
+endif
+
+@enduml
