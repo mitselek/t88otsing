@@ -1,6 +1,6 @@
 # Job Application Registry
 
-Last updated: 2025-10-17T02:12:37+03:00
+Last updated: 2025-10-23T06:53:40+03:00
 
 Chronological list of job postings (ascending by published date). Tracks lifecycle timestamps. Use ISO date format (YYYY-MM-DD). Leave unknown fields blank until an event occurs.
 
@@ -35,7 +35,7 @@ Chronological list of job postings (ascending by published date). Tracks lifecyc
 | IT projektijuht-analüütik        | KAPO                       |            |            | 2025-09-30 | 2025-09-29 | 2025-09-29 |            |                | APPLIED  | Riigisaladus, julgeolekukontroll; BPMN/UML; motiv. avaldus + CV + palk |
 | Tooteomanik (Häirekeskus)        | SMIT                       |            |            | 2025-10-08 | 2025-09-29 | 2025-09-30 |            | 2025-10-08     | REJECTED | Product Owner; häirekeskus 112; kõrge konkurents; eelnev kogemus puudus |
 | Laia matemaatika õpetaja         | Loo Keskkool               | 1440812    |            | 2025-10-15 | 2025-10-09 | 2025-10-09 |            |                | APPLIED  | CV.ee; pedagoogiline kvalifikatsioon puudub; mentorabi; TÜ matemaatika |
-| IT projektijuht                  | Elektrum Eesti OÜ          | 1625777    | 2025-10-07 | 2025-11-05 | 2025-10-17 | 2025-10-17 |            |                | APPLIED  | Otse e-mail; diana.jantson@elektrum.ee; 85% fit; kinnitust ootan |
+| IT projektijuht                  | Elektrum Eesti OÜ          | 1625777    | 2025-10-07 | 2025-11-05 | 2025-10-17 | 2025-10-17 | 2025-10-22 |                | INTERVIEW| Screening call w/ Gerli Golberg; HW received (deadline 2025-10-26) |
 
 ### Abbreviation Glossary (add when new appears)
 
