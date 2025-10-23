@@ -14,6 +14,8 @@ Last updated: 2025-10-23T07:31:43+03:00
 
 The EE HH Recommendation functionality represents a strategic customer acquisition initiative that leverages existing customer satisfaction to drive new contract growth. The system enables customers to share unique promo codes with prospects, creating a win-win scenario where both parties receive financial incentives when new contracts are activated.
 
+This Agile development plan builds upon the comprehensive business requirements analysis documented in [business_problem_summary.md](business_problem_summary.md), which provides detailed domain terminology, complete business logic breakdown, integration point mapping, and edge case analysis.
+
 This document outlines a structured Agile implementation approach spanning 4 sprints (8 weeks) with clear milestones, deliverables, and IT specialist responsibilities. The solution integrates with CC&B billing system, self-service portal (Elektrum.ee), Sales Portal, and mobile platforms to create a seamless user experience.
 
 **Key Success Metrics**:
@@ -40,10 +42,10 @@ This document outlines a structured Agile implementation approach spanning 4 spr
 
 1. **Requirements Workshop** (Days 1-2)
    - Deep-dive into specification document with business stakeholders
-   - Clarify promo code generation rules and lifecycle
-   - Validate discount calculation logic and group definitions
-   - Map integration touchpoints (CC&B, portals, mobile)
-   - Document business rules and edge cases
+   - Clarify promo code generation rules and lifecycle (see [business_problem_summary.md - Section 3.1](business_problem_summary.md#31-promo-code-lifecycle))
+   - Validate discount calculation logic and group definitions (see [business_problem_summary.md - Section 3.2](business_problem_summary.md#32-discount-amounts-three-groups))
+   - Map integration touchpoints (CC&B, portals, mobile) (see [business_problem_summary.md - Section 4](business_problem_summary.md#4-integration-points))
+   - Document business rules and edge cases (see [business_problem_summary.md - Section 8](business_problem_summary.md#8-edge-cases--special-scenarios))
 
 2. **Technical Architecture Design** (Days 2-3)
    - Database schema design (promo code storage, tracking tables)
@@ -87,13 +89,15 @@ This document outlines a structured Agile implementation approach spanning 4 spr
 
 **Sprint Goal**: Enable automatic promo code generation for existing and new customers with persistence in CC&B.
 
+**Business Value Delivered**: Existing customers receive unique shareable codes, establishing the foundation for viral customer acquisition growth.
+
 **User Stories**:
 
 1. **US-001**: As an existing electricity customer, I want a unique promo code automatically generated when my contract activates, so I can share it with friends.
    - **Acceptance Criteria**:
      - Code generated on contract activation event
      - Code is unique across all accounts
-     - Code stored in CC&B Account → Services tab
+     - Code stored in CC&B Account -> Services tab
      - Code format: 8-character alphanumeric (e.g., "A123B456")
      - Code status: ACTIVE upon generation
 
@@ -142,6 +146,8 @@ This document outlines a structured Agile implementation approach spanning 4 spr
 
 **Sprint Goal**: Enable existing customers to view and share promo codes via self-service portal and mobile apps.
 
+**Business Value Delivered**: Customers can easily discover and share their codes, activating the recommendation channel and driving word-of-mouth marketing.
+
 **User Stories**:
 
 1. **US-004**: As an existing customer, I want to see my promo code on Elektrum.ee self-service portal, so I know what code to share.
@@ -188,6 +194,8 @@ This document outlines a structured Agile implementation approach spanning 4 spr
 
 **Sprint Goal**: Enable new customers to use promo codes during signup and automatically apply discounts to both parties.
 
+**Business Value Delivered**: Complete conversion funnel from code sharing to new customer acquisition with automated financial incentive delivery, directly impacting customer acquisition cost and revenue growth.
+
 **User Stories**:
 
 1. **US-007**: As a new customer, I want to enter a promo code when signing up via self-service, so I can get a discount.
@@ -208,9 +216,9 @@ This document outlines a structured Agile implementation approach spanning 4 spr
    - **Acceptance Criteria**:
      - Trigger: new customer contract activation event
      - Validate promo code is still active at activation
-     - Apply discount to new customer account (discount group: new customer self-service)
+     - Apply discount to new customer account (discount group: new customer self-service, see [business_problem_summary.md - Section 3.2](business_problem_summary.md#32-discount-amounts-three-groups))
      - Apply discount to existing customer account (discount group: existing customer)
-     - Use "Continuous bill discount" type (as specified in LEO-25125)
+     - Use "Continuous bill discount" type (as specified in LEO-25125, see [business_problem_summary.md - Domain Acronyms](business_problem_summary.md#domain-acronyms--terms))
      - Log both discount applications for audit
 
 4. **US-010**: As a Sales Portal employee, I want to manually enter promo codes for customers signing up via phone/office, so offline channels can also benefit.
@@ -231,11 +239,11 @@ This document outlines a structured Agile implementation approach spanning 4 spr
 
 **IT Specialist Responsibilities in Sprint 3**:
 
-- Validate discount calculation logic with business stakeholders
+- Validate discount calculation logic with business stakeholders (reference [business_problem_summary.md - Section 3.2](business_problem_summary.md#32-discount-amounts-three-groups) for three-group discount structure)
 - Test promo code validation across all entry points (self-service, Sales Portal)
 - Verify discount application matches specification (LEO-25125 reference)
 - Coordinate with billing team on "Continuous bill discount" implementation
-- Test edge cases (inactive codes, expired discounts, duplicate usage attempts)
+- Test edge cases: inactive codes, expired discounts, duplicate usage attempts, self-service failure scenarios (see [business_problem_summary.md - Section 8](business_problem_summary.md#8-edge-cases--special-scenarios))
 - Document promo code usage flows for operations team
 
 ---
@@ -243,6 +251,8 @@ This document outlines a structured Agile implementation approach spanning 4 spr
 ### Sprint 4: Edge Cases, Reporting & Launch (Week 8)
 
 **Sprint Goal**: Handle edge cases, implement tracking/reporting, finalize documentation, and prepare for production launch.
+
+**Business Value Delivered**: Campaign optimization capability through analytics, fraud prevention mechanisms, and complete operational readiness for scaled deployment.
 
 **User Stories**:
 
@@ -321,6 +331,131 @@ This document outlines a structured Agile implementation approach spanning 4 spr
 - Document lessons learned
 - Support operations team with questions/issues
 - Plan next iteration (e.g., expanding to business customers, additional features)
+
+---
+
+## 1.5 Definition of Done (DoD)
+
+A user story is considered "Done" when all of the following criteria are met:
+
+### Code Quality
+
+- [ ] Code reviewed by at least one other developer
+- [ ] Unit test coverage ≥ 80%
+- [ ] No critical or high-severity code quality issues
+- [ ] Follows team coding standards and conventions
+- [ ] No hardcoded values (use configuration files)
+
+### Functional Testing
+
+- [ ] All acceptance criteria met and verified
+- [ ] Integration tests passing (CC&B, portals, mobile)
+- [ ] Manual testing completed for UI components
+- [ ] Edge cases tested (see [business_problem_summary.md - Section 8](business_problem_summary.md#8-edge-cases--special-scenarios))
+- [ ] Error handling validated (invalid codes, inactive codes, system failures)
+
+### Documentation
+
+- [ ] API documentation updated (endpoints, request/response formats)
+- [ ] User-facing documentation written (if applicable)
+- [ ] Technical design decisions documented
+- [ ] Known limitations/caveats noted in release notes
+
+### Deployment Readiness
+
+- [ ] Feature flag configured (if needed for gradual rollout)
+- [ ] Database migration scripts tested on staging
+- [ ] Rollback plan documented and tested
+- [ ] Monitoring/alerts configured for new functionality
+- [ ] Configuration changes documented
+
+### Stakeholder Approval
+
+- [ ] Demo completed to Product Owner in Sprint Review
+- [ ] Business analyst sign-off obtained
+- [ ] UAT passed (for customer-facing features)
+- [ ] No open blockers or critical bugs
+
+---
+
+## 1.6 IT Specialist in Agile Ceremonies
+
+### Daily Stand-up (15 min, every morning at 9:00)
+
+**IT Specialist Participation**:
+
+- Report progress on integration testing and coordination work
+- Identify blockers (e.g., missing API documentation, delayed CC&B schema changes)
+- Highlight cross-team dependencies that need attention
+- Request clarifications on requirements if needed
+
+**Example Update**:
+
+> "Yesterday I validated the promo code validation API with the portal team. Today I'm testing discount calculation logic in the staging environment. Blocker: Waiting for CC&B team to confirm database index creation completion."
+
+### Sprint Planning (4 hours, first day of sprint)
+
+**IT Specialist Participation**:
+
+- Validate technical feasibility of user stories
+- Provide effort estimates for integration and coordination work
+- Clarify acceptance criteria with business analyst
+- Identify dependencies between stories
+- Commit to testing and documentation tasks
+
+**Responsibilities**:
+
+- Ensure all stories have clear, testable acceptance criteria
+- Flag stories that require external team coordination
+- Estimate testing effort for complex integration scenarios
+
+### Sprint Review (2 hours, last day of sprint)
+
+**IT Specialist Participation**:
+
+- Demo completed features to stakeholders
+- Walk through acceptance criteria validation
+- Gather feedback on UI/UX aspects
+- Document change requests for backlog
+- Present metrics (velocity, bugs found/fixed, test coverage)
+
+**Example Demo Flow**:
+
+1. Show promo code generated for new customer
+2. Display code in CC&B Account -> Services tab
+3. Demonstrate code validation API call
+4. Show error handling for invalid codes
+
+### Sprint Retrospective (1.5 hours, last day of sprint after review)
+
+**IT Specialist Participation**:
+
+- Share lessons learned on CC&B integration challenges
+- Propose process improvements (e.g., better API documentation practices)
+- Highlight what worked well (e.g., daily sync with portal team)
+- Update team working agreements if needed
+
+**Focus Areas**:
+
+- Communication effectiveness with external teams
+- Quality of requirements and acceptance criteria
+- Testing approach and coverage
+- Deployment process improvements
+
+### Backlog Refinement (2 hours, mid-sprint)
+
+**IT Specialist Participation**:
+
+- Break down large stories into implementable tasks
+- Research technical spikes (e.g., feasibility of cross-account discount transfer)
+- Update story estimates based on new information
+- Add acceptance criteria details based on implementation learnings
+
+**Preparation**:
+
+- Review upcoming stories in backlog
+- Identify questions for business stakeholders
+- Research integration complexity for new features
 
 ---
 
