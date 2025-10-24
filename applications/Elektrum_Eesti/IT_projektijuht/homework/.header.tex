@@ -14,6 +14,11 @@
 \clubpenalty=10000   % Prevent first line of paragraph at bottom of page
 \raggedbottom        % Allow variable page height to avoid awkward spacing
 
+% Table styling - no striping to maintain clean borders
+% (Striped rows cause color overflow beyond table borders)
+\usepackage[table]{xcolor}
+\usepackage{colortbl}
+
 % Add spacing above level 1 (top-level) list items for better readability
 \usepackage{enumitem}
 % topsep: space above and below list (when list is alone in paragraph)
