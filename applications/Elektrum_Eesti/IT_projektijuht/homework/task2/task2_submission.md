@@ -1,11 +1,9 @@
 # Task 2: File Processing Diagram with Conditional Logic
 
-Last updated: 2025-10-24T13:49:48+03:00
+Last updated: 2025-10-24T23:20:06+03:00
 
-**Prepared for**: Elektrum Eesti OÜ - IT Projektijuht Position
-
-**Date**: October 23, 2025
-
+**Prepared for**: Elektrum Eesti OÜ - IT Projektijuht Position  
+**Date**: October 23, 2025  
 **Author**: Mihkel Putrinš
 
 ---
@@ -121,7 +119,7 @@ Portal Entries: "VAL_B1", "ABCDEFGHIJ", "VAL_D3", "1234567890" (in order)
 4. **Invalid Column 1 Length** (!=10 or !=11) -> Skip row, log issue
 5. **Portal Entry Failure** -> Retry 3 times, then log error and continue (or halt per business requirements)
 
----
+\newpage
 
 ## 5. Implementation Considerations
 
@@ -169,3 +167,9 @@ Portal Entries: "VAL_B1", "ABCDEFGHIJ", "VAL_D3", "1234567890" (in order)
 2. **task2_file_processing.puml** - PlantUML source code for diagram regeneration
 3. **task2_file_processing_diagram.svg** (15 KB) - Visual flowchart (vector format)
 4. **task2_file_processing_diagram.png** (38 KB) - Visual flowchart (raster format)
+
+---
+
+**Document Version**: 1.0  
+**Date**: October 23, 2025  
+**Author**: Mihkel Putrinš

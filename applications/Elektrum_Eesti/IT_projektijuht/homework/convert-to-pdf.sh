@@ -82,6 +82,55 @@ needs_regeneration() {
     return 1  # false - no regeneration needed
 }
 
+# Function to extract footer metadata from markdown file
+extract_footer_metadata() {
+    local md_file="$1"
+    local temp_file="$2"
+    
+    # Extract the last few lines to check for footer pattern
+    local last_lines=$(tail -n 10 "${md_file}")
+    
+    # Check if file ends with footer pattern (--- followed by Document Version, Date, Author)
+    if echo "$last_lines" | grep -q "^---$" && \
+       echo "$last_lines" | grep -q "^\*\*Document Version\*\*:" && \
+       echo "$last_lines" | grep -q "^\*\*Date\*\*:" && \
+       echo "$last_lines" | grep -q "^\*\*Author\*\*:"; then
+        
+        # Extract values
+        local doc_version=$(echo "$last_lines" | grep "^\*\*Document Version\*\*:" | sed 's/\*\*Document Version\*\*:[[:space:]]*//')
+        local doc_date=$(echo "$last_lines" | grep "^\*\*Date\*\*:" | sed 's/\*\*Date\*\*:[[:space:]]*//')
+        local doc_author=$(echo "$last_lines" | grep "^\*\*Author\*\*:" | sed 's/\*\*Author\*\*:[[:space:]]*//')
+        
+        # Find the line number of the last occurrence of "---" that precedes the footer
+        # Count total lines in file
+        local total_lines=$(wc -l < "${md_file}")
+        # Find line number of last "---" (search backwards from end)
+        local last_separator_line=$(grep -n "^---$" "${md_file}" | tail -n 1 | cut -d: -f1)
+        
+        if [ -n "$last_separator_line" ]; then
+            # Calculate how many lines to keep (everything before the last ---)
+            local lines_to_keep=$((last_separator_line - 1))
+            # Extract only those lines
+            head -n "$lines_to_keep" "${md_file}" > "${temp_file}"
+        else
+            # Fallback: shouldn't happen if grep found it, but just in case
+            cp "${md_file}" "${temp_file}"
+        fi
+        
+        # Return the extracted values (using echo to return multiple values)
+        echo "HAS_FOOTER"
+        echo "${doc_version}"
+        echo "${doc_date}"
+        echo "${doc_author}"
+        return 0
+    else
+        # No footer pattern found, just copy the file
+        cp "${md_file}" "${temp_file}"
+        echo "NO_FOOTER"
+        return 1
+    fi
+}
+
 # Function to convert a single markdown file
 convert_md_to_pdf() {
     local md_file="$1"
@@ -99,17 +148,63 @@ convert_md_to_pdf() {
     if needs_regeneration "${md_file}" "${pdf_file}"; then
         echo "Converting: ${md_file} -> ${pdf_file}"
         
-        # Convert with pandoc using xelatex
-        if pandoc "${md_file}" \
-            -o "${pdf_file}" \
+        # Create temporary file for processed markdown
+        local temp_md=$(mktemp)
+        
+        # Extract footer metadata
+        local metadata_output=$(extract_footer_metadata "${md_file}" "${temp_md}")
+        local has_footer=$(echo "$metadata_output" | head -n 1)
+        
+        # Build pandoc command with optional footer variables
+        local pandoc_cmd="pandoc \"${temp_md}\" \
+            -o \"${pdf_file}\" \
             --pdf-engine=xelatex \
             -V geometry:a4paper \
             -V geometry:margin=1in \
             -V fontsize=11pt \
-            -H "${HEADER_FILE}" \
+            -H \"${HEADER_FILE}\""
+        
+        if [ "$has_footer" = "HAS_FOOTER" ]; then
+            local doc_version=$(echo "$metadata_output" | sed -n '2p')
+            local doc_date=$(echo "$metadata_output" | sed -n '3p')
+            local doc_author=$(echo "$metadata_output" | sed -n '4p')
+            
+            # Add header file with footer commands defined
+            local temp_header=$(mktemp)
+            cat "${HEADER_FILE}" > "${temp_header}"
+            echo "\\renewcommand{\\docversion}{v${doc_version}}" >> "${temp_header}"
+            echo "\\renewcommand{\\docdate}{${doc_date}}" >> "${temp_header}"
+            echo "\\renewcommand{\\docauthor}{${doc_author}}" >> "${temp_header}"
+            
+            # Use the temp header file
+            pandoc_cmd="pandoc \"${temp_md}\" \
+                -o \"${pdf_file}\" \
+                --pdf-engine=xelatex \
+                -V geometry:a4paper \
+                -V geometry:margin=1in \
+                -V fontsize=11pt \
+                -H \"${temp_header}\""
+        else
+            # Use the standard header file
+            pandoc_cmd="pandoc \"${temp_md}\" \
+                -o \"${pdf_file}\" \
+                --pdf-engine=xelatex \
+                -V geometry:a4paper \
+                -V geometry:margin=1in \
+                -V fontsize=11pt \
+                -H \"${HEADER_FILE}\""
+        fi
+        
+        pandoc_cmd="$pandoc_cmd \
             --from markdown+raw_tex \
-            --pdf-engine-opt=-interaction=nonstopmode \
-            2>&1 | grep -v "Missing character" || true; then
+            --pdf-engine-opt=-interaction=nonstopmode"
+        
+        # Execute pandoc command
+        if eval "$pandoc_cmd" 2>&1 | grep -v "Missing character" || true; then
+            
+            # Cleanup temp files
+            rm -f "${temp_md}"
+            [ -n "${temp_header}" ] && rm -f "${temp_header}"
             
             if [ -f "${pdf_file}" ]; then
                 echo "✓ Created: ${pdf_file}"
@@ -125,6 +220,9 @@ convert_md_to_pdf() {
         else
             echo "✗ Pandoc failed for: ${pdf_file}"
             echo ""
+            # Cleanup temp files
+            rm -f "${temp_md}"
+            [ -n "${temp_header}" ] && rm -f "${temp_header}"
             FAILED_COUNT=$((FAILED_COUNT + 1))
             return 1
         fi

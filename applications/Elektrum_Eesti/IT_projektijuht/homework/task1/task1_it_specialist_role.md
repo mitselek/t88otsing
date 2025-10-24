@@ -1,35 +1,14 @@
 # EE IT Specialist: Detailed Role Definition
 
-Last updated: 2025-10-24T20:16:25+03:00
+Last updated: 2025-10-24T23:20:06+03:00
 
 **Document Purpose**: Comprehensive definition of IT Specialist role and responsibilities for EE HH Recommendation System project
-
-**Date**: October 23, 2025
-
-**Author**: Mihkel Putrinš
-
----
 
 ## Role Overview
 
 The EE IT Specialist serves as the critical bridge between business stakeholders and technical implementation teams, ensuring that the EE HH Recommendation functionality delivers business value while maintaining technical excellence and operational reliability.
 
 **Core Mission**: Transform business requirements into working software solutions through effective coordination, rigorous quality assurance, and proactive problem-solving.
-
----
-
-## Key Responsibilities Summary
-
-| Phase | Primary Focus | Key Deliverables |
-|-------|--------------|------------------|
-| Requirements | Understanding & Documentation | Business requirements, user stories, acceptance criteria |
-| Design | Technical Coordination | Architecture review, integration plan, test strategy |
-| Development | Quality Assurance & Support | Requirement clarifications, testing, blocker resolution |
-| Testing | Validation & UAT | Test cases, UAT coordination, bug triage |
-| Deployment | Release Management | Deployment checklist, smoke tests, rollback plan |
-| Maintenance | Continuous Improvement | Monitoring, incident management, enhancement backlog |
-
-\newpage
 
 ## Detailed Responsibilities by Project Phase
 
@@ -48,7 +27,7 @@ The EE IT Specialist serves as the critical bridge between business stakeholders
 2. **Business Requirements Documentation**
    - Create functional requirement specifications
    - Document non-functional requirements (performance, security, scalability)
-   - Define business rules and validation logic (see `business_problem_summary.md` Section 3)
+   - Define business rules and validation logic (*`business_problem_summary.md:3`*)
    - Map user workflows and system touchpoints
 
 3. **User Story Creation**
@@ -105,7 +84,7 @@ generated when my contract activates, so I can share it with friends.
 - [ ] Product Backlog (prioritized user stories)
 - [ ] Integration Architecture Diagram
 - [ ] Risk Assessment Matrix
-- [ ] Glossary of domain terms (reference `business_problem_summary.md` Domain Acronyms)
+- [ ] Glossary of domain terms (*`business_problem_summary.md`* Domain Acronyms)
 
 \newpage
 
@@ -239,12 +218,7 @@ generated when my contract activates, so I can share it with friends.
   integration approach (escalated to tech lead)
 ```
 
-**Deliverables**:
-
-- [ ] Daily Sprint Status Updates
-- [ ] Requirement Clarification Notes
-- [ ] Updated User Stories (refined acceptance criteria)
-- [ ] Blocker Resolution Log
+**Deliverables**: Daily Sprint Status Updates • Requirement Clarification Notes • Updated User Stories (refined acceptance criteria) • Blocker Resolution Log
 
 \newpage
 
@@ -502,23 +476,6 @@ generated when my contract activates, so I can share it with friends.
 - [ ] Handover Documentation Package (delivered)
 - [ ] Operations Team Sign-off (obtained)
 
----
-
-## Cross-Functional Collaboration
-
-The IT Specialist works closely with multiple teams:
-
-| Team           | Frequency | Key Collaboration Areas |
-|----------------|-----------|-------------------------|
-| **Business Analysts** | Daily | Requirements clarification, user story refinement, UAT coordination |
-| **CC&B Development** | Daily (during sprints) | Integration design, API contracts, database schema, technical blockers |
-| **Portal Development** | Daily (during sprints) | UI/UX validation, API integration, responsive design testing |
-| **Mobile Development** | Weekly | Mobile app integration, share functionality, platform-specific testing |
-| **QA Team** | Daily (during testing) | Test case review, bug triage, regression testing coordination |
-| **Operations/DevOps** | Weekly | Deployment planning, monitoring setup, incident response |
-| **Customer Support** | Ad-hoc | Knowledge transfer, troubleshooting guidance, user issue resolution |
-| **Product Owner** | Weekly (sprint ceremonies) | Backlog prioritization, acceptance decisions, roadmap planning |
-
 \newpage
 
 ## Key Skills & Competencies
@@ -611,6 +568,21 @@ The IT Specialist works closely with multiple teams:
 
 \newpage
 
+## Cross-Functional Collaboration
+
+The IT Specialist works closely with multiple teams:
+
+| Team           | Frequency | Key Collaboration Areas |
+|----------------|-----------|-------------------------|
+| **Business Analysts** | Daily | Requirements clarification, user story refinement, UAT coordination |
+| **CC&B Development** | Daily (during sprints) | Integration design, API contracts, database schema, technical blockers |
+| **Portal Development** | Daily (during sprints) | UI/UX validation, API integration, responsive design testing |
+| **Mobile Development** | Weekly | Mobile app integration, share functionality, platform-specific testing |
+| **QA Team** | Daily (during testing) | Test case review, bug triage, regression testing coordination |
+| **Operations/DevOps** | Weekly | Deployment planning, monitoring setup, incident response |
+| **Customer Support** | Ad-hoc | Knowledge transfer, troubleshooting guidance, user issue resolution |
+| **Product Owner** | Weekly (sprint ceremonies) | Backlog prioritization, acceptance decisions, roadmap planning |
+
 ## Key Deliverables Summary
 
 | Deliverable | Purpose | Audience | Frequency |
@@ -625,19 +597,10 @@ The IT Specialist works closely with multiple teams:
 
 ## Conclusion
 
-The EE IT Specialist role is a multifaceted position requiring a blend of technical understanding, business acumen, and strong communication skills. Success in this role means:
-
-- **Business value delivered**: Features meet stakeholder needs and drive business outcomes
-- **Quality maintained**: Low defect rate, high UAT pass rate, stable production system
-- **Teams enabled**: Developers have clear requirements, QA has good test cases, operations has documentation
-- **Stakeholders satisfied**: Clear communication, transparency on progress and issues
-
-The IT Specialist is not just a coordinator but an active contributor to the project's success, ensuring that the EE HH Recommendation functionality delivers on its promise of cost-effective customer acquisition through satisfied customer advocacy.
+The EE IT Specialist role is a multifaceted position requiring a blend of technical understanding, business acumen, and strong communication skills. Success means delivering business value while maintaining quality standards and enabling teams through clear communication and comprehensive documentation.
 
 ---
 
-**Document Version**: 1.0
-
-**Date**: October 23, 2025
-
+**Document Version**: 1.0  
+**Date**: October 23, 2025  
 **Author**: Mihkel Putrinš

@@ -1,12 +1,13 @@
 # Business Problem Summary: EE HH Recommendation System
 
-Last updated: 2025-10-23T15:47:57+03:00
+Last updated: 2025-10-24T23:20:06+03:00
 
 **Date**: October 23, 2025  
+**Author**: Mihkel Putrinš  
 **Project**: Elektrum Estonia Household Customer Acquisition  
 **Document Purpose**: Clear explanation of business problem for IT implementation planning
 
-**Domain Terminology**: See [Domain_Glossary.md](Companion%20Documents/Domain_Glossary.md) for acronyms and key terms
+**Domain Terminology**: See ***`Domain_Glossary.md`*** for acronyms and key terms
 
 ---
 
@@ -22,8 +23,6 @@ Last updated: 2025-10-23T15:47:57+03:00
 ### The Opportunity
 
 Elektrum has **over 1000 self-service agreements signed** in a short period, proving customers are willing to sign up without sales assistance. The business wants to **amplify this success** by turning existing satisfied customers into brand ambassadors.
-
----
 
 ## 2. The Solution: Referral/Recommendation Program
 
@@ -66,8 +65,6 @@ Elektrum has **over 1000 self-service agreements signed** in a short period, pro
 - Gets discount **every single time** someone uses his code and activates
 - Example: 10 successful referrals = 10 × €10-15 = €100-150 in discounts for Mihkel!
 
----
-
 ## 3. Business Rules & Logic
 
 ### 3.1 Promo Code Lifecycle
@@ -105,6 +102,8 @@ Inactive (if contract terminated or manually disabled)
   > - Competitors with more flexible referral programs could have advantage
   > - Automated fraud detection might be more effective than manual intervention
   > - Multiple concurrent campaigns with different codes could drive higher engagement
+
+\newpage
 
 **Validation**:
 
@@ -155,6 +154,8 @@ May 05: New customer E signs → Referrer gets €15, E gets €12
 - If new customer never activates contract
 - If existing customer adds service to current contract (code only for NEW customers)
 
+\newpage
+
 **Process Flow**:
 
 1. New customer signs contract with promo code on **January 15**
@@ -164,8 +165,6 @@ May 05: New customer E signs → Referrer gets €15, E gets €12
    - Adds discount to referrer's account
    - Adds discount to new customer's account
    - Both applied as "Continuous bill discount" type
-
----
 
 ## 4. Integration Points
 
@@ -209,7 +208,7 @@ May 05: New customer E signs → Referrer gets €15, E gets €12
 - Promo code and discount amount must transfer to case
 - New characteristics needed: "Promo code", "Discount amount"
 
----
+\newpage
 
 ## 5. User Stories
 
@@ -245,7 +244,7 @@ May 05: New customer E signs → Referrer gets €15, E gets €12
 
 **Story 12**: As an admin, I want to export reports on promo code usage (Sent/Used) so I can measure campaign effectiveness.
 
----
+\newpage
 
 ## 6. Success Metrics
 
@@ -273,8 +272,6 @@ May 05: New customer E signs → Referrer gets €15, E gets €12
 - Customer lifetime value of referred customers vs. traditional
 - Return on investment: acquisition cost vs. discount cost
 
----
-
 ## 7. Future Expansion Plans
 
 **Phase 2 (mentioned in spec)**:
@@ -285,8 +282,6 @@ May 05: New customer E signs → Referrer gets €15, E gets €12
 - Gas customers
 
 **Implication**: System must be flexible and configurable for different product types and customer segments.
-
----
 
 ## 8. Edge Cases & Special Scenarios
 
@@ -320,8 +315,6 @@ May 05: New customer E signs → Referrer gets €15, E gets €12
 - Code "XYZ789" is being used inappropriately
 - **Action**: Admin manually inactivates code with end date
 - No new code generated automatically
-
----
 
 ## 9. Technical Requirements Summary
 
@@ -360,7 +353,7 @@ May 05: New customer E signs → Referrer gets €15, E gets €12
 - Fraud detection (usage patterns)
 - Audit trail for manual interventions
 
----
+\newpage
 
 ## 10. Why This Matters
 
@@ -385,3 +378,9 @@ May 05: New customer E signs → Referrer gets €15, E gets €12
 - Self-service trend proven successful (1000+ signups)
 - Need to maintain competitiveness vs. other providers
 - Customer recommendations are trusted more than advertising
+
+---
+
+**Document Version**: 1.0  
+**Date**: October 23, 2025  
+**Author**: Mihkel Putrinš

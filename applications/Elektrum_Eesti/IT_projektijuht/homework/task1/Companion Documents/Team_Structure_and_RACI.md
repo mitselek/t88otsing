@@ -1,6 +1,6 @@
 # Team Structure & RACI Matrix
 
-Last updated: 2025-10-24T12:20:06+03:00
+Last updated: 2025-10-24T23:20:06+03:00
 
 **Project**: EE HH Recommendation System  
 **Purpose**: Define team composition, roles, and decision-making authority  
@@ -35,6 +35,25 @@ Reporting to Steering Committee (parallel roles):
   - DevOps Engineer
   - UX Designer
 
+## Decision Authority
+
+### IT Project Manager
+
+**Can Decide**: Sprint scope, resource allocation, risk mitigation, daily operations  
+**Must Escalate**: Budget overruns, timeline extensions >8 weeks, major scope changes
+
+### Product Owner
+
+**Can Decide**: Backlog priority, story acceptance, business rules  
+**Must Escalate**: Scope changes requiring budget/timeline impact
+
+### IT Specialist
+
+**Can Decide**: Bug severity, test coverage, acceptance criteria  
+**Must Escalate**: Requirement conflicts, major blockers, quality risks
+
+\newpage
+
 ## Core Team Roles
 
 ### 1. IT Project Manager
@@ -49,15 +68,6 @@ Reporting to Steering Committee (parallel roles):
 - Cross-team coordination
 - Sprint planning and retrospectives
 
-**Decision Authority**:
-
-- Sprint scope adjustments (within project scope)
-- Resource allocation and task assignments
-- Risk mitigation strategies
-- Go/no-go deployment decisions
-
-**Must Escalate**: Budget overruns, timeline extensions, major scope changes
-
 ### 2. Product Owner
 
 **Reports to**: Business Sponsors, collaborates with IT PM
@@ -68,12 +78,6 @@ Reporting to Steering Committee (parallel roles):
 - Accept/reject completed work
 - Define business value and success metrics
 - UAT approval and go-live sign-off
-
-**Decision Authority**:
-
-- Backlog priority order
-- User story acceptance
-- Business rules (e.g., discount amounts)
 
 **Collaboration**: Daily alignment on priorities, weekly sprint ceremonies
 
@@ -100,9 +104,9 @@ Reporting to Steering Committee (parallel roles):
 | Testing | UAT coordination, bug triage |
 | Deployment | Smoke testing, rollback planning |
 
-**Decision Authority**: Bug severity, test coverage, UAT readiness
+**See**: ***`IT_Specialist_Role_Definition.md`*** for details
 
-**See**: [IT_Specialist_Role_Definition.md](IT_Specialist_Role_Definition.md) for details
+\newpage
 
 ### 4. Development Teams
 
@@ -143,23 +147,6 @@ Reporting to Steering Committee (parallel roles):
 - C = Consulted
 - I = Informed
 
-## Decision Authority
-
-### IT Project Manager
-
-**Can Decide**: Sprint scope, resource allocation, risk mitigation, daily operations  
-**Must Escalate**: Budget overruns, timeline extensions >8 weeks, major scope changes
-
-### Product Owner
-
-**Can Decide**: Backlog priority, story acceptance, business rules  
-**Must Escalate**: Scope changes requiring budget/timeline impact
-
-### IT Specialist
-
-**Can Decide**: Bug severity, test coverage, acceptance criteria  
-**Must Escalate**: Requirement conflicts, major blockers, quality risks
-
 \newpage
 
 ## Team Capacity
@@ -194,4 +181,8 @@ Reporting to Steering Committee (parallel roles):
 
 This structure supports the delivery plan in [task1_agile_plan.md](../task1_agile_plan.md).
 
-**Version**: 1.0 | **Date**: October 23, 2025 | **Status**: Ready for Review
+---
+
+**Document Version**: 1.0  
+**Date**: October 23, 2025  
+**Author**: Mihkel Putrinš

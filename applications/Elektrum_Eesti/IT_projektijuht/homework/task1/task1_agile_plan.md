@@ -1,20 +1,16 @@
 # Task 1: Agile Development Plan & IT Specialist Responsibilities
 
-Last updated: 2025-10-24T20:16:25+03:00
+Last updated: 2025-10-24T23:20:06+03:00
 
-**Prepared for**: Elektrum Eesti OÜ - IT Projektijuht Position
-
-**Date**: October 23, 2025
-
+**Prepared for**: Elektrum Eesti OÜ - IT Projektijuht Position  
+**Date**: October 23, 2025  
 **Author**: Mihkel Putrinš
-
----
 
 ## Executive Summary
 
 The EE HH Recommendation functionality represents a strategic customer acquisition initiative that leverages existing customer satisfaction to drive new contract growth. The system enables customers to share unique promo codes with prospects, creating a win-win scenario where both parties receive financial incentives when new contracts are activated.
 
-This Agile development plan builds upon the comprehensive business requirements analysis documented in [business_problem_summary.md](business_problem_summary.md), which provides detailed domain terminology, complete business logic breakdown, integration point mapping, and edge case analysis.
+This Agile development plan builds upon the comprehensive business requirements analysis documented in ***`business_problem_summary.md`***, which provides detailed domain terminology, complete business logic breakdown, integration point mapping, and edge case analysis.
 
 This document outlines a structured Agile implementation approach spanning 4 sprints (8 weeks) with clear milestones, deliverables, and IT specialist responsibilities. The solution integrates with CC&B billing system, self-service portal (Elektrum.ee), Sales Portal, and mobile platforms to create a seamless user experience.
 
@@ -25,7 +21,7 @@ This document outlines a structured Agile implementation approach spanning 4 spr
 - New customer conversion rate via promo codes
 - System reliability (99.5% service availability target)
 
----
+\newpage
 
 ## 1. Agile Development Plan
 
@@ -42,10 +38,10 @@ This document outlines a structured Agile implementation approach spanning 4 spr
 
 1. **Requirements Workshop** (Days 1-2)
    - Deep-dive into specification document with business stakeholders
-   - Clarify promo code generation rules and lifecycle (see [business_problem_summary.md - Section 3.1](business_problem_summary.md#31-promo-code-lifecycle))
-   - Validate discount calculation logic and group definitions (see [business_problem_summary.md - Section 3.2](business_problem_summary.md#32-discount-amounts-three-groups))
-   - Map integration touchpoints (CC&B, portals, mobile) (see [business_problem_summary.md - Section 4](business_problem_summary.md#4-integration-points))
-   - Document business rules and edge cases (see [business_problem_summary.md - Section 8](business_problem_summary.md#8-edge-cases--special-scenarios))
+   - Clarify promo code generation rules and lifecycle (*`business_problem_summary.md:3.1`*)
+   - Validate discount calculation logic and group definitions (*`business_problem_summary.md:3.2`*)
+   - Map integration touchpoints (CC&B, portals, mobile) (*`business_problem_summary.md:4`*)
+   - Document business rules and edge cases (*`business_problem_summary.md:8`*)
 
 2. **Technical Architecture Design** (Days 2-3)
    - Database schema design (promo code storage, tracking tables)
@@ -83,7 +79,7 @@ This document outlines a structured Agile implementation approach spanning 4 spr
 - Coordinate with CC&B development team on integration approach
 - Set up test environment and data
 
----
+\newpage
 
 ### Sprint 1: Promo Code Generation & Storage (Weeks 2-3)
 
@@ -124,12 +120,7 @@ This document outlines a structured Agile implementation approach spanning 4 spr
 - Unit tests (code generation, uniqueness validation)
 - Integration tests (CC&B event handling)
 
-**Sprint Ceremonies**:
-
-- **Sprint Planning** (Day 1): Story selection, estimation, commitment
-- **Daily Stand-ups** (15 min): Progress updates, blockers, collaboration needs
-- **Sprint Review** (Last day, PM): Demo to stakeholders, gather feedback
-- **Sprint Retrospective** (Last day, afternoon): Process improvements, lessons learned
+**Sprint Ceremonies**: Sprint Planning (Day 1), Daily Stand-ups (15 min), Sprint Review & Retrospective (last day)
 
 **IT Specialist Responsibilities in Sprint 1**:
 
@@ -140,7 +131,7 @@ This document outlines a structured Agile implementation approach spanning 4 spr
 - Create test data for QA team
 - Triage and prioritize bugs found during sprint
 
----
+\newpage
 
 ### Sprint 2: Self-Service Portal & Code Display (Weeks 4-5)
 
@@ -163,12 +154,6 @@ This document outlines a structured Agile implementation approach spanning 4 spr
      - Share options: email, WhatsApp, SMS, copy to clipboard
      - Share tracking (optional): log when share button is clicked
      - Works on both web (desktop/mobile) and mobile apps (Android/iOS)
-
-3. **US-006**: As an existing customer, I want to see how many times my code was used, so I can track my successful recommendations.
-   - **Acceptance Criteria**:
-     - Display: "Your code has been used X times"
-     - Show recent successful recommendations (last 3-5, with dates)
-     - Display earned discount total from recommendations
 
 **Key Activities**:
 
@@ -196,6 +181,8 @@ This document outlines a structured Agile implementation approach spanning 4 spr
 
 **Business Value Delivered**: Complete conversion funnel from code sharing to new customer acquisition with automated financial incentive delivery, directly impacting customer acquisition cost and revenue growth.
 
+\newpage
+
 **User Stories**:
 
 1. **US-007**: As a new customer, I want to enter a promo code when signing up via self-service, so I can get a discount.
@@ -216,9 +203,9 @@ This document outlines a structured Agile implementation approach spanning 4 spr
    - **Acceptance Criteria**:
      - Trigger: new customer contract activation event
      - Validate promo code is still active at activation
-     - Apply discount to new customer account (discount group: new customer self-service, see [business_problem_summary.md - Section 3.2](business_problem_summary.md#32-discount-amounts-three-groups))
+     - Apply discount to new customer account (discount group: new customer self-service, *`business_problem_summary.md:3.2`*)
      - Apply discount to existing customer account (discount group: existing customer)
-     - Use "Continuous bill discount" type (as specified in LEO-25125, see [Domain_Glossary.md](Companion%20Documents/Domain_Glossary.md))
+     - Use "Continuous bill discount" type (as specified in LEO-25125, *`Domain_Glossary.md`*)
      - Log both discount applications for audit
 
 4. **US-010**: As a Sales Portal employee, I want to manually enter promo codes for customers signing up via phone/office, so offline channels can also benefit.
@@ -239,14 +226,14 @@ This document outlines a structured Agile implementation approach spanning 4 spr
 
 **IT Specialist Responsibilities in Sprint 3**:
 
-- Validate discount calculation logic with business stakeholders (reference [business_problem_summary.md - Section 3.2](business_problem_summary.md#32-discount-amounts-three-groups) for three-group discount structure)
+- Validate discount calculation with business stakeholders (*`business_problem_summary.md:3.2`*)
 - Test promo code validation across all entry points (self-service, Sales Portal)
 - Verify discount application matches specification (LEO-25125 reference)
 - Coordinate with billing team on "Continuous bill discount" implementation
-- Test edge cases: inactive codes, expired discounts, duplicate usage attempts, self-service failure scenarios (see [business_problem_summary.md - Section 8](business_problem_summary.md#8-edge-cases--special-scenarios))
+- Test edge cases: inactive codes, expired discounts, duplicate usage, self-service failures (*`business_problem_summary.md:8`*)
 - Document promo code usage flows for operations team
 
----
+\newpage
 
 ### Sprint 4: Edge Cases, Reporting & Launch (Week 8)
 
@@ -299,7 +286,7 @@ This document outlines a structured Agile implementation approach spanning 4 spr
 - Conduct performance review and optimization
 - Final sign-off on deployment readiness
 
----
+\newpage
 
 ### Release & Post-Launch (Week 9+)
 
@@ -332,7 +319,7 @@ This document outlines a structured Agile implementation approach spanning 4 spr
 - Support operations team with questions/issues
 - Plan next iteration (e.g., expanding to business customers, additional features)
 
----
+\newpage
 
 ## 1.5 Definition of Done (DoD)
 
@@ -351,7 +338,7 @@ A user story is considered "Done" when all of the following criteria are met:
 - [ ] All acceptance criteria met and verified
 - [ ] Integration tests passing (CC&B, portals, mobile)
 - [ ] Manual testing completed for UI components
-- [ ] Edge cases tested (see [business_problem_summary.md - Section 8](business_problem_summary.md#8-edge-cases--special-scenarios))
+- [ ] Edge cases tested (*`business_problem_summary.md:8`*)
 - [ ] Error handling validated (invalid codes, inactive codes, system failures)
 
 ### Documentation
@@ -376,7 +363,7 @@ A user story is considered "Done" when all of the following criteria are met:
 - [ ] UAT passed (for customer-facing features)
 - [ ] No open blockers or critical bugs
 
----
+\newpage
 
 ## 1.6 IT Specialist in Agile Ceremonies
 
@@ -426,6 +413,8 @@ A user story is considered "Done" when all of the following criteria are met:
 3. Demonstrate code validation API call
 4. Show error handling for invalid codes
 
+\newpage
+
 ### Sprint Retrospective (1.5 hours, last day of sprint after review)
 
 **IT Specialist Participation**:
@@ -457,7 +446,7 @@ A user story is considered "Done" when all of the following criteria are met:
 - Identify questions for business stakeholders
 - Research integration complexity for new features
 
----
+\newpage
 
 ## 2. IT Specialist Role Summary
 
@@ -478,10 +467,10 @@ The IT Specialist serves as the critical bridge between business stakeholders an
 
 Throughout the 4 sprints outlined in Section 1, the IT Specialist maintains ongoing responsibilities that vary by sprint phase (detailed under each sprint above). These include:
 
-- **Sprint 0**: Requirements gathering, user story creation with INVEST principles, integration point analysis
+- **Sprint 0**: Requirements gathering, user story creation, integration point analysis
 - **Sprint 1**: CC&B integration coordination, database schema validation, test data creation
 - **Sprint 2**: Portal/mobile UI validation, API integration testing, responsive design verification
-- **Sprint 3**: Discount logic validation, promo code validation testing, edge case scenario testing
+- **Sprint 3**: Discount logic validation, promo code validation testing, edge case testing
 - **Sprint 4**: UAT coordination, deployment preparation, operations runbook creation
 
 ### Detailed Role Definition
@@ -496,25 +485,25 @@ For comprehensive information about the IT Specialist role, including:
 - Practical templates (deployment checklists, operations runbooks)
 - "Week in the life" schedule
 
-**-> See [IT Specialist Role Definition](task1_it_specialist_role.md)**
+-> See ***`task1_it_specialist_role.md`***
 
 This companion document provides actionable guidance on how to effectively execute the IT Specialist role, with real-world examples and templates derived from this project
 
----
+\newpage
 
 ## 3. Key Success Factors
 
 ### 3.1 Communication & Collaboration
 
-- **Stakeholder Engagement**: Regular touchpoints with business stakeholders throughout project
-- **Team Coordination**: Daily communication with development, QA, and operations teams
+- **Stakeholder Engagement**: Regular touchpoints with business stakeholders
+- **Team Coordination**: Daily communication with development, QA, and operations
 - **Transparency**: Proactive communication of risks, blockers, and status changes
-- **Feedback Loops**: Continuous validation that implementation matches business expectations
+- **Feedback Loops**: Continuous validation of implementation vs. business expectations
 
 ### 3.2 Agile Discipline
 
 - **Iterative Delivery**: Working software delivered every 2 weeks (sprint cadence)
-- **Flexibility**: Adapt to changing requirements while maintaining focus on sprint goals
+- **Flexibility**: Adapt to changing requirements while maintaining sprint goals
 - **Retrospectives**: Continuous process improvement based on team learnings
 - **Definition of Done**: Clear quality gates ensure consistent delivery standards
 
@@ -527,12 +516,10 @@ This companion document provides actionable guidance on how to effectively execu
 
 ### 3.4 Risk Management
 
-- **Early Identification**: Proactive risk assessment in Sprint 0 and throughout project
+- **Early Identification**: Proactive risk assessment in Sprint 0 and throughout
 - **Mitigation Planning**: Clear strategies for addressing identified risks
 - **Contingency Plans**: Rollback and workaround procedures documented
 - **Monitoring**: Post-launch monitoring to catch issues early
-
----
 
 ## 4. Conclusion
 
@@ -555,10 +542,6 @@ The IT Specialist role is critical throughout this journey, serving as the bridg
 
 ---
 
-**Document Version**: 1.0
-
-**Date**: October 23, 2025
-
+**Document Version**: 1.0  
+**Date**: October 23, 2025  
 **Author**: Mihkel Putrinš
-
-**Status**: Ready for Review

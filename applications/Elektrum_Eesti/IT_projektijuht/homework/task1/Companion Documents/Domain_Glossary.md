@@ -1,6 +1,6 @@
 # Domain Glossary - EE HH Recommendation System
 
-Last updated: 2025-10-24T11:35:52+03:00
+Last updated: 2025-10-24T23:20:06+03:00
 
 **Project**: Elektrum Estonia Household Customer Acquisition  
 **Purpose**: Domain terminology and acronyms reference  
@@ -33,4 +33,6 @@ Last updated: 2025-10-24T11:35:52+03:00
 
 ---
 
-**Version**: 1.0 | **Date**: October 23, 2025
+**Document Version**: 1.0  
+**Date**: October 23, 2025  
+**Author**: Mihkel Putrinš
