@@ -1,6 +1,6 @@
 # Task 2: File Processing Diagram with Conditional Logic
 
-Last updated: 2025-10-23T15:47:57+03:00
+Last updated: 2025-10-24T13:49:48+03:00
 
 **Prepared for**: Elektrum Eesti OÜ - IT Projektijuht Position
 
@@ -34,11 +34,9 @@ The file contains 4 columns per row:
    - IF Column 1 length = 10 characters -> Use Column 1 value
    - IF Column 1 length = 11 characters -> Use Column 4 value
 
----
-
 ## 2. Process Flowchart
 
-![File Processing Workflow Diagram](task2_file_processing_diagram.svg)
+![File Processing Workflow Diagram](./task2_file_processing_diagram.svg)
 
 **Process Flow**:
 
@@ -56,7 +54,7 @@ The file contains 4 columns per row:
 - Clear decision logic with standard flowchart notation
 - Error handling (file not found)
 
----
+\newpage
 
 ## 3. Example Scenarios
 
@@ -171,9 +169,3 @@ Portal Entries: "VAL_B1", "ABCDEFGHIJ", "VAL_D3", "1234567890" (in order)
 2. **task2_file_processing.puml** - PlantUML source code for diagram regeneration
 3. **task2_file_processing_diagram.svg** (15 KB) - Visual flowchart (vector format)
 4. **task2_file_processing_diagram.png** (38 KB) - Visual flowchart (raster format)
-
----
-
-**Status**: Complete and Ready for Submission
-
-**Deadline**: October 26, 2025
