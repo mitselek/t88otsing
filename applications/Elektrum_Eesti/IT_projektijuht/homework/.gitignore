@@ -1,0 +1,10 @@
+# Delivery archives
+*.zip
+
+# Temporary files
+*.tmp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
