@@ -1,6 +1,6 @@
 # Success Metrics & Monitoring Plan
 
-Last updated: 2025-10-23T14:29:55+03:00
+Last updated: 2025-10-24T11:48:55+03:00
 
 **Project**: EE HH Recommendation System
 
@@ -10,8 +10,6 @@ Last updated: 2025-10-23T14:29:55+03:00
 
 **Author**: Mihkel Putrinš
 
----
-
 ## Executive Summary
 
 This document outlines the comprehensive metrics and monitoring strategy for the EE HH Recommendation functionality. Success is measured across three dimensions:
@@ -20,434 +18,199 @@ This document outlines the comprehensive metrics and monitoring strategy for the
 2. **Business Outcomes**: Customer acquisition, code adoption, conversion rates
 3. **Project Execution**: Sprint velocity, quality metrics, stakeholder satisfaction
 
----
-
 ## 1. Technical KPIs
 
-### 1.1 System Performance Metrics
+### 1.1 System Performance & Reliability
 
-| Metric | Target | Measurement Method | Alert Threshold | Review Frequency |
-|--------|--------|-------------------|-----------------|------------------|
-| **API Response Time** (Code Validation) | <500ms (p95) | APM tool (New Relic/DataDog) | >1000ms | Real-time |
-| **Promo Code Generation Time** | <2s | Application logs | >5s | Real-time |
-| **Database Query Performance** | <100ms (code lookup) | Database monitoring | >500ms | Real-time |
-| **System Availability** | 99.5% uptime | Uptime monitoring (Pingdom) | <99% | Real-time |
-| **Error Rate** | <0.1% of requests | Application logs | >1% | Real-time |
+| Metric                                  | Target          | Measurement Method     | Review Frequency      |
+| --------------------------------------- | --------------- | ---------------------- | --------------------- |
+| **System Availability**                 | 99.5% uptime    | Application monitoring | Real-time dashboard   |
+| **Error Rate**                          | <1% of requests | Application logs       | Daily review          |
+| **API Response Time** (Code Validation) | <500ms (p95)    | APM logs               | Weekly trend analysis |
+| **Discount Application Accuracy**       | 100% correct    | Automated verification | Daily review          |
 
-### 1.2 Functional Accuracy Metrics
+### 1.2 Security & Fraud Prevention
 
-| Metric | Target | Measurement Method | Alert Threshold | Review Frequency |
-|--------|--------|-------------------|-----------------|------------------|
-| **Promo Code Generation Success Rate** | >99.9% | Application logs + database audit | <99% | Daily |
-| **Discount Application Accuracy** | 100% | Automated verification job | Any error | Daily |
-| **Code Uniqueness Violations** | 0 | Database constraint violations log | >0 | Real-time |
-| **Integration Success Rate** (CC&B <-> Portal) | >99% | API monitoring | <95% | Daily |
+| Metric                         | Target           | Method               | Frequency        |
+| ------------------------------ | ---------------- | -------------------- | ---------------- |
+| **Failed Validation Attempts** | <10/day per code | Application logs     | Daily review     |
+| **Code Uniqueness Violations** | 0                | Database constraints | Real-time alerts |
 
-### 1.3 Security Metrics
-
-| Metric | Target | Measurement Method | Alert Threshold | Review Frequency |
-|--------|--------|-------------------|-----------------|------------------|
-| **Failed Validation Attempts** (potential fraud) | <10/day per code | Application logs | >100/day | Daily |
-| **Unauthorized Access Attempts** | 0 | Security logs | >0 | Real-time |
-| **Code Guessing Attempts** (brute force) | <50/hour | Rate limiting logs | >500/hour | Real-time |
-
----
+\newpage
 
 ## 2. Business KPIs
 
-### 2.1 Customer Engagement Metrics
+### 2.1 Customer Engagement & Conversion
 
-| Metric | Target | Measurement Method | Reporting Frequency |
-|--------|--------|-------------------|---------------------|
-| **Promo Code Adoption Rate** | 30% of customers share code | CC&B reporting: (codes shared / total active customers) | Weekly |
-| **Code Sharing Rate** | 50% of customers with codes share them | Analytics: (share button clicks / codes generated) | Weekly |
-| **Average Shares per Customer** | 2-3 shares | Tracking logs | Monthly |
+| Metric                      | Target                         | Source            | Frequency |
+| --------------------------- | ------------------------------ | ----------------- | --------- |
+| **Code Adoption Rate**      | 20% of customers generate code | CC&B reporting    | Monthly   |
+| **Code Usage Rate**         | 15% of shared codes used       | CC&B reporting    | Monthly   |
+| **New Customers via Codes** | 10% of all new signups         | Campaign tracking | Monthly   |
 
-### 2.2 Conversion Metrics
+### 2.2 Financial Impact
 
-| Metric | Target | Measurement Method | Reporting Frequency |
-|--------|--------|-------------------|---------------------|
-| **Code Usage Rate** | 25% of shared codes used | CC&B reporting: (codes used / codes shared) | Weekly |
-| **New Customer Conversion via Codes** | 20% of all new signups | Campaign tracking | Monthly |
-| **Self-Service vs Manual Entry** | 70% self-service / 30% manual | Channel attribution | Monthly |
-
-### 2.3 Financial Impact Metrics
-
-| Metric | Target | Measurement Method | Reporting Frequency |
-|--------|--------|-------------------|---------------------|
-| **Customer Acquisition Cost (CAC)** | 30% reduction vs traditional | Finance report: (marketing spend / new customers) | Quarterly |
-| **Total Discount Liability** | Within budget (€X/month) | CC&B financial reporting | Monthly |
-| **Customer Lifetime Value (CLV)** | Higher for referred customers | Customer analytics | Quarterly |
-| **Return on Investment (ROI)** | Positive within 6 months | Finance report: (revenue - costs) / costs | Quarterly |
-
----
+| Metric                              | Target                       | Source                   | Frequency |
+| ----------------------------------- | ---------------------------- | ------------------------ | --------- |
+| **Customer Acquisition Cost (CAC)** | 30% reduction vs traditional | Finance report           | Quarterly |
+| **Total Discount Liability**        | Within budget                | CC&B financial reporting | Monthly   |
+| **ROI**                             | Positive within 6 months     | Finance report           | Quarterly |
 
 ## 3. Project Execution Metrics
 
-### 3.1 Agile Delivery Metrics
+### 3.1 Agile Delivery
 
-| Metric | Target | Measurement Method | Review Frequency |
-|--------|--------|-------------------|------------------|
-| **Sprint Velocity** | 25-30 story points | Sprint burndown charts | Per sprint |
-| **Velocity Consistency** | ±10% variance sprint-to-sprint | Velocity trend analysis | Per sprint |
-| **Sprint Goal Achievement** | 90% of committed stories completed | Sprint review outcomes | Per sprint |
-| **Scope Creep** | <10% stories added mid-sprint | Backlog changes tracking | Per sprint |
+| Metric                      | Target                      | Method          | Frequency  |
+| --------------------------- | --------------------------- | --------------- | ---------- |
+| **Sprint Velocity**         | 25-30 story points          | Sprint burndown | Per sprint |
+| **Sprint Goal Achievement** | >90% committed stories done | Sprint review   | Per sprint |
 
-### 3.2 Quality Metrics
+### 3.2 Quality
 
-| Metric | Target | Measurement Method | Review Frequency |
-|--------|--------|-------------------|------------------|
-| **UAT Pass Rate** | >95% of test scenarios pass first time | UAT session results | Per sprint |
-| **Bug Escape Rate** | <3 production bugs per sprint | Production incident tracking | Per sprint |
-| **Code Review Coverage** | 100% of code reviewed | Code review tool (GitHub/GitLab) | Per sprint |
-| **Unit Test Coverage** | >80% | Code coverage tool (JaCoCo/Istanbul) | Per sprint |
-| **Critical/High Bugs at Release** | 0 | Bug tracking system | Per release |
+| Metric                       | Target          | Method              | Frequency   |
+| ---------------------------- | --------------- | ------------------- | ----------- |
+| **UAT Pass Rate**            | >90% first pass | UAT session results | Per sprint  |
+| **Production Bugs**          | <3 per sprint   | Issue tracking      | Per sprint  |
+| **Critical Bugs at Release** | 0               | Issue tracking      | Per release |
 
-### 3.3 Stakeholder Satisfaction Metrics
+### 3.3 Stakeholder Satisfaction
 
-| Metric | Target | Measurement Method | Review Frequency |
-|--------|--------|-------------------|------------------|
-| **Business Stakeholder Satisfaction** | >4.0/5.0 | Quarterly survey | Quarterly |
-| **Requirements Clarity** | <5 clarifications per sprint | Sprint retrospective feedback | Per sprint |
-| **Documentation Quality** | >4.0/5.0 | Team feedback survey | Quarterly |
-| **Deployment Success Rate** | >95% (no rollbacks) | Deployment tracking | Per release |
+| Metric                    | Target              | Method         | Frequency   |
+| ------------------------- | ------------------- | -------------- | ----------- |
+| **Business Satisfaction** | >4.0/5.0            | Survey         | Quarterly   |
+| **Deployment Success**    | >95% (no rollbacks) | Deployment log | Per release |
 
----
+\newpage
 
-## 4. Monitoring Infrastructure
+## 4. Monitoring & Reporting
 
-### 4.1 Real-Time Dashboards
+### 4.1 Key Dashboards
 
-**System Health Dashboard** (viewed by: IT Specialist, Operations):
+**System Health Dashboard**:
 
-- API response times (last 1 hour, 24 hours, 7 days)
-- Error rate trend
-- Active users / concurrent sessions
-- Database connection pool utilization
-- System availability (current status, historical uptime)
+- System availability and error rates
+- API response times (24h trend)
+- Active alerts
 
-**Business Metrics Dashboard** (viewed by: Product Owner, Management):
+**Business Dashboard**:
 
-- Daily promo code generation count
-- Daily code usage count
-- Weekly conversion funnel (codes generated -> shared -> used -> contracts activated)
-- Discount liability trend (cumulative, monthly)
-- Customer acquisition source breakdown (promo codes vs other channels)
+- Daily promo code generation and usage counts
+- Monthly conversion funnel (generated → shared → used → activated)
+- Discount liability tracking
 
-**Sprint Progress Dashboard** (viewed by: Team, Project Manager):
+**Sprint Progress Dashboard**:
 
 - Sprint burndown chart
-- Story status (To Do, In Progress, Done)
+- Story status breakdown
 - Bug count by severity
-- Test coverage trend
-- Velocity trend (last 6 sprints)
 
-### 4.2 Alerting Strategy
+### 4.2 Alerting
 
-**Critical Alerts** (immediate notification, 24/7):
+**Critical Alerts** (immediate, 24/7):
 
 - System availability <99%
 - Error rate >5%
-- Promo code generation success rate <90%
-- Database connection failures
-- Security: Brute force attack detected
+- Discount application failures
 
-**High Priority Alerts** (notification within 15 min, business hours):
+**High Priority** (within 30 min, business hours):
 
-- API response time >1s (p95)
-- Discount application accuracy <100%
-- Integration failure rate >5%
-- Failed validation attempts >100/day for single code
+- API response time degradation
+- Failed validation spike (potential fraud)
 
-**Medium Priority Alerts** (daily summary email):
+### 4.3 Logging
 
-- Error rate 1-5%
-- API response time 500ms-1s
-- UAT test failures
-- Sprint velocity variance >20%
+**Application Logs** (90 days retention):
 
-### 4.3 Logging Strategy
+- Promo code generation events
+- Code validation requests and results
+- Discount applications
+- Integration API calls
+- Errors with context
 
-**Application Logs**:
+**Audit Logs** (7 years retention, compliance):
 
-- **Level**: INFO, WARN, ERROR, CRITICAL
-- **Retention**: 90 days (hot storage), 1 year (cold storage)
-- **Key Events Logged**:
-  - Promo code generation (success/failure, timestamp, account_id)
-  - Code validation requests (code, result, timestamp, source system)
-  - Discount application (amount, account_id, timestamp, status)
-  - Integration API calls (endpoint, response time, status code)
-  - Error details (exception type, stack trace, context)
+- Code creation/inactivation
+- Discount configuration changes
+- Manual interventions
 
-**Audit Logs**:
+\newpage
 
-- **Level**: All state changes
-- **Retention**: 7 years (compliance requirement)
-- **Key Events Logged**:
-  - Promo code creation (automatic/manual)
-  - Code inactivation (reason, user_id)
-  - Discount amount configuration changes
-  - Discount application to customer accounts
-  - Manual interventions (code override, discount group change)
-
----
-
-## 5. Performance Testing Strategy
+## 5. Testing Strategy
 
 ### 5.1 Load Testing
 
-**Objective**: Validate system handles expected production load
+**Objective**: Validate system handles production load
 
-**Test Scenarios**:
+**Key Scenarios**:
 
-1. **Promo Code Generation**
-   - Simulate 1000 concurrent contract activations
-   - Expected: Code generated within 2s for 99% of requests
-   - No database deadlocks or constraint violations
+1. **Promo Code Generation**: 1000 concurrent contract activations, <2s response time
+2. **Code Validation API**: 500 requests/second, <500ms (p95) response time
+3. **Discount Application**: 200 concurrent activations, correct discount application
 
-2. **Code Validation API**
-   - Simulate 500 requests/second for 5 minutes
-   - Expected: Response time <500ms (p95), <1% error rate
+**Schedule**: End of Sprint 1, Sprint 3, and Sprint 4 (pre-release)
 
-3. **Discount Application**
-   - Simulate 200 concurrent contract activations with promo codes
-   - Expected: Discounts applied correctly to both accounts within 10s
+### 5.2 User Acceptance Testing
 
-**Load Testing Schedule**:
+**Objective**: Validate business requirements met
 
-- Initial test: End of Sprint 1 (after code generation implementation)
-- Regression test: End of Sprint 3 (after discount application)
-- Final test: End of Sprint 4 (before production release)
+**Scope**:
 
-### 5.2 Stress Testing
+- Happy path: Code generation, sharing, usage, discount application
+- Edge cases: Invalid codes, expired codes, duplicate usage attempts
+- Integration: Self-service and manual entry workflows
+- Security: Validation rules, fraud prevention
 
-**Objective**: Identify system breaking point and failure modes
+**Schedule**: End of each sprint for completed features
 
-**Test Scenarios**:
+## 6. Reporting Schedule
 
-1. **Code Generation Spike**
-   - Gradually increase load to 5000 concurrent generations
-   - Identify at what point system degrades or fails
-   - Validate graceful degradation (errors reported, not silent failures)
+### Weekly Status Report
 
-2. **Database Connection Pool Exhaustion**
-   - Simulate scenarios where connection pool is exhausted
-   - Validate timeout handling and connection recovery
+**Recipients**: Product Owner, Project Manager, Team  
+**Contents**: Sprint progress, business metrics trend, blockers, next week priorities
 
-**Expected Outcomes**:
+### Monthly Business Review
 
-- System degrades gracefully (returns errors, doesn't crash)
-- Monitoring alerts triggered at appropriate thresholds
-- Recovery is automatic when load decreases
+**Recipients**: Management, Stakeholders  
+**Contents**: Customer acquisition numbers, discount liability, system reliability, project timeline
 
----
+### Quarterly Strategic Review
 
-## 6. Reporting Cadence
+**Recipients**: Executive Leadership  
+**Contents**: ROI analysis, CAC reduction achievement, strategic recommendations
 
-### 6.1 Daily Reports (automated, email)
+\newpage
 
-**Recipients**: IT Specialist, Operations Team
+## 7. Success Criteria
 
-**Contents**:
-
-- System health summary (uptime, error rate, response times)
-- Promo code generation count (yesterday, week-to-date)
-- Code usage count (yesterday, week-to-date)
-- Alerts triggered in last 24 hours
-- Critical/High bugs opened yesterday
-
-### 6.2 Weekly Reports (manual, presentation)
-
-**Recipients**: Product Owner, Project Manager, Stakeholders
-
-**Contents**:
-
-- Sprint progress (story completion, burndown, velocity)
-- Business metrics (code adoption, usage rate, conversion)
-- Quality metrics (UAT results, bugs found/fixed, test coverage)
-- Blockers and risks
-- Next week's priorities
-
-### 6.3 Monthly Reports (manual, executive summary)
-
-**Recipients**: Management, Steering Committee
-
-**Contents**:
-
-- Business impact (new customer acquisition, CAC, discount liability)
-- System reliability (uptime, major incidents, resolutions)
-- Project status (milestone achievement, budget, timeline)
-- Customer feedback highlights
-- Next month's roadmap
-
-### 6.4 Quarterly Reports (manual, comprehensive)
-
-**Recipients**: Executive Leadership
-
-**Contents**:
-
-- ROI analysis (revenue impact, cost savings, investment)
-- Customer lifetime value analysis (referred vs other channels)
-- Strategic recommendations (feature expansion, market opportunities)
-- Technical debt and infrastructure investments needed
-- Lessons learned and process improvements
-
----
-
-## 7. Post-Launch Monitoring Plan
-
-### Week 1-2 (Intensive Monitoring)
-
-**Activities**:
-
-- Daily check-ins with operations team (morning and evening)
-- Review all error logs daily
-- Monitor key metrics every 4 hours
-- Stakeholder update email every other day
-- On-call rotation for critical issues
-
-**Focus Areas**:
-
-- System stability (no crashes, error rate <0.5%)
-- Promo code generation success rate >99%
-- Discount application accuracy 100%
-- User-reported issues (support tickets, feedback)
-
-### Week 3-4 (Transition to Standard Monitoring)
-
-**Activities**:
-
-- Weekly check-in with operations team
-- Review error logs 2-3 times per week
-- Monitor key metrics daily
-- Weekly stakeholder update
-- Business hours on-call only
-
-**Focus Areas**:
-
-- Business metrics trending as expected (code adoption, usage)
-- No new critical/high bugs
-- Performance within SLA targets
-- Support team comfortable with runbook
-
-### Month 2+ (Standard Operations)
-
-**Activities**:
-
-- Bi-weekly check-in with operations team
-- Review dashboards as needed
-- Monthly stakeholder report
-- Standard on-call rotation
-
-**Focus Areas**:
-
-- Continuous improvement backlog prioritization
-- Quarterly metrics review and target adjustments
-- Planning for Phase 2 expansion (business customers, additional products)
-
----
-
-## 8. Success Criteria for Project Completion
-
-The EE HH Recommendation System project is considered successful when:
-
-### Technical Success Criteria
+### Technical Success
 
 - [ ] System availability >99.5% for 30 consecutive days
-- [ ] API response time <500ms (p95) for 30 consecutive days
-- [ ] Zero critical bugs in production for 30 consecutive days
-- [ ] Discount application accuracy 100% verified by automated checks
-- [ ] All monitoring dashboards and alerts operational
+- [ ] Zero critical bugs in production
+- [ ] Discount application 100% accurate
 
-### Business Success Criteria
+### Business Success
 
-- [ ] >15% of existing customers have generated/shared promo codes (within 3 months)
-- [ ] >10% of new customer signups use promo codes (within 3 months)
-- [ ] Customer acquisition cost reduced by >20% vs traditional channels
-- [ ] Discount liability within approved budget
-- [ ] Positive ROI achieved (revenue > costs)
+- [ ] > 10% of existing customers generate promo codes (within 3 months)
+- [ ] > 5% of new signups use promo codes (within 3 months)
+- [ ] CAC reduced by >20% vs traditional channels
+- [ ] Positive ROI within 6 months
 
-### Stakeholder Success Criteria
+### Stakeholder Success
 
-- [ ] Business stakeholder satisfaction >4.0/5.0
-- [ ] Support team trained and comfortable with system
-- [ ] Operations runbook complete and tested
-- [ ] User documentation available and accessible
-- [ ] Formal UAT sign-off obtained from Product Owner
-
-### Process Success Criteria
-
-- [ ] All sprint goals achieved (>90% story completion rate)
-- [ ] Average sprint velocity stable (±10% variance)
-- [ ] Bug escape rate <3 per sprint maintained
-- [ ] Retrospective action items implemented
-- [ ] Knowledge transfer completed to operations team
-
----
-
-## 9. Continuous Improvement Framework
-
-### Quarterly Metrics Review
-
-**Process**:
-
-1. **Data Collection** (Week 1)
-   - Gather all metrics data from monitoring systems
-   - Compile business reports from CC&B
-   - Collect stakeholder feedback via survey
-
-2. **Analysis** (Week 2)
-   - Identify trends (improving, stable, degrading)
-   - Compare actuals vs targets
-   - Root cause analysis for misses
-   - Benchmark against industry standards
-
-3. **Action Planning** (Week 3)
-   - Update targets if needed (based on learnings)
-   - Define improvement initiatives
-   - Prioritize enhancements backlog
-   - Allocate resources for improvements
-
-4. **Communication** (Week 4)
-   - Present findings to stakeholders
-   - Publish quarterly report
-   - Update monitoring dashboards with new targets
-   - Kick off improvement initiatives
-
-### Metrics Evolution
-
-As the system matures, metrics should evolve:
-
-**Phase 1 (Months 1-3)**: Focus on technical stability and basic adoption
-
-- Emphasis: Uptime, error rates, promo code generation success
-- Target: Prove system works reliably
-
-**Phase 2 (Months 4-6)**: Focus on business impact and optimization
-
-- Emphasis: Conversion rates, CAC reduction, ROI
-- Target: Prove business value
-
-**Phase 3 (Months 7+)**: Focus on growth and innovation
-
-- Emphasis: Market expansion, feature enhancement, competitive advantage
-- Target: Scale and differentiate
-
----
+- [ ] Business satisfaction >4.0/5.0
+- [ ] Formal UAT sign-off obtained
+- [ ] Operations team trained and runbook complete
 
 ## Conclusion
 
-This comprehensive metrics and monitoring plan provides:
+This metrics plan focuses on **essential, realistic measurements** that provide:
 
-- **Visibility**: Real-time and historical view of system health and business performance
-- **Accountability**: Clear targets and ownership for each metric
-- **Proactivity**: Alerts enable rapid response to issues before customer impact
-- **Insight**: Data-driven decisions on optimizations and enhancements
-- **Confidence**: Stakeholders trust system is delivering value and operating reliably
+- **Technical confidence**: System works reliably and performs well
+- **Business validation**: Feature drives customer acquisition and reduces costs
+- **Project accountability**: Delivery is on track with quality standards
 
-By tracking technical performance, business outcomes, and project execution metrics, we ensure the EE HH Recommendation System achieves its strategic objectives while maintaining operational excellence.
-
----
+The metrics are deliberately streamlined to track what truly matters, avoiding measurement overhead while maintaining visibility into system health, business impact, and project progress.
 
 **Document Version**: 1.0
 
