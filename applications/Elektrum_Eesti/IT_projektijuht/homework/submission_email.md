@@ -1,6 +1,6 @@
 # Kodutöö esitamise e-kiri
 
-Last updated: 2025-10-24T11:01:47+03:00
+Last updated: 2025-10-24T15:22:35+03:00
 
 **Teema:** Kodutöö esitamine - IT Projektijuhi ametikoht
 
@@ -8,7 +8,7 @@ Last updated: 2025-10-24T11:01:47+03:00
 
 Tere,
 
-Saadan zip-failina kodutöö IT Projektijuhi ametikoha taotlemiseks.
+Saadan kodutöö IT Projektijuhi ametikoha taotlemiseks zip-failina.
 
 ## Failistruktuur
 
@@ -24,6 +24,8 @@ Arhiiv sisaldab kahte põhikausta:
   - Mõõdikud ja monitooring
   - Meeskonna struktuur ja RACI maatriks
   - Domeeni sõnastik
+
+**Märkus**: `Companion Documents` on koostatud suuresti minu enda teadmiste lünkade täitmiseks.
 
 **task2/** - Failide töötlemise protsess
 
@@ -44,20 +46,39 @@ Protsess on kavandatud klassikalisele arendustöövoole, kus:
 - Testimine toimub struktureeritult
 - Dokumentatsioon on detailne ja järjepidev
 
-Tänapäevane AI-toega arendus võimaldaks protsessi optimeerida (nt. AI-põhine koodi genereerimine, automaatne dokumenteerimine), kuid valisin konservatiivsema lähenemise, sest ei tunne ettevõtte sisemisi protsesse ja IT-võimekusi.
+Tänapäevane AI-toega arendus võimaldaks protsessi optimeerida (nt. AI-assisteeritud koodi genereerimine, dokumenteerimine), kuid valisin konservatiivsema lähenemise, sest ei tunne ettevõtte sisemisi protsesse ja IT-raamistikke.
 
-## AI assistentide kasutamine
+## Läbipaistvuse huvides
 
-Täieliku läbipaistvuse huvides: käesoleva töö koostamisel olen laialdases kasutanud AI assistente (GitHub Copilot, Claude Sonnet, õigekirja kontrolliks Gemini). Minu roll oli peamiselt järelevaataja ja koordineerija - tagamaks, et kõik osad sobituksid omavahel ja vastaksid ülesande nõuetele.
+**AI assistentide kasutamine**: Käesoleva töö koostamisel olen laialdaselt kasutanud AI-assistente (GitHub Copilot, Claude Sonnet, Gemini õigekirja kontrolliks). Minu roll oli peamiselt järelevaataja ja koordineerija - tagamaks, et kõik osad sobituksid omavahel ja vastaksid ülesande nõuetele.
 
-See peegeldab minu tööfilosoofiat: kasutan kõiki kättesaadavaid tööriistu võimalikult efektiivselt. Olen elu jooksul paljude projektijuhtidega töötanud ja ei kahtle, et puuduolevad mõisted ja nipid õpin protsessi käigus - mul on head tööriistad, et seda teha kiiresti ja kvaliteetselt.
+**Kvalifikatsioon**: Mul puuduvad formaalsed projektijuhtimise sertifikaadid (nt PMP, Scrum Master). Kogemus põhineb praktilistel projektidel ja tihedal koostööl IT-meeskondadega erinevates rollides. Dokumentatsioonis viidatud metoodikatele ja parematele praktikatel põhinevad tööstuse standarditel, mida olen omandanud praktilise töö ja iseõppimise kaudu.
 
-Kui mul õnnestub muljet avaldada, siis jagan meeleldi ka oma tööpraktikaid. :)
+Vajalikke sertifikaate olen valmis omandama vastavalt vajadusele.
+
+Olen töötanud paljude projektijuhtidega ja usun, et puuduvad mõisted ja nipid õpin protsessi käigus. Mul on head tööriistad, et seda kiiresti ja kvaliteetselt teha.
+
+## Projektikäivitamise valmidus
+
+**Teadlik piirangute mõistmine**: Käesolev esitlus pakub projekti strateegilist raamistikku ja protsesside alust. See peegeldab minu lähenemist planeerimisele, meeskonna struktuurile ja juhtimisele.
+
+Reaalse käivitamise jaoks oleks vaja 6-8 nädalat ettevalmistust:
+
+- Detailsed kasutajalood ja tehniline disain
+- Meeskonnaliikmed määratud ja keskkonnad ette valmistatud
+- Õiguslikud/vastavustõendused läbi vaadatud
+- Eelarve formaalselt kinnitatud
+
+Kodutöö näitab minu planeerimis- ja protsesside disaini võimekust. Puuduvad taktikalised detailid tuleksid välja töötubade kaudu teie meeskondade, tehniliste arhitektide ja sidusrühmadega - seda ma ei saanud teha ilma Elektrumi süsteemide ja piirangute sisemise tundmiseta.
+
+Tahtlikult keskendusin dokumentatsioonis sellele, mida ma võisin usaldusväärselt väljastpoolt disainida, vältides eeldusi teie sisemise arhitektuuri, meeskonna kättesaadavuse või tehniliste võimaluste kohta.
 
 ## Küsimused
 
-Kui tekib küsimusi dokumentatsiooni või lahenduse kohta, olen hea meelega valmis neid selgitama kas e-posti teel või kohtumisel.
+Küsimusi dokumentatsiooni või lahenduse kohta võtan hea meelega vastu nii e-posti teel, kui ka kohtumisel.
 
-Lugupidamisega,  
+```text
+Lugupidamisega  
 Mihkel Putrinš  
 +372 5656 0978
+```
