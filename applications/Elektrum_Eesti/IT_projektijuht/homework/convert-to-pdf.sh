@@ -86,9 +86,27 @@ done
 echo "=== Task 2 ==="
 echo ""
 
+# Copy diagram files first (needed for PDF generation)
+if [ -f "${SCRIPT_DIR}/task2/task2_file_processing_diagram.svg" ]; then
+    mkdir -p "${DELIVERY_DIR}/task2"
+    cp "${SCRIPT_DIR}/task2/task2_file_processing_diagram.svg" "${DELIVERY_DIR}/task2/"
+    echo "✓ Copied: task2_file_processing_diagram.svg"
+fi
+
+if [ -f "${SCRIPT_DIR}/task2/task2_file_processing_diagram.png" ]; then
+    mkdir -p "${DELIVERY_DIR}/task2"
+    cp "${SCRIPT_DIR}/task2/task2_file_processing_diagram.png" "${DELIVERY_DIR}/task2/"
+    echo "✓ Copied: task2_file_processing_diagram.png"
+fi
+
+echo ""
+
 for md_file in "${SCRIPT_DIR}/task2"/*.md; do
     if [ -f "${md_file}" ]; then
+        # Change to task2 directory so relative image paths work
+        cd "${SCRIPT_DIR}/task2"
         convert_md_to_pdf "${md_file}" "task2"
+        cd "${SCRIPT_DIR}"
     fi
 done
 
