@@ -504,8 +504,8 @@ generated when my contract activates, so I can share it with friends.
 
 The IT Specialist works closely with multiple teams:
 
-| Team | Interaction Frequency | Key Collaboration Areas |
-|------|----------------------|-------------------------|
+| Team           | Frequency | Key Collaboration Areas |
+|----------------|-----------|-------------------------|
 | **Business Analysts** | Daily | Requirements clarification, user story refinement, UAT coordination |
 | **CC&B Development** | Daily (during sprints) | Integration design, API contracts, database schema, technical blockers |
 | **Portal Development** | Daily (during sprints) | UI/UX validation, API integration, responsive design testing |

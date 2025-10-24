@@ -1,6 +1,6 @@
 # Task 1 Documentation Package
 
-Last updated: 2025-10-23T15:47:57+03:00
+Last updated: 2025-10-24T15:31:18+03:00
 
 **Project**: EE HH Recommendation System  
 **Author**: Mihkel Putrinš | **Date**: October 23, 2025
@@ -12,14 +12,14 @@ Last updated: 2025-10-23T15:47:57+03:00
 ### Core Documents
 
 1. **[task1_agile_plan.md](task1_agile_plan.md)** - Main deliverable with 4 sprints (8 weeks), IT Specialist responsibilities, Definition of Done
-2. **[business_problem_summary.md](business_problem_summary.md)** - Business requirements, domain terminology, promo code logic, edge cases
+2. **[task1_it_specialist_role.md](task1_it_specialist_role.md)** - Detailed IT Specialist role definition with phase-by-phase responsibilities, collaboration patterns, success metrics
+3. **[business_problem_summary.md](business_problem_summary.md)** - Business requirements, domain terminology, promo code logic, edge cases
 
 ### Companion Documents
 
-1. **[IT_Specialist_Role_Definition.md](Companion%20Documents/IT_Specialist_Role_Definition.md)** - Phase-by-phase responsibilities, collaboration patterns, success metrics
-2. **[Metrics_and_Monitoring.md](Companion%20Documents/Metrics_and_Monitoring.md)** - KPIs, monitoring infrastructure, performance testing
-3. **[Team_Structure_and_RACI.md](Companion%20Documents/Team_Structure_and_RACI.md)** - Organization chart, RACI matrix, decision authority, team capacity
-4. **[Domain_Glossary.md](Companion%20Documents/Domain_Glossary.md)** - Acronyms and terminology reference
+1. **[Metrics_and_Monitoring.md](Companion%20Documents/Metrics_and_Monitoring.md)** - KPIs, monitoring infrastructure, performance testing
+2. **[Team_Structure_and_RACI.md](Companion%20Documents/Team_Structure_and_RACI.md)** - Organization chart, RACI matrix, decision authority, team capacity
+3. **[Domain_Glossary.md](Companion%20Documents/Domain_Glossary.md)** - Acronyms and terminology reference
 
 ### Supporting Documents
 
@@ -32,7 +32,7 @@ Last updated: 2025-10-23T15:47:57+03:00
 
 **Quick Review (15 min)**: Executive Summary in [task1_agile_plan.md](task1_agile_plan.md) → Sprint Goals → IT Specialist ceremonies
 
-**Comprehensive (45 min)**: [business_problem_summary.md](business_problem_summary.md) → [task1_agile_plan.md](task1_agile_plan.md) → [IT_Specialist_Role_Definition.md](Companion%20Documents/IT_Specialist_Role_Definition.md)
+**Comprehensive (45 min)**: [business_problem_summary.md](business_problem_summary.md) → [task1_agile_plan.md](task1_agile_plan.md) → [task1_it_specialist_role.md](task1_it_specialist_role.md)
 
 **Deep Dive (2+ hrs)**: [specification.md](specification.md) → All core docs → All companion docs
 

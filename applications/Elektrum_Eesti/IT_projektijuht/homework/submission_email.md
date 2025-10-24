@@ -1,6 +1,6 @@
 # Kodutöö esitamise e-kiri
 
-Last updated: 2025-10-24T15:22:35+03:00
+Last updated: 2025-10-24T15:31:18+03:00
 
 **Teema:** Kodutöö esitamine - IT Projektijuhi ametikoht
 
@@ -17,10 +17,10 @@ Arhiiv sisaldab kahte põhikausta:
 **task1/** - Agile projekti plaan ja IT spetsialisti roll
 
 - `task1_agile_plan.pdf` - Peamine agiilse projekti plaan
+- `task1_it_specialist_role.pdf` - IT spetsialisti rolli detailne definitsioon
 - `business_problem_summary.pdf` - Äriprobleemi kokkuvõte
 - `README.pdf` - Ülevaade ja navigatsioon
 - `Companion Documents/` - Täiendavad dokumendid:
-  - IT spetsialisti rolli definitsioon
   - Mõõdikud ja monitooring
   - Meeskonna struktuur ja RACI maatriks
   - Domeeni sõnastik
