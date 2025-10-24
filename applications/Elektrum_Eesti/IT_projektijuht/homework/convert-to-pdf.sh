@@ -90,13 +90,14 @@ extract_footer_metadata() {
     # Extract the last few lines to check for footer pattern
     local last_lines=$(tail -n 10 "${md_file}")
     
-    # Check if file ends with footer pattern (--- followed by Document Version, Date, Author)
+    # Check if file ends with footer pattern (--- followed by Document ID, Document Version, Date, Author)
     if echo "$last_lines" | grep -q "^---$" && \
        echo "$last_lines" | grep -q "^\*\*Document Version\*\*:" && \
        echo "$last_lines" | grep -q "^\*\*Date\*\*:" && \
        echo "$last_lines" | grep -q "^\*\*Author\*\*:"; then
         
-        # Extract values
+        # Extract values (Document ID is optional for backward compatibility)
+        local doc_id=$(echo "$last_lines" | grep "^\*\*Document ID\*\*:" | sed 's/\*\*Document ID\*\*:[[:space:]]*//')
         local doc_version=$(echo "$last_lines" | grep "^\*\*Document Version\*\*:" | sed 's/\*\*Document Version\*\*:[[:space:]]*//')
         local doc_date=$(echo "$last_lines" | grep "^\*\*Date\*\*:" | sed 's/\*\*Date\*\*:[[:space:]]*//')
         local doc_author=$(echo "$last_lines" | grep "^\*\*Author\*\*:" | sed 's/\*\*Author\*\*:[[:space:]]*//')
@@ -119,6 +120,7 @@ extract_footer_metadata() {
         
         # Return the extracted values (using echo to return multiple values)
         echo "HAS_FOOTER"
+        echo "${doc_id}"
         echo "${doc_version}"
         echo "${doc_date}"
         echo "${doc_author}"
@@ -165,16 +167,24 @@ convert_md_to_pdf() {
             -H \"${HEADER_FILE}\""
         
         if [ "$has_footer" = "HAS_FOOTER" ]; then
-            local doc_version=$(echo "$metadata_output" | sed -n '2p')
-            local doc_date=$(echo "$metadata_output" | sed -n '3p')
-            local doc_author=$(echo "$metadata_output" | sed -n '4p')
+            local doc_id=$(echo "$metadata_output" | sed -n '2p' | xargs)
+            local doc_version=$(echo "$metadata_output" | sed -n '3p' | xargs)
+            local doc_date=$(echo "$metadata_output" | sed -n '4p' | xargs)
+            local doc_author=$(echo "$metadata_output" | sed -n '5p' | xargs)
             
             # Add header file with footer commands defined
             local temp_header=$(mktemp)
             cat "${HEADER_FILE}" > "${temp_header}"
+            
+            # If doc_id is present, prepend it to author
+            if [ -n "$doc_id" ]; then
+                echo "\\renewcommand{\\docauthor}{${doc_id} | ${doc_author}}" >> "${temp_header}"
+            else
+                echo "\\renewcommand{\\docauthor}{${doc_author}}" >> "${temp_header}"
+            fi
+            
             echo "\\renewcommand{\\docversion}{v${doc_version}}" >> "${temp_header}"
             echo "\\renewcommand{\\docdate}{${doc_date}}" >> "${temp_header}"
-            echo "\\renewcommand{\\docauthor}{${doc_author}}" >> "${temp_header}"
             
             # Use the temp header file
             pandoc_cmd="pandoc \"${temp_md}\" \

@@ -1,6 +1,6 @@
 # Team Structure & RACI Matrix
 
-Last updated: 2025-10-24T23:20:06+03:00
+Last updated: 2025-10-24T23:35:47+03:00
 
 **Project**: EE HH Recommendation System  
 **Purpose**: Define team composition, roles, and decision-making authority  
@@ -183,6 +183,7 @@ This structure supports the delivery plan in [task1_agile_plan.md](../task1_agil
 
 ---
 
+**Document ID**: TEAM  
 **Document Version**: 1.0  
 **Date**: October 23, 2025  
 **Author**: Mihkel Putrinš

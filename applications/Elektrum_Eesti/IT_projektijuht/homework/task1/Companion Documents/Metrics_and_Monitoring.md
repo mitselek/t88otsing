@@ -1,6 +1,6 @@
 # Success Metrics & Monitoring Plan
 
-Last updated: 2025-10-24T23:20:06+03:00
+Last updated: 2025-10-24T23:35:47+03:00
 
 **Project**: EE HH Recommendation System
 
@@ -209,6 +209,7 @@ The metrics are deliberately streamlined to track what truly matters, avoiding m
 
 ---
 
+**Document ID**: METRICS  
 **Document Version**: 1.0  
 **Date**: October 23, 2025  
 **Author**: Mihkel Putrinš

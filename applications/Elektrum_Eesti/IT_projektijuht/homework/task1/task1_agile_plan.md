@@ -1,6 +1,6 @@
 # Task 1: Agile Development Plan & IT Specialist Responsibilities
 
-Last updated: 2025-10-24T23:20:06+03:00
+Last updated: 2025-10-24T23:35:47+03:00
 
 **Prepared for**: Elektrum Eesti OÜ - IT Projektijuht Position  
 **Date**: October 23, 2025  
@@ -542,6 +542,7 @@ The IT Specialist role is critical throughout this journey, serving as the bridg
 
 ---
 
+**Document ID**: AGILE  
 **Document Version**: 1.0  
 **Date**: October 23, 2025  
 **Author**: Mihkel Putrinš

@@ -1,6 +1,6 @@
 # EE IT Specialist: Detailed Role Definition
 
-Last updated: 2025-10-24T23:20:06+03:00
+Last updated: 2025-10-24T23:35:47+03:00
 
 **Document Purpose**: Comprehensive definition of IT Specialist role and responsibilities for EE HH Recommendation System project
 
@@ -601,6 +601,7 @@ The EE IT Specialist role is a multifaceted position requiring a blend of techni
 
 ---
 
+**Document ID**: IT-SPEC  
 **Document Version**: 1.0  
 **Date**: October 23, 2025  
 **Author**: Mihkel Putrinš

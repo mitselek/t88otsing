@@ -1,8 +1,8 @@
 # Business Problem Summary: EE HH Recommendation System
 
-Last updated: 2025-10-24T23:20:06+03:00
+Last updated: 2025-10-24T23:35:47+03:00
 
-**Date**: October 23, 2025  
+**Date**: October 22, 2025  
 **Author**: Mihkel Putrinš  
 **Project**: Elektrum Estonia Household Customer Acquisition  
 **Document Purpose**: Clear explanation of business problem for IT implementation planning
@@ -381,6 +381,7 @@ May 05: New customer E signs → Referrer gets €15, E gets €12
 
 ---
 
+**Document ID**: BIZ-REQ  
 **Document Version**: 1.0  
-**Date**: October 23, 2025  
+**Date**: October 22, 2025  
 **Author**: Mihkel Putrinš
