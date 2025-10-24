@@ -13,3 +13,12 @@
 \widowpenalty=10000  % Prevent last line of paragraph at top of page
 \clubpenalty=10000   % Prevent first line of paragraph at bottom of page
 \raggedbottom        % Allow variable page height to avoid awkward spacing
+
+% Add spacing above level 1 (top-level) list items for better readability
+\usepackage{enumitem}
+% topsep: space above and below list (when list is alone in paragraph)
+% partopsep: extra space added to topsep when the environment starts a new paragraph
+% itemsep: space between items
+% parsep: space between paragraphs within an item
+\setlist[enumerate,1]{topsep=1pt, partopsep=0pt, itemsep=0pt, parsep=0pt}
+\setlist[itemize,1]{topsep=1pt, partopsep=0pt, itemsep=0pt, parsep=0pt}
