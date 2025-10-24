@@ -1,6 +1,6 @@
 # EE IT Specialist: Detailed Role Definition
 
-Last updated: 2025-10-24T14:05:58+03:00
+Last updated: 2025-10-24T20:16:25+03:00
 
 **Document Purpose**: Comprehensive definition of IT Specialist role and responsibilities for EE HH Recommendation System project
 
@@ -29,7 +29,7 @@ The EE IT Specialist serves as the critical bridge between business stakeholders
 | Deployment | Release Management | Deployment checklist, smoke tests, rollback plan |
 | Maintenance | Continuous Improvement | Monitoring, incident management, enhancement backlog |
 
----
+\newpage
 
 ## Detailed Responsibilities by Project Phase
 
@@ -62,10 +62,6 @@ The EE IT Specialist serves as the critical bridge between business stakeholders
    - Write acceptance criteria in Given-When-Then format
    - Link stories to business objectives and success metrics
 
-### Example Output: User Story
-
-```markdown
-
 4. **Integration Point Analysis**
    - Map data flows between systems (CC&B, Elektrum.ee, Sales Portal, Mobile Apps)
    - Document API requirements and data formats
@@ -73,7 +69,9 @@ The EE IT Specialist serves as the critical bridge between business stakeholders
    - Assess integration complexity and potential risks
    - Reference existing integrations and patterns (e.g., LEO-25125 discount functionality)
 
-**Example Output: User Story**
+\newpage
+
+**Example Output: User Story**  
 
 ```markdown
 **US-001**: As an existing electricity customer, I want a unique promo code automatically 
@@ -109,7 +107,7 @@ generated when my contract activates, so I can share it with friends.
 - [ ] Risk Assessment Matrix
 - [ ] Glossary of domain terms (reference `business_problem_summary.md` Domain Acronyms)
 
----
+\newpage
 
 ### Phase 2: Design & Planning
 
@@ -143,6 +141,8 @@ generated when my contract activates, so I can share it with friends.
    - Plan operations runbook content (troubleshooting, known issues)
    - Define API documentation standards (Swagger/OpenAPI)
    - Schedule knowledge transfer sessions for support team
+
+\newpage
 
 ### Example Output: Test Strategy
 
@@ -185,7 +185,7 @@ generated when my contract activates, so I can share it with friends.
 - [ ] UAT Plan with Stakeholder Schedule
 - [ ] Documentation Plan
 
----
+\newpage
 
 ### Phase 3: Development & Implementation
 
@@ -246,7 +246,7 @@ generated when my contract activates, so I can share it with friends.
 - [ ] Updated User Stories (refined acceptance criteria)
 - [ ] Blocker Resolution Log
 
----
+\newpage
 
 ### Phase 4: Testing & Quality Assurance
 
@@ -292,6 +292,8 @@ generated when my contract activates, so I can share it with friends.
    - Collect and document feedback
    - Validate that solution meets business needs
    - Obtain formal UAT sign-off
+
+\newpage
 
 **Example UAT Test Script**:
 
@@ -342,7 +344,7 @@ generated when my contract activates, so I can share it with friends.
 - [ ] UAT Session Notes
 - [ ] UAT Sign-off Document
 
----
+\newpage
 
 ### Phase 5: Deployment & Release
 
@@ -450,6 +452,8 @@ generated when my contract activates, so I can share it with friends.
    - Known Issues & Workarounds
    - Support Escalation Matrix
 
+\newpage
+
 **Operations Runbook Contents**:
 
 ```markdown
@@ -515,7 +519,7 @@ The IT Specialist works closely with multiple teams:
 | **Customer Support** | Ad-hoc | Knowledge transfer, troubleshooting guidance, user issue resolution |
 | **Product Owner** | Weekly (sprint ceremonies) | Backlog prioritization, acceptance decisions, roadmap planning |
 
----
+\newpage
 
 ## Key Skills & Competencies
 
@@ -551,8 +555,6 @@ The IT Specialist works closely with multiple teams:
 - Adaptability: Handle changing requirements and priorities
 - Attention to detail: Catch edge cases and potential issues early
 
----
-
 ## Success Metrics for IT Specialist Role
 
 | Metric | Target | Measurement Method |
@@ -564,7 +566,7 @@ The IT Specialist works closely with multiple teams:
 | **Stakeholder Satisfaction** | >4.0/5.0 rating | End of Sprint 4 survey |
 | **Documentation Quality** | >4.0/5.0 rating | Team feedback survey |
 
----
+\newpage
 
 ## Typical Week in the Life of IT Specialist
 
@@ -607,7 +609,7 @@ The IT Specialist works closely with multiple teams:
 - **14:30-16:00**: Sprint planning prep for next sprint (review backlog, identify questions)
 - **16:00-17:00**: Weekly status report to project manager
 
----
+\newpage
 
 ## Key Deliverables Summary
 
@@ -620,8 +622,6 @@ The IT Specialist works closely with multiple teams:
 | **Incident Reports** | Document and learn from issues | Management, team | Per incident |
 | **Sprint Status Updates** | Track progress | Project manager, stakeholders | Weekly |
 | **Operations Runbook** | Support production system | Support team | Continuously updated |
-
----
 
 ## Conclusion
 

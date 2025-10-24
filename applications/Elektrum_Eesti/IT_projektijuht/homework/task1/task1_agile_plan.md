@@ -1,6 +1,6 @@
 # Task 1: Agile Development Plan & IT Specialist Responsibilities
 
-Last updated: 2025-10-23T15:47:57+03:00
+Last updated: 2025-10-24T20:16:25+03:00
 
 **Prepared for**: Elektrum Eesti OÜ - IT Projektijuht Position
 
@@ -459,207 +459,46 @@ A user story is considered "Done" when all of the following criteria are met:
 
 ---
 
-## 2. IT Specialist Responsibilities
+## 2. IT Specialist Role Summary
 
-The IT Specialist serves as a bridge between business stakeholders and technical teams, ensuring requirements are clearly understood, solutions are correctly implemented, and quality standards are met throughout the project lifecycle.
+The IT Specialist serves as the critical bridge between business stakeholders and technical teams throughout the project lifecycle, ensuring requirements are clearly understood, solutions are correctly implemented, and quality standards are maintained.
 
-### 2.1 Requirements Phase
+**Role Phases Overview**:
 
-**Primary Responsibilities**:
+| Phase         | Focus     | Key Activities | Timeline |
+|---------------|-----------|----------------|----------|
+| **Requirements** | Understanding business needs | Workshops, user story creation, integration analysis | Sprint 0 |
+| **Design & Planning** | Technical coordination | Architecture review, test strategy, sprint planning | Sprint 0 - 1 |
+| **Development** | Quality assurance & support | Daily coordination, requirement clarification, feature validation | Sprint 1 - 4 |
+| **Testing** | Validation & UAT | Test case design, bug triage, UAT coordination | Sprint 1 - 4 |
+| **Deployment** | Release management | Deployment coordination, smoke testing, rollback planning | End of Sprint 4 |
+| **Handover** | Operational transition | Knowledge transfer, operations runbook, team training | Sprint 4 & Week 9 |
 
-- **Business Requirements Gathering**
-  - Conduct workshops with business stakeholders to understand promo code system goals
-  - Document functional requirements (code generation, sharing, usage, discount application)
-  - Document non-functional requirements (performance, security, scalability, availability)
-  - Clarify edge cases (contract termination, fraud scenarios, system failures)
-  - Validate requirements with stakeholders before design phase
+### Sprint-Specific Responsibilities
 
-- **User Story Creation**
-  - Break down features into user stories with clear acceptance criteria
-  - Ensure stories follow INVEST principles (Independent, Negotiable, Valuable, Estimable, Small, Testable)
-  - Prioritize stories based on business value and technical dependencies
-  - Maintain product backlog with stakeholder input
+Throughout the 4 sprints outlined in Section 1, the IT Specialist maintains ongoing responsibilities that vary by sprint phase (detailed under each sprint above). These include:
 
-- **Integration Analysis**
-  - Map integration points with existing systems (CC&B, portals, mobile apps)
-  - Document data flows between systems
-  - Identify API requirements and data format specifications
-  - Assess integration complexity and risks
+- **Sprint 0**: Requirements gathering, user story creation with INVEST principles, integration point analysis
+- **Sprint 1**: CC&B integration coordination, database schema validation, test data creation
+- **Sprint 2**: Portal/mobile UI validation, API integration testing, responsive design verification
+- **Sprint 3**: Discount logic validation, promo code validation testing, edge case scenario testing
+- **Sprint 4**: UAT coordination, deployment preparation, operations runbook creation
 
-**Deliverables**:
+### Detailed Role Definition
 
-- Business requirements document
-- Product backlog with prioritized user stories
-- Integration architecture diagram
-- Risk assessment and mitigation plan
+For comprehensive information about the IT Specialist role, including:
 
----
+- Detailed responsibilities for each project phase
+- Concrete examples (user stories, test scripts, UAT scenarios)
+- Cross-functional collaboration matrix
+- Skills and competencies framework
+- Success metrics and KPIs
+- Practical templates (deployment checklists, operations runbooks)
+- "Week in the life" schedule
 
-### 2.2 Design & Planning Phase
+**-> See [IT Specialist Role Definition](task1_it_specialist_role.md)**
 
-**Primary Responsibilities**:
-
-- **Technical Coordination**
-  - Facilitate design discussions between development teams (CC&B, portal, mobile)
-  - Review technical architecture and provide feedback
-  - Ensure design aligns with business requirements
-  - Validate security and performance considerations
-
-- **Sprint Planning Support**
-  - Participate in sprint planning sessions
-  - Clarify story requirements and acceptance criteria
-  - Help estimate story complexity
-  - Identify dependencies between stories and sprints
-
-- **Test Planning**
-  - Define test strategy (unit, integration, E2E, UAT, performance)
-  - Create test scenarios based on user stories and edge cases
-  - Plan UAT approach with business stakeholders
-  - Coordinate with QA team on test environment setup
-
-**Deliverables**:
-
-- Technical design review notes
-- Sprint plans with story commitments
-- Test strategy document
-- UAT plan with business stakeholder involvement
-
----
-
-### 2.3 Development Phase
-
-**Primary Responsibilities**:
-
-- **Daily Coordination**
-  - Attend daily stand-ups to track progress and blockers
-  - Clarify requirements when questions arise
-  - Facilitate communication between business and technical teams
-  - Escalate blockers that require business decisions
-
-- **Code Review & Quality Assurance**
-  - Review code for alignment with requirements (not deep technical review)
-  - Validate implemented features against acceptance criteria
-  - Test features in development environment
-  - Provide feedback to developers on business logic correctness
-
-- **Blocker Resolution**
-  - Identify and resolve requirement ambiguities
-  - Coordinate with business stakeholders for clarifications
-  - Facilitate technical discussions when integration issues arise
-  - Track and communicate risks to project manager
-
-- **Documentation**
-  - Maintain up-to-date requirements documentation
-  - Document requirement changes and their impact
-  - Update user stories based on implementation learnings
-  - Create draft user guides and FAQ content
-
-**Deliverables**:
-
-- Daily status updates to stakeholders
-- Requirement clarification notes
-- Updated user stories and acceptance criteria
-- Draft user documentation
-
----
-
-### 2.4 Testing Phase
-
-**Primary Responsibilities**:
-
-- **Test Case Design**
-  - Create detailed test cases for integration testing
-  - Define test data scenarios (happy path, edge cases, error conditions)
-  - Document expected results for each test case
-  - Ensure test coverage for all acceptance criteria
-
-- **QA Coordination**
-  - Work with QA team to execute test cases
-  - Validate test results against acceptance criteria
-  - Triage bugs (severity, priority, root cause analysis)
-  - Decide which bugs block release vs. can be deferred
-
-- **User Acceptance Testing (UAT)**
-  - Coordinate UAT sessions with business stakeholders
-  - Prepare UAT environment and test data
-  - Guide stakeholders through test scenarios
-  - Collect and document feedback
-  - Validate that implemented solution meets business needs
-
-**Deliverables**:
-
-- Test cases and scenarios
-- UAT plan and schedule
-- Bug triage reports
-- UAT sign-off document
-
----
-
-### 2.5 Deployment Phase
-
-**Primary Responsibilities**:
-
-- **Release Coordination**
-  - Participate in deployment planning (timing, rollout strategy)
-  - Validate deployment checklist (database migrations, configuration, smoke tests)
-  - Coordinate communication to customers and support team
-  - Monitor deployment process and be available for issues
-
-- **Smoke Testing**
-  - Execute critical path tests in production immediately after deployment
-  - Validate promo code generation, validation, and discount application
-  - Verify integration with CC&B and portals is working
-  - Confirm no major regressions in existing functionality
-
-- **Rollback Planning**
-  - Ensure rollback plan is documented and tested
-  - Define rollback criteria (what issues trigger rollback?)
-  - Coordinate with operations team on rollback procedure
-  - Communicate rollback decision to stakeholders if needed
-
-**Deliverables**:
-
-- Deployment checklist
-- Smoke test results
-- Rollback plan document
-- Deployment communication to stakeholders
-
----
-
-### 2.6 Post-Deployment & Maintenance Phase
-
-**Primary Responsibilities**:
-
-- **Production Monitoring**
-  - Monitor system health metrics (error rates, response times, uptime)
-  - Track business metrics (code generation rate, usage, discount application)
-  - Review error logs and identify patterns
-  - Escalate critical issues immediately
-
-- **Incident Management**
-  - Triage production issues reported by users or monitoring
-  - Coordinate with development team on bug fixes
-  - Communicate status to stakeholders
-  - Document incident and resolution for knowledge base
-
-- **Continuous Improvement**
-  - Collect user feedback from support tickets and feedback forms
-  - Analyze metrics to identify improvement opportunities
-  - Prioritize enhancements and bug fixes for next iteration
-  - Facilitate retrospectives and implement process improvements
-
-- **Knowledge Transfer**
-  - Create and maintain operations runbook for support team
-  - Train support staff on promo code system functionality
-  - Document known issues and workarounds
-  - Update user guides based on real-world usage patterns
-
-**Deliverables**:
-
-- Production monitoring reports
-- Incident response documentation
-- Enhancement backlog for next iteration
-- Operations runbook and training materials
+This companion document provides actionable guidance on how to effectively execute the IT Specialist role, with real-world examples and templates derived from this project
 
 ---
 

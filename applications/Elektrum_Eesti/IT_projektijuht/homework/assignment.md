@@ -1,15 +1,22 @@
 # Homework Assignment - Elektrum Eesti OÜ - IT Projektijuht
 
-Last updated: 2025-10-22T14:23:14+03:00
+Last updated: 2025-10-24T20:16:25+03:00
 
 **Received:** October 22, 2025 at 12:55 PM (40 minutes after interview)  
 **From:** Gerli Golberg <gerli.golberg@elektrum.ee>  
 **Deadline:** October 26, 2025  
-**Status:** IN PROGRESS
+**Status:** READY FOR SUBMISSION
 
 ---
 
 ## Task 1: Agile Development Plan & IT Specialist Responsibilities
+
+### Original Task Statement
+
+> First task to read specification document for EE Elektrum new functionality and write:
+>
+> - Please describe solution development / implementing plan (step by step) in Agile way
+>   and describe what is EE IT specialist responsibilities.
 
 ### Requirements
 
@@ -68,6 +75,14 @@ Document describing:
 
 ## Task 2: Process Diagram Design
 
+### Original Task Statement
+
+> A file with multiple rows will be received from the Elektrum partner, from which the values in columns 1, 2, 3, and 4 must be read and entered into the portal.
+> Column 3 may contain data but can also be empty. If it is empty, only the value from column 2 should be entered.
+> The length of the value in column 1 can be 10 characters—if so, this value is used for entry in the portal. If the length of the value in column 1 is 11 characters, then the value from column 4 is used instead.
+>
+> Please describe/draw a process diagram where a loop(s) and condition branch(es) are used.
+
 ### Scenario
 
 **Context:** File processing from Elektrum partner
@@ -119,58 +134,61 @@ Process diagram showing:
 
 ### Task 1: Agile Plan
 
-- [ ] Read specification document thoroughly (section 1.3 especially important)
-- [ ] Research Agile methodology structure (Scrum/Kanban)
-- [ ] Identify key phases:
-  - [ ] Requirements gathering & analysis
-  - [ ] Sprint planning & backlog creation
-  - [ ] Development sprints (iterative)
-  - [ ] Testing & QA
-  - [ ] UAT and feedback
-  - [ ] Deployment
-  - [ ] Retrospective & continuous improvement
-- [ ] Define IT specialist responsibilities:
-  - [ ] Requirements documentation
-  - [ ] Technical coordination
-  - [ ] System integration
-  - [ ] User support planning
-  - [ ] Testing coordination
-  - [ ] Deployment support
-  - [ ] Post-deployment monitoring
-- [ ] Write clear, professional document
-- [ ] Review for completeness and clarity
+- [x] Read specification document thoroughly (section 1.3 especially important)
+- [ ] Research Agile methodology structure (Scrum/Kanban) - *Applied existing knowledge instead*
+- [x] Identify key phases:
+  - [x] Requirements gathering & analysis
+  - [x] Sprint planning & backlog creation
+  - [x] Development sprints (iterative) - 4 sprints × 2 weeks
+  - [x] Testing & QA
+  - [x] UAT and feedback
+  - [x] Deployment
+  - [x] Retrospective & continuous improvement
+- [x] Define IT specialist responsibilities:
+  - [x] Requirements documentation
+  - [x] Technical coordination
+  - [x] System integration
+  - [x] User support planning
+  - [x] Testing coordination
+  - [x] Deployment support
+  - [x] Post-deployment monitoring (handover & transition)
+- [x] Write clear, professional document
+- [x] Review for completeness and clarity
+- [x] Scope-adjusted to 8-week project (removed quarterly references)
 
 ### Task 2: Process Diagram
 
-- [ ] Choose diagram tool (draw.io recommended - free and professional)
-- [ ] Design flowchart structure:
-  - [ ] Start symbol
-  - [ ] File input process
-  - [ ] Loop structure (for each row)
-  - [ ] Decision diamond: Column 3 empty?
-    - [ ] Yes branch → use column 2
-    - [ ] No branch → check column 1 length
-  - [ ] Decision diamond: Column 1 length = 10 or 11?
-    - [ ] 10 chars → use column 1
-    - [ ] 11 chars → use column 4
-  - [ ] Portal entry process
-  - [ ] Loop back or continue
-  - [ ] End symbol
-- [ ] Ensure clear labeling on all symbols
-- [ ] Add descriptive text for decisions
-- [ ] Review logic flow for correctness
-- [ ] Export as high-quality image/PDF
+- [x] Choose diagram tool (PlantUML - professional, version-controllable)
+- [x] Design flowchart structure:
+  - [x] Start symbol
+  - [x] File input process
+  - [x] Loop structure (for each row)
+  - [x] Decision diamond: Column 3 empty?
+    - [x] Yes branch → use column 2
+    - [x] No branch → check column 1 length
+  - [x] Decision diamond: Column 1 length = 10 or 11?
+    - [x] 10 chars → use column 1
+    - [x] 11 chars → use column 4
+  - [x] Portal entry process
+  - [x] Loop back or continue
+  - [x] End symbol
+- [x] Ensure clear labeling on all symbols
+- [x] Add descriptive text for decisions
+- [x] Review logic flow for correctness
+- [x] Export as high-quality image/PDF (SVG + PNG + PDF)
 
 ### Submission Preparation
 
-- [ ] Review both deliverables for quality
-- [ ] Proofread all text (Estonian or English as appropriate)
-- [ ] Prepare cover email with:
-  - [ ] Thank you for the opportunity
-  - [ ] Brief overview of deliverables
-  - [ ] Expression of enthusiasm
-  - [ ] Professional signature
-- [ ] Attach all files clearly labeled
+- [x] Review both deliverables for quality
+- [x] Proofread all text (Estonian or English as appropriate)
+- [x] Estonian language spell-checked with Gemini
+- [x] Prepare cover email with:
+  - [x] Thank you for the opportunity
+  - [x] Brief overview of deliverables (4 core + 3 companion docs)
+  - [x] Transparency section (AI tools, certifications, learning approach)
+  - [x] Launch readiness context (6-8 week prep needed)
+  - [x] Professional signature
+- [ ] Create final ZIP archive
 - [ ] Submit by October 26, 2025
 
 ---
@@ -291,4 +309,46 @@ Mihkel Putrinš
 
 ---
 
-**Last Updated:** October 22, 2025 at 14:30
+## Completion Summary
+
+**Completed:** October 24, 2025
+
+**Deliverables Created:**
+
+**Task 1 - Core Documents (4 PDFs):**
+
+- task1_agile_plan.pdf - 8-week Agile plan with 4 sprints
+- task1_it_specialist_role.pdf - Detailed 643-line role definition with 6 phases
+- business_problem_summary.pdf - Business requirements and edge cases
+- README.pdf - Navigation and overview
+
+**Task 1 - Companion Documents (3 PDFs):**
+
+- Metrics_and_Monitoring.pdf - 18 essential metrics, scope-adjusted
+- Team_Structure_and_RACI.pdf - 8.5 FTE team, RACI matrix
+- Domain_Glossary.pdf - 18 terms (alphabetically sorted)
+
+**Task 2 (1 PDF + source files):**
+
+- task2_submission.pdf - Process diagram with conditional logic
+- task2_file_processing.puml - PlantUML source
+- task2_file_processing_diagram.svg/png - Diagram exports
+
+**Supporting Materials:**
+
+- submission_email.md - Estonian submission email with structure explanation
+- readiness_gap_analysis.md - Launch readiness context for interviews
+
+**Key Improvements Made:**
+
+- Removed quarterly references (8-week scope reality)
+- IT Specialist role elevated to core deliverable
+- Estonian language professionally spell-checked
+- Launch readiness section added proactively
+- All documentation scope-appropriate and realistic
+
+**Ready for:** Final ZIP creation and submission
+
+---
+
+**Last Updated:** October 24, 2025 at 15:35
