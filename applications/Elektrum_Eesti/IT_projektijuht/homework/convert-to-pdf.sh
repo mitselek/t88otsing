@@ -8,6 +8,18 @@ set -e  # Exit on error
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 DELIVERY_DIR="${SCRIPT_DIR}/delivery"
 
+# Create temporary header file for LaTeX customization
+HEADER_FILE="${SCRIPT_DIR}/.header.tex"
+cat > "${HEADER_FILE}" << 'EOF'
+% Custom spacing for headings
+\usepackage{titlesec}
+
+% Section spacing: {left}{before}{after}
+\titlespacing*{\section}{0pt}{36pt plus 4pt minus 2pt}{12pt plus 2pt minus 2pt}
+\titlespacing*{\subsection}{0pt}{32pt plus 4pt minus 2pt}{8pt plus 2pt minus 2pt}
+\titlespacing*{\subsubsection}{0pt}{16pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+EOF
+
 echo "Converting markdown files to PDF..."
 echo ""
 
@@ -33,8 +45,8 @@ convert_md_to_pdf() {
         -V geometry:a4paper \
         -V geometry:margin=1in \
         -V fontsize=11pt \
-        # --toc \
-        # --number-sections \
+        -H "${HEADER_FILE}" \
+        --from markdown+raw_tex \
         --pdf-engine-opt=-interaction=nonstopmode \
         2>&1 | grep -v "Missing character" || true
     
@@ -92,6 +104,9 @@ echo ""
 echo "PDFs created in: ${DELIVERY_DIR}"
 echo ""
 find "${DELIVERY_DIR}" -name "*.pdf" -exec ls -lh {} \;
+
+# Cleanup temporary header file
+rm -f "${HEADER_FILE}"
 
 echo ""
 echo "Done!"

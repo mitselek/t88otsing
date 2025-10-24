@@ -1,40 +1,43 @@
 # Team Structure & RACI Matrix
 
-Last updated: 2025-10-23T15:47:57+03:00
+Last updated: 2025-10-24T12:20:06+03:00
 
 **Project**: EE HH Recommendation System  
 **Purpose**: Define team composition, roles, and decision-making authority  
 **Author**: Mihkel Putrinš (IT Project Manager)
 
----
-
 ## Team Organization Chart
 
-```text
-            Steering Committee
-                    |
-    ┌───────────────┴───────────┐
-    |                           |
-  Product Owner       IT Project Manager
-  (Business)            (Mihkel Putrinš)
-    |                           |
-    └───────────────┬───────────┘
-                    |
-    ┌───────────────┼───────────┐
-    |               |           |
-  Development   IT Specialist  Support
-  Team          (Key Role)    Functions
-    |                           |
-    ├─ CC&B                     ├─ QA
-    ├─ Portal                   ├─ DevOps
-    └─ Mobile                   └─ UX
-```
+**Steering Committee**  
 
----
+Reporting to Steering Committee (parallel roles):
+
+- **Product Owner** (Business)
+  - Owns backlog and business priorities
+  - Approves deliverables
+  
+- **IT Project Manager**
+  - Manages delivery execution
+  - Coordinates teams below:
+
+**Teams reporting to IT Project Manager**:
+
+- **Development Team**
+  - CC&B Developers
+  - Portal Developer
+  - Mobile Developer
+  
+- **IT Specialist** (Key Role)
+  - Bridge between business and technical
+  
+- **Support Functions**
+  - QA Engineer
+  - DevOps Engineer
+  - UX Designer
 
 ## Core Team Roles
 
-### 1. IT Project Manager (Mihkel Putrinš)
+### 1. IT Project Manager
 
 **Reports to**: Steering Committee
 
@@ -55,8 +58,6 @@ Last updated: 2025-10-23T15:47:57+03:00
 
 **Must Escalate**: Budget overruns, timeline extensions, major scope changes
 
----
-
 ### 2. Product Owner
 
 **Reports to**: Business Sponsors, collaborates with IT PM
@@ -75,8 +76,6 @@ Last updated: 2025-10-23T15:47:57+03:00
 - Business rules (e.g., discount amounts)
 
 **Collaboration**: Daily alignment on priorities, weekly sprint ceremonies
-
----
 
 ### 3. IT Specialist (Key Technical Role)
 
@@ -105,8 +104,6 @@ Last updated: 2025-10-23T15:47:57+03:00
 
 **See**: [IT_Specialist_Role_Definition.md](IT_Specialist_Role_Definition.md) for details
 
----
-
 ### 4. Development Teams
 
 **CC&B Team** (2-3 devs): Backend billing system  
@@ -115,16 +112,12 @@ Last updated: 2025-10-23T15:47:57+03:00
 
 **Coordination**: Daily stand-ups with IT Specialist for requirements clarification
 
----
-
 ### 5. Support Functions
 
 **QA Engineer**: Test execution, automation, bug tracking  
 **DevOps Engineer**: CI/CD, deployment, monitoring  
 **UX Designer**: UI design, usability testing  
 **Scrum Master**: Agile ceremonies (may be IT PM)
-
----
 
 ## RACI Matrix
 
@@ -143,13 +136,16 @@ Last updated: 2025-10-23T15:47:57+03:00
 | Deployment | A | C | C | C | I | R |
 | Go-Live Decision | A/R | A | C | I | I | I |
 
-**Legend**: R = Responsible (does work) | A = Accountable (approves) | C = Consulted | I = Informed
+**Legend**:
 
----
+- R = Responsible (does work)
+- A = Accountable (approves)
+- C = Consulted
+- I = Informed
 
 ## Decision Authority
 
-### IT Project Manager (You)
+### IT Project Manager
 
 **Can Decide**: Sprint scope, resource allocation, risk mitigation, daily operations  
 **Must Escalate**: Budget overruns, timeline extensions >8 weeks, major scope changes
@@ -164,13 +160,13 @@ Last updated: 2025-10-23T15:47:57+03:00
 **Can Decide**: Bug severity, test coverage, acceptance criteria  
 **Must Escalate**: Requirement conflicts, major blockers, quality risks
 
----
+\newpage
 
 ## Team Capacity
 
 | Role | FTE | Notes |
 |------|-----|-------|
-| IT Project Manager | 1.0 | Full-time (you) |
+| IT Project Manager | 1.0 | Full-time |
 | Product Owner | 0.3 | Part-time |
 | IT Specialist | 1.0 | Full-time |
 | CC&B Developers | 2.0 | 2 developers |
@@ -181,19 +177,15 @@ Last updated: 2025-10-23T15:47:57+03:00
 
 **Total**: ~8.5 FTE across 8 weeks
 
----
-
 ## Communication Rhythm
 
 **Daily**: Stand-ups (15 min), IT Specialist ↔ Developers clarifications  
 **Weekly**: Sprint review/planning, IT PM → Stakeholder status email  
 **Ad-hoc**: Critical blockers escalated immediately to IT PM
 
----
-
 ## Key Takeaways
 
-1. **IT Project Manager (you)** orchestrates overall delivery and stakeholder management
+1. **IT Project Manager** orchestrates overall delivery and stakeholder management
 2. **IT Specialist** ensures business-technical alignment and quality
 3. **Product Owner** drives business value and priorities
 4. **Development teams** build features across CC&B, Portal, Mobile
@@ -201,7 +193,5 @@ Last updated: 2025-10-23T15:47:57+03:00
 6. **RACI matrix** eliminates confusion on who does what
 
 This structure supports the delivery plan in [task1_agile_plan.md](../task1_agile_plan.md).
-
----
 
 **Version**: 1.0 | **Date**: October 23, 2025 | **Status**: Ready for Review
