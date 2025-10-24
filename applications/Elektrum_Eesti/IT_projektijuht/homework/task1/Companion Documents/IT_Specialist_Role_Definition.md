@@ -1,6 +1,6 @@
 # EE IT Specialist: Detailed Role Definition
 
-Last updated: 2025-10-23T14:29:55+03:00
+Last updated: 2025-10-24T14:05:58+03:00
 
 **Document Purpose**: Comprehensive definition of IT Specialist role and responsibilities for EE HH Recommendation System project
 
@@ -420,84 +420,83 @@ generated when my contract activates, so I can share it with friends.
 
 ---
 
-### Phase 6: Post-Deployment & Continuous Improvement
+### Phase 6: Handover & Operational Transition
 
-**Objective**: Ensure system operates reliably in production and continuously improve based on real-world usage.
+**Objective**: Ensure smooth handover to operations team with all necessary documentation and knowledge transfer for ongoing system support.
 
 **Activities**:
 
-1. **Production Monitoring**
-   - Monitor system health dashboards daily (first 2 weeks)
-   - Track key metrics:
-     - Promo code generation success rate (target: >99.9%)
-     - Code validation API response time (target: <500ms)
-     - Discount application accuracy (target: 100%)
-     - System availability (target: 99.5%)
-   - Review error logs and identify patterns
-   - Set up alerts for anomalies (spike in failures, performance degradation)
+1. **Operations Documentation**
+   - Create comprehensive operations runbook
+   - Document system architecture and integration points
+   - Provide troubleshooting guides for common issues
+   - Document monitoring setup and alert thresholds
+   - Create incident response procedures
 
-2. **Incident Management**
-   - Triage production issues reported by users or monitoring
-   - Assess severity and business impact
-   - Coordinate with development team on bug fixes
-   - Communicate status to stakeholders (hourly for critical issues)
-   - Document incident timeline and resolution
-   - Conduct post-incident review (for critical/high severity)
+2. **Knowledge Transfer**
+   - Conduct training sessions with operations/support team
+   - Walk through key system workflows and business logic
+   - Review monitoring dashboards and alert configurations
+   - Share lessons learned from deployment and testing
+   - Provide contact list for escalation (CC&B team, Portal team, etc.)
 
-**Incident Response Process**:
+3. **Handover Documentation Package**
+   - System Architecture Diagram (with integration points)
+   - API Documentation (CC&B, Portal, Mobile endpoints)
+   - Database Schema (tables, relationships, key indexes)
+   - Configuration Guide (environment variables, feature flags)
+   - Monitoring & Alerting Setup
+   - Deployment Procedures & Rollback Plan
+   - Known Issues & Workarounds
+   - Support Escalation Matrix
+
+**Operations Runbook Contents**:
 
 ```markdown
-## Incident: [Brief Description]
+## Promo Code System - Operations Runbook
 
-**Severity**: Critical / High / Medium / Low
-**Detected**: [Date/Time]
-**Reported By**: [User/Monitoring System]
+### System Overview
+- **Purpose**: Customer referral program via promo codes
+- **Key Components**: CC&B (generation, billing), Portal (display, sharing), Mobile (sharing)
+- **Integration Points**: CC&B API, Portal API, Mobile API
 
-**Impact**:
-- Users affected: [Estimate]
-- Business impact: [Revenue, customer satisfaction, etc.]
-- Systems affected: [CC&B, Portal, Mobile]
+### Monitoring
+- **Dashboard**: [Link to monitoring dashboard]
+- **Key Metrics**: Generation rate, validation rate, discount application success
+- **Alert Channels**: #elektrum-alerts (Slack), ops-team@elektrum.ee
 
-**Timeline**:
-- 10:15 - Issue detected (monitoring alert)
-- 10:20 - IT Specialist notified, began investigation
-- 10:35 - Root cause identified (database connection pool exhausted)
-- 10:45 - Fix deployed (increased connection pool size)
-- 11:00 - Monitoring confirms issue resolved
-- 11:15 - Communication sent to stakeholders
+### Common Issues & Solutions
 
-**Root Cause**: Database connection pool configuration too small for production load
+**Issue**: Promo code generation fails
+- **Symptoms**: Error code 500 from CC&B API
+- **Likely Cause**: Database connection pool exhausted
+- **Resolution**: Restart CC&B service, check connection pool config
+- **Escalation**: CC&B team lead (contact in escalation matrix)
 
-**Resolution**: Increased connection pool size from 20 to 50
+**Issue**: Discount not applied correctly
+- **Symptoms**: Customer reports incorrect bill amount
+- **Likely Cause**: Timing issue (billing cycle vs activation date)
+- **Resolution**: Check billing log, verify activation timestamp
+- **Escalation**: Business analyst + CC&B billing team
 
-**Prevention**: Add connection pool monitoring, set alerts at 70% utilization
+### Deployment Schedule
+- **Release Window**: Sundays 22:00-02:00 (low traffic)
+- **Deployment Process**: Blue-green deployment via Jenkins
+- **Rollback SLA**: < 15 minutes if critical issue detected
 
-**Lessons Learned**:
-- Load testing should include database connection scenarios
-- Production configuration should be validated against peak load projections
+### Contacts
+- **IT Specialist**: [Name, Email, Phone]
+- **CC&B Team Lead**: [Name, Email, Phone]
+- **Portal Team Lead**: [Name, Email, Phone]
+- **Product Owner**: [Name, Email]
 ```
-
-1. **Feedback Collection & Analysis**
-   - Review support tickets related to promo code system
-   - Analyze user feedback (surveys, feedback forms, app reviews)
-   - Track business metrics (code adoption rate, usage rate, conversion)
-   - Identify improvement opportunities (UX enhancements, feature gaps)
-   - Prioritize feedback for next iteration
-
-2. **Backlog Management**
-   - Add enhancement requests to product backlog
-   - Prioritize bugs and improvements with Product Owner
-   - Groom backlog for next sprint planning
-   - Document technical debt items
-   - Plan future iterations (e.g., expanding to business customers)
 
 **Deliverables**:
 
-- [ ] Production Monitoring Reports
-- [ ] Incident Response Documentation
-- [ ] Enhancement Backlog (prioritized)
-- [ ] Retrospective Action Items
-- [ ] Operations Runbook (updated based on learnings)
+- [ ] Operations Runbook (completed)
+- [ ] Knowledge Transfer Sessions (conducted)
+- [ ] Handover Documentation Package (delivered)
+- [ ] Operations Team Sign-off (obtained)
 
 ---
 
@@ -562,7 +561,7 @@ The IT Specialist works closely with multiple teams:
 | **Story Acceptance Rate** | >90% of stories accepted first time | Sprint review outcomes |
 | **UAT Pass Rate** | >95% of UAT scenarios pass | UAT session results |
 | **Bug Escape Rate** | <3 production bugs per sprint | Production incident tracking |
-| **Stakeholder Satisfaction** | >4.0/5.0 rating | Quarterly stakeholder survey |
+| **Stakeholder Satisfaction** | >4.0/5.0 rating | End of Sprint 4 survey |
 | **Documentation Quality** | >4.0/5.0 rating | Team feedback survey |
 
 ---
