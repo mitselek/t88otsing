@@ -1,6 +1,6 @@
 # Domain Glossary - EE HH Recommendation System
 
-Last updated: 2025-10-24T23:35:47+03:00
+Last updated: 2025-10-24T23:50:51+03:00
 
 **Project**: Elektrum Estonia Household Customer Acquisition  
 **Purpose**: Domain terminology and acronyms reference  
@@ -10,8 +10,8 @@ Last updated: 2025-10-24T23:35:47+03:00
 
 ## Acronyms & Terms
 
-| Term | Full Name | Explanation |
-|------|-----------|-------------|
+| Term    | Full Name | Explanation        |
+|---------|-----------|--------------------|
 | **API** | Application Programming Interface | Technical connection between systems for data exchange |
 | **BUS** | Business | Business customers segment (vs. household) |
 | **CAC** | Customer Acquisition Cost | Financial metric measuring total marketing and sales cost to acquire one new customer |
