@@ -1,6 +1,6 @@
 # Mihkel Putrinš
 
-Last updated: 2025-08-28T00:14:31+03:00
+Last updated: 2025-10-27T08:50:53+02:00
 
 ## Tarkvaraarendaja · Süsteemiarhitekt · Andmeanalüütik
 
@@ -76,7 +76,8 @@ _1990 – 2002_
 
 ## Sertifikaadid
 
-- MikroTik Certified Network Associate (MTCNA) - 2025
+- MikroTik Certified Network Associate (MTCNA) - 2025-02-09 (valid 3 years)
+- MikroTik Certified IPv6 Engineer (MTCIPv6E) - 2025-10-26 (valid 3 years)
 - Oracle Certified Professional - 2003
 - UML ja objektorienteeritud disain - 2005
 

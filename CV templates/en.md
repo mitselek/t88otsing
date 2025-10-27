@@ -1,6 +1,6 @@
 # Mihkel Putrinš
 
-Last updated: 2025-10-13T11:00:33+03:00
+Last updated: 2025-10-27T08:50:53+02:00
 
 **Passion, Beauty and Joy**  
 *Born:* 1972-04-03  
@@ -308,9 +308,17 @@ Last updated: 2025-10-13T11:00:33+03:00
 
 ### MikroTik Certified Network Associate
 
-**BCS / Estonia**  
-*2025*  
-[Mikrotik MTCNA No. c435725c169688618b68](https://mikrotik.com/training/certificates/c435725c169688618b68)
+**Mikrotikls SIA**  
+*2025-02-09*  
+MTCNA - 2502NA5725  
+Valid for three years since issue.
+
+### MikroTik Certified IPv6 Engineer
+
+**Mikrotikls SIA**  
+*2025-10-26*  
+MTCIPv6E - 2510IPv6E7811  
+Valid for three years since issue.
 
 ### Using UML in Object-oriented Analysis and Design
 
