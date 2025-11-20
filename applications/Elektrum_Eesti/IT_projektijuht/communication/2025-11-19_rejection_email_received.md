@@ -1,6 +1,6 @@
 # Rejection Email - IT Projektijuhi Positsioon
 
-Last updated: 2025-11-19T13:55:40+02:00
+Last updated: 2025-11-20T17:34:13+02:00
 
 **Date:** 2025-11-19, 1:49 PM  
 **From:** Diana Jantson (<diana.jantson@elektrum.ee>)  
@@ -28,8 +28,8 @@ Virtuaalne assistent
 
 Elektrum Eesti OÜ  
 Mäealuse 2/4, 12618 Tallinn  
-diana.jantson@elektrum.ee  
-www.elektrum.ee
+<diana.jantson@elektrum.ee>  
+<www.elektrum.ee>
 
 ---
 
@@ -45,11 +45,13 @@ www.elektrum.ee
 ## Key Details
 
 **Rejection Rationale (as stated):**
+
 - "Konkurss oli väga tihe" (Competition was very tight)
 - "mitmeid tugevaid kandidaate" (multiple strong candidates)
 - "teise kandidaadiga, kelle profiil vastas kõige enam antud rolli vajadustele" (another candidate whose profile matched best to the role's needs)
 
 **Notable:**
+
 - Polite and professional tone
 - No specific feedback offered
 - No invitation to apply for future roles
@@ -89,17 +91,19 @@ www.elektrum.ee
 🤔 **Limited IT project management experience** - Despite strong homework, may have lacked depth in PM-specific scenarios  
 🤔 **Energy sector experience** - Competitor may have had domain expertise in utilities/energy  
 🤔 **Team leadership track record** - Role likely required proven history of leading development teams  
-🤔 **Technical depth vs. breadth** - May have appeared more as generalist than specialist PM  
+🤔 **Technical depth vs. breadth** - May have appeared more as generalist than specialist PM
 
 ### Strategic Insights
 
 **Profile mismatch noted:** "profiil vastas kõige enam antud rolli vajadustele" suggests specific gap:
+
 - Likely: **direct IT project management experience in enterprise environment**
 - Possible: **formal PM certification (PMP, PRINCE2, Agile/Scrum Master)**
 - Possible: **larger-scale project portfolio** (multi-team, multi-year initiatives)
 - Possible: **stakeholder management in regulated industry** (energy sector has compliance/regulatory complexity)
 
 **Competitive positioning:**
+
 - "mitmeid tugevaid kandidaate" confirms suspicion: market is competitive for PM roles
 - Getting to second round = strong technical/communication skills validated
 - Not selected = profile mismatch, not lack of quality
@@ -133,48 +137,6 @@ www.elektrum.ee
 - [ ] Analyze other active applications (Enefit, RIK, etc.)
 - [ ] Consider: Add PM-specific certifications to development plan (Scrum Master, PMP)
 - [ ] Review CV to emphasize measurable PM achievements (if any exist from past roles)
-
----
-
-## Draft Reply Options
-
-### Option 1: Brief Thank-You (Recommended)
-
-```
-Teema: RE: Tagasiside – IT projektijuhi positsioon, Elektrum Eesti
-
-Tere Diana ja Gerli!
-
-Tänan teid tagasiside eest. Mõistan, et konkurss oli tihe.
-
-Kui teil tekib tulevikus sobiv roll, oleks mul hea meel uuesti kandideerida.
-
-Edu valitud kandidaadile ja kogu Elektrum meeskonnale!
-
-Lugupidamisega  
-Mihkel Putrinš
-```
-
-### Option 2: Brief Thank-You + Feedback Request (Optional)
-
-```
-Teema: RE: Tagasiside – IT projektijuhi positsioon, Elektrum Eesti
-
-Tere Diana ja Gerli!
-
-Tänan teid tagasiside eest. Mõistan, et konkurss oli tihe.
-
-Kui teil on võimalik, oleksin tänulik, kui saaksite jagada, mis oleks muutnud minu profiili tugevamaks selle rolli jaoks. See aitaks mul edasises arengus.
-
-Kui teil tekib tulevikus sobiv roll, oleks mul hea meel uuesti kandideerida.
-
-Edu valitud kandidaadile ja kogu Elektrum meeskonnale!
-
-Lugupidamisega  
-Mihkel Putrinš
-```
-
----
 
 ## Reflection
 
