@@ -1,6 +1,6 @@
 # Job Application Registry
 
-Last updated: 2025-11-20T20:43:56+02:00
+Last updated: 2025-11-20T23:02:18+02:00
 
 Chronological list of job postings (ascending by published date). Tracks lifecycle timestamps. Use ISO date format (YYYY-MM-DD). Leave unknown fields blank until an event occurs.
 
@@ -38,6 +38,7 @@ Chronological list of job postings (ascending by published date). Tracks lifecyc
 | IT projektijuht                  | Elektrum Eesti OÜ          | 1625777    | 2025-10-07 | 2025-11-05 | 2025-10-17 | 2025-10-17 | 2025-10-22, 2025-11-04 | 2025-11-19     | REJECTED | 2 rounds; HW submitted 2025-10-25; follow-up 2025-11-13; profile mismatch |
 | Tooteomanik                      | RmIT                       | 806587     |            | 2025-11-23 | 2025-11-20 | 2025-11-20 |            |                | APPLIED  | Product Owner; tax/declaration systems; Scrum/Kanban; C1 eesti keel; €2000-4000 neto; portfolio incl. |
 | DigiVee Projektijuht             | Konkurentsiamet            | 807075     |            | 2025-11-30 | 2025-11-20 | 2025-11-20 |            |                | APPLIED  | DigiVee platform; water sector digitalization; €3100+; 35d vacation; portfolio incl. |
+| Projektijuht                     | Firon OÜ                   | 805504     | 2025-11-06 | 2025-11-21 | 2025-11-20 | 2025-11-20 |            |                | APPLIED  | Metal construction; 35% fit; radical honesty strategy; career transition |
 
 ### Abbreviation Glossary (add when new appears)
 
