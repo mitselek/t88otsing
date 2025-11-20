@@ -1,6 +1,7 @@
+<!-- markdownlint-disable MD033 MD041 -->
 Mihkel Putrinš  
 5656 0978  
-mitselek@gmail.com  
+<mitselek@gmail.com>  
 
 Austatud Ave Arumäe,  
 
