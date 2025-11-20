@@ -4,7 +4,7 @@ description: Generate comprehensive job applications with integrity controls, ho
 
 # Job Application Generator
 
-Last updated: 2025-11-20T19:30:02+02:00
+Last updated: 2025-11-20T20:03:52+02:00
 
 The user input to you can be provided directly by the agent or as a command argument - you **MUST** consider it before proceeding with the application (if not empty).
 
@@ -127,6 +127,41 @@ Include comprehensive overview:
 - Professional closing with full contact information
 - Keep concise (1 page maximum)
 
+#### Email Draft Structure (communication folder)
+Create structured markdown file: `YYYY-MM-DD_application_draft.md` with:
+- **Metadata header**: Date, From, To, Subject
+- **Email Content section**: The actual email text to be sent
+- **Attachments section**: List all files with sizes and brief descriptions
+  - CV PDF (size) - Brief description
+  - Cover letter PDF (size) - Brief description
+  - Portfolio/samples (size) - Detailed bullet points explaining contents
+- **Submission Method section**: Portal URL or email address
+- **Status tracking**: Checkboxes for application submitted, confirmation received, response received
+- **Notes section**: Key details (salary, deadline, fit assessment reference)
+- **Key Selling Points section**: Numbered list of 5-7 strongest qualifications for quick reference
+
+#### Portfolio Materials (when applicable)
+When including portfolio or work samples:
+- **In motivation letter**: Add dedicated section "Näidistöö lisatud" or "Portfolio Sample Included"
+  - Explain what the portfolio demonstrates (2-3 sentences)
+  - Connect portfolio contents to position requirements
+  - Note that it shows practical methodology application
+- **In email draft**: Provide detailed breakdown of portfolio contents
+  - Use bullet points for each component/skill demonstrated
+  - Include specific items (e.g., "Business problem analysis", "RACI matrix", "Metrics strategy")
+  - Note file size and format
+- **Consistency**: Ensure portfolio description is aligned across motivation letter, email, and attachments list
+
+#### Salary Expectations
+When stating salary expectations in email:
+- **Reference posting**: If job lists salary range, reference it: "alates [minimum] eurot bruto (vastavalt töökuulutuses märgitud alammäärale)"
+- **Format for Estonian positions**: Always state gross (bruto), not net (neto)
+- **Phrasing options**:
+  - "Minu palgasoov on alates X eurot bruto"
+  - "Minu palgasoov on vahemikus X-Y eurot bruto"
+  - Match or slightly exceed posted minimum if realistic based on experience
+- **Alignment**: Ensure salary stated matches expectations noted in README fit assessment
+
 ### 3. Quality Controls
 
 #### Integrity Checks
@@ -162,6 +197,15 @@ Before creating any file, ensure:
 - Include status, dates, and key information
 - Create communication folder for future correspondence
 - Prepare for potential follow-up documentation
+
+#### Communication Folder File Naming Convention
+Follow consistent naming pattern:
+- **Application drafts**: `YYYY-MM-DD_application_draft.md` - Email ready to send
+- **Sent applications**: `YYYY-MM-DD_application_sent.md` - Record of sent email with timestamp
+- **Responses received**: `YYYY-MM-DD_response_received.md` - Track employer responses
+- **Interview notes**: `YYYY-MM-DD_interview_notes.md` - Document interview details
+- **Follow-ups**: `YYYY-MM-DD_followup_sent.md` - Track follow-up communications
+- Use ISO date format (YYYY-MM-DD) for consistent sorting
 
 #### Estonian Language Quality Control (MANDATORY)
 For Estonian language applications, this is a REQUIRED step, not optional:

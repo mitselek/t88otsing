@@ -8,7 +8,7 @@ author: Mihkel Putrinš
 
 # Motivatsioonikiri: DigiVee Projektijuht
 
-Last updated: 2025-11-20T19:30:02+02:00
+Last updated: 2025-11-20T20:03:52+02:00
 
 Kandidaat:  
 Mihkel Putrinš  
@@ -28,9 +28,9 @@ Kuupäev: 20. november 2025
 
 Lugupeetud Marili Tammeorg
 
-Soovin kandideerida DigiVee projektijuhi ametikohale Konkurentsiametis. Mind köidab võimalus panustada riikliku tähtsusega projekti, mis muudab Eesti veemajanduse läbipaistvamaks ja tõhusamaks.
+Soovin kandideerida DigiVee projektijuhi ametikohale Konkurentsiametis.
 
-Minu üle 20-aastane karjäär tarkvaraarenduse ja süsteemiarhitektuuri valdkonnas on andnud mulle sügava arusaamise sellest, kuidas digitaalsed lahendused saavad toetada keerukaid äriprotsesse ja regulatiivset järelevalvet. Kuigi mul puudub otsene kogemus veemajanduse valdkonnas, olen veendunud, et minu tehnilised oskused, projektijuhtimise kogemus ja süsteemne mõtlemine võimaldavad mul kiiresti valdkonna spetsiifikaga kursis olla.
+Minu üle 20-aastane karjäär tarkvaraarenduse ja süsteemiarhitektuuri valdkonnas on andnud mulle sügava arusaamise sellest, kuidas digitaalsed lahendused saavad (ja peavad) toetad(m)a keerukaid äriprotsesse ja regulatiivset järelevalvet. Kuigi mul puudub otsene kogemus veemajanduse valdkonnas, olen veendunud, et minu tehnilised oskused, projektijuhtimise kogemus ja süsteemne mõtlemine võimaldavad mul end kiiresti valdkonna spetsiifikaga kurssi viia.
 
 Olulisemad kogemused, mis muudavad mind sobivaks kandidaadiks:
 
@@ -49,6 +49,10 @@ Entusiastid OÜ-s olen arendanud Entu andmehaldusplatvormi, mis on kasutusel ül
 **Süsteemne mõtlemine**  
 
 Süsteemiarhitektina olen alati pidanud nägema tervikpilti ja mõistma erinevate süsteemide vahelisi seoseid. Veemajanduse digiarendus nõuab sarnast lähenemist - võimet näha, kuidas tehnilised lahendused toetavad regulatiivset järelevalvet, kuidas erinevad sidusrühmad (Kliimaministeerium, omavalitsused, vee-ettevõtted) peavad koostööd tegema, ja kuidas arendused peavad vastama nii riigi kui ka ettevõtete vajadustele.
+
+**Näidistöö lisatud**  
+
+Lisades on kaasas minu värske kodutöö Elektrumi IT-projektijuhi kohale kandideerimisest. See materjalide pakett demonstreerib praktilist oskust analüüsida äriprobleeme, planeerida projektide elluviimist Agile/Scrum raamistikus, kavandada meeskonna struktuuri ja määratleda projektivõtmete mõõdikuid. Kuigi see töö keskendus IT-projektile, on seal rakendatud lähenemisviisid ja metoodikad otse ülekantavad ka DigiVee platvormi arendusele.
 
 Olen valmis kiiresti õppima veemajanduse valdkonna spetsiifikat ja regulatiivse raamistiku nüansse. Minu tugev tehniline taust võimaldab mul tõhusalt suhelda nii arendajatega kui ka mõista DigiVee platvormi tehnilisi väljakutseid. Samas on mul piisavalt kogemust äriprotsesside ja kasutajate vajaduste analüüsimisega, et tagada arenduste vastavus Konkurentsiameti ja teiste sidusrühmade ootustele.
 
