@@ -1,13 +1,13 @@
 # Application Sent - Konkurentsiamet DigiVee Projektijuht
 
-Last updated: 2025-11-20T20:43:56+02:00
+Last updated: 2025-11-20T23:03:35+02:00
 
 **Date:** 2025-11-20  
 **Time:** 20:41:03 +0200  
 **From:** Mihkel Putrinš <mitselek@gmail.com>  
 **To:** Marili Tammeorg <marili.tammeorg@konkurentsiamet.ee>  
 **Subject:** Kandideerimine: DigiVee Projektijuht - Mihkel Putrinš  
-**Message-ID:** <CA+cWLz5jHJxHrk7YX+C8NzUW000ft8ipe=mVAbaPfmjvL6BEwA@mail.gmail.com>
+**Message-ID:** `CA+cWLz5jHJxHrk7YX+C8NzUW000ft8ipe=mVAbaPfmjvL6BEwA@mail.gmail.com`
 
 ## Email Content
 
