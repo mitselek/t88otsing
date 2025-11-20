@@ -8,7 +8,7 @@ author: Mihkel Putrinš
 
 # Motivatsioonikiri: DigiVee Projektijuht
 
-Last updated: 2025-11-20T20:35:18+02:00
+Last updated: 2025-11-20T20:43:56+02:00
 
 Kandidaat:  
 Mihkel Putrinš  
@@ -33,7 +33,7 @@ Soovin kandideerida DigiVee projektijuhi ametikohale Konkurentsiametis.
 
 Minu üle 20-aastane karjäär tarkvaraarenduse ja süsteemiarhitektuuri valdkonnas on andnud mulle sügava arusaamise sellest, kuidas digitaalsed lahendused saavad (ja peavad) toetad(m)a keerukaid äriprotsesse ja regulatiivset järelevalvet. Kuigi mul puudub otsene kogemus veemajanduse valdkonnas, olen veendunud, et minu tehnilised oskused, projektijuhtimise kogemus ja süsteemne mõtlemine võimaldavad mul end kiiresti valdkonna spetsiifikaga kurssi viia.
 
-## Olulisemad kogemused, mis muudavad mind sobivaks kandidaadiks
+## Olulisemad kogemused
 
 ### Projektijuhtimine ja meeskonna koordineerimine
 
