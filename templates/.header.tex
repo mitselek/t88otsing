@@ -15,6 +15,17 @@
 \clubpenalty=10000   % Prevent first line of paragraph at bottom of page
 \raggedbottom        % Allow variable page height to avoid awkward spacing
 
+% Prevent headings from appearing alone at the bottom of a page
+% (Ensures at least 2 lines of content follow a heading before a page break)
+\usepackage{needspace}
+% Automatically apply needspace before section headings
+\let\oldsection\section
+\renewcommand{\section}[1]{\needspace{4\baselineskip}\oldsection{#1}}
+\let\oldsubsection\subsection
+\renewcommand{\subsection}[1]{\needspace{3\baselineskip}\oldsubsection{#1}}
+\let\oldsubsubsection\subsubsection
+\renewcommand{\subsubsection}[1]{\needspace{2\baselineskip}\oldsubsubsection{#1}}
+
 % Table styling - no striping to maintain clean borders
 % (Striped rows cause color overflow beyond table borders)
 \usepackage[table]{xcolor}
