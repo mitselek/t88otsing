@@ -1,6 +1,6 @@
 # Job Application Registry
 
-Last updated: 2025-11-20T17:34:13+02:00
+Last updated: 2025-11-20T19:14:12+02:00
 
 Chronological list of job postings (ascending by published date). Tracks lifecycle timestamps. Use ISO date format (YYYY-MM-DD). Leave unknown fields blank until an event occurs.
 
@@ -23,20 +23,20 @@ Chronological list of job postings (ascending by published date). Tracks lifecyc
 | Puusepp / Puidutisler            | Scandinor OÜ               | 1620007    | 2025-08-08 | 2025-09-07 | 2025-08-12 |            |            |                | PLANNING | 4 openings                               |
 | Laospetsialist                   | Sisekaitse                 | 1620165    | 2025-08-11 | 2025-08-21 | 2025-08-12 |            |            |                | PLANNING | Archive captured 2025-08-12              |
 | Juhiabi                          | Patendiamet                | 1620083    | 2025-08-11 | 2025-08-24 | 2025-08-12 |            |            |                | PLANNING | Verbatim text provided by user           |
-| Õhtune administraator / valvur   | Tallinna Tehnikagümnaasium | 798678     | 2025-08-11 | 2025-08-14 | 2025-08-12 | 2025-08-14 |            |                | APPLIED  | Evening shift, 0.5 FTE (half-time), €443 |
+| Õhtune administraator / valvur   | Tallinna Tehnikagümnaasium | 798678     | 2025-08-11 | 2025-08-14 | 2025-08-12 | 2025-08-14 |            | 2025-11-20     | REJECTED | Evening shift, 0.5 FTE (half-time), €443; no response |
 | Lead Product Manager             | Enefit                     | teamdash-Uua93Ex8 |            | 2025-08-17 | 2025-08-14 |            |            | 2025-08-27     | REJECTED | Teamdash posting                         |
 | Senior Product Manager (Internal Platforms) | Enefit           | teamdash-cht4AXTt |            | 2025-08-31 | 2025-08-14 |            |            |                | PLANNING | Teamdash posting                         |
-| Tarkvaraarendaja                 | Spindl OÜ                  |            |            |            | 2025-08-28 | 2025-08-28 |            |                | APPLIED  |                                          |
+| Tarkvaraarendaja                 | Spindl OÜ                  |            |            |            | 2025-08-28 | 2025-08-28 |            | 2025-11-20     | REJECTED | No response after 3 months                                         |
 | Tarkvaraarendaja                 | Solutional OÜ              | 984706     | 2025-07-30 | 2025-08-29 | 2025-08-28 |            |            |                | PLANNING |                                          |
 | Automaatik programmeerija        | 1UP Technology OÜ          | 1615955    | 2025-06-27 | 2025-09-17 | 2025-09-10 | 2025-09-17 | 2025-09-26 | 2025-10-03     | REJECTED | €1900; valitud teised; tagasiside palve 2025-10-09 (ootan vastust)    |
 | IT spetsialist                   | 1UP Technology OÜ          | 1622825    | 2025-09-05 | 2025-09-19 | 2025-09-10 | 2025-09-17 | 2025-09-26 | 2025-10-03     | REJECTED | €800-1800; valitud teised; tagasiside palve 2025-10-09 (ootan vastust)|
 | Mehhatroonik                     | 1UP Technology OÜ          | 1622832    | 2025-09-05 | 2025-09-19 | 2025-09-10 | 2025-09-17 | 2025-09-26 | 2025-10-03     | REJECTED | PRIMARY FOCUS; €1200-2000; valitud teised; tagasiside palve 2025-10-09|
 | CTO (Chief Technology Officer)   | Soundfree                  |            |            |            | 2025-09-15 |            | 2025-09-17 |                | INTERVIEW| Introduced by Otto Mättas; informal meeting at office Haabersti 5       |
-| IT projektijuht-analüütik        | KAPO                       |            |            | 2025-09-30 | 2025-09-29 | 2025-09-29 |            |                | APPLIED  | Riigisaladus, julgeolekukontroll; BPMN/UML; motiv. avaldus + CV + palk |
+| IT projektijuht-analüütik        | KAPO                       |            |            | 2025-09-30 | 2025-09-29 | 2025-09-29 |            | 2025-11-20     | REJECTED | Riigisaladus, julgeolekukontroll; BPMN/UML; no response after 2 months |
 | Tooteomanik (Häirekeskus)        | SMIT                       |            |            | 2025-10-08 | 2025-09-29 | 2025-09-30 |            | 2025-10-08     | REJECTED | Product Owner; häirekeskus 112; kõrge konkurents; eelnev kogemus puudus |
-| Laia matemaatika õpetaja         | Loo Keskkool               | 1440812    |            | 2025-10-15 | 2025-10-09 | 2025-10-09 |            |                | APPLIED  | CV.ee; pedagoogiline kvalifikatsioon puudub; mentorabi; TÜ matemaatika |
+| Laia matemaatika õpetaja         | Loo Keskkool               | 1440812    |            | 2025-10-15 | 2025-10-09 | 2025-10-09 |            | 2025-11-20     | REJECTED | CV.ee; pedagoogiline kvalifikatsioon puudub; no response |
 | IT projektijuht                  | Elektrum Eesti OÜ          | 1625777    | 2025-10-07 | 2025-11-05 | 2025-10-17 | 2025-10-17 | 2025-10-22, 2025-11-04 | 2025-11-19     | REJECTED | 2 rounds; HW submitted 2025-10-25; follow-up 2025-11-13; profile mismatch |
-| Tooteomanik                      | RmIT                       | 806587     |            | 2025-11-23 | 2025-11-20 | 2025-11-20 |            |                | APPLIED  | Product Owner; tax/declaration systems; Scrum/Kanban; C1 eesti keel; €2500-3000 |
+| Tooteomanik                      | RmIT                       | 806587     |            | 2025-11-23 | 2025-11-20 | 2025-11-20 |            |                | APPLIED  | Product Owner; tax/declaration systems; Scrum/Kanban; C1 eesti keel; €2000-4000 neto; portfolio incl. |
 
 ### Abbreviation Glossary (add when new appears)
 

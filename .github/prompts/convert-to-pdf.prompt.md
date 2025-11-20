@@ -4,7 +4,7 @@ description: Convert markdown documents to professionally formatted A4 PDFs with
 
 # Convert to PDF
 
-Last updated: 2025-11-20T18:40:37+02:00
+Last updated: 2025-11-20T19:14:12+02:00
 
 **Purpose**: Generate professional, print-ready PDFs from markdown documents with proper Estonian typographic support, intelligent caching, and metadata handling.
 
@@ -839,24 +839,30 @@ rm temp_header.tex
 
 This conversion system provides professional PDF generation with automatic metadata extraction. Key principles:
 
-1. **Centralized templates**: `.header.tex` and conversion script in `/templates/` directory
-2. **No local copies needed**: Call `/scripts/pdf` from anywhere in workspace
-3. **Add metadata**: Use HTML comment header format (recommended) or footer format
-4. **Smart regeneration**: Script only rebuilds when files change (faster workflow)
-5. **Consistent formatting**: Professional headers, footers, spacing across all documents
-6. **Estonian support**: Always uses `-V lang=et` and `--pdf-engine=xelatex`
+1. **Working directory matters**: Script creates `delivery/` subfolder in your CURRENT directory
+2. **Always cd first**: Navigate to application directory before running conversion
+3. **Centralized templates**: `.header.tex` in `/templates/`, script in `/scripts/`
+4. **No local copies needed**: Call `/scripts/pdf` from anywhere in workspace
+5. **Add metadata**: Use HTML comment header format (recommended) or footer format
+6. **Smart regeneration**: Script only rebuilds when files change (faster workflow)
+7. **Consistent formatting**: Professional headers, footers, spacing across all documents
+8. **Estonian support**: Always uses `-V lang=et` and `--pdf-engine=xelatex`
 
 **Quick Start Workflow:**
 
 ```bash
-# Navigate to your application directory
+# IMPORTANT: Always navigate to the application directory FIRST
+# The script creates output in delivery/ subfolder of current working directory
 cd /home/michelek/Documents/tööotsing/applications/Company/Position
 
-# Add metadata to markdown files
-# Convert to PDF
+# Add metadata to markdown files (use HTML comment format)
+# <!-- docID: XXX version: 1.0 date: YYYY-MM-DD author: Your Name -->
+
+# Convert to PDF (creates PDFs in ./delivery/)
 /home/michelek/Documents/tööotsing/scripts/pdf document.md
 
-# Done! Output in delivery/
+# Done! Output in ./delivery/ (relative to current directory)
+ls -lh delivery/
 ```
 
 **Optional: Add to PATH for convenience:**

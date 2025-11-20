@@ -36,8 +36,20 @@ stamp_file() {
       { print $0 }
     ' "$f" >"$f.__stamp__" && mv "$f.__stamp__" "$f"
   else
-    # No H1: prepend at top with a blank line after
-    printf "Last updated: %s\n\n" "$now" | cat - "$f" >"$f.__stamp__" && mv "$f.__stamp__" "$f"
+    # No H1: check for HTML comment header and update date field
+    if head -n 10 "$f" | grep -q '<!--'; then
+      # HTML comment exists - update or add date field
+      if grep -m1 'date:' "$f" >/dev/null; then
+        # Update existing date field in HTML comment
+        sed -i "0,/date:.*/s//date: ${now}/" "$f"
+      else
+        # Add date field to HTML comment (before closing -->)
+        sed -i "0,/-->/s//date: ${now}\n-->/" "$f"
+      fi
+    else
+      # No H1, no HTML comment: prepend at top with a blank line after
+      printf "Last updated: %s\n\n" "$now" | cat - "$f" >"$f.__stamp__" && mv "$f.__stamp__" "$f"
+    fi
   fi
 }
 

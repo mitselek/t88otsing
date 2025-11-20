@@ -7,7 +7,7 @@ author: Mihkel Putrinš
 -->
 # Mihkel Putrinš
 
-Last updated: 2025-11-20T18:40:26+02:00
+Last updated: 2025-11-20T19:14:12+02:00
 
 _Telefon:_ +372 5656 0978  
 _E-post:_ <mitselek@gmail.com>  
@@ -36,7 +36,7 @@ Kogenud tarkvaraarendaja ja süsteemiarhitekt, kellel on üle 20-aastane kogemus
 
 ## Töökogemus
 
-### Arhitekt ja Vanemtarkvaraarendaja
+### Arhitekt ja vanemtarkvaraarendaja
 
 **Entusiastid OÜ**  
 _2010 – praegu_
@@ -44,6 +44,15 @@ _2010 – praegu_
 - Arendasin Entu andmehaldusplatvormi, mis on kasutusel mitmetes haridus- ja kultuuriasutustes.
 - Analüüsisin klientide ärivajadusi ja disainisin neile vastavaid tehnilisi lahendusi.
 - Juhtisin arendusprotsesse, kasutades ka agiilseid põhimõtteid, ning juhendasin meeskonnaliikmeid.
+
+### Meeskonnajuht ja tooteomanik
+
+**PÖFFi logistikaplatvorm**  
+_2019 – 2020_
+
+- Asutasin ja juhtisin 4-liikmelist arendusmeeskonda Pimedate Ööde Filmifestivali logistikaplatvormi arendamisel.
+- Analüüsisin kasutajate vajadusi ja tõlkisin need tehnilisteks ülesanneteks.
+- "Praktikandist arendajaks" meeskonna koordineerimine ja juhendamine läbi kogu arendusprotsessi.
 
 ### Andmesanitar
 
