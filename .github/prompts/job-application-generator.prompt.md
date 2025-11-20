@@ -4,7 +4,7 @@ description: Generate comprehensive job applications with integrity controls, ho
 
 # Job Application Generator
 
-Last updated: 2025-11-20T20:03:52+02:00
+Last updated: 2025-11-20T20:35:18+02:00
 
 The user input to you can be provided directly by the agent or as a command argument - you **MUST** consider it before proceeding with the application (if not empty).
 
@@ -92,6 +92,13 @@ Include comprehensive overview:
   -->
   ```
 - Start from appropriate master template (et.md or en.md)
+- **Contact Information**: Use Font Awesome icons for clean presentation:
+  ```markdown
+  `\faPhone`{=latex}\ +372 5656 0978
+  `\faEnvelope`{=latex}\ <email@example.com>
+  `\faGithub`{=latex}\ <https://github.com/username>
+  `\faLinkedin`{=latex}\ <https://linkedin.com/in/username>
+  ```
 - Adapt content to emphasize relevant experience
 - **NEVER** add fabricated information
 - Maintain honest representation while optimizing presentation
@@ -108,6 +115,15 @@ Include comprehensive overview:
   date: YYYY-MM-DD
   author: Mihkel Putrinš
   -->
+  ```
+- **Contact Information**: Use Font Awesome icons matching CV format:
+  ```markdown
+  Kandidaat:
+  Mihkel Putrinš
+  `\faPhone`{=latex}\ +372 5656 0978
+  `\faEnvelope`{=latex}\ <email@example.com>
+  `\faGithub`{=latex}\ <https://github.com/username>
+  `\faLinkedin`{=latex}\ <https://linkedin.com/in/username>
   ```
 - Demonstrate genuine interest and research
 - Connect verified experience to role requirements

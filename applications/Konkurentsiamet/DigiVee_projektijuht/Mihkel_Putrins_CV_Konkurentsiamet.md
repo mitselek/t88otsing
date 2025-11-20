@@ -8,12 +8,12 @@ author: Mihkel Putrinš
 
 # Mihkel Putrinš
 
-Last updated: 2025-11-20T19:30:02+02:00
+Last updated: 2025-11-20T20:35:18+02:00
 
-Telefon: +372 5656 0978  
-E-post: <mitselek@gmail.com>  
-GitHub: <https://github.com/mitselek>  
-LinkedIn: <https://linkedin.com/in/mitselek>
+`\faPhone`{=latex}\ +372 5656 0978  
+`\faEnvelope`{=latex}\ <mitselek@gmail.com>  
+`\faGithub`{=latex}\ <https://github.com/mitselek>  
+`\faLinkedin`{=latex}\ <https://linkedin.com/in/mitselek>
 
 ## Profiil
 
@@ -50,7 +50,7 @@ Kogenud tarkvaraarendaja ja süsteemiarhitekt, kellel on üle 20-aastane kogemus
 **PÖFFi logistikaplatvorm, Ilusa Koodi Instituut**  
 2021-08 - 2024-10
 
-- Lõin ja juhtisin 4-liikmelist arendusmeeskonda Pimedate Ööde Filmifestivali platvormi arendamisel
+- Koostasin ja juhtisin 4-liikmelist (praktikantide) arendusmeeskonda Pimedate Ööde Filmifestivali platvormi arendamisel
 - Kogu festivali kodulehe ja logistikasüsteemi tehniline juhtimine ja arhitektuur
 - Analüüsisin kasutajate vajadusi ja tõlkisin need tehnilisteks ülesanneteks
 - Meeskonna koordineerimine ja juhendamine läbi kogu arendusprotsessi
@@ -126,7 +126,7 @@ Matemaatika ja informaatika
 - Vene keel: B2
 - Läti keel: C2
 
-## Olulisemad GitHub projektid
+## Mõned GitHub projektid
 
 - **Entu Webapp** - Täisrakenduse veebiliides Entu andmeplatvormile, full-stack Python/JavaScript rakendus
 - **OAuth.ee** - Eesti ID-kaardi ja mobiil-ID autentimise teenus
