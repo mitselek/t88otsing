@@ -4,7 +4,7 @@ description: Generate comprehensive job applications with integrity controls, ho
 
 # Job Application Generator
 
-Last updated: 2025-10-17T02:10:55+03:00
+Last updated: 2025-11-20T19:30:02+02:00
 
 The user input to you can be provided directly by the agent or as a command argument - you **MUST** consider it before proceeding with the application (if not empty).
 
@@ -81,6 +81,16 @@ Include comprehensive overview:
 - Note application deadline and requirements
 
 #### Adapted CV
+- **CRITICAL**: Add HTML comment metadata header at the top:
+  ```markdown
+  <!--
+  document full name: [Company Name] - [Position Title] - CV
+  docID: [COMPANY-ABBREV]-[POS-ABBREV]-CV
+  version: 1.0
+  date: YYYY-MM-DD
+  author: Mihkel Putrinš
+  -->
+  ```
 - Start from appropriate master template (et.md or en.md)
 - Adapt content to emphasize relevant experience
 - **NEVER** add fabricated information
@@ -89,6 +99,16 @@ Include comprehensive overview:
 - Ensure proper formatting for PDF conversion
 
 #### Motivation Letter
+- **CRITICAL**: Add HTML comment metadata header at the top:
+  ```markdown
+  <!--
+  document full name: [Company Name] - [Position Title] - Motivatsioonikiri
+  docID: [COMPANY-ABBREV]-[POS-ABBREV]-CL
+  version: 1.0
+  date: YYYY-MM-DD
+  author: Mihkel Putrinš
+  -->
+  ```
 - Demonstrate genuine interest and research
 - Connect verified experience to role requirements
 - Address key qualifications honestly
@@ -171,9 +191,19 @@ Provide complete file contents for:
 
 1. **README.md** - Comprehensive application overview
 2. **tookuulutus.md** - Original job posting preservation  
-3. **Adapted CV** - Tailored from master template
-4. **Motivation Letter** - Professional, research-based letter
+3. **Adapted CV** - Tailored from master template **with HTML comment metadata header**
+4. **Motivation Letter** - Professional, research-based letter **with HTML comment metadata header**
 5. **REGISTRY.md Update** - New entry for tracking
+
+**Metadata Header Format:**
+All CV and motivation letter files MUST start with an HTML comment header containing:
+- `document full name`: Full descriptive name
+- `docID`: Short identifier (e.g., KA-DV-CV for Konkurentsiamet DigiVee CV)
+- `version`: Version number (start with 1.0)
+- `date`: Creation date (YYYY-MM-DD format)
+- `author`: Mihkel Putrinš
+
+This metadata enables automated PDF footer generation with document tracking information.
 
 Each file should be properly formatted, linted, and ready for immediate use.
 
